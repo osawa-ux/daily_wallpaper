@@ -121,10 +121,10 @@ def main() -> None:
                 print(f"Author comparison: {vp}")
             output_path = variant_paths[1]  # 0.26 as default
         else:
-            # Auto-select best style based on quote characteristics
-            best_style = select_best_style(quote)
+            # Auto-select best font + bg based on quote characteristics
+            font_style, bg_style = select_best_style(quote)
             output_path = generate_wallpaper(quote, config, BASE_DIR)
-            print(f"Auto-selected style: {best_style}")
+            print(f"Auto-selected: font={font_style}, bg={bg_style}")
         print(f"Wallpaper saved: {output_path}")
 
         # Set wallpaper

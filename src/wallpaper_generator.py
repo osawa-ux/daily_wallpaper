@@ -59,8 +59,9 @@ FONTS_JP = [
     "C:/Windows/Fonts/msgothic.ttc",
 ]
 
-# Categories considered philosophical / reflective for serif auto-selection
+# Category groups for auto style selection
 REFLECTIVE_CATEGORIES = {"reflection", "gratitude", "rest"}
+ACTION_CATEGORIES = {"action", "discipline", "focus", "leadership", "endurance"}
 
 # Style presets for variant generation
 STYLE_PRESETS: dict[str, dict[str, Any]] = {
@@ -149,13 +150,16 @@ def _has_cjk(text: str) -> bool:
 # Auto style selection
 # ---------------------------------------------------------------------------
 
-def select_best_style(quote: dict[str, Any]) -> str:
-    """Auto-select the best style preset based on quote characteristics.
+def select_best_style(quote: dict[str, Any]) -> tuple[str, str]:
+    """Auto-select font preset and background style based on quote characteristics.
+
+    Returns (font_preset, bg_style).
 
     Rules:
-    - Short quotes (1-2 semantic lines, <=50 chars): "larger"
-    - Philosophical/reflective categories: "serif"
-    - Everything else: "refined"
+    - Reflective/gratitude/rest categories → garamond + deep_gradient
+    - Short action/discipline quotes → larger (sans) + spotlight
+    - Action/discipline (longer) → refined (sans) + spotlight
+    - Default fallback → garamond + deep_gradient
     """
     text = quote["text"]
     categories = set(quote.get("category", []))
@@ -163,18 +167,29 @@ def select_best_style(quote: dict[str, Any]) -> str:
     semantic_lines = _semantic_split(text)
     line_count = len(semantic_lines)
 
-    # Short quotes: use larger for more impact
-    if line_count <= 2 and length <= 50:
-        logger.info("Auto-style: 'larger' (short quote, %d chars, %d lines)", length, line_count)
-        return "larger"
+    is_reflective = bool(categories & REFLECTIVE_CATEGORIES)
+    is_action = bool(categories & ACTION_CATEGORIES) and not is_reflective
+    is_short = line_count <= 2 and length <= 50
 
-    # Philosophical / reflective: serif gives gravitas
-    if categories & REFLECTIVE_CATEGORIES:
-        logger.info("Auto-style: 'serif' (reflective categories: %s)", categories & REFLECTIVE_CATEGORIES)
-        return "serif"
+    if is_action and is_short:
+        logger.info("Auto-style: larger + spotlight (short action, %d chars)", length)
+        return "larger", "spotlight"
 
-    logger.info("Auto-style: 'refined' (default)")
-    return "refined"
+    if is_action:
+        logger.info("Auto-style: refined + spotlight (action, %d chars)", length)
+        return "refined", "spotlight"
+
+    if is_reflective:
+        logger.info("Auto-style: garamond + deep_gradient (reflective)")
+        return "garamond", "deep_gradient"
+
+    if is_short:
+        logger.info("Auto-style: garamond + deep_gradient (short default, %d chars)", length)
+        return "garamond", "deep_gradient"
+
+    # Default: Garamond + deep_gradient
+    logger.info("Auto-style: garamond + deep_gradient (default)")
+    return "garamond", "deep_gradient"
 
 
 # ---------------------------------------------------------------------------
@@ -608,10 +623,12 @@ def generate_wallpaper(
     output_path = base_dir / output_rel
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    # Resolve style preset — auto-select if not specified
+    # Resolve style preset and bg — auto-select if not specified
     if style_preset is None:
-        style_preset = select_best_style(quote)
-    preset = STYLE_PRESETS.get(style_preset, STYLE_PRESETS["refined"])
+        style_preset, auto_bg = select_best_style(quote)
+        if bg_style == "default":
+            bg_style = auto_bg
+    preset = STYLE_PRESETS.get(style_preset, STYLE_PRESETS["garamond"])
     size_scale = preset["size_scale"]
 
     # Background
