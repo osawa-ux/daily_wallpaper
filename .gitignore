@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+output/wallpaper_today.jpg
+output/history.json
+logs/
+*.egg-info/
+dist/
+build/
+.env

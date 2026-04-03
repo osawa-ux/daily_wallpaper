@@ -1,0 +1,115 @@
+#!/usr/bin/env python3
+"""Daily Minimal English Quote Wallpaper — entry point."""
+
+import argparse
+import logging
+import sys
+import traceback
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+
+# Setup logging early
+def _setup_logging(log_path: Path) -> None:
+    log_path.parent.mkdir(parents=True, exist_ok=True)
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+        handlers=[
+            logging.FileHandler(str(log_path), encoding="utf-8"),
+            logging.StreamHandler(sys.stdout),
+        ],
+    )
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Generate a minimal English quote wallpaper and set it as desktop background."
+    )
+    parser.add_argument("--mood", type=str, default=None,
+                        help="Mood adjustment (tired, motivated, stressed, uncertain, brave)")
+    parser.add_argument("--preview", action="store_true",
+                        help="Generate image only, do not set wallpaper")
+    parser.add_argument("--quote-id", type=str, default=None,
+                        help="Force a specific quote by ID (e.g. q001)")
+    parser.add_argument("--no-set-wallpaper", action="store_true",
+                        help="Generate image file only, do not change wallpaper")
+    return parser.parse_args()
+
+
+def main() -> None:
+    args = parse_args()
+
+    # Import after args so --help is fast
+    from src.config_loader import load_config, load_quotes
+    from src.history_manager import load_history, save_history, add_entry
+    from src.quote_selector import select_quote
+    from src.wallpaper_generator import generate_wallpaper
+    from src.wallpaper_setter import set_wallpaper
+    from src.utils import get_current_season
+
+    config = load_config(BASE_DIR)
+    log_path = BASE_DIR / config.get("log_path", "logs/app.log")
+    _setup_logging(log_path)
+
+    logger = logging.getLogger("main")
+    logger.info("=== Daily Wallpaper starting ===")
+
+    try:
+        # Load data
+        quotes = load_quotes(BASE_DIR)
+        if not quotes:
+            logger.error("No quotes available. Exiting.")
+            print("Error: No quotes found in quotes.json.")
+            sys.exit(1)
+
+        history_path = BASE_DIR / config.get("history_path", "output/history.json")
+        history = load_history(history_path)
+
+        # Determine mood
+        mood = args.mood or config.get("default_mood")
+
+        # Select quote
+        quote = select_quote(quotes, config, history, mood=mood, force_id=args.quote_id)
+        if quote is None:
+            logger.error("Failed to select a quote.")
+            print("Error: Could not select a quote.")
+            sys.exit(1)
+
+        logger.info("Quote: [%s] %s — %s", quote["id"], quote["text"], quote.get("author", ""))
+        print(f'Selected: "{quote["text"]}"')
+        if quote.get("author"):
+            print(f"  — {quote['author']}")
+
+        # Generate wallpaper
+        output_path = generate_wallpaper(quote, config, BASE_DIR)
+        print(f"Wallpaper saved: {output_path}")
+
+        # Set wallpaper
+        should_set = not args.preview and not args.no_set_wallpaper
+        if should_set:
+            success = set_wallpaper(output_path)
+            if success:
+                print("Desktop wallpaper updated.")
+            else:
+                print("Warning: Failed to set wallpaper (image was saved).")
+        else:
+            logger.info("Wallpaper setting skipped (preview/no-set mode).")
+            print("Wallpaper setting skipped.")
+
+        # Save history
+        season = get_current_season()
+        history = add_entry(history, quote, mood, season, str(output_path))
+        save_history(history_path, history)
+
+        logger.info("=== Done ===")
+
+    except Exception as e:
+        logger.error("Unexpected error: %s", e, exc_info=True)
+        print(f"Error: {e}")
+        traceback.print_exc()
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()

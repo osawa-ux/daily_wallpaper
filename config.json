@@ -1,0 +1,141 @@
+{
+  "wallpaper_width": 1920,
+  "wallpaper_height": 1080,
+  "cooldown_days": 45,
+  "show_author": true,
+  "show_translated_label": false,
+  "overlay_opacity": 0.55,
+  "use_background_images": false,
+  "background_image_dir": "assets/backgrounds",
+  "output_path": "output/wallpaper_today.jpg",
+  "history_path": "output/history.json",
+  "log_path": "logs/app.log",
+  "default_mood": null,
+  "font_quote": null,
+  "font_author": null,
+  "weekday_category_weights": {
+    "Monday": {
+      "action": 40,
+      "discipline": 25,
+      "focus": 15,
+      "leadership": 10,
+      "endurance": 5,
+      "reflection": 3,
+      "rest": 1,
+      "gratitude": 1
+    },
+    "Tuesday": {
+      "discipline": 35,
+      "action": 25,
+      "focus": 20,
+      "leadership": 10,
+      "endurance": 5,
+      "reflection": 3,
+      "rest": 1,
+      "gratitude": 1
+    },
+    "Wednesday": {
+      "focus": 35,
+      "discipline": 25,
+      "action": 20,
+      "leadership": 10,
+      "endurance": 5,
+      "reflection": 3,
+      "rest": 1,
+      "gratitude": 1
+    },
+    "Thursday": {
+      "leadership": 30,
+      "discipline": 25,
+      "focus": 15,
+      "action": 15,
+      "endurance": 8,
+      "reflection": 4,
+      "gratitude": 2,
+      "rest": 1
+    },
+    "Friday": {
+      "endurance": 30,
+      "action": 20,
+      "discipline": 20,
+      "leadership": 10,
+      "focus": 10,
+      "reflection": 5,
+      "gratitude": 3,
+      "rest": 2
+    },
+    "Saturday": {
+      "rest": 30,
+      "reflection": 25,
+      "gratitude": 15,
+      "endurance": 10,
+      "focus": 8,
+      "leadership": 5,
+      "discipline": 4,
+      "action": 3
+    },
+    "Sunday": {
+      "reflection": 35,
+      "rest": 25,
+      "gratitude": 15,
+      "focus": 10,
+      "endurance": 5,
+      "leadership": 4,
+      "discipline": 3,
+      "action": 3
+    }
+  },
+  "seasonal_adjustments": {
+    "spring": {
+      "action": 8,
+      "reflection": 2
+    },
+    "summer": {
+      "action": 6,
+      "endurance": 6,
+      "discipline": 4
+    },
+    "autumn": {
+      "focus": 6,
+      "discipline": 6,
+      "leadership": 4,
+      "reflection": 4
+    },
+    "winter": {
+      "reflection": 8,
+      "rest": 6,
+      "endurance": 5,
+      "gratitude": 3
+    }
+  },
+  "mood_adjustments": {
+    "tired": {
+      "rest": 12,
+      "reflection": 8,
+      "endurance": 5,
+      "action": -8
+    },
+    "motivated": {
+      "action": 10,
+      "discipline": 8,
+      "focus": 5
+    },
+    "stressed": {
+      "rest": 10,
+      "reflection": 8,
+      "focus": 4,
+      "leadership": -3
+    },
+    "uncertain": {
+      "reflection": 10,
+      "leadership": 5,
+      "endurance": 5,
+      "action": -4
+    },
+    "brave": {
+      "action": 10,
+      "endurance": 8,
+      "leadership": 5
+    }
+  }
+}
