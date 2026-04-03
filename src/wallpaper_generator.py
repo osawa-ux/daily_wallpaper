@@ -147,15 +147,24 @@ def select_best_style(quote: dict[str, Any]) -> str:
 # ---------------------------------------------------------------------------
 
 def _generate_gradient(width: int, height: int) -> Image.Image:
-    """Generate a refined dark background with radial gradient, vignette, and subtle noise."""
+    """Generate a refined dark background with depth.
+
+    Design: dark, elegant, quiet — flat ではなく deep.
+    - Directional light from upper-center, fading toward lower-right
+    - Subtle color tint in the lower region (navy / teal / indigo)
+    - Moderate radial glow at center for text readability
+    - Fine grain noise for texture without visible grain
+    """
+    # Each palette: (top_color, bottom_color, bottom_tint_rgb)
+    # bottom_tint adds a barely-visible hue to the lower third
     palettes = [
-        ((12, 12, 20), (28, 25, 42)),     # deep navy to dark purple
-        ((8, 8, 12),   (22, 22, 32)),      # near black to dark slate
-        ((14, 10, 18), (8, 18, 30)),       # dark plum to dark blue
-        ((6, 8, 14),   (20, 20, 30)),      # charcoal to slate
-        ((10, 8, 14),  (16, 22, 26)),      # dark wine to dark teal
+        ((10, 10, 18), (24, 22, 38), (12, 18, 32)),   # deep navy tint
+        ((8, 8, 12),   (20, 20, 30), (10, 16, 26)),    # smoky indigo tint
+        ((12, 10, 16), (8, 16, 28),  (8, 20, 28)),     # muted teal tint
+        ((6, 8, 14),   (18, 18, 28), (14, 14, 26)),    # charcoal-navy tint
+        ((10, 8, 14),  (14, 20, 24), (10, 18, 22)),    # dark teal tint
     ]
-    top_color, bottom_color = random.choice(palettes)
+    top_color, bottom_color, bottom_tint = random.choice(palettes)
 
     # Use numpy for fast pixel operations
     ys = np.linspace(0, 1, height, dtype=np.float32).reshape(-1, 1)
@@ -166,24 +175,41 @@ def _generate_gradient(width: int, height: int) -> Image.Image:
     g = top_color[1] + (bottom_color[1] - top_color[1]) * ys
     b = top_color[2] + (bottom_color[2] - top_color[2]) * ys
 
-    # Radial gradient: subtle lighter center
-    cx, cy = 0.5, 0.45  # slightly above center
+    # Directional light: upper-center is slightly brighter, fading toward lower-right
+    # Creates a very gentle sense of direction without being a visible light source
+    light_cx, light_cy = 0.48, 0.3   # light origin: slightly left of center, upper third
+    light_dist = np.sqrt((xs - light_cx) ** 2 * 0.8 + (ys - light_cy) ** 2 * 1.2)
+    light_dist = light_dist / light_dist.max()
+    directional = np.clip(1.0 - light_dist, 0, 1) ** 2.5 * 6  # very gentle wash
+    r = r + directional * 0.9
+    g = g + directional * 0.9
+    b = b + directional * 0.7  # slightly cooler at edges
+
+    # Radial glow at center: 10-15% stronger than before for text presence
+    cx, cy = 0.5, 0.44
     dist = np.sqrt((xs - cx) ** 2 + (ys - cy) ** 2)
     dist = dist / dist.max()
-    radial_boost = np.clip(1.0 - dist, 0, 1) ** 2 * 12  # soft center glow
+    radial_boost = np.clip(1.0 - dist, 0, 1) ** 2 * 14  # was 12, now 14
 
     r = r + radial_boost
     g = g + radial_boost
-    b = b + radial_boost * 0.8  # slightly warm center
+    b = b + radial_boost * 0.85
+
+    # Bottom tint: add barely-visible color to lower 40% of the image
+    # Smoothly fades in — not a band, just atmospheric depth
+    tint_fade = np.clip((ys - 0.6) / 0.4, 0, 1) ** 1.5  # gentle ease-in from 60% down
+    r = r + tint_fade * (bottom_tint[0] - bottom_color[0]) * 0.4
+    g = g + tint_fade * (bottom_tint[1] - bottom_color[1]) * 0.4
+    b = b + tint_fade * (bottom_tint[2] - bottom_color[2]) * 0.4
 
     # Vignette: darken edges
-    vignette = 1.0 - (dist ** 1.5 * 0.35)
+    vignette = 1.0 - (dist ** 1.5 * 0.38)
     r = r * vignette
     g = g * vignette
     b = b * vignette
 
-    # Subtle noise for texture
-    noise = np.random.normal(0, 1.8, (height, width)).astype(np.float32)
+    # Fine grain noise: slightly increased for texture (was 1.8, now 2.2)
+    noise = np.random.normal(0, 2.2, (height, width)).astype(np.float32)
     r = np.clip(r + noise, 0, 255)
     g = np.clip(g + noise, 0, 255)
     b = np.clip(b + noise, 0, 255)
