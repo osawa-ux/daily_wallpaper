@@ -13,6 +13,11 @@
   "default_mood": null,
   "font_quote": null,
   "font_author": null,
+  "quote_font_size": null,
+  "author_size_ratio": 0.28,
+  "line_spacing_ratio": 0.50,
+  "author_gap_ratio": 1.0,
+  "vertical_offset": -0.02,
   "weekday_category_weights": {
     "Monday": {
       "action": 40,

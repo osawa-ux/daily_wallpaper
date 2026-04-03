@@ -44,6 +44,8 @@ def parse_args() -> argparse.Namespace:
                         help="Force a specific quote by ID (e.g. q001)")
     parser.add_argument("--no-set-wallpaper", action="store_true",
                         help="Generate image file only, do not change wallpaper")
+    parser.add_argument("--variants", action="store_true",
+                        help="Generate v1/v2/v3 style variants for comparison")
     return parser.parse_args()
 
 
@@ -54,7 +56,7 @@ def main() -> None:
     from src.config_loader import load_config, load_quotes
     from src.history_manager import load_history, save_history, add_entry
     from src.quote_selector import select_quote
-    from src.wallpaper_generator import generate_wallpaper
+    from src.wallpaper_generator import generate_wallpaper, generate_variants
     from src.wallpaper_setter import set_wallpaper
     from src.utils import get_current_season
 
@@ -92,7 +94,13 @@ def main() -> None:
             print(f"  - {quote['author']}")
 
         # Generate wallpaper
-        output_path = generate_wallpaper(quote, config, BASE_DIR)
+        if args.variants:
+            variant_paths = generate_variants(quote, config, BASE_DIR)
+            for vp in variant_paths:
+                print(f"Variant saved: {vp}")
+            output_path = variant_paths[0]  # use refined as primary
+        else:
+            output_path = generate_wallpaper(quote, config, BASE_DIR)
         print(f"Wallpaper saved: {output_path}")
 
         # Set wallpaper
