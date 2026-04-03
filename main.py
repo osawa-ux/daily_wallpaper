@@ -50,6 +50,8 @@ def parse_args() -> argparse.Namespace:
                         help="Generate author size comparison (0.24/0.26/0.28)")
     parser.add_argument("--compare-bg", action="store_true",
                         help="Generate background style comparison (spotlight/deep_gradient/textured_dark)")
+    parser.add_argument("--compare-font", action="store_true",
+                        help="Generate font comparison (Georgia/Garamond/Palatino/BookAntiqua)")
     return parser.parse_args()
 
 
@@ -60,7 +62,7 @@ def main() -> None:
     from src.config_loader import load_config, load_quotes
     from src.history_manager import load_history, save_history, add_entry
     from src.quote_selector import select_quote
-    from src.wallpaper_generator import generate_wallpaper, generate_variants, generate_author_comparison, generate_bg_comparison, select_best_style
+    from src.wallpaper_generator import generate_wallpaper, generate_variants, generate_author_comparison, generate_bg_comparison, generate_font_comparison, select_best_style
     from src.wallpaper_setter import set_wallpaper
     from src.utils import get_current_season
 
@@ -102,6 +104,11 @@ def main() -> None:
             variant_paths = generate_variants(quote, config, BASE_DIR)
             for vp in variant_paths:
                 print(f"Variant saved: {vp}")
+            output_path = variant_paths[0]
+        elif args.compare_font:
+            variant_paths = generate_font_comparison(quote, config, BASE_DIR)
+            for vp in variant_paths:
+                print(f"Font comparison: {vp}")
             output_path = variant_paths[0]
         elif args.compare_bg:
             variant_paths = generate_bg_comparison(quote, config, BASE_DIR)

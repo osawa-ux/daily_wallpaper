@@ -31,6 +31,20 @@ FONTS_SERIF = [
     "C:/Windows/Fonts/times.ttf",
 ]
 
+# Premium serif fonts available on Windows — more character than Georgia
+FONTS_GARAMOND = [
+    "C:/Windows/Fonts/GARA.TTF",          # Garamond — elegant, classic
+    "C:/Windows/Fonts/georgia.ttf",
+]
+FONTS_PALATINO = [
+    "C:/Windows/Fonts/pala.ttf",           # Palatino Linotype — warm, refined
+    "C:/Windows/Fonts/georgia.ttf",
+]
+FONTS_BOOKANTIQUA = [
+    "C:/Windows/Fonts/BOOKOS.TTF",         # Book Antiqua — literary, clean
+    "C:/Windows/Fonts/georgia.ttf",
+]
+
 FONTS_REGULAR = [
     "C:/Windows/Fonts/segoeuisl.ttf",    # Semilight for author
     "C:/Windows/Fonts/segoeuil.ttf",
@@ -69,7 +83,28 @@ STYLE_PRESETS: dict[str, dict[str, Any]] = {
         "font_author_candidates": FONTS_SERIF,
         "size_scale": 0.85,
         "author_color": (140, 140, 145),
-        "description": "Classic serif",
+        "description": "Georgia serif",
+    },
+    "garamond": {
+        "font_candidates": FONTS_GARAMOND,
+        "font_author_candidates": FONTS_GARAMOND,
+        "size_scale": 0.90,
+        "author_color": (140, 140, 145),
+        "description": "Garamond — elegant classic",
+    },
+    "palatino": {
+        "font_candidates": FONTS_PALATINO,
+        "font_author_candidates": FONTS_PALATINO,
+        "size_scale": 0.85,
+        "author_color": (140, 140, 145),
+        "description": "Palatino — warm refined",
+    },
+    "bookantiqua": {
+        "font_candidates": FONTS_BOOKANTIQUA,
+        "font_author_candidates": FONTS_BOOKANTIQUA,
+        "size_scale": 0.85,
+        "author_color": (140, 140, 145),
+        "description": "Book Antiqua — literary clean",
     },
 }
 
@@ -232,34 +267,34 @@ def _generate_gradient(width: int, height: int) -> Image.Image:
 
 
 def _generate_spotlight(width: int, height: int) -> Image.Image:
-    """Spotlight: clear light cone from upper-center, dark surroundings.
+    """Spotlight: visible light pool at center, deep indigo-black edges.
 
-    The quote sits in a pool of soft light. Edges fall off noticeably.
+    Quote floats in a soft blue-tinted light. Clearly not flat black.
     """
     ys = np.linspace(0, 1, height, dtype=np.float32).reshape(-1, 1)
     xs = np.linspace(0, 1, width, dtype=np.float32).reshape(1, -1)
 
-    # Base: very dark
-    r = np.full((height, width), 5.0, dtype=np.float32)
-    g = np.full((height, width), 5.0, dtype=np.float32)
-    b = np.full((height, width), 8.0, dtype=np.float32)
+    # Base: deep indigo-black (not pure black — has color)
+    r = np.full((height, width), 6.0, dtype=np.float32)
+    g = np.full((height, width), 6.0, dtype=np.float32)
+    b = np.full((height, width), 16.0, dtype=np.float32)   # visible blue-black
 
-    # Primary spotlight: upper-center, oval, strong enough to see clearly
-    spot_cx, spot_cy = 0.50, 0.35
-    spot_dist = np.sqrt((xs - spot_cx) ** 2 / 0.18 + (ys - spot_cy) ** 2 / 0.12)
-    spot = np.clip(1.0 - spot_dist, 0, 1) ** 2.0 * 38  # visible cone of light
+    # Primary spotlight: center, oval, strong — the defining feature
+    spot_cx, spot_cy = 0.50, 0.38
+    spot_dist = np.sqrt((xs - spot_cx) ** 2 / 0.16 + (ys - spot_cy) ** 2 / 0.10)
+    spot = np.clip(1.0 - spot_dist, 0, 1) ** 1.8 * 55  # strong pool of light
 
-    r = r + spot * 0.85
-    g = g + spot * 0.85
-    b = b + spot * 0.95  # slightly cool light
+    r = r + spot * 0.65
+    g = g + spot * 0.70
+    b = b + spot * 1.0   # distinctly cool/blue light
 
-    # Secondary fill: broader, weaker — prevents pure black at edges
-    fill_dist = np.sqrt((xs - 0.5) ** 2 + (ys - 0.5) ** 2)
+    # Fill glow: softer, broader — gives depth to mid-zones
+    fill_dist = np.sqrt((xs - 0.5) ** 2 + (ys - 0.48) ** 2)
     fill_dist = fill_dist / fill_dist.max()
-    fill = np.clip(1.0 - fill_dist, 0, 1) ** 1.8 * 10
-    r = r + fill * 0.7
-    g = g + fill * 0.7
-    b = b + fill * 0.8
+    fill = np.clip(1.0 - fill_dist, 0, 1) ** 2.0 * 15
+    r = r + fill * 0.5
+    g = g + fill * 0.5
+    b = b + fill * 0.9
 
     # Vignette: strong edge darkening
     vignette = 1.0 - (fill_dist ** 1.2 * 0.55)
@@ -267,7 +302,6 @@ def _generate_spotlight(width: int, height: int) -> Image.Image:
     g = g * vignette
     b = b * vignette
 
-    # Noise
     noise = np.random.normal(0, 2.0, (height, width)).astype(np.float32)
     r = np.clip(r + noise, 0, 255)
     g = np.clip(g + noise, 0, 255)
@@ -278,45 +312,43 @@ def _generate_spotlight(width: int, height: int) -> Image.Image:
 
 
 def _generate_deep_gradient(width: int, height: int) -> Image.Image:
-    """Deep gradient: near-black top → visible deep color at bottom.
+    """Deep gradient: black top → clearly visible deep navy/indigo at bottom.
 
-    Color difference is clearly perceptible but not vivid.
+    You can SEE the color — dark but unmistakably not just black.
     """
-    # Palettes with stronger color at bottom
     palettes = [
-        ((4, 4, 6),   (18, 24, 48)),     # black → deep navy
-        ((4, 4, 6),   (12, 28, 36)),     # black → smoky teal
-        ((4, 4, 8),   (22, 16, 42)),     # black → dark indigo
-        ((4, 4, 6),   (16, 22, 40)),     # black → midnight blue
+        ((4, 4, 8),   (22, 32, 72)),     # black → deep navy (strong)
+        ((4, 4, 8),   (14, 36, 56)),     # black → deep teal-blue
+        ((4, 4, 10),  (30, 20, 62)),     # black → blue-violet
+        ((4, 4, 8),   (20, 28, 65)),     # black → midnight indigo
     ]
     top_color, bottom_color = random.choice(palettes)
 
     ys = np.linspace(0, 1, height, dtype=np.float32).reshape(-1, 1)
     xs = np.linspace(0, 1, width, dtype=np.float32).reshape(1, -1)
 
-    # Ease-in curve: stays dark longer at top, color emerges in lower half
-    t = ys ** 1.4
+    # Ease-in: top stays black, color builds from ~40% down
+    t = ys ** 1.2
 
     r = top_color[0] + (bottom_color[0] - top_color[0]) * t
     g = top_color[1] + (bottom_color[1] - top_color[1]) * t
     b = top_color[2] + (bottom_color[2] - top_color[2]) * t
 
-    # Gentle center glow for text readability
+    # Center glow — keeps text readable against the darker upper half
     cx, cy = 0.5, 0.44
     dist = np.sqrt((xs - cx) ** 2 + (ys - cy) ** 2)
     dist = dist / dist.max()
-    glow = np.clip(1.0 - dist, 0, 1) ** 2 * 12
-    r = r + glow * 0.6
-    g = g + glow * 0.6
-    b = b + glow * 0.8  # cool-toned glow matching the palette
+    glow = np.clip(1.0 - dist, 0, 1) ** 2 * 14
+    r = r + glow * 0.5
+    g = g + glow * 0.5
+    b = b + glow * 0.9  # blue-toned glow
 
     # Mild vignette
-    vignette = 1.0 - (dist ** 1.5 * 0.30)
+    vignette = 1.0 - (dist ** 1.5 * 0.25)
     r = r * vignette
     g = g * vignette
     b = b * vignette
 
-    # Noise
     noise = np.random.normal(0, 2.0, (height, width)).astype(np.float32)
     r = np.clip(r + noise, 0, 255)
     g = np.clip(g + noise, 0, 255)
@@ -327,30 +359,28 @@ def _generate_deep_gradient(width: int, height: int) -> Image.Image:
 
 
 def _generate_textured_dark(width: int, height: int) -> Image.Image:
-    """Textured dark: subdued color, visible fine noise + subtle vertical streaks.
+    """Textured dark: deep indigo base with visible texture.
 
-    Feels like brushed dark metal or aged paper, not flat.
+    Color is subtle but present. Vertical streaks + noise = not flat.
     """
     ys = np.linspace(0, 1, height, dtype=np.float32).reshape(-1, 1)
     xs = np.linspace(0, 1, width, dtype=np.float32).reshape(1, -1)
 
-    # Near-uniform dark base with very slight vertical gradient
-    r = np.full((height, width), 12.0, dtype=np.float32) + ys * 6
-    g = np.full((height, width), 12.0, dtype=np.float32) + ys * 6
-    b = np.full((height, width), 14.0, dtype=np.float32) + ys * 8
+    # Dark base with visible indigo tint + slight gradient
+    r = np.full((height, width), 10.0, dtype=np.float32) + ys * 5
+    g = np.full((height, width), 10.0, dtype=np.float32) + ys * 6
+    b = np.full((height, width), 20.0, dtype=np.float32) + ys * 12  # indigo presence
 
     # Vertical streaks: column-wise brightness variation
-    # Creates a subtle brushed / fabric-like texture
-    col_variation = np.random.normal(0, 1.0, (1, width)).astype(np.float32)
-    # Smooth with cumulative sum approximation (no scipy needed)
+    col_variation = np.random.normal(0, 1.2, (1, width)).astype(np.float32)
     kernel_size = 61
     kernel = np.ones(kernel_size, dtype=np.float32) / kernel_size
     col_variation = np.convolve(col_variation.ravel(), kernel, mode="same").reshape(1, -1)
-    col_variation = col_variation * 4.0  # visible but not dominant
+    col_variation = col_variation * 5.0
 
-    r = r + col_variation
-    g = g + col_variation
-    b = b + col_variation * 0.8
+    r = r + col_variation * 0.6
+    g = g + col_variation * 0.6
+    b = b + col_variation * 1.0  # streaks carry the blue tone
 
     # Slow horizontal undulation: broad brightness bands
     row_variation = np.sin(ys * np.pi * 3.5) * 2.5
@@ -776,4 +806,32 @@ def generate_bg_comparison(
         )
         paths.append(path)
         logger.info("BG style '%s' saved: %s", bg, path)
+    return paths
+
+
+def generate_font_comparison(
+    quote: dict[str, Any],
+    config: dict[str, Any],
+    base_dir: Path,
+    bg_style: str = "deep_gradient",
+) -> list[Path]:
+    """Generate font comparison: Georgia / Garamond / Palatino / Book Antiqua."""
+    quote_id = quote.get("id", "unknown")
+    fonts = [
+        ("serif", "georgia"),
+        ("garamond", "garamond"),
+        ("palatino", "palatino"),
+        ("bookantiqua", "bookantiqua"),
+    ]
+    paths: list[Path] = []
+    for preset_name, label in fonts:
+        suffix = f"_{quote_id}_font_{label}"
+        path = generate_wallpaper(
+            quote, config, base_dir,
+            output_suffix=suffix,
+            style_preset=preset_name,
+            bg_style=bg_style,
+        )
+        paths.append(path)
+        logger.info("Font '%s' saved: %s", label, path)
     return paths
