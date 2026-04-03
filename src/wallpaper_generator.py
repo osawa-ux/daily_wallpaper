@@ -146,6 +146,18 @@ def select_best_style(quote: dict[str, Any]) -> str:
 # Background generation
 # ---------------------------------------------------------------------------
 
+def _generate_bg(width: int, height: int, bg_style: str = "default") -> Image.Image:
+    """Dispatch to the correct background generator."""
+    generators = {
+        "default": _generate_gradient,
+        "spotlight": _generate_spotlight,
+        "deep_gradient": _generate_deep_gradient,
+        "textured_dark": _generate_textured_dark,
+    }
+    gen = generators.get(bg_style, _generate_gradient)
+    return gen(width, height)
+
+
 def _generate_gradient(width: int, height: int) -> Image.Image:
     """Generate a refined dark background with depth.
 
@@ -215,6 +227,158 @@ def _generate_gradient(width: int, height: int) -> Image.Image:
     b = np.clip(b + noise, 0, 255)
 
     # Assemble RGB array
+    rgb = np.stack([r, g, b], axis=-1).astype(np.uint8)
+    return Image.fromarray(rgb, "RGB")
+
+
+def _generate_spotlight(width: int, height: int) -> Image.Image:
+    """Spotlight: clear light cone from upper-center, dark surroundings.
+
+    The quote sits in a pool of soft light. Edges fall off noticeably.
+    """
+    ys = np.linspace(0, 1, height, dtype=np.float32).reshape(-1, 1)
+    xs = np.linspace(0, 1, width, dtype=np.float32).reshape(1, -1)
+
+    # Base: very dark
+    r = np.full((height, width), 5.0, dtype=np.float32)
+    g = np.full((height, width), 5.0, dtype=np.float32)
+    b = np.full((height, width), 8.0, dtype=np.float32)
+
+    # Primary spotlight: upper-center, oval, strong enough to see clearly
+    spot_cx, spot_cy = 0.50, 0.35
+    spot_dist = np.sqrt((xs - spot_cx) ** 2 / 0.18 + (ys - spot_cy) ** 2 / 0.12)
+    spot = np.clip(1.0 - spot_dist, 0, 1) ** 2.0 * 38  # visible cone of light
+
+    r = r + spot * 0.85
+    g = g + spot * 0.85
+    b = b + spot * 0.95  # slightly cool light
+
+    # Secondary fill: broader, weaker — prevents pure black at edges
+    fill_dist = np.sqrt((xs - 0.5) ** 2 + (ys - 0.5) ** 2)
+    fill_dist = fill_dist / fill_dist.max()
+    fill = np.clip(1.0 - fill_dist, 0, 1) ** 1.8 * 10
+    r = r + fill * 0.7
+    g = g + fill * 0.7
+    b = b + fill * 0.8
+
+    # Vignette: strong edge darkening
+    vignette = 1.0 - (fill_dist ** 1.2 * 0.55)
+    r = r * vignette
+    g = g * vignette
+    b = b * vignette
+
+    # Noise
+    noise = np.random.normal(0, 2.0, (height, width)).astype(np.float32)
+    r = np.clip(r + noise, 0, 255)
+    g = np.clip(g + noise, 0, 255)
+    b = np.clip(b + noise, 0, 255)
+
+    rgb = np.stack([r, g, b], axis=-1).astype(np.uint8)
+    return Image.fromarray(rgb, "RGB")
+
+
+def _generate_deep_gradient(width: int, height: int) -> Image.Image:
+    """Deep gradient: near-black top → visible deep color at bottom.
+
+    Color difference is clearly perceptible but not vivid.
+    """
+    # Palettes with stronger color at bottom
+    palettes = [
+        ((4, 4, 6),   (18, 24, 48)),     # black → deep navy
+        ((4, 4, 6),   (12, 28, 36)),     # black → smoky teal
+        ((4, 4, 8),   (22, 16, 42)),     # black → dark indigo
+        ((4, 4, 6),   (16, 22, 40)),     # black → midnight blue
+    ]
+    top_color, bottom_color = random.choice(palettes)
+
+    ys = np.linspace(0, 1, height, dtype=np.float32).reshape(-1, 1)
+    xs = np.linspace(0, 1, width, dtype=np.float32).reshape(1, -1)
+
+    # Ease-in curve: stays dark longer at top, color emerges in lower half
+    t = ys ** 1.4
+
+    r = top_color[0] + (bottom_color[0] - top_color[0]) * t
+    g = top_color[1] + (bottom_color[1] - top_color[1]) * t
+    b = top_color[2] + (bottom_color[2] - top_color[2]) * t
+
+    # Gentle center glow for text readability
+    cx, cy = 0.5, 0.44
+    dist = np.sqrt((xs - cx) ** 2 + (ys - cy) ** 2)
+    dist = dist / dist.max()
+    glow = np.clip(1.0 - dist, 0, 1) ** 2 * 12
+    r = r + glow * 0.6
+    g = g + glow * 0.6
+    b = b + glow * 0.8  # cool-toned glow matching the palette
+
+    # Mild vignette
+    vignette = 1.0 - (dist ** 1.5 * 0.30)
+    r = r * vignette
+    g = g * vignette
+    b = b * vignette
+
+    # Noise
+    noise = np.random.normal(0, 2.0, (height, width)).astype(np.float32)
+    r = np.clip(r + noise, 0, 255)
+    g = np.clip(g + noise, 0, 255)
+    b = np.clip(b + noise, 0, 255)
+
+    rgb = np.stack([r, g, b], axis=-1).astype(np.uint8)
+    return Image.fromarray(rgb, "RGB")
+
+
+def _generate_textured_dark(width: int, height: int) -> Image.Image:
+    """Textured dark: subdued color, visible fine noise + subtle vertical streaks.
+
+    Feels like brushed dark metal or aged paper, not flat.
+    """
+    ys = np.linspace(0, 1, height, dtype=np.float32).reshape(-1, 1)
+    xs = np.linspace(0, 1, width, dtype=np.float32).reshape(1, -1)
+
+    # Near-uniform dark base with very slight vertical gradient
+    r = np.full((height, width), 12.0, dtype=np.float32) + ys * 6
+    g = np.full((height, width), 12.0, dtype=np.float32) + ys * 6
+    b = np.full((height, width), 14.0, dtype=np.float32) + ys * 8
+
+    # Vertical streaks: column-wise brightness variation
+    # Creates a subtle brushed / fabric-like texture
+    col_variation = np.random.normal(0, 1.0, (1, width)).astype(np.float32)
+    # Smooth with cumulative sum approximation (no scipy needed)
+    kernel_size = 61
+    kernel = np.ones(kernel_size, dtype=np.float32) / kernel_size
+    col_variation = np.convolve(col_variation.ravel(), kernel, mode="same").reshape(1, -1)
+    col_variation = col_variation * 4.0  # visible but not dominant
+
+    r = r + col_variation
+    g = g + col_variation
+    b = b + col_variation * 0.8
+
+    # Slow horizontal undulation: broad brightness bands
+    row_variation = np.sin(ys * np.pi * 3.5) * 2.5
+    r = r + row_variation
+    g = g + row_variation
+    b = b + row_variation
+
+    # Center glow for text
+    cx, cy = 0.5, 0.44
+    dist = np.sqrt((xs - cx) ** 2 + (ys - cy) ** 2)
+    dist = dist / dist.max()
+    glow = np.clip(1.0 - dist, 0, 1) ** 2 * 10
+    r = r + glow
+    g = g + glow
+    b = b + glow * 0.85
+
+    # Vignette
+    vignette = 1.0 - (dist ** 1.5 * 0.35)
+    r = r * vignette
+    g = g * vignette
+    b = b * vignette
+
+    # Stronger fine noise: the defining texture of this style
+    noise = np.random.normal(0, 3.5, (height, width)).astype(np.float32)
+    r = np.clip(r + noise, 0, 255)
+    g = np.clip(g + noise, 0, 255)
+    b = np.clip(b + noise, 0, 255)
+
     rgb = np.stack([r, g, b], axis=-1).astype(np.uint8)
     return Image.fromarray(rgb, "RGB")
 
@@ -391,6 +555,7 @@ def generate_wallpaper(
     output_suffix: str = "",
     style_preset: str | None = None,
     author_size_ratio_override: float | None = None,
+    bg_style: str = "default",
 ) -> Path:
     """Generate wallpaper image and return the output path.
 
@@ -399,6 +564,7 @@ def generate_wallpaper(
         style_preset: one of "refined", "larger", "serif" for variant generation.
                       If None, auto-selects based on quote characteristics.
         author_size_ratio_override: override author size ratio for comparison.
+        bg_style: background style — "default", "spotlight", "deep_gradient", "textured_dark".
     """
     width = config.get("wallpaper_width", 1920)
     height = config.get("wallpaper_height", 1080)
@@ -425,7 +591,7 @@ def generate_wallpaper(
         bg = _load_background_image(bg_dir, width, height)
 
     if bg is None:
-        bg = _generate_gradient(width, height)
+        bg = _generate_bg(width, height, bg_style)
 
     img = bg.copy()
 
@@ -585,4 +751,29 @@ def generate_author_comparison(
         )
         paths.append(path)
         logger.info("Author ratio %.2f saved: %s", ratio, path)
+    return paths
+
+
+def generate_bg_comparison(
+    quote: dict[str, Any],
+    config: dict[str, Any],
+    base_dir: Path,
+) -> list[Path]:
+    """Generate background style comparison: spotlight / deep_gradient / textured_dark.
+
+    All use serif font preset. Output: wallpaper_{quote_id}_{bg_style}.jpg
+    """
+    quote_id = quote.get("id", "unknown")
+    bg_styles = ["spotlight", "deep_gradient", "textured_dark"]
+    paths: list[Path] = []
+    for bg in bg_styles:
+        suffix = f"_{quote_id}_{bg}"
+        path = generate_wallpaper(
+            quote, config, base_dir,
+            output_suffix=suffix,
+            style_preset="serif",
+            bg_style=bg,
+        )
+        paths.append(path)
+        logger.info("BG style '%s' saved: %s", bg, path)
     return paths
