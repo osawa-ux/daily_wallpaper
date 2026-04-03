@@ -2,22 +2,32 @@
 """Daily Minimal English Quote Wallpaper — entry point."""
 
 import argparse
+import io
 import logging
 import sys
 import traceback
 from pathlib import Path
+
+# Fix Windows console encoding for Unicode output
+if sys.stdout and hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if sys.stderr and hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 BASE_DIR = Path(__file__).resolve().parent
 
 # Setup logging early
 def _setup_logging(log_path: Path) -> None:
     log_path.parent.mkdir(parents=True, exist_ok=True)
+    stream_handler = logging.StreamHandler(
+        io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+    )
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
         handlers=[
             logging.FileHandler(str(log_path), encoding="utf-8"),
-            logging.StreamHandler(sys.stdout),
+            stream_handler,
         ],
     )
 
@@ -76,10 +86,10 @@ def main() -> None:
             print("Error: Could not select a quote.")
             sys.exit(1)
 
-        logger.info("Quote: [%s] %s — %s", quote["id"], quote["text"], quote.get("author", ""))
+        logger.info("Quote: [%s] %s - %s", quote["id"], quote["text"], quote.get("author", ""))
         print(f'Selected: "{quote["text"]}"')
         if quote.get("author"):
-            print(f"  — {quote['author']}")
+            print(f"  - {quote['author']}")
 
         # Generate wallpaper
         output_path = generate_wallpaper(quote, config, BASE_DIR)
