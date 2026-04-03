@@ -2,10 +2,12 @@ __pycache__/
 *.pyc
 .venv/
 venv/
-output/wallpaper_today.jpg
-output/history.json
-logs/
 *.egg-info/
 dist/
 build/
 .env
+
+# Output images — only history.json is tracked
+output/*.jpg
+output/previews/
+logs/

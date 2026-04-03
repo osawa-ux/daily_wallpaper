@@ -16,7 +16,7 @@ if sys.stderr and hasattr(sys.stderr, "reconfigure"):
 
 BASE_DIR = Path(__file__).resolve().parent
 
-# Setup logging early
+
 def _setup_logging(log_path: Path) -> None:
     log_path.parent.mkdir(parents=True, exist_ok=True)
     stream_handler = logging.StreamHandler(
@@ -49,20 +49,27 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--compare-author", action="store_true",
                         help="Generate author size comparison (0.24/0.26/0.28)")
     parser.add_argument("--compare-bg", action="store_true",
-                        help="Generate background style comparison (spotlight/deep_gradient/textured_dark)")
+                        help="Generate background style comparison")
     parser.add_argument("--compare-font", action="store_true",
                         help="Generate font comparison (Georgia/Garamond/Palatino/BookAntiqua)")
+    parser.add_argument("--demo", action="store_true",
+                        help="Generate demo wallpapers for each routing rule")
+    parser.add_argument("--explain-style", action="store_true",
+                        help="Show style routing decision without generating image")
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
 
-    # Import after args so --help is fast
     from src.config_loader import load_config, load_quotes
     from src.history_manager import load_history, save_history, add_entry
     from src.quote_selector import select_quote
-    from src.wallpaper_generator import generate_wallpaper, generate_variants, generate_author_comparison, generate_bg_comparison, generate_font_comparison, select_best_style
+    from src.wallpaper_generator import (
+        generate_wallpaper, generate_variants, generate_author_comparison,
+        generate_bg_comparison, generate_font_comparison, generate_demo,
+        select_best_style,
+    )
     from src.wallpaper_setter import set_wallpaper
     from src.utils import get_current_season
 
@@ -74,20 +81,25 @@ def main() -> None:
     logger.info("=== Daily Wallpaper starting ===")
 
     try:
-        # Load data
         quotes = load_quotes(BASE_DIR)
         if not quotes:
             logger.error("No quotes available. Exiting.")
             print("Error: No quotes found in quotes.json.")
             sys.exit(1)
 
+        # Demo mode: generate representative samples
+        if args.demo:
+            demo_paths = generate_demo(quotes, config, BASE_DIR)
+            for dp in demo_paths:
+                print(f"Demo: {dp}")
+            print(f"Generated {len(demo_paths)} demo wallpapers.")
+            logger.info("=== Done (demo) ===")
+            return
+
         history_path = BASE_DIR / config.get("history_path", "output/history.json")
         history = load_history(history_path)
-
-        # Determine mood
         mood = args.mood or config.get("default_mood")
 
-        # Select quote
         quote = select_quote(quotes, config, history, mood=mood, force_id=args.quote_id)
         if quote is None:
             logger.error("Failed to select a quote.")
@@ -99,33 +111,45 @@ def main() -> None:
         if quote.get("author"):
             print(f"  - {quote['author']}")
 
+        # Explain style mode
+        if args.explain_style:
+            info = select_best_style(quote, config)
+            print(f"\n--- Style Routing ---")
+            print(f"  quote_id:   {quote['id']}")
+            print(f"  category:   {', '.join(info['categories'])}")
+            print(f"  length:     {info['quote_length']} chars, {info['line_count']} lines")
+            print(f"  rule:       {info['rule']}")
+            print(f"  font:       {info['font_preset']}")
+            print(f"  background: {info['bg_style']}")
+            print(f"  reason:     {info['reason']}")
+            return
+
         # Generate wallpaper
         if args.variants:
             variant_paths = generate_variants(quote, config, BASE_DIR)
             for vp in variant_paths:
-                print(f"Variant saved: {vp}")
+                print(f"Variant: {vp}")
             output_path = variant_paths[0]
         elif args.compare_font:
             variant_paths = generate_font_comparison(quote, config, BASE_DIR)
             for vp in variant_paths:
-                print(f"Font comparison: {vp}")
+                print(f"Font compare: {vp}")
             output_path = variant_paths[0]
         elif args.compare_bg:
             variant_paths = generate_bg_comparison(quote, config, BASE_DIR)
             for vp in variant_paths:
-                print(f"BG comparison: {vp}")
+                print(f"BG compare: {vp}")
             output_path = variant_paths[0]
         elif args.compare_author:
             variant_paths = generate_author_comparison(quote, config, BASE_DIR)
             for vp in variant_paths:
-                print(f"Author comparison: {vp}")
-            output_path = variant_paths[1]  # 0.26 as default
+                print(f"Author compare: {vp}")
+            output_path = variant_paths[1]
         else:
-            # Auto-select best font + bg based on quote characteristics
-            font_style, bg_style = select_best_style(quote)
+            info = select_best_style(quote, config)
             output_path = generate_wallpaper(quote, config, BASE_DIR)
-            print(f"Auto-selected: font={font_style}, bg={bg_style}")
-        print(f"Wallpaper saved: {output_path}")
+            print(f"Style: {info['font_preset']} + {info['bg_style']} ({info['rule']})")
+        print(f"Wallpaper: {output_path}")
 
         # Set wallpaper
         should_set = not args.preview and not args.no_set_wallpaper
@@ -136,7 +160,7 @@ def main() -> None:
             else:
                 print("Warning: Failed to set wallpaper (image was saved).")
         else:
-            logger.info("Wallpaper setting skipped (preview/no-set mode).")
+            logger.info("Wallpaper setting skipped.")
             print("Wallpaper setting skipped.")
 
         # Save history

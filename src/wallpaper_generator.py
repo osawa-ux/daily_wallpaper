@@ -59,9 +59,11 @@ FONTS_JP = [
     "C:/Windows/Fonts/msgothic.ttc",
 ]
 
-# Category groups for auto style selection
-REFLECTIVE_CATEGORIES = {"reflection", "gratitude", "rest"}
-ACTION_CATEGORIES = {"action", "discipline", "focus", "leadership", "endurance"}
+# Default category groups (overridden by config.style_routing)
+_DEFAULT_REFLECTIVE = {"reflection", "gratitude", "rest"}
+_DEFAULT_ACTION = {"action", "discipline", "focus", "leadership", "endurance"}
+_DEFAULT_SHORT_MAX_CHARS = 50
+_DEFAULT_SHORT_MAX_LINES = 2
 
 # Style presets for variant generation
 STYLE_PRESETS: dict[str, dict[str, Any]] = {
@@ -150,46 +152,69 @@ def _has_cjk(text: str) -> bool:
 # Auto style selection
 # ---------------------------------------------------------------------------
 
-def select_best_style(quote: dict[str, Any]) -> tuple[str, str]:
-    """Auto-select font preset and background style based on quote characteristics.
+def select_best_style(
+    quote: dict[str, Any],
+    config: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    """Auto-select font preset and background style based on quote + config routing.
 
-    Returns (font_preset, bg_style).
-
-    Rules:
-    - Reflective/gratitude/rest categories → garamond + deep_gradient
-    - Short action/discipline quotes → larger (sans) + spotlight
-    - Action/discipline (longer) → refined (sans) + spotlight
-    - Default fallback → garamond + deep_gradient
+    Returns dict with keys: font_preset, bg_style, rule, reason (for logging/explain).
     """
+    routing = (config or {}).get("style_routing", {})
+    reflective_cats = set(routing.get("reflective_categories", _DEFAULT_REFLECTIVE))
+    action_cats = set(routing.get("action_categories", _DEFAULT_ACTION))
+    max_chars = routing.get("short_quote_max_chars", _DEFAULT_SHORT_MAX_CHARS)
+    max_lines = routing.get("short_quote_max_lines", _DEFAULT_SHORT_MAX_LINES)
+    mappings = routing.get("preset_mappings", {})
+
     text = quote["text"]
     categories = set(quote.get("category", []))
     length = len(text)
     semantic_lines = _semantic_split(text)
     line_count = len(semantic_lines)
 
-    is_reflective = bool(categories & REFLECTIVE_CATEGORIES)
-    is_action = bool(categories & ACTION_CATEGORIES) and not is_reflective
-    is_short = line_count <= 2 and length <= 50
+    is_reflective = bool(categories & reflective_cats)
+    is_action = bool(categories & action_cats) and not is_reflective
+    is_short = line_count <= max_lines and length <= max_chars
 
+    # Determine rule key
     if is_action and is_short:
-        logger.info("Auto-style: larger + spotlight (short action, %d chars)", length)
-        return "larger", "spotlight"
+        rule = "action_short"
+        reason = f"short action quote ({length} chars, {line_count} lines, categories: {categories & action_cats})"
+    elif is_action:
+        rule = "action_long"
+        reason = f"action quote ({length} chars, categories: {categories & action_cats})"
+    elif is_reflective:
+        rule = "reflective"
+        reason = f"reflective categories: {categories & reflective_cats}"
+    else:
+        rule = "default"
+        reason = f"default routing ({length} chars, categories: {categories})"
 
-    if is_action:
-        logger.info("Auto-style: refined + spotlight (action, %d chars)", length)
-        return "refined", "spotlight"
+    # Resolve preset from config mappings or hardcoded defaults
+    defaults = {
+        "action_short": {"font_preset": "larger", "bg_style": "spotlight"},
+        "action_long": {"font_preset": "refined", "bg_style": "spotlight"},
+        "reflective": {"font_preset": "garamond", "bg_style": "deep_gradient"},
+        "default": {"font_preset": "garamond", "bg_style": "deep_gradient"},
+    }
+    mapping = mappings.get(rule, defaults.get(rule, defaults["default"]))
 
-    if is_reflective:
-        logger.info("Auto-style: garamond + deep_gradient (reflective)")
-        return "garamond", "deep_gradient"
+    result = {
+        "font_preset": mapping["font_preset"],
+        "bg_style": mapping["bg_style"],
+        "rule": rule,
+        "reason": reason,
+        "quote_length": length,
+        "line_count": line_count,
+        "categories": sorted(categories),
+    }
 
-    if is_short:
-        logger.info("Auto-style: garamond + deep_gradient (short default, %d chars)", length)
-        return "garamond", "deep_gradient"
-
-    # Default: Garamond + deep_gradient
-    logger.info("Auto-style: garamond + deep_gradient (default)")
-    return "garamond", "deep_gradient"
+    logger.info(
+        "Style routing: rule=%s, font=%s, bg=%s | %s",
+        rule, result["font_preset"], result["bg_style"], reason,
+    )
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -625,9 +650,10 @@ def generate_wallpaper(
 
     # Resolve style preset and bg — auto-select if not specified
     if style_preset is None:
-        style_preset, auto_bg = select_best_style(quote)
+        routing = select_best_style(quote, config)
+        style_preset = routing["font_preset"]
         if bg_style == "default":
-            bg_style = auto_bg
+            bg_style = routing["bg_style"]
     preset = STYLE_PRESETS.get(style_preset, STYLE_PRESETS["garamond"])
     size_scale = preset["size_scale"]
 
@@ -754,6 +780,13 @@ def generate_wallpaper(
     return output_path
 
 
+def _preview_path(config: dict[str, Any], base_dir: Path, subdir: str, filename: str) -> Path:
+    """Build a path under the preview directory."""
+    preview_dir = base_dir / config.get("preview_dir", "output/previews") / subdir
+    preview_dir.mkdir(parents=True, exist_ok=True)
+    return preview_dir / filename
+
+
 def generate_variants(
     quote: dict[str, Any],
     config: dict[str, Any],
@@ -761,22 +794,21 @@ def generate_variants(
 ) -> list[Path]:
     """Generate multiple style variants for preview comparison.
 
-    Output filenames include quote ID: {quote_id}_v1_refined.jpg etc.
+    Output to: output/previews/variants/{quote_id}_v1_refined.jpg etc.
     """
     quote_id = quote.get("id", "unknown")
     variants = [
-        (f"_{quote_id}_v1_refined", "refined"),
-        (f"_{quote_id}_v2_larger", "larger"),
-        (f"_{quote_id}_v3_serif", "serif"),
+        ("v1_refined", "refined"),
+        ("v2_larger", "larger"),
+        ("v3_serif", "serif"),
     ]
     paths: list[Path] = []
-    for suffix, preset in variants:
-        path = generate_wallpaper(
-            quote, config, base_dir,
-            output_suffix=suffix, style_preset=preset,
-        )
+    for label, preset in variants:
+        out = _preview_path(config, base_dir, "variants", f"{quote_id}_{label}.jpg")
+        # Temporarily override output_path
+        cfg = {**config, "output_path": str(out.relative_to(base_dir))}
+        path = generate_wallpaper(quote, cfg, base_dir, style_preset=preset)
         paths.append(path)
-        logger.info("Variant '%s' saved: %s", preset, path)
     return paths
 
 
@@ -790,14 +822,10 @@ def generate_author_comparison(
     ratios = [0.24, 0.26, 0.28]
     paths: list[Path] = []
     for ratio in ratios:
-        suffix = f"_{quote_id}_author{int(ratio * 100)}"
-        path = generate_wallpaper(
-            quote, config, base_dir,
-            output_suffix=suffix,
-            author_size_ratio_override=ratio,
-        )
+        out = _preview_path(config, base_dir, "author_compare", f"{quote_id}_author{int(ratio * 100)}.jpg")
+        cfg = {**config, "output_path": str(out.relative_to(base_dir))}
+        path = generate_wallpaper(quote, cfg, base_dir, author_size_ratio_override=ratio)
         paths.append(path)
-        logger.info("Author ratio %.2f saved: %s", ratio, path)
     return paths
 
 
@@ -806,23 +834,15 @@ def generate_bg_comparison(
     config: dict[str, Any],
     base_dir: Path,
 ) -> list[Path]:
-    """Generate background style comparison: spotlight / deep_gradient / textured_dark.
-
-    All use serif font preset. Output: wallpaper_{quote_id}_{bg_style}.jpg
-    """
+    """Generate background style comparison: spotlight / deep_gradient / textured_dark."""
     quote_id = quote.get("id", "unknown")
     bg_styles = ["spotlight", "deep_gradient", "textured_dark"]
     paths: list[Path] = []
     for bg in bg_styles:
-        suffix = f"_{quote_id}_{bg}"
-        path = generate_wallpaper(
-            quote, config, base_dir,
-            output_suffix=suffix,
-            style_preset="serif",
-            bg_style=bg,
-        )
+        out = _preview_path(config, base_dir, "bg_compare", f"{quote_id}_{bg}.jpg")
+        cfg = {**config, "output_path": str(out.relative_to(base_dir))}
+        path = generate_wallpaper(quote, cfg, base_dir, style_preset="garamond", bg_style=bg)
         paths.append(path)
-        logger.info("BG style '%s' saved: %s", bg, path)
     return paths
 
 
@@ -842,13 +862,57 @@ def generate_font_comparison(
     ]
     paths: list[Path] = []
     for preset_name, label in fonts:
-        suffix = f"_{quote_id}_font_{label}"
-        path = generate_wallpaper(
-            quote, config, base_dir,
-            output_suffix=suffix,
-            style_preset=preset_name,
-            bg_style=bg_style,
-        )
+        out = _preview_path(config, base_dir, "font_compare", f"{quote_id}_font_{label}.jpg")
+        cfg = {**config, "output_path": str(out.relative_to(base_dir))}
+        path = generate_wallpaper(quote, cfg, base_dir, style_preset=preset_name, bg_style=bg_style)
         paths.append(path)
-        logger.info("Font '%s' saved: %s", label, path)
+    return paths
+
+
+def generate_demo(
+    quotes: list[dict[str, Any]],
+    config: dict[str, Any],
+    base_dir: Path,
+) -> list[Path]:
+    """Generate demo wallpapers for representative quote types.
+
+    Picks one quote per routing rule: action_short, action_long, reflective, default.
+    """
+    routing = config.get("style_routing", {})
+    reflective_cats = set(routing.get("reflective_categories", _DEFAULT_REFLECTIVE))
+    action_cats = set(routing.get("action_categories", _DEFAULT_ACTION))
+    max_chars = routing.get("short_quote_max_chars", _DEFAULT_SHORT_MAX_CHARS)
+
+    buckets: dict[str, dict[str, Any] | None] = {
+        "action_short": None, "action_long": None,
+        "reflective": None, "default": None,
+    }
+
+    for q in quotes:
+        cats = set(q.get("category", []))
+        length = len(q["text"])
+        is_ref = bool(cats & reflective_cats)
+        is_act = bool(cats & action_cats) and not is_ref
+
+        if is_act and length <= max_chars and buckets["action_short"] is None:
+            buckets["action_short"] = q
+        elif is_act and length > max_chars and buckets["action_long"] is None:
+            buckets["action_long"] = q
+        elif is_ref and buckets["reflective"] is None:
+            buckets["reflective"] = q
+        elif not is_act and not is_ref and buckets["default"] is None:
+            buckets["default"] = q
+
+        if all(v is not None for v in buckets.values()):
+            break
+
+    paths: list[Path] = []
+    for label, q in buckets.items():
+        if q is None:
+            continue
+        out = _preview_path(config, base_dir, "demos", f"{q['id']}_{label}.jpg")
+        cfg = {**config, "output_path": str(out.relative_to(base_dir))}
+        path = generate_wallpaper(q, cfg, base_dir)
+        paths.append(path)
+        logger.info("Demo '%s' (%s): %s", label, q["id"], path)
     return paths
