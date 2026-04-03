@@ -46,6 +46,8 @@ def parse_args() -> argparse.Namespace:
                         help="Generate image file only, do not change wallpaper")
     parser.add_argument("--variants", action="store_true",
                         help="Generate v1/v2/v3 style variants for comparison")
+    parser.add_argument("--compare-author", action="store_true",
+                        help="Generate author size comparison (0.24/0.26/0.28)")
     return parser.parse_args()
 
 
@@ -56,7 +58,7 @@ def main() -> None:
     from src.config_loader import load_config, load_quotes
     from src.history_manager import load_history, save_history, add_entry
     from src.quote_selector import select_quote
-    from src.wallpaper_generator import generate_wallpaper, generate_variants
+    from src.wallpaper_generator import generate_wallpaper, generate_variants, generate_author_comparison, select_best_style
     from src.wallpaper_setter import set_wallpaper
     from src.utils import get_current_season
 
@@ -98,9 +100,17 @@ def main() -> None:
             variant_paths = generate_variants(quote, config, BASE_DIR)
             for vp in variant_paths:
                 print(f"Variant saved: {vp}")
-            output_path = variant_paths[0]  # use refined as primary
+            output_path = variant_paths[0]
+        elif args.compare_author:
+            variant_paths = generate_author_comparison(quote, config, BASE_DIR)
+            for vp in variant_paths:
+                print(f"Author comparison: {vp}")
+            output_path = variant_paths[1]  # 0.26 as default
         else:
+            # Auto-select best style based on quote characteristics
+            best_style = select_best_style(quote)
             output_path = generate_wallpaper(quote, config, BASE_DIR)
+            print(f"Auto-selected style: {best_style}")
         print(f"Wallpaper saved: {output_path}")
 
         # Set wallpaper

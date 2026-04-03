@@ -45,24 +45,30 @@ FONTS_JP = [
     "C:/Windows/Fonts/msgothic.ttc",
 ]
 
+# Categories considered philosophical / reflective for serif auto-selection
+REFLECTIVE_CATEGORIES = {"reflection", "gratitude", "rest"}
+
 # Style presets for variant generation
 STYLE_PRESETS: dict[str, dict[str, Any]] = {
     "refined": {
         "font_candidates": FONTS_LIGHT,
         "font_author_candidates": FONTS_REGULAR,
         "size_scale": 1.0,
+        "author_color": (145, 145, 150),
         "description": "Clean sans-serif light",
     },
     "larger": {
         "font_candidates": FONTS_LIGHT,
         "font_author_candidates": FONTS_REGULAR,
         "size_scale": 1.15,
+        "author_color": (140, 140, 145),
         "description": "Larger sans-serif light",
     },
     "serif": {
         "font_candidates": FONTS_SERIF,
         "font_author_candidates": FONTS_SERIF,
         "size_scale": 0.85,
+        "author_color": (140, 140, 145),
         "description": "Classic serif",
     },
 }
@@ -102,6 +108,38 @@ def _has_cjk(text: str) -> bool:
                 0x30A0 <= cp <= 0x30FF or 0xFF00 <= cp <= 0xFFEF):
             return True
     return False
+
+
+# ---------------------------------------------------------------------------
+# Auto style selection
+# ---------------------------------------------------------------------------
+
+def select_best_style(quote: dict[str, Any]) -> str:
+    """Auto-select the best style preset based on quote characteristics.
+
+    Rules:
+    - Short quotes (1-2 semantic lines, <=50 chars): "larger"
+    - Philosophical/reflective categories: "serif"
+    - Everything else: "refined"
+    """
+    text = quote["text"]
+    categories = set(quote.get("category", []))
+    length = len(text)
+    semantic_lines = _semantic_split(text)
+    line_count = len(semantic_lines)
+
+    # Short quotes: use larger for more impact
+    if line_count <= 2 and length <= 50:
+        logger.info("Auto-style: 'larger' (short quote, %d chars, %d lines)", length, line_count)
+        return "larger"
+
+    # Philosophical / reflective: serif gives gravitas
+    if categories & REFLECTIVE_CATEGORIES:
+        logger.info("Auto-style: 'serif' (reflective categories: %s)", categories & REFLECTIVE_CATEGORIES)
+        return "serif"
+
+    logger.info("Auto-style: 'refined' (default)")
+    return "refined"
 
 
 # ---------------------------------------------------------------------------
@@ -186,8 +224,6 @@ def _semantic_split(text: str) -> list[str]:
 
     Returns candidate line groups. Falls back to the full text if no split found.
     """
-    # Pattern: split at ". " or "; " or " — " or " – " or " - " (when used as separator)
-    # but keep the delimiter with the preceding segment
     parts = re.split(r'(?<=[.!?;])\s+|(?<=\.\")\s+', text)
     parts = [p.strip() for p in parts if p.strip()]
     if len(parts) >= 2:
@@ -257,7 +293,10 @@ def _compute_font_size(
     config: dict[str, Any],
     style_scale: float = 1.0,
 ) -> int:
-    """Compute font size — 15-30% larger than v1, config-overridable."""
+    """Compute font size with short-quote boost.
+
+    Short quotes (<=30 chars) get an extra 10-15% boost on top of the base size.
+    """
     length = len(text)
     if length <= 25:
         base = 88
@@ -272,6 +311,12 @@ def _compute_font_size(
     else:
         base = 44
 
+    # Short quote boost: extra 10-15% for very short text
+    if length <= 20:
+        base = int(base * 1.15)
+    elif length <= 30:
+        base = int(base * 1.10)
+
     # Config override
     override = config.get("quote_font_size")
     if override:
@@ -279,6 +324,34 @@ def _compute_font_size(
 
     scale = min(width / 1920, height / 1080) * style_scale
     return max(int(base * scale), 24)
+
+
+# ---------------------------------------------------------------------------
+# Vertical offset by quote type
+# ---------------------------------------------------------------------------
+
+def _compute_vertical_offset(
+    text: str,
+    line_count: int,
+    config: dict[str, Any],
+) -> float:
+    """Compute vertical offset based on quote length and line count.
+
+    - Short quotes (1-2 lines): slightly above center (-0.03)
+    - Medium quotes (3 lines): near center (-0.01)
+    - Long quotes (4+ lines): true center (0.0)
+    """
+    config_offset = config.get("vertical_offset")
+    if config_offset is not None:
+        return config_offset
+
+    length = len(text)
+    if line_count <= 2 and length <= 50:
+        return -0.03
+    elif line_count <= 3:
+        return -0.015
+    else:
+        return 0.0
 
 
 # ---------------------------------------------------------------------------
@@ -291,12 +364,15 @@ def generate_wallpaper(
     base_dir: Path,
     output_suffix: str = "",
     style_preset: str | None = None,
+    author_size_ratio_override: float | None = None,
 ) -> Path:
     """Generate wallpaper image and return the output path.
 
     Args:
         output_suffix: appended before extension (e.g. "_v2" -> wallpaper_today_v2.jpg)
-        style_preset: one of "refined", "larger", "serif" for variant generation
+        style_preset: one of "refined", "larger", "serif" for variant generation.
+                      If None, auto-selects based on quote characteristics.
+        author_size_ratio_override: override author size ratio for comparison.
     """
     width = config.get("wallpaper_width", 1920)
     height = config.get("wallpaper_height", 1080)
@@ -310,8 +386,10 @@ def generate_wallpaper(
     output_path = base_dir / output_rel
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    # Resolve style preset
-    preset = STYLE_PRESETS.get(style_preset or "refined", STYLE_PRESETS["refined"])
+    # Resolve style preset — auto-select if not specified
+    if style_preset is None:
+        style_preset = select_best_style(quote)
+    preset = STYLE_PRESETS.get(style_preset, STYLE_PRESETS["refined"])
     size_scale = preset["size_scale"]
 
     # Background
@@ -342,7 +420,7 @@ def generate_wallpaper(
 
     # Font sizing
     quote_font_size = _compute_font_size(text, width, height, config, size_scale)
-    author_ratio = config.get("author_size_ratio", 0.28)
+    author_ratio = author_size_ratio_override or config.get("author_size_ratio", 0.26)
     author_font_size = max(int(quote_font_size * author_ratio), 14)
 
     font_quote_path = config.get("font_quote")
@@ -393,19 +471,14 @@ def generate_wallpaper(
     if show_translated:
         total_height += int(author_font_size * 1.8)
 
-    # Vertical centering with configurable offset
-    # Shift slightly above center for large text blocks, center for smaller ones
-    vertical_offset = config.get("vertical_offset", -0.02)
-    fill_ratio = total_height / height
-    if fill_ratio < 0.15:
-        # Small text block: keep closer to true center
-        vertical_offset = min(vertical_offset + 0.01, 0.0)
+    # Vertical offset — adaptive by quote type
+    vertical_offset = _compute_vertical_offset(text, len(lines), config)
     start_y = int((height - total_height) / 2 + height * vertical_offset)
     start_y = max(start_y, int(height * 0.05))
 
     # Draw quote lines — centered
     text_color = (240, 240, 240)
-    author_color = (155, 155, 160)
+    author_color = preset.get("author_color", (145, 145, 150))
     y = start_y
 
     for i, line in enumerate(lines):
@@ -438,7 +511,7 @@ def generate_wallpaper(
 
     # Save
     img.save(str(output_path), "JPEG", quality=95)
-    logger.info("Wallpaper saved to %s (%s)", output_path, preset.get("description", ""))
+    logger.info("Wallpaper saved to %s (style=%s)", output_path, style_preset)
     return output_path
 
 
@@ -447,15 +520,43 @@ def generate_variants(
     config: dict[str, Any],
     base_dir: Path,
 ) -> list[Path]:
-    """Generate multiple style variants for preview comparison."""
+    """Generate multiple style variants for preview comparison.
+
+    Output filenames include quote ID: {quote_id}_v1_refined.jpg etc.
+    """
+    quote_id = quote.get("id", "unknown")
     variants = [
-        ("_v1_refined", "refined"),
-        ("_v2_larger", "larger"),
-        ("_v3_serif", "serif"),
+        (f"_{quote_id}_v1_refined", "refined"),
+        (f"_{quote_id}_v2_larger", "larger"),
+        (f"_{quote_id}_v3_serif", "serif"),
     ]
     paths: list[Path] = []
     for suffix, preset in variants:
-        path = generate_wallpaper(quote, config, base_dir, output_suffix=suffix, style_preset=preset)
+        path = generate_wallpaper(
+            quote, config, base_dir,
+            output_suffix=suffix, style_preset=preset,
+        )
         paths.append(path)
         logger.info("Variant '%s' saved: %s", preset, path)
+    return paths
+
+
+def generate_author_comparison(
+    quote: dict[str, Any],
+    config: dict[str, Any],
+    base_dir: Path,
+) -> list[Path]:
+    """Generate author size comparison variants (0.24 / 0.26 / 0.28)."""
+    quote_id = quote.get("id", "unknown")
+    ratios = [0.24, 0.26, 0.28]
+    paths: list[Path] = []
+    for ratio in ratios:
+        suffix = f"_{quote_id}_author{int(ratio * 100)}"
+        path = generate_wallpaper(
+            quote, config, base_dir,
+            output_suffix=suffix,
+            author_size_ratio_override=ratio,
+        )
+        paths.append(path)
+        logger.info("Author ratio %.2f saved: %s", ratio, path)
     return paths
