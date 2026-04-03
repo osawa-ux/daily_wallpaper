@@ -197,6 +197,67 @@ Register-ScheduledTask -TaskName "DailyQuoteWallpaper" -Action $action -Trigger 
 1. `assets/fonts/` に `.ttf` / `.ttc` フォントを配置
 2. `config.json` の `font_quote` / `font_author` にパスを指定
 
+## Quote 追加ガイド
+
+### 壁紙向き quote の基準
+
+- **短く、強く、静か**: 壁紙は毎日見るもの。うるさくない、でも印象に残る quote
+- **1〜3行に収まる**: 長すぎると文字が小さくなる
+- **推奨文字数**: 20〜90 文字（英語）。100文字超は控えめに
+- **普遍的なメッセージ**: 時事ネタ、特定宗教、政治的内容は避ける
+
+### Category の選び方
+
+| Category | 向いている quote |
+|---|---|
+| `action` | 行動を促す、始める力 |
+| `discipline` | 習慣、継続、規律 |
+| `focus` | 集中、シンプルさ、本質 |
+| `leadership` | リーダーシップ、影響力、責任 |
+| `endurance` | 忍耐、困難を乗り越える |
+| `reflection` | 内省、人生の意味、哲学 |
+| `rest` | 休息、回復、余白 |
+| `gratitude` | 感謝、幸福、他者への思い |
+
+- **必ず1つ以上指定**（スタイルルーティングに使用）
+- 複数指定可。最も近い2つまでが理想
+- category によってフォント・背景が自動切替される
+
+### Author あり / なし の使い分け
+
+- **author あり**: 有名人の quote。信頼性と重みが出る
+- **author なし**: オリジナル格言、出典不明の名言。`author: ""` で空にする
+- author が空なら壁紙上には表示されない
+
+### Translated の扱い
+
+- 日本語の quote や、日本人の言葉を翻訳した quote は `translated: true`
+- `verification_status: "translated"` とセットで使う
+- 壁紙上には translated ラベルは通常表示しない（config で ON/OFF 可能）
+
+### 追加手順
+
+1. `quotes.json` に新しいエントリを追加（`id` は `q101` 以降）
+2. `python main.py --validate-quotes` でバリデーション実行
+3. `python main.py --quote-id q101 --preview` で見た目確認
+4. `python main.py --quote-id q101 --explain-style` でルーティング確認
+
+## Quote バリデーション
+
+```bash
+python main.py --validate-quotes
+```
+
+チェック項目:
+- `id` の重複
+- `category` が空でないか
+- `enabled` フィールドの存在
+- `text` が空でないか
+- 未知の category 使用
+- `verification_status` の不正値
+- `length` の不正値
+- カテゴリ別の本数統計
+
 ## よくあるエラーと対処
 
 | エラー | 対処 |

@@ -612,5 +612,18 @@
     "mood": null,
     "season": "spring",
     "wallpaper_path": "C:\\Users\\Motoi\\daily_wallpaper\\output\\previews\\variants\\q001_v1_refined.jpg"
+  },
+  {
+    "date": "2026-04-03",
+    "quote_id": "q014",
+    "text": "Gratitude turns what we have into enough.",
+    "author": "Melody Beattie",
+    "category": [
+      "gratitude",
+      "reflection"
+    ],
+    "mood": null,
+    "season": "spring",
+    "wallpaper_path": "C:\\Users\\Motoi\\daily_wallpaper\\output\\wallpaper_today.jpg"
   }
 ]

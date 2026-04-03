@@ -56,13 +56,15 @@ def parse_args() -> argparse.Namespace:
                         help="Generate demo wallpapers for each routing rule")
     parser.add_argument("--explain-style", action="store_true",
                         help="Show style routing decision without generating image")
+    parser.add_argument("--validate-quotes", action="store_true",
+                        help="Validate quotes.json structure and data quality")
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
 
-    from src.config_loader import load_config, load_quotes
+    from src.config_loader import load_config, load_quotes, validate_quotes
     from src.history_manager import load_history, save_history, add_entry
     from src.quote_selector import select_quote
     from src.wallpaper_generator import (
@@ -81,6 +83,15 @@ def main() -> None:
     logger.info("=== Daily Wallpaper starting ===")
 
     try:
+        # Validate-only mode
+        if args.validate_quotes:
+            results = validate_quotes(BASE_DIR, config)
+            errors = [r for r in results if r and not r.startswith("---") and not r.startswith("Total") and not r.startswith("Enabled") and not r.startswith("Category")]
+            print(f"Validation: {len(errors)} issue(s) found.\n")
+            for line in results:
+                print(f"  {line}")
+            sys.exit(1 if errors else 0)
+
         quotes = load_quotes(BASE_DIR)
         if not quotes:
             logger.error("No quotes available. Exiting.")
