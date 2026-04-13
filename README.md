@@ -2,6 +2,133 @@
 
 毎日1回、英語のミニマルな quote 壁紙を自動生成し、Windows のデスクトップ背景に設定するツール。
 
+---
+
+## 🚀 スタッフ向けクイックセットアップ（Windows）
+
+> 「自分のPCで毎日違う名言の壁紙を出したい」だけならここを読めばOK。所要時間 約10分。
+
+### 必要なもの
+
+1. **Git for Windows** — https://gitforwindows.org/ からインストール
+2. **Python 3.12 以上** — https://www.python.org/downloads/ からインストール
+   - インストーラーで **「Add python.exe to PATH」に必ずチェック**
+3. **Claude Code**（AIに名言を編集してもらう用。任意だが推奨）
+
+### セットアップ手順
+
+PowerShell を開いて以下を順に実行してください。
+
+```powershell
+# 1. リポジトリを取得（好きな場所に clone）
+cd $HOME
+git clone https://github.com/osawa-ux/daily_wallpaper.git
+cd daily_wallpaper
+
+# 2. 仮想環境を作って依存ライブラリを入れる
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+
+# 3. 試しに実行（壁紙が変わればOK）
+python main.py
+```
+
+デスクトップの壁紙が変わったら成功です。
+
+### 毎日自動で壁紙を変える（タスクスケジューラ登録）
+
+PowerShell で以下を実行してください（**clone した場所のパスに合わせてください**）。
+
+```powershell
+$repo = "$HOME\daily_wallpaper"   # ← clone した場所に合わせる
+$python = "$repo\.venv\Scripts\python.exe"
+
+$action = New-ScheduledTaskAction `
+    -Execute $python `
+    -Argument "main.py" `
+    -WorkingDirectory $repo
+
+$trigger = New-ScheduledTaskTrigger -Daily -At 7am
+
+Register-ScheduledTask `
+    -TaskName "DailyQuoteWallpaper" `
+    -Action $action `
+    -Trigger $trigger `
+    -Description "Daily minimal quote wallpaper generator"
+```
+
+これで毎朝 7:00 に自動で新しい名言の壁紙に切り替わります。
+
+**確認方法**: `Win + R` → `taskschd.msc` → タスクスケジューラライブラリに `DailyQuoteWallpaper` があればOK。右クリック「実行」で即時テストできます。
+
+**時刻を変えたい / 削除したい**:
+```powershell
+# 削除
+Unregister-ScheduledTask -TaskName "DailyQuoteWallpaper" -Confirm:$false
+```
+
+### 自分の好きな名言を追加する（Claude Code 推奨）
+
+このツールでは `quotes.json` というファイルに名言データが入っています。**メモ帳でも編集できますが、Claude Code に頼むのを推奨します**（AIに慣れる練習も兼ねて）。
+
+#### Claude Code での編集方法
+
+1. PowerShell で `cd $HOME\daily_wallpaper`
+2. `claude` と打って Claude Code を起動
+3. 自然言語で頼むだけ。例:
+
+```
+quotes.json に以下の名言を追加してください：
+- "明日できることを今日やるな" 著者:オスカー・ワイルド カテゴリ:rest
+- "千里の道も一歩から" 著者:老子 カテゴリ:discipline
+追加後 python main.py --validate-quotes で検証もお願いします。
+```
+
+```
+quotes.json から悲しい雰囲気の名言を3つ削除してください
+```
+
+```
+野球選手の名言を5つ追加して、追加後に1つずつ --explain-style で
+スタイルがどう選ばれるか見せてください
+```
+
+Claude Code が `quotes.json` を編集 → 検証 → プレビューまで一気にやってくれます。
+
+#### 自分で直接編集する場合
+
+`quotes.json` をメモ帳や VSCode で開いて以下の形式で追加:
+
+```json
+{
+  "id": "q101",
+  "text": "Your quote text here.",
+  "author": "Author Name",
+  "category": ["action", "focus"],
+  "translated": false,
+  "verification_status": "verified",
+  "mood_tags": [],
+  "season_tags": [],
+  "length": "short",
+  "enabled": true
+}
+```
+
+詳しいフィールド説明は後述の [quotes.json の編集方法](#quotesjson-の編集方法) を参照。
+
+### よくあるトラブル
+
+| 症状 | 対処 |
+|---|---|
+| `python` コマンドが見つからない | Python 再インストール時に「Add python.exe to PATH」をチェック |
+| `Activate.ps1` が実行できない | PowerShell を**管理者権限**で開き `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` |
+| `git` コマンドが見つからない | Git for Windows をインストール後、PowerShell を開き直す |
+| 壁紙が変わらない | `python main.py --preview` で画像だけ作ってみて確認 |
+| タスクが動かない | タスクスケジューラで右クリック「実行」→ 履歴タブでエラー確認 |
+
+---
+
 ## デザイン方針
 
 - **Dark, elegant, quiet** — Apple keynote のような静かな高級感
@@ -116,11 +243,7 @@ output/
 
 ## Windows タスクスケジューラへの登録
 
-```powershell
-$action = New-ScheduledTaskAction -Execute "C:\Users\Motoi\daily_wallpaper\.venv\Scripts\python.exe" -Argument "main.py" -WorkingDirectory "C:\Users\Motoi\daily_wallpaper"
-$trigger = New-ScheduledTaskTrigger -Daily -At 7am
-Register-ScheduledTask -TaskName "DailyQuoteWallpaper" -Action $action -Trigger $trigger -Description "Daily minimal quote wallpaper generator"
-```
+冒頭の [スタッフ向けクイックセットアップ](#-スタッフ向けクイックセットアップwindows) を参照。
 
 ## quotes.json の編集方法
 
