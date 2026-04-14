@@ -7,7 +7,9 @@ dist/
 build/
 .env
 
-# Output images — only history.json is tracked
+# Output images and runtime state — not tracked
+# history.json is runtime state (per-machine), not source — each PC maintains its own
 output/*.jpg
+output/history.json
 output/previews/
 logs/

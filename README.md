@@ -232,7 +232,7 @@ python main.py --quote-id q001 --explain-style
 ```
 output/
   wallpaper_today.jpg          # 本番壁紙（毎日上書き）
-  history.json                 # 表示履歴
+  history.json                 # 表示履歴（※Git管理外 — 下記参照）
   previews/                    # 比較・プレビュー用（Git管理外）
     variants/                  # --variants の出力
     author_compare/            # --compare-author の出力
@@ -240,6 +240,14 @@ output/
     font_compare/              # --compare-font の出力
     demos/                     # --demo の出力
 ```
+
+### history.json の Git 管理方針
+
+`output/history.json` は **Git 管理外**（`.gitignore` で除外）。
+
+理由: history.json は各PCの runtime state（どの名言をいつ見たか）であり、
+複数PCで共有するとクールダウンが意図せず混在する。各PCが独立して管理する方が自然。
+新しいPCでは空の状態から始まり、自動で育っていく。
 
 ## Windows タスクスケジューラへの登録
 

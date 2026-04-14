@@ -1,7 +1,9 @@
 """Select a quote based on weighted category logic."""
 
+import hashlib
 import logging
 import random
+from datetime import date
 from typing import Any
 
 from .utils import get_current_season, get_weekday_name
@@ -47,11 +49,11 @@ def compute_category_weights(
     return weights
 
 
-def _pick_category(weights: dict[str, float]) -> str:
+def _pick_category(weights: dict[str, float], rng: random.Random) -> str:
     """Weighted random selection of a category."""
     categories = list(weights.keys())
     w = [weights[c] for c in categories]
-    return random.choices(categories, weights=w, k=1)[0]
+    return rng.choices(categories, weights=w, k=1)[0]
 
 
 def _filter_candidates(
@@ -66,6 +68,17 @@ def _filter_candidates(
     ]
 
 
+def _make_deterministic_seed(mood: str | None) -> int:
+    """Create a deterministic seed from today's date + mood.
+
+    Same date+mood always yields the same selection, supporting reproducibility.
+    Seed changes each day automatically.
+    """
+    seed_str = f"{date.today().isoformat()}:{mood or ''}"
+    digest = hashlib.md5(seed_str.encode()).hexdigest()
+    return int(digest, 16) % (2 ** 32)
+
+
 def select_quote(
     quotes: list[dict[str, Any]],
     config: dict[str, Any],
@@ -73,12 +86,17 @@ def select_quote(
     mood: str | None = None,
     force_id: str | None = None,
 ) -> dict[str, Any] | None:
-    """Select a single quote. Returns None only if quotes list is empty."""
+    """Select a single quote. Returns None only if quotes list is empty.
+
+    Uses a deterministic seed (date + mood) so that re-running on the same day
+    with the same mood always returns the same quote (reproducible).
+    --quote-id bypasses selection entirely.
+    """
     if not quotes:
         logger.error("No quotes available.")
         return None
 
-    # Force specific quote
+    # Force specific quote — bypasses all selection logic
     if force_id:
         for q in quotes:
             if q["id"] == force_id:
@@ -86,17 +104,22 @@ def select_quote(
                 return q
         logger.warning("Quote ID %s not found, falling back to random.", force_id)
 
+    # Seed random with deterministic value for reproducibility
+    seed = _make_deterministic_seed(mood)
+    rng = random.Random(seed)
+    logger.info("Selection seed (date+mood): %d", seed)
+
     cooldown_days = config.get("cooldown_days", 45)
     recent_ids = get_recent_ids(history, cooldown_days)
     weights = compute_category_weights(config, mood)
 
     if not weights:
         logger.warning("All category weights are zero, picking random quote.")
-        return random.choice(quotes)
+        return rng.choice(quotes)
 
     # Try up to 5 category picks
     for attempt in range(5):
-        category = _pick_category(weights)
+        category = _pick_category(weights, rng)
         candidates = _filter_candidates(quotes, category, recent_ids)
 
         if candidates:
@@ -105,7 +128,7 @@ def select_quote(
             for q in candidates:
                 w = 2.0 if q.get("length") == "short" else 1.0
                 weighted_candidates.append((q, w))
-            chosen = random.choices(
+            chosen = rng.choices(
                 [c[0] for c in weighted_candidates],
                 weights=[c[1] for c in weighted_candidates],
                 k=1,
@@ -119,10 +142,10 @@ def select_quote(
     logger.info("Fallback: relaxing cooldown to %d days.", cooldown_days // 2)
     relaxed_ids = get_recent_ids(history, cooldown_days // 2)
     for _ in range(3):
-        category = _pick_category(weights)
+        category = _pick_category(weights, rng)
         candidates = _filter_candidates(quotes, category, relaxed_ids)
         if candidates:
-            chosen = random.choice(candidates)
+            chosen = rng.choice(candidates)
             logger.info("Selected quote %s with relaxed cooldown.", chosen["id"])
             return chosen
 
@@ -130,10 +153,10 @@ def select_quote(
     logger.info("Fallback: ignoring category constraint.")
     candidates = [q for q in quotes if q["id"] not in relaxed_ids]
     if candidates:
-        chosen = random.choice(candidates)
+        chosen = rng.choice(candidates)
         logger.info("Selected quote %s ignoring category.", chosen["id"])
         return chosen
 
     # Fallback 3: reset history
     logger.info("Fallback: resetting history filter.")
-    return random.choice(quotes)
+    return rng.choice(quotes)

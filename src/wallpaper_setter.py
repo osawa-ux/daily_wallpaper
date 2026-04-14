@@ -1,7 +1,7 @@
 """Set Windows desktop wallpaper."""
 
-import ctypes
 import logging
+import platform
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -12,7 +12,15 @@ SPIF_SENDCHANGE = 0x02
 
 
 def set_wallpaper(image_path: Path) -> bool:
-    """Set the desktop wallpaper on Windows. Returns True on success."""
+    """Set the desktop wallpaper. Windows only — no-op with warning on other platforms."""
+    if platform.system() != "Windows":
+        logger.warning(
+            "set_wallpaper: not on Windows (platform=%s). Skipping wallpaper update.",
+            platform.system(),
+        )
+        return False
+
+    import ctypes
     abs_path = str(image_path.resolve())
     try:
         result = ctypes.windll.user32.SystemParametersInfoW(

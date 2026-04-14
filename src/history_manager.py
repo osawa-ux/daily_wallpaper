@@ -2,6 +2,8 @@
 
 import json
 import logging
+import os
+import tempfile
 from datetime import date, timedelta
 from pathlib import Path
 from typing import Any
@@ -25,12 +27,32 @@ def load_history(history_path: Path) -> list[dict[str, Any]]:
 
 
 def save_history(history_path: Path, history: list[dict[str, Any]]) -> None:
-    """Save history to JSON file."""
+    """Save history to JSON file using atomic write (tmp → os.replace).
+
+    Atomic write prevents partial writes from corrupting history.json on crash.
+    """
     history_path.parent.mkdir(parents=True, exist_ok=True)
-    history_path.write_text(
-        json.dumps(history, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
+    content = json.dumps(history, ensure_ascii=False, indent=2)
+    try:
+        fd, tmp_path = tempfile.mkstemp(
+            dir=history_path.parent,
+            prefix=".history_tmp_",
+            suffix=".json",
+        )
+        try:
+            with os.fdopen(fd, "w", encoding="utf-8") as f:
+                f.write(content)
+            os.replace(tmp_path, history_path)
+        except Exception:
+            # Clean up tmp file if replace fails
+            try:
+                os.unlink(tmp_path)
+            except OSError:
+                pass
+            raise
+    except Exception as e:
+        logger.warning("Atomic write failed, falling back to direct write: %s", e)
+        history_path.write_text(content, encoding="utf-8")
     logger.info("History saved (%d entries).", len(history))
 
 
