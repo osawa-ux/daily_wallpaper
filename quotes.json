@@ -3357,5 +3357,424 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true
+  },
+  {
+    "id": "q246",
+    "text": "Instructions for living a life: Pay attention. Be astonished. Tell about it.",
+    "author": "Mary Oliver",
+    "category": [
+      "focus",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q247",
+    "text": "The world asks of us only the strength we have and we give it. Then it asks more, and we give it.",
+    "author": "Jane Hirshfield",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q248",
+    "text": "Before you know kindness as the deepest thing inside, you must know sorrow as the other deepest thing.",
+    "author": "Naomi Shihab Nye",
+    "category": [
+      "reflection",
+      "gratitude"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q249",
+    "text": "Anything or anyone that does not bring you alive is too small for you.",
+    "author": "David Whyte",
+    "category": [
+      "action",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q250",
+    "text": "Start close in, don't take the second step or the third, start with the first thing close in, the step you don't want to take.",
+    "author": "David Whyte",
+    "category": [
+      "action",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q251",
+    "text": "The only choice we have as we mature is how we inhabit our vulnerability.",
+    "author": "David Whyte",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q252",
+    "text": "Hope is not a lottery ticket you can sit on the sofa and clutch. It is an axe you break down doors with in an emergency.",
+    "author": "Rebecca Solnit",
+    "category": [
+      "action",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q253",
+    "text": "In an age of speed, nothing could be more invigorating than going slow. In an age of distraction, nothing can feel more luxurious than paying attention.",
+    "author": "Pico Iyer",
+    "category": [
+      "focus",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q254",
+    "text": "Before you tell your life what you intend to do with it, listen for what it intends to do with you.",
+    "author": "Parker Palmer",
+    "category": [
+      "reflection",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q255",
+    "text": "Self-care is never a selfish act — it is simply good stewardship of the only gift I have.",
+    "author": "Parker Palmer",
+    "category": [
+      "discipline",
+      "rest"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q256",
+    "text": "Words make worlds.",
+    "author": "Krista Tippett",
+    "category": [
+      "leadership",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q257",
+    "text": "There are a thousand thousand reasons to live this life, every one of them sufficient.",
+    "author": "Marilynne Robinson",
+    "category": [
+      "reflection",
+      "gratitude"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q258",
+    "text": "You are the sky. Everything else — it's just the weather.",
+    "author": "Pema Chödrön",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q259",
+    "text": "May you listen to your longing to be free.",
+    "author": "John O'Donohue",
+    "category": [
+      "reflection",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q260",
+    "text": "Your soul knows the geography of your destiny.",
+    "author": "John O'Donohue",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q261",
+    "text": "It is my belief that the more you study delight, the more delight there is to study.",
+    "author": "Ross Gay",
+    "category": [
+      "gratitude",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q262",
+    "text": "You could make this place beautiful.",
+    "author": "Maggie Smith",
+    "category": [
+      "action",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q263",
+    "text": "Faith is nothing more — but how much this is — than a motion of the soul toward God.",
+    "author": "Christian Wiman",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q264",
+    "text": "Critical thinking without hope is cynicism. Hope without critical thinking is naivety.",
+    "author": "Maria Popova",
+    "category": [
+      "reflection",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q265",
+    "text": "You don't have a right to the cards you believe you should have been dealt. You have an obligation to play the hell out of the ones you're holding.",
+    "author": "Cheryl Strayed",
+    "category": [
+      "endurance",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q266",
+    "text": "Be brave enough to break your own heart.",
+    "author": "Cheryl Strayed",
+    "category": [
+      "action",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q267",
+    "text": "To love yourself is to understand that you don't have to be anyone but the one you are.",
+    "author": "Mark Nepo",
+    "category": [
+      "reflection",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q268",
+    "text": "Anyone who isn't embarrassed of who they were last year probably isn't learning enough.",
+    "author": "Alain de Botton",
+    "category": [
+      "reflection",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q269",
+    "text": "Own your slippers, own who you are, own how you look, own your family, own the talents you have, and own the ones you don't.",
+    "author": "Abraham Verghese",
+    "category": [
+      "reflection",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q270",
+    "text": "What I regret most in my life are failures of kindness.",
+    "author": "George Saunders",
+    "category": [
+      "reflection",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q271",
+    "text": "Err in the direction of kindness.",
+    "author": "George Saunders",
+    "category": [
+      "leadership",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q272",
+    "text": "It is not happiness that makes us grateful, but gratitude that makes us happy.",
+    "author": "David Steindl-Rast",
+    "category": [
+      "gratitude",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q273",
+    "text": "Rest is not a prize for those who have earned it. It is a sacred inheritance.",
+    "author": "Cole Arthur Riley",
+    "category": [
+      "rest",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "secondary",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
   }
 ]
