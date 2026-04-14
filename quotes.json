@@ -3,11 +3,20 @@
     "id": "q001",
     "text": "Stay hungry. Stay foolish.",
     "author": "Steve Jobs",
-    "category": ["action", "discipline"],
+    "category": [
+      "action",
+      "discipline"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["motivated", "brave"],
-    "season_tags": ["spring", "summer"],
+    "mood_tags": [
+      "motivated",
+      "brave"
+    ],
+    "season_tags": [
+      "spring",
+      "summer"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -15,10 +24,15 @@
     "id": "q002",
     "text": "Done is better than perfect.",
     "author": "Sheryl Sandberg",
-    "category": ["action", "discipline"],
+    "category": [
+      "action",
+      "discipline"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["motivated"],
+    "mood_tags": [
+      "motivated"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -27,11 +41,19 @@
     "id": "q003",
     "text": "The best way to predict the future is to create it.",
     "author": "Peter Drucker",
-    "category": ["action", "leadership"],
+    "category": [
+      "action",
+      "leadership"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["motivated", "brave"],
-    "season_tags": ["spring"],
+    "mood_tags": [
+      "motivated",
+      "brave"
+    ],
+    "season_tags": [
+      "spring"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -39,10 +61,14 @@
     "id": "q004",
     "text": "Discipline is the bridge between goals and accomplishment.",
     "author": "Jim Rohn",
-    "category": ["discipline"],
+    "category": [
+      "discipline"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["motivated"],
+    "mood_tags": [
+      "motivated"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -51,11 +77,19 @@
     "id": "q005",
     "text": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
     "author": "Aristotle",
-    "category": ["discipline", "endurance"],
+    "category": [
+      "discipline",
+      "endurance"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["motivated"],
-    "season_tags": ["autumn", "winter"],
+    "mood_tags": [
+      "motivated"
+    ],
+    "season_tags": [
+      "autumn",
+      "winter"
+    ],
     "length": "medium",
     "enabled": true
   },
@@ -63,10 +97,15 @@
     "id": "q006",
     "text": "Focus on being productive instead of busy.",
     "author": "Tim Ferriss",
-    "category": ["focus", "discipline"],
+    "category": [
+      "focus",
+      "discipline"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["stressed"],
+    "mood_tags": [
+      "stressed"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -75,11 +114,16 @@
     "id": "q007",
     "text": "Simplicity is the ultimate sophistication.",
     "author": "Leonardo da Vinci",
-    "category": ["focus", "reflection"],
+    "category": [
+      "focus",
+      "reflection"
+    ],
     "translated": false,
     "verification_status": "verified",
     "mood_tags": [],
-    "season_tags": ["autumn"],
+    "season_tags": [
+      "autumn"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -87,10 +131,14 @@
     "id": "q008",
     "text": "A leader is one who knows the way, goes the way, and shows the way.",
     "author": "John C. Maxwell",
-    "category": ["leadership"],
+    "category": [
+      "leadership"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["brave"],
+    "mood_tags": [
+      "brave"
+    ],
     "season_tags": [],
     "length": "medium",
     "enabled": true
@@ -99,11 +147,19 @@
     "id": "q009",
     "text": "It does not matter how slowly you go as long as you do not stop.",
     "author": "Confucius",
-    "category": ["endurance", "discipline"],
+    "category": [
+      "endurance",
+      "discipline"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["tired", "uncertain"],
-    "season_tags": ["winter"],
+    "mood_tags": [
+      "tired",
+      "uncertain"
+    ],
+    "season_tags": [
+      "winter"
+    ],
     "length": "medium",
     "enabled": true
   },
@@ -111,11 +167,18 @@
     "id": "q010",
     "text": "The only way to do great work is to love what you do.",
     "author": "Steve Jobs",
-    "category": ["action", "reflection"],
+    "category": [
+      "action",
+      "reflection"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["motivated"],
-    "season_tags": ["spring"],
+    "mood_tags": [
+      "motivated"
+    ],
+    "season_tags": [
+      "spring"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -123,11 +186,19 @@
     "id": "q011",
     "text": "In the middle of difficulty lies opportunity.",
     "author": "Albert Einstein",
-    "category": ["endurance", "leadership"],
+    "category": [
+      "endurance",
+      "leadership"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["stressed", "uncertain"],
-    "season_tags": ["winter"],
+    "mood_tags": [
+      "stressed",
+      "uncertain"
+    ],
+    "season_tags": [
+      "winter"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -135,11 +206,19 @@
     "id": "q012",
     "text": "What you do today can improve all your tomorrows.",
     "author": "Ralph Marston",
-    "category": ["action", "discipline"],
+    "category": [
+      "action",
+      "discipline"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["motivated"],
-    "season_tags": ["spring", "summer"],
+    "mood_tags": [
+      "motivated"
+    ],
+    "season_tags": [
+      "spring",
+      "summer"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -147,11 +226,19 @@
     "id": "q013",
     "text": "Rest when you're weary. Refresh and renew yourself, your body, your mind, your spirit.",
     "author": "Ralph Waldo Emerson",
-    "category": ["rest", "reflection"],
+    "category": [
+      "rest",
+      "reflection"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["tired", "stressed"],
-    "season_tags": ["winter"],
+    "mood_tags": [
+      "tired",
+      "stressed"
+    ],
+    "season_tags": [
+      "winter"
+    ],
     "length": "medium",
     "enabled": true
   },
@@ -159,11 +246,18 @@
     "id": "q014",
     "text": "Gratitude turns what we have into enough.",
     "author": "Melody Beattie",
-    "category": ["gratitude", "reflection"],
+    "category": [
+      "gratitude",
+      "reflection"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["tired"],
-    "season_tags": ["autumn"],
+    "mood_tags": [
+      "tired"
+    ],
+    "season_tags": [
+      "autumn"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -171,11 +265,18 @@
     "id": "q015",
     "text": "The secret of getting ahead is getting started.",
     "author": "Mark Twain",
-    "category": ["action"],
+    "category": [
+      "action"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["motivated", "uncertain"],
-    "season_tags": ["spring"],
+    "mood_tags": [
+      "motivated",
+      "uncertain"
+    ],
+    "season_tags": [
+      "spring"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -183,10 +284,15 @@
     "id": "q016",
     "text": "Small daily improvements over time lead to stunning results.",
     "author": "Robin Sharma",
-    "category": ["discipline", "endurance"],
+    "category": [
+      "discipline",
+      "endurance"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["motivated"],
+    "mood_tags": [
+      "motivated"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -195,10 +301,14 @@
     "id": "q017",
     "text": "Where focus goes, energy flows.",
     "author": "Tony Robbins",
-    "category": ["focus"],
+    "category": [
+      "focus"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["motivated"],
+    "mood_tags": [
+      "motivated"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -207,11 +317,18 @@
     "id": "q018",
     "text": "The harder the conflict, the greater the triumph.",
     "author": "George Washington",
-    "category": ["endurance", "leadership"],
+    "category": [
+      "endurance",
+      "leadership"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["brave"],
-    "season_tags": ["winter"],
+    "mood_tags": [
+      "brave"
+    ],
+    "season_tags": [
+      "winter"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -219,10 +336,15 @@
     "id": "q019",
     "text": "Almost everything will work again if you unplug it for a few minutes. Including you.",
     "author": "Anne Lamott",
-    "category": ["rest"],
+    "category": [
+      "rest"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["tired", "stressed"],
+    "mood_tags": [
+      "tired",
+      "stressed"
+    ],
     "season_tags": [],
     "length": "medium",
     "enabled": true
@@ -231,11 +353,18 @@
     "id": "q020",
     "text": "Enjoy the little things, for one day you may look back and realize they were the big things.",
     "author": "Robert Brault",
-    "category": ["gratitude", "reflection"],
+    "category": [
+      "gratitude",
+      "reflection"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["tired"],
-    "season_tags": ["autumn"],
+    "mood_tags": [
+      "tired"
+    ],
+    "season_tags": [
+      "autumn"
+    ],
     "length": "medium",
     "enabled": true
   },
@@ -243,10 +372,16 @@
     "id": "q021",
     "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
     "author": "Winston Churchill",
-    "category": ["endurance", "action"],
+    "category": [
+      "endurance",
+      "action"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["brave", "uncertain"],
+    "mood_tags": [
+      "brave",
+      "uncertain"
+    ],
     "season_tags": [],
     "length": "medium",
     "enabled": true
@@ -255,11 +390,19 @@
     "id": "q022",
     "text": "You don't have to be great to start, but you have to start to be great.",
     "author": "Zig Ziglar",
-    "category": ["action", "endurance"],
+    "category": [
+      "action",
+      "endurance"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["uncertain", "motivated"],
-    "season_tags": ["spring"],
+    "mood_tags": [
+      "uncertain",
+      "motivated"
+    ],
+    "season_tags": [
+      "spring"
+    ],
     "length": "medium",
     "enabled": true
   },
@@ -267,7 +410,10 @@
     "id": "q023",
     "text": "The mind is everything. What you think you become.",
     "author": "Buddha",
-    "category": ["reflection", "focus"],
+    "category": [
+      "reflection",
+      "focus"
+    ],
     "translated": false,
     "verification_status": "verified",
     "mood_tags": [],
@@ -279,10 +425,15 @@
     "id": "q024",
     "text": "努力は裏切らない。ただし、正しい方向に向かっている場合に限る。",
     "author": "野村克也",
-    "category": ["discipline", "focus"],
+    "category": [
+      "discipline",
+      "focus"
+    ],
     "translated": true,
     "verification_status": "translated",
-    "mood_tags": ["motivated"],
+    "mood_tags": [
+      "motivated"
+    ],
     "season_tags": [],
     "length": "medium",
     "enabled": true
@@ -291,10 +442,16 @@
     "id": "q025",
     "text": "Do what you can, with what you have, where you are.",
     "author": "Theodore Roosevelt",
-    "category": ["action", "endurance"],
+    "category": [
+      "action",
+      "endurance"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["uncertain", "tired"],
+    "mood_tags": [
+      "uncertain",
+      "tired"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -303,11 +460,19 @@
     "id": "q026",
     "text": "The quieter you become, the more you can hear.",
     "author": "Rumi",
-    "category": ["reflection", "focus"],
+    "category": [
+      "reflection",
+      "focus"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["stressed"],
-    "season_tags": ["autumn", "winter"],
+    "mood_tags": [
+      "stressed"
+    ],
+    "season_tags": [
+      "autumn",
+      "winter"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -315,10 +480,14 @@
     "id": "q027",
     "text": "Leadership is not about being in charge. It is about taking care of those in your charge.",
     "author": "Simon Sinek",
-    "category": ["leadership"],
+    "category": [
+      "leadership"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["brave"],
+    "mood_tags": [
+      "brave"
+    ],
     "season_tags": [],
     "length": "medium",
     "enabled": true
@@ -327,10 +496,16 @@
     "id": "q028",
     "text": "Your limitation — it's only your imagination.",
     "author": "",
-    "category": ["action", "endurance"],
+    "category": [
+      "action",
+      "endurance"
+    ],
     "translated": false,
     "verification_status": "original",
-    "mood_tags": ["motivated", "brave"],
+    "mood_tags": [
+      "motivated",
+      "brave"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -339,11 +514,18 @@
     "id": "q029",
     "text": "Push yourself, because no one else is going to do it for you.",
     "author": "",
-    "category": ["discipline", "action"],
+    "category": [
+      "discipline",
+      "action"
+    ],
     "translated": false,
     "verification_status": "original",
-    "mood_tags": ["motivated"],
-    "season_tags": ["summer"],
+    "mood_tags": [
+      "motivated"
+    ],
+    "season_tags": [
+      "summer"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -351,10 +533,15 @@
     "id": "q030",
     "text": "Great things never come from comfort zones.",
     "author": "",
-    "category": ["action", "endurance"],
+    "category": [
+      "action",
+      "endurance"
+    ],
     "translated": false,
     "verification_status": "original",
-    "mood_tags": ["brave"],
+    "mood_tags": [
+      "brave"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -363,10 +550,15 @@
     "id": "q031",
     "text": "Be stronger than your excuses.",
     "author": "",
-    "category": ["discipline", "endurance"],
+    "category": [
+      "discipline",
+      "endurance"
+    ],
     "translated": false,
     "verification_status": "original",
-    "mood_tags": ["motivated"],
+    "mood_tags": [
+      "motivated"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -375,11 +567,19 @@
     "id": "q032",
     "text": "Silence is a source of great strength.",
     "author": "Lao Tzu",
-    "category": ["reflection", "rest"],
+    "category": [
+      "reflection",
+      "rest"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["stressed", "tired"],
-    "season_tags": ["winter"],
+    "mood_tags": [
+      "stressed",
+      "tired"
+    ],
+    "season_tags": [
+      "winter"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -387,11 +587,19 @@
     "id": "q033",
     "text": "Hardships often prepare ordinary people for an extraordinary destiny.",
     "author": "C.S. Lewis",
-    "category": ["endurance", "leadership"],
+    "category": [
+      "endurance",
+      "leadership"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["uncertain", "brave"],
-    "season_tags": ["winter"],
+    "mood_tags": [
+      "uncertain",
+      "brave"
+    ],
+    "season_tags": [
+      "winter"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -399,11 +607,18 @@
     "id": "q034",
     "text": "The best time to plant a tree was 20 years ago. The second best time is now.",
     "author": "",
-    "category": ["action"],
+    "category": [
+      "action"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["uncertain", "motivated"],
-    "season_tags": ["spring"],
+    "mood_tags": [
+      "uncertain",
+      "motivated"
+    ],
+    "season_tags": [
+      "spring"
+    ],
     "length": "medium",
     "enabled": true
   },
@@ -411,10 +626,16 @@
     "id": "q035",
     "text": "Act as if what you do makes a difference. It does.",
     "author": "William James",
-    "category": ["action", "leadership"],
+    "category": [
+      "action",
+      "leadership"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["uncertain", "motivated"],
+    "mood_tags": [
+      "uncertain",
+      "motivated"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -423,11 +644,19 @@
     "id": "q036",
     "text": "You are never too old to set another goal or to dream a new dream.",
     "author": "C.S. Lewis",
-    "category": ["action", "reflection"],
+    "category": [
+      "action",
+      "reflection"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["uncertain", "tired"],
-    "season_tags": ["spring"],
+    "mood_tags": [
+      "uncertain",
+      "tired"
+    ],
+    "season_tags": [
+      "spring"
+    ],
     "length": "medium",
     "enabled": true
   },
@@ -435,10 +664,16 @@
     "id": "q037",
     "text": "Believe you can and you're halfway there.",
     "author": "Theodore Roosevelt",
-    "category": ["endurance", "action"],
+    "category": [
+      "endurance",
+      "action"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["uncertain", "brave"],
+    "mood_tags": [
+      "uncertain",
+      "brave"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -447,10 +682,15 @@
     "id": "q038",
     "text": "Don't watch the clock; do what it does. Keep going.",
     "author": "Sam Levenson",
-    "category": ["endurance", "discipline"],
+    "category": [
+      "endurance",
+      "discipline"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["tired"],
+    "mood_tags": [
+      "tired"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -459,11 +699,15 @@
     "id": "q039",
     "text": "An unexamined life is not worth living.",
     "author": "Socrates",
-    "category": ["reflection"],
+    "category": [
+      "reflection"
+    ],
     "translated": false,
     "verification_status": "verified",
     "mood_tags": [],
-    "season_tags": ["autumn"],
+    "season_tags": [
+      "autumn"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -471,10 +715,15 @@
     "id": "q040",
     "text": "Not all those who wander are lost.",
     "author": "J.R.R. Tolkien",
-    "category": ["reflection", "rest"],
+    "category": [
+      "reflection",
+      "rest"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["uncertain"],
+    "mood_tags": [
+      "uncertain"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -483,10 +732,14 @@
     "id": "q041",
     "text": "Quality is not an act, it is a habit.",
     "author": "Aristotle",
-    "category": ["discipline"],
+    "category": [
+      "discipline"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["motivated"],
+    "mood_tags": [
+      "motivated"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -495,10 +748,16 @@
     "id": "q042",
     "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
     "author": "Ralph Waldo Emerson",
-    "category": ["endurance", "reflection"],
+    "category": [
+      "endurance",
+      "reflection"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["uncertain", "brave"],
+    "mood_tags": [
+      "uncertain",
+      "brave"
+    ],
     "season_tags": [],
     "length": "medium",
     "enabled": true
@@ -507,10 +766,16 @@
     "id": "q043",
     "text": "Courage is not the absence of fear, but the triumph over it.",
     "author": "Nelson Mandela",
-    "category": ["endurance", "leadership"],
+    "category": [
+      "endurance",
+      "leadership"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["brave", "uncertain"],
+    "mood_tags": [
+      "brave",
+      "uncertain"
+    ],
     "season_tags": [],
     "length": "medium",
     "enabled": true
@@ -519,7 +784,9 @@
     "id": "q044",
     "text": "Be yourself; everyone else is already taken.",
     "author": "Oscar Wilde",
-    "category": ["reflection"],
+    "category": [
+      "reflection"
+    ],
     "translated": false,
     "verification_status": "verified",
     "mood_tags": [],
@@ -531,11 +798,18 @@
     "id": "q045",
     "text": "The journey of a thousand miles begins with a single step.",
     "author": "Lao Tzu",
-    "category": ["action", "endurance"],
+    "category": [
+      "action",
+      "endurance"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["uncertain"],
-    "season_tags": ["spring"],
+    "mood_tags": [
+      "uncertain"
+    ],
+    "season_tags": [
+      "spring"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -543,10 +817,15 @@
     "id": "q046",
     "text": "Knowing is not enough; we must apply. Wishing is not enough; we must do.",
     "author": "Johann Wolfgang von Goethe",
-    "category": ["action", "discipline"],
+    "category": [
+      "action",
+      "discipline"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["motivated"],
+    "mood_tags": [
+      "motivated"
+    ],
     "season_tags": [],
     "length": "medium",
     "enabled": true
@@ -555,10 +834,15 @@
     "id": "q047",
     "text": "The only impossible journey is the one you never begin.",
     "author": "Tony Robbins",
-    "category": ["action"],
+    "category": [
+      "action"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["uncertain", "brave"],
+    "mood_tags": [
+      "uncertain",
+      "brave"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -567,11 +851,17 @@
     "id": "q048",
     "text": "Sleep is the best meditation.",
     "author": "Dalai Lama",
-    "category": ["rest"],
+    "category": [
+      "rest"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["tired"],
-    "season_tags": ["winter"],
+    "mood_tags": [
+      "tired"
+    ],
+    "season_tags": [
+      "winter"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -579,11 +869,16 @@
     "id": "q049",
     "text": "Let us be grateful to the people who make us happy; they are the charming gardeners who make our souls blossom.",
     "author": "Marcel Proust",
-    "category": ["gratitude"],
+    "category": [
+      "gratitude"
+    ],
     "translated": false,
     "verification_status": "verified",
     "mood_tags": [],
-    "season_tags": ["spring", "summer"],
+    "season_tags": [
+      "spring",
+      "summer"
+    ],
     "length": "long",
     "enabled": true
   },
@@ -591,7 +886,10 @@
     "id": "q050",
     "text": "Strive not to be a success, but rather to be of value.",
     "author": "Albert Einstein",
-    "category": ["leadership", "reflection"],
+    "category": [
+      "leadership",
+      "reflection"
+    ],
     "translated": false,
     "verification_status": "verified",
     "mood_tags": [],
@@ -603,10 +901,16 @@
     "id": "q051",
     "text": "It always seems impossible until it's done.",
     "author": "Nelson Mandela",
-    "category": ["endurance", "action"],
+    "category": [
+      "endurance",
+      "action"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["brave", "uncertain"],
+    "mood_tags": [
+      "brave",
+      "uncertain"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -615,10 +919,16 @@
     "id": "q052",
     "text": "You must be the change you wish to see in the world.",
     "author": "Mahatma Gandhi",
-    "category": ["leadership", "action"],
+    "category": [
+      "leadership",
+      "action"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["brave", "motivated"],
+    "mood_tags": [
+      "brave",
+      "motivated"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -627,11 +937,18 @@
     "id": "q053",
     "text": "Dream big. Start small. Act now.",
     "author": "",
-    "category": ["action", "focus"],
+    "category": [
+      "action",
+      "focus"
+    ],
     "translated": false,
     "verification_status": "original",
-    "mood_tags": ["motivated"],
-    "season_tags": ["spring"],
+    "mood_tags": [
+      "motivated"
+    ],
+    "season_tags": [
+      "spring"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -639,10 +956,16 @@
     "id": "q054",
     "text": "Progress, not perfection.",
     "author": "",
-    "category": ["discipline", "endurance"],
+    "category": [
+      "discipline",
+      "endurance"
+    ],
     "translated": false,
     "verification_status": "original",
-    "mood_tags": ["tired", "stressed"],
+    "mood_tags": [
+      "tired",
+      "stressed"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -651,10 +974,15 @@
     "id": "q055",
     "text": "One day or day one. You decide.",
     "author": "",
-    "category": ["action"],
+    "category": [
+      "action"
+    ],
     "translated": false,
     "verification_status": "original",
-    "mood_tags": ["motivated", "brave"],
+    "mood_tags": [
+      "motivated",
+      "brave"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -663,11 +991,18 @@
     "id": "q056",
     "text": "Turn your wounds into wisdom.",
     "author": "Oprah Winfrey",
-    "category": ["endurance", "reflection"],
+    "category": [
+      "endurance",
+      "reflection"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["uncertain"],
-    "season_tags": ["autumn"],
+    "mood_tags": [
+      "uncertain"
+    ],
+    "season_tags": [
+      "autumn"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -675,11 +1010,20 @@
     "id": "q057",
     "text": "The present moment is filled with joy and happiness. If you are attentive, you will see it.",
     "author": "Thich Nhat Hanh",
-    "category": ["gratitude", "reflection"],
+    "category": [
+      "gratitude",
+      "reflection"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["stressed", "tired"],
-    "season_tags": ["spring", "summer"],
+    "mood_tags": [
+      "stressed",
+      "tired"
+    ],
+    "season_tags": [
+      "spring",
+      "summer"
+    ],
     "length": "medium",
     "enabled": true
   },
@@ -687,11 +1031,19 @@
     "id": "q058",
     "text": "He who has a why to live can bear almost any how.",
     "author": "Friedrich Nietzsche",
-    "category": ["endurance", "reflection"],
+    "category": [
+      "endurance",
+      "reflection"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["uncertain", "brave"],
-    "season_tags": ["winter"],
+    "mood_tags": [
+      "uncertain",
+      "brave"
+    ],
+    "season_tags": [
+      "winter"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -699,11 +1051,19 @@
     "id": "q059",
     "text": "夢を見ることができれば、それは実現できる。",
     "author": "Walt Disney",
-    "category": ["action", "leadership"],
+    "category": [
+      "action",
+      "leadership"
+    ],
     "translated": true,
     "verification_status": "translated",
-    "mood_tags": ["motivated", "brave"],
-    "season_tags": ["spring"],
+    "mood_tags": [
+      "motivated",
+      "brave"
+    ],
+    "season_tags": [
+      "spring"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -711,7 +1071,10 @@
     "id": "q060",
     "text": "The energy of the mind is the essence of life.",
     "author": "Aristotle",
-    "category": ["focus", "reflection"],
+    "category": [
+      "focus",
+      "reflection"
+    ],
     "translated": false,
     "verification_status": "verified",
     "mood_tags": [],
@@ -723,11 +1086,18 @@
     "id": "q061",
     "text": "The only limit to our realization of tomorrow is our doubts of today.",
     "author": "Franklin D. Roosevelt",
-    "category": ["endurance", "action"],
+    "category": [
+      "endurance",
+      "action"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["uncertain"],
-    "season_tags": ["spring"],
+    "mood_tags": [
+      "uncertain"
+    ],
+    "season_tags": [
+      "spring"
+    ],
     "length": "medium",
     "enabled": true
   },
@@ -735,10 +1105,15 @@
     "id": "q062",
     "text": "Well done is better than well said.",
     "author": "Benjamin Franklin",
-    "category": ["action", "discipline"],
+    "category": [
+      "action",
+      "discipline"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["motivated"],
+    "mood_tags": [
+      "motivated"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -747,10 +1122,14 @@
     "id": "q063",
     "text": "Life is what happens when you're busy making other plans.",
     "author": "John Lennon",
-    "category": ["reflection"],
+    "category": [
+      "reflection"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["stressed"],
+    "mood_tags": [
+      "stressed"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -759,10 +1138,15 @@
     "id": "q064",
     "text": "Perfection is not attainable, but if we chase perfection we can catch excellence.",
     "author": "Vince Lombardi",
-    "category": ["discipline", "endurance"],
+    "category": [
+      "discipline",
+      "endurance"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["motivated"],
+    "mood_tags": [
+      "motivated"
+    ],
     "season_tags": [],
     "length": "medium",
     "enabled": true
@@ -771,11 +1155,18 @@
     "id": "q065",
     "text": "The way to get started is to quit talking and begin doing.",
     "author": "Walt Disney",
-    "category": ["action"],
+    "category": [
+      "action"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["motivated", "uncertain"],
-    "season_tags": ["spring"],
+    "mood_tags": [
+      "motivated",
+      "uncertain"
+    ],
+    "season_tags": [
+      "spring"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -783,10 +1174,15 @@
     "id": "q066",
     "text": "If you want to lift yourself up, lift up someone else.",
     "author": "Booker T. Washington",
-    "category": ["leadership", "gratitude"],
+    "category": [
+      "leadership",
+      "gratitude"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["tired"],
+    "mood_tags": [
+      "tired"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -795,10 +1191,16 @@
     "id": "q067",
     "text": "Opportunities don't happen. You create them.",
     "author": "Chris Grosser",
-    "category": ["action", "leadership"],
+    "category": [
+      "action",
+      "leadership"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["motivated", "brave"],
+    "mood_tags": [
+      "motivated",
+      "brave"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -807,11 +1209,18 @@
     "id": "q068",
     "text": "A smooth sea never made a skilled sailor.",
     "author": "Franklin D. Roosevelt",
-    "category": ["endurance"],
+    "category": [
+      "endurance"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["brave", "uncertain"],
-    "season_tags": ["winter"],
+    "mood_tags": [
+      "brave",
+      "uncertain"
+    ],
+    "season_tags": [
+      "winter"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -819,10 +1228,16 @@
     "id": "q069",
     "text": "I have not failed. I've just found 10,000 ways that won't work.",
     "author": "Thomas Edison",
-    "category": ["endurance", "discipline"],
+    "category": [
+      "endurance",
+      "discipline"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["tired", "uncertain"],
+    "mood_tags": [
+      "tired",
+      "uncertain"
+    ],
     "season_tags": [],
     "length": "medium",
     "enabled": true
@@ -831,10 +1246,16 @@
     "id": "q070",
     "text": "Everything you've ever wanted is on the other side of fear.",
     "author": "George Addair",
-    "category": ["action", "endurance"],
+    "category": [
+      "action",
+      "endurance"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["brave", "uncertain"],
+    "mood_tags": [
+      "brave",
+      "uncertain"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -843,10 +1264,15 @@
     "id": "q071",
     "text": "勝ちに不思議の勝ちあり、負けに不思議の負けなし。",
     "author": "野村克也",
-    "category": ["discipline", "reflection"],
+    "category": [
+      "discipline",
+      "reflection"
+    ],
     "translated": true,
     "verification_status": "translated",
-    "mood_tags": ["motivated"],
+    "mood_tags": [
+      "motivated"
+    ],
     "season_tags": [],
     "length": "medium",
     "enabled": true
@@ -855,10 +1281,15 @@
     "id": "q072",
     "text": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
     "author": "Nelson Mandela",
-    "category": ["endurance", "leadership"],
+    "category": [
+      "endurance",
+      "leadership"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["brave"],
+    "mood_tags": [
+      "brave"
+    ],
     "season_tags": [],
     "length": "medium",
     "enabled": true
@@ -867,34 +1298,35 @@
     "id": "q073",
     "text": "Happiness is not something ready made. It comes from your own actions.",
     "author": "Dalai Lama",
-    "category": ["action", "gratitude"],
+    "category": [
+      "action",
+      "gratitude"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["uncertain"],
-    "season_tags": ["spring"],
+    "mood_tags": [
+      "uncertain"
+    ],
+    "season_tags": [
+      "spring"
+    ],
     "length": "medium",
-    "enabled": true
-  },
-  {
-    "id": "q074",
-    "text": "千里の道も一歩から。",
-    "author": "老子",
-    "category": ["action", "endurance"],
-    "translated": true,
-    "verification_status": "translated",
-    "mood_tags": ["uncertain"],
-    "season_tags": ["spring"],
-    "length": "short",
     "enabled": true
   },
   {
     "id": "q075",
     "text": "The best revenge is massive success.",
     "author": "Frank Sinatra",
-    "category": ["action", "endurance"],
+    "category": [
+      "action",
+      "endurance"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["brave", "motivated"],
+    "mood_tags": [
+      "brave",
+      "motivated"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -903,10 +1335,15 @@
     "id": "q076",
     "text": "Your time is limited. Don't waste it living someone else's life.",
     "author": "Steve Jobs",
-    "category": ["action", "reflection"],
+    "category": [
+      "action",
+      "reflection"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["brave"],
+    "mood_tags": [
+      "brave"
+    ],
     "season_tags": [],
     "length": "medium",
     "enabled": true
@@ -915,10 +1352,15 @@
     "id": "q077",
     "text": "Do not go where the path may lead; go instead where there is no path and leave a trail.",
     "author": "Ralph Waldo Emerson",
-    "category": ["leadership", "action"],
+    "category": [
+      "leadership",
+      "action"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["brave"],
+    "mood_tags": [
+      "brave"
+    ],
     "season_tags": [],
     "length": "medium",
     "enabled": true
@@ -927,23 +1369,19 @@
     "id": "q078",
     "text": "The wound is the place where the Light enters you.",
     "author": "Rumi",
-    "category": ["reflection", "endurance"],
+    "category": [
+      "reflection",
+      "endurance"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["uncertain", "tired"],
-    "season_tags": ["winter"],
-    "length": "short",
-    "enabled": true
-  },
-  {
-    "id": "q079",
-    "text": "七転び八起き。",
-    "author": "",
-    "category": ["endurance", "discipline"],
-    "translated": true,
-    "verification_status": "translated",
-    "mood_tags": ["tired", "brave"],
-    "season_tags": [],
+    "mood_tags": [
+      "uncertain",
+      "tired"
+    ],
+    "season_tags": [
+      "winter"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -951,10 +1389,15 @@
     "id": "q080",
     "text": "The two most important days in your life are the day you are born and the day you find out why.",
     "author": "Mark Twain",
-    "category": ["reflection", "leadership"],
+    "category": [
+      "reflection",
+      "leadership"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["uncertain"],
+    "mood_tags": [
+      "uncertain"
+    ],
     "season_tags": [],
     "length": "medium",
     "enabled": true
@@ -963,11 +1406,18 @@
     "id": "q081",
     "text": "Difficult roads often lead to beautiful destinations.",
     "author": "",
-    "category": ["endurance"],
+    "category": [
+      "endurance"
+    ],
     "translated": false,
     "verification_status": "original",
-    "mood_tags": ["tired", "uncertain"],
-    "season_tags": ["winter"],
+    "mood_tags": [
+      "tired",
+      "uncertain"
+    ],
+    "season_tags": [
+      "winter"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -975,34 +1425,33 @@
     "id": "q082",
     "text": "In three words I can sum up everything I've learned about life: it goes on.",
     "author": "Robert Frost",
-    "category": ["reflection", "endurance"],
+    "category": [
+      "reflection",
+      "endurance"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["tired", "stressed"],
+    "mood_tags": [
+      "tired",
+      "stressed"
+    ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
-  },
-  {
-    "id": "q083",
-    "text": "継続は力なり。",
-    "author": "",
-    "category": ["discipline", "endurance"],
-    "translated": true,
-    "verification_status": "translated",
-    "mood_tags": ["motivated"],
-    "season_tags": [],
-    "length": "short",
     "enabled": true
   },
   {
     "id": "q084",
     "text": "First they ignore you, then they ridicule you, then they fight you, and then you win.",
     "author": "Mahatma Gandhi",
-    "category": ["endurance", "leadership"],
+    "category": [
+      "endurance",
+      "leadership"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["brave"],
+    "mood_tags": [
+      "brave"
+    ],
     "season_tags": [],
     "length": "medium",
     "enabled": true
@@ -1011,10 +1460,15 @@
     "id": "q085",
     "text": "Don't count the days. Make the days count.",
     "author": "Muhammad Ali",
-    "category": ["action", "discipline"],
+    "category": [
+      "action",
+      "discipline"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["motivated"],
+    "mood_tags": [
+      "motivated"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -1023,11 +1477,18 @@
     "id": "q086",
     "text": "人生に失敗がないと、人生を失敗する。",
     "author": "斎藤茂太",
-    "category": ["reflection", "endurance"],
+    "category": [
+      "reflection",
+      "endurance"
+    ],
     "translated": true,
     "verification_status": "translated",
-    "mood_tags": ["uncertain"],
-    "season_tags": ["autumn"],
+    "mood_tags": [
+      "uncertain"
+    ],
+    "season_tags": [
+      "autumn"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -1035,10 +1496,16 @@
     "id": "q087",
     "text": "The only person you are destined to become is the person you decide to be.",
     "author": "Ralph Waldo Emerson",
-    "category": ["action", "leadership"],
+    "category": [
+      "action",
+      "leadership"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["brave", "motivated"],
+    "mood_tags": [
+      "brave",
+      "motivated"
+    ],
     "season_tags": [],
     "length": "medium",
     "enabled": true
@@ -1047,11 +1514,16 @@
     "id": "q088",
     "text": "What we achieve inwardly will change outer reality.",
     "author": "Plutarch",
-    "category": ["reflection", "focus"],
+    "category": [
+      "reflection",
+      "focus"
+    ],
     "translated": false,
     "verification_status": "verified",
     "mood_tags": [],
-    "season_tags": ["autumn"],
+    "season_tags": [
+      "autumn"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -1059,10 +1531,15 @@
     "id": "q089",
     "text": "Fall seven times, stand up eight.",
     "author": "",
-    "category": ["endurance"],
+    "category": [
+      "endurance"
+    ],
     "translated": false,
     "verification_status": "original",
-    "mood_tags": ["tired", "brave"],
+    "mood_tags": [
+      "tired",
+      "brave"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -1071,10 +1548,15 @@
     "id": "q090",
     "text": "為せば成る、為さねば成らぬ何事も。",
     "author": "上杉鷹山",
-    "category": ["action", "discipline"],
+    "category": [
+      "action",
+      "discipline"
+    ],
     "translated": true,
     "verification_status": "translated",
-    "mood_tags": ["motivated"],
+    "mood_tags": [
+      "motivated"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -1083,10 +1565,15 @@
     "id": "q091",
     "text": "Innovation distinguishes between a leader and a follower.",
     "author": "Steve Jobs",
-    "category": ["leadership", "action"],
+    "category": [
+      "leadership",
+      "action"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["brave"],
+    "mood_tags": [
+      "brave"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -1095,11 +1582,15 @@
     "id": "q092",
     "text": "The only true wisdom is in knowing you know nothing.",
     "author": "Socrates",
-    "category": ["reflection"],
+    "category": [
+      "reflection"
+    ],
     "translated": false,
     "verification_status": "verified",
     "mood_tags": [],
-    "season_tags": ["autumn"],
+    "season_tags": [
+      "autumn"
+    ],
     "length": "short",
     "enabled": true
   },
@@ -1107,34 +1598,35 @@
     "id": "q093",
     "text": "When you reach the end of your rope, tie a knot in it and hang on.",
     "author": "Franklin D. Roosevelt",
-    "category": ["endurance"],
+    "category": [
+      "endurance"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["tired", "stressed"],
-    "season_tags": ["winter"],
+    "mood_tags": [
+      "tired",
+      "stressed"
+    ],
+    "season_tags": [
+      "winter"
+    ],
     "length": "medium",
-    "enabled": true
-  },
-  {
-    "id": "q094",
-    "text": "情けは人の為ならず。",
-    "author": "",
-    "category": ["gratitude", "leadership"],
-    "translated": true,
-    "verification_status": "translated",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "short",
     "enabled": true
   },
   {
     "id": "q095",
     "text": "Start where you are. Use what you have. Do what you can.",
     "author": "Arthur Ashe",
-    "category": ["action", "endurance"],
+    "category": [
+      "action",
+      "endurance"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["uncertain", "tired"],
+    "mood_tags": [
+      "uncertain",
+      "tired"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -1143,23 +1635,16 @@
     "id": "q096",
     "text": "Sow a thought, reap an action. Sow an action, reap a habit.",
     "author": "Stephen Covey",
-    "category": ["discipline", "focus"],
+    "category": [
+      "discipline",
+      "focus"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["motivated"],
+    "mood_tags": [
+      "motivated"
+    ],
     "season_tags": [],
-    "length": "short",
-    "enabled": true
-  },
-  {
-    "id": "q097",
-    "text": "初心忘るべからず。",
-    "author": "世阿弥",
-    "category": ["discipline", "reflection"],
-    "translated": true,
-    "verification_status": "translated",
-    "mood_tags": [],
-    "season_tags": ["spring"],
     "length": "short",
     "enabled": true
   },
@@ -1167,10 +1652,15 @@
     "id": "q098",
     "text": "Don't let yesterday take up too much of today.",
     "author": "Will Rogers",
-    "category": ["action", "focus"],
+    "category": [
+      "action",
+      "focus"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["stressed"],
+    "mood_tags": [
+      "stressed"
+    ],
     "season_tags": [],
     "length": "short",
     "enabled": true
@@ -1179,10 +1669,16 @@
     "id": "q099",
     "text": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
     "author": "Mahatma Gandhi",
-    "category": ["action", "reflection"],
+    "category": [
+      "action",
+      "reflection"
+    ],
     "translated": false,
     "verification_status": "verified",
-    "mood_tags": ["motivated", "brave"],
+    "mood_tags": [
+      "motivated",
+      "brave"
+    ],
     "season_tags": [],
     "length": "medium",
     "enabled": true
@@ -1191,12 +1687,756 @@
     "id": "q100",
     "text": "Quietly endure. Silently suffer. Patiently wait.",
     "author": "",
-    "category": ["endurance", "rest"],
+    "category": [
+      "endurance",
+      "rest"
+    ],
     "translated": false,
     "verification_status": "original",
-    "mood_tags": ["tired", "stressed"],
-    "season_tags": ["winter"],
+    "mood_tags": [
+      "tired",
+      "stressed"
+    ],
+    "season_tags": [
+      "winter"
+    ],
     "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q101",
+    "text": "やってみせ、言って聞かせて、させてみせ、ほめてやらねば、人は動かじ。",
+    "author": "山本五十六",
+    "category": [
+      "leadership",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q102",
+    "text": "人間は負けると分かっていても、戦わなければならぬ時がある。",
+    "author": "司馬遼太郎",
+    "category": [
+      "endurance",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q103",
+    "text": "僕の前に道はない 僕の後ろに道は出来る",
+    "author": "高村光太郎",
+    "category": [
+      "action",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q104",
+    "text": "智に働けば角が立つ。情に棹させば流される。意地を通せば窮屈だ。",
+    "author": "夏目漱石",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q105",
+    "text": "災難に逢う時節には災難に逢うがよく候 死ぬ時節には死ぬがよく候",
+    "author": "良寛",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q106",
+    "text": "この道より 我を生かす道なし この道を行く",
+    "author": "武者小路実篤",
+    "category": [
+      "discipline",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q107",
+    "text": "規矩作法 守りつくして 破るとも 離るるとても 本を忘るな",
+    "author": "千利休",
+    "category": [
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q108",
+    "text": "おもしろきこともなき世をおもしろく",
+    "author": "高杉晋作",
+    "category": [
+      "reflection",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q109",
+    "text": "世界がぜんたい幸福にならないうちは個人の幸福はあり得ない。",
+    "author": "宮沢賢治",
+    "category": [
+      "gratitude",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q110",
+    "text": "道をひらくためには、まず歩きださねばならぬ。",
+    "author": "松下幸之助",
+    "category": [
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q111",
+    "text": "失敗したところでやめてしまうから失敗になる。成功するまで続ければ、それは成功になる。",
+    "author": "松下幸之助",
+    "category": [
+      "endurance",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q112",
+    "text": "チャレンジして失敗を恐れるよりも、何もしないことを恐れろ。",
+    "author": "本田宗一郎",
+    "category": [
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q113",
+    "text": "動機善なりや、私心なかりしか。",
+    "author": "稲盛和夫",
+    "category": [
+      "leadership",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q114",
+    "text": "弱虫は、幸福をさえおそれるものです。綿で怪我をするんです。",
+    "author": "太宰治",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q115",
+    "text": "人生は一箱のマッチに似ている。重大に扱うのはばかばかしい。重大に扱わねば危険である。",
+    "author": "芥川龍之介",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q116",
+    "text": "劫初より作りいとなむ殿堂にわれも黄金の釘一つ打つ",
+    "author": "与謝野晶子",
+    "category": [
+      "discipline",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q117",
+    "text": "分け入っても分け入っても青い山",
+    "author": "種田山頭火",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q118",
+    "text": "汚れつちまつた悲しみに 今日も小雪の降りかかる",
+    "author": "中原中也",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q119",
+    "text": "天は人の上に人を造らず人の下に人を造らず。",
+    "author": "福沢諭吉",
+    "category": [
+      "reflection",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q120",
+    "text": "最大遺物とは何であるか。それは勇ましい高尚なる生涯である。",
+    "author": "内村鑑三",
+    "category": [
+      "leadership",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q121",
+    "text": "国境の長いトンネルを抜けると雪国であった。",
+    "author": "川端康成",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q122",
+    "text": "美しい「花」がある、「花」の美しさという様なものはない。",
+    "author": "小林秀雄",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q123",
+    "text": "自分の感受性くらい 自分で守れ ばかものよ",
+    "author": "茨木のり子",
+    "category": [
+      "discipline",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q124",
+    "text": "夢なき者に理想なし、理想なき者に計画なし、計画なき者に実行なし、実行なき者に成功なし。",
+    "author": "渋沢栄一",
+    "category": [
+      "action",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q125",
+    "text": "論語と算盤は一致すべきものである。",
+    "author": "渋沢栄一",
+    "category": [
+      "discipline",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q126",
+    "text": "黄金の奴隷たるなかれ。",
+    "author": "出光佐三",
+    "category": [
+      "discipline",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q127",
+    "text": "障子をあけてみよ。外は広いぞ。",
+    "author": "豊田佐吉",
+    "category": [
+      "action",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q128",
+    "text": "素直な心になれば、世の中の物事の実相を見ることができる。",
+    "author": "松下幸之助",
+    "category": [
+      "focus",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q129",
+    "text": "強烈な願望を心に抱き続ければ、それは必ず実現する。",
+    "author": "稲盛和夫",
+    "category": [
+      "discipline",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q130",
+    "text": "遠きをはかる者は富み、近きをはかる者は貧す。",
+    "author": "二宮尊徳",
+    "category": [
+      "discipline",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q131",
+    "text": "金を残すは下、仕事を残すは中、人を残すを上とす。",
+    "author": "後藤新平",
+    "category": [
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q132",
+    "text": "人は城、人は石垣、人は堀、情けは味方、仇は敵なり。",
+    "author": "武田信玄",
+    "category": [
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q133",
+    "text": "人間五十年、下天のうちを比ぶれば、夢幻の如くなり。",
+    "author": "織田信長",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q134",
+    "text": "人の一生は重荷を負うて遠き道を行くが如し。急ぐべからず。",
+    "author": "徳川家康",
+    "category": [
+      "endurance",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q135",
+    "text": "己を尽くして人を咎めず、我が誠の足らざるを尋ぬべし。",
+    "author": "西郷隆盛",
+    "category": [
+      "reflection",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q136",
+    "text": "世の人は我を何とも言わば言え 我が成すことは我のみぞ知る",
+    "author": "坂本龍馬",
+    "category": [
+      "action",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q137",
+    "text": "至誠にして動かざる者は、未だ之れ有らざるなり。",
+    "author": "吉田松陰",
+    "category": [
+      "discipline",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q138",
+    "text": "行蔵は我に存す、毀誉は他人の主張、我に与らず我に関せず。",
+    "author": "勝海舟",
+    "category": [
+      "reflection",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q139",
+    "text": "春は花 夏ほととぎす 秋は月 冬雪さえて 冷しかりけり",
+    "author": "道元",
+    "category": [
+      "reflection",
+      "gratitude"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q140",
+    "text": "門松は冥土の旅の一里塚 めでたくもあり めでたくもなし",
+    "author": "一休宗純",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q141",
+    "text": "願はくは花の下にて春死なん そのきさらぎの望月のころ",
+    "author": "西行",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q142",
+    "text": "ゆく河の流れは絶えずして、しかも、もとの水にあらず。",
+    "author": "鴨長明",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q143",
+    "text": "世に従はん人は、まづ機嫌を知るべし。",
+    "author": "兼好法師",
+    "category": [
+      "focus",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q144",
+    "text": "茶道は美を見出さんがために美を隠す術である。",
+    "author": "岡倉天心",
+    "category": [
+      "focus",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q145",
+    "text": "小さなことを積み重ねることが、とんでもないところに行くただひとつの道だ。",
+    "author": "イチロー",
+    "category": [
+      "discipline",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q146",
+    "text": "努力は必ず報われる。もし報われない努力があるのならば、それはまだ努力とは呼べない。",
+    "author": "王貞治",
+    "category": [
+      "discipline",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q147",
+    "text": "おごらず、他人と比べず、面白がって、平気に生きればいい。",
+    "author": "樹木希林",
+    "category": [
+      "reflection",
+      "gratitude"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q148",
+    "text": "大事なものは、たいてい面倒くさい。",
+    "author": "宮崎駿",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q149",
+    "text": "振り向くな振り向くな後ろには夢がない",
+    "author": "寺山修司",
+    "category": [
+      "action",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q150",
+    "text": "生きているということ いま生きているということ それはのどがかわくということ",
+    "author": "谷川俊太郎",
+    "category": [
+      "gratitude",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
     "enabled": true
   }
 ]
