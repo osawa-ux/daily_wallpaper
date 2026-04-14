@@ -298,22 +298,6 @@
     "enabled": true
   },
   {
-    "id": "q017",
-    "text": "Where focus goes, energy flows.",
-    "author": "Tony Robbins",
-    "category": [
-      "focus"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [
-      "motivated"
-    ],
-    "season_tags": [],
-    "length": "short",
-    "enabled": true
-  },
-  {
     "id": "q018",
     "text": "The harder the conflict, the greater the triumph.",
     "author": "George Washington",
@@ -511,79 +495,6 @@
     "enabled": true
   },
   {
-    "id": "q029",
-    "text": "Push yourself, because no one else is going to do it for you.",
-    "author": "",
-    "category": [
-      "discipline",
-      "action"
-    ],
-    "translated": false,
-    "verification_status": "original",
-    "mood_tags": [
-      "motivated"
-    ],
-    "season_tags": [
-      "summer"
-    ],
-    "length": "short",
-    "enabled": true
-  },
-  {
-    "id": "q030",
-    "text": "Great things never come from comfort zones.",
-    "author": "",
-    "category": [
-      "action",
-      "endurance"
-    ],
-    "translated": false,
-    "verification_status": "original",
-    "mood_tags": [
-      "brave"
-    ],
-    "season_tags": [],
-    "length": "short",
-    "enabled": true
-  },
-  {
-    "id": "q031",
-    "text": "Be stronger than your excuses.",
-    "author": "",
-    "category": [
-      "discipline",
-      "endurance"
-    ],
-    "translated": false,
-    "verification_status": "original",
-    "mood_tags": [
-      "motivated"
-    ],
-    "season_tags": [],
-    "length": "short",
-    "enabled": true
-  },
-  {
-    "id": "q032",
-    "text": "Silence is a source of great strength.",
-    "author": "Lao Tzu",
-    "category": [
-      "reflection",
-      "rest"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [
-      "stressed",
-      "tired"
-    ],
-    "season_tags": [
-      "winter"
-    ],
-    "length": "short",
-    "enabled": true
-  },
-  {
     "id": "q033",
     "text": "Hardships often prepare ordinary people for an extraordinary destiny.",
     "author": "C.S. Lewis",
@@ -601,25 +512,6 @@
       "winter"
     ],
     "length": "short",
-    "enabled": true
-  },
-  {
-    "id": "q034",
-    "text": "The best time to plant a tree was 20 years ago. The second best time is now.",
-    "author": "",
-    "category": [
-      "action"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [
-      "uncertain",
-      "motivated"
-    ],
-    "season_tags": [
-      "spring"
-    ],
-    "length": "medium",
     "enabled": true
   },
   {
@@ -934,60 +826,6 @@
     "enabled": true
   },
   {
-    "id": "q053",
-    "text": "Dream big. Start small. Act now.",
-    "author": "",
-    "category": [
-      "action",
-      "focus"
-    ],
-    "translated": false,
-    "verification_status": "original",
-    "mood_tags": [
-      "motivated"
-    ],
-    "season_tags": [
-      "spring"
-    ],
-    "length": "short",
-    "enabled": true
-  },
-  {
-    "id": "q054",
-    "text": "Progress, not perfection.",
-    "author": "",
-    "category": [
-      "discipline",
-      "endurance"
-    ],
-    "translated": false,
-    "verification_status": "original",
-    "mood_tags": [
-      "tired",
-      "stressed"
-    ],
-    "season_tags": [],
-    "length": "short",
-    "enabled": true
-  },
-  {
-    "id": "q055",
-    "text": "One day or day one. You decide.",
-    "author": "",
-    "category": [
-      "action"
-    ],
-    "translated": false,
-    "verification_status": "original",
-    "mood_tags": [
-      "motivated",
-      "brave"
-    ],
-    "season_tags": [],
-    "length": "short",
-    "enabled": true
-  },
-  {
     "id": "q056",
     "text": "Turn your wounds into wisdom.",
     "author": "Oprah Winfrey",
@@ -1064,21 +902,6 @@
     "season_tags": [
       "spring"
     ],
-    "length": "short",
-    "enabled": true
-  },
-  {
-    "id": "q060",
-    "text": "The energy of the mind is the essence of life.",
-    "author": "Aristotle",
-    "category": [
-      "focus",
-      "reflection"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
     "length": "short",
     "enabled": true
   },
@@ -1314,24 +1137,6 @@
     "enabled": true
   },
   {
-    "id": "q075",
-    "text": "The best revenge is massive success.",
-    "author": "Frank Sinatra",
-    "category": [
-      "action",
-      "endurance"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [
-      "brave",
-      "motivated"
-    ],
-    "season_tags": [],
-    "length": "short",
-    "enabled": true
-  },
-  {
     "id": "q076",
     "text": "Your time is limited. Don't waste it living someone else's life.",
     "author": "Steve Jobs",
@@ -1403,25 +1208,6 @@
     "enabled": true
   },
   {
-    "id": "q081",
-    "text": "Difficult roads often lead to beautiful destinations.",
-    "author": "",
-    "category": [
-      "endurance"
-    ],
-    "translated": false,
-    "verification_status": "original",
-    "mood_tags": [
-      "tired",
-      "uncertain"
-    ],
-    "season_tags": [
-      "winter"
-    ],
-    "length": "short",
-    "enabled": true
-  },
-  {
     "id": "q082",
     "text": "In three words I can sum up everything I've learned about life: it goes on.",
     "author": "Robert Frost",
@@ -1454,23 +1240,6 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
-  },
-  {
-    "id": "q085",
-    "text": "Don't count the days. Make the days count.",
-    "author": "Muhammad Ali",
-    "category": [
-      "action",
-      "discipline"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [
-      "motivated"
-    ],
-    "season_tags": [],
-    "length": "short",
     "enabled": true
   },
   {
@@ -1524,23 +1293,6 @@
     "season_tags": [
       "autumn"
     ],
-    "length": "short",
-    "enabled": true
-  },
-  {
-    "id": "q089",
-    "text": "Fall seven times, stand up eight.",
-    "author": "",
-    "category": [
-      "endurance"
-    ],
-    "translated": false,
-    "verification_status": "original",
-    "mood_tags": [
-      "tired",
-      "brave"
-    ],
-    "season_tags": [],
     "length": "short",
     "enabled": true
   },
@@ -1681,26 +1433,6 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
-  },
-  {
-    "id": "q100",
-    "text": "Quietly endure. Silently suffer. Patiently wait.",
-    "author": "",
-    "category": [
-      "endurance",
-      "rest"
-    ],
-    "translated": false,
-    "verification_status": "original",
-    "mood_tags": [
-      "tired",
-      "stressed"
-    ],
-    "season_tags": [
-      "winter"
-    ],
-    "length": "short",
     "enabled": true
   },
   {
@@ -2431,6 +2163,244 @@
     "category": [
       "gratitude",
       "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q151",
+    "text": "You have power over your mind — not outside events. Realize this, and you will find strength.",
+    "author": "Marcus Aurelius",
+    "category": [
+      "reflection",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q152",
+    "text": "We suffer more often in imagination than in reality.",
+    "author": "Seneca",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q153",
+    "text": "It's not what happens to you, but how you react to it that matters.",
+    "author": "Epictetus",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q154",
+    "text": "When we are no longer able to change a situation, we are challenged to change ourselves.",
+    "author": "Viktor Frankl",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q155",
+    "text": "Life can only be understood backwards; but it must be lived forwards.",
+    "author": "Søren Kierkegaard",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q156",
+    "text": "I am not what happened to me, I am what I choose to become.",
+    "author": "Carl Jung",
+    "category": [
+      "reflection",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q157",
+    "text": "Don't ask what the world needs. Ask what makes you come alive, and go do it. Because what the world needs is people who have come alive.",
+    "author": "Howard Thurman",
+    "category": [
+      "action",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q158",
+    "text": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
+    "author": "Marie Curie",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q159",
+    "text": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+    "author": "Maya Angelou",
+    "category": [
+      "leadership",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q160",
+    "text": "Not everything that is faced can be changed, but nothing can be changed until it is faced.",
+    "author": "James Baldwin",
+    "category": [
+      "action",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q161",
+    "text": "The world breaks everyone, and afterward many are strong at the broken places.",
+    "author": "Ernest Hemingway",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q162",
+    "text": "And the day came when the risk to remain tight in a bud was more painful than the risk it took to blossom.",
+    "author": "Anaïs Nin",
+    "category": [
+      "action",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q163",
+    "text": "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.",
+    "author": "Antoine de Saint-Exupéry",
+    "category": [
+      "focus",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q164",
+    "text": "How we spend our days is, of course, how we spend our lives.",
+    "author": "Annie Dillard",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q165",
+    "text": "If you want to fly, you have to give up the things that weigh you down.",
+    "author": "Toni Morrison",
+    "category": [
+      "action",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q166",
+    "text": "The big money is not in the buying and the selling, but in the waiting.",
+    "author": "Charlie Munger",
+    "category": [
+      "discipline",
+      "endurance"
     ],
     "translated": false,
     "verification_status": "verified",
