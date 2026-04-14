@@ -3776,5 +3776,1915 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true
+  },
+  {
+    "id": "q274",
+    "text": "The only normal people are the ones you don't know very well.",
+    "author": "Alfred Adler",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q275",
+    "text": "Trust only movement. Life happens at the level of events, not of words.",
+    "author": "Alfred Adler",
+    "category": [
+      "action",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q276",
+    "text": "It is always easier to fight for one's principles than to live up to them.",
+    "author": "Alfred Adler",
+    "category": [
+      "discipline",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q277",
+    "text": "To be a human being means to possess a feeling of inferiority which constantly presses towards its own conquest.",
+    "author": "Alfred Adler",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q278",
+    "text": "Follow your heart but take your brain with you.",
+    "author": "Alfred Adler",
+    "category": [
+      "focus",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q279",
+    "text": "The chief danger in life is that you may take too many precautions.",
+    "author": "Alfred Adler",
+    "category": [
+      "action",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q280",
+    "text": "Until you make the unconscious conscious, it will direct your life and you will call it fate.",
+    "author": "Carl Jung",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q281",
+    "text": "The most terrifying thing is to accept oneself completely.",
+    "author": "Carl Jung",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q282",
+    "text": "When we are no longer able to change a situation, we are challenged to change ourselves.",
+    "author": "Viktor Frankl",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q283",
+    "text": "We suffer more often in imagination than in reality.",
+    "author": "Seneca",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q284",
+    "text": "Anxiety is the dizziness of freedom.",
+    "author": "Soren Kierkegaard",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q285",
+    "text": "Waste no more time arguing what a good man should be. Be one.",
+    "author": "Marcus Aurelius",
+    "category": [
+      "action",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q286",
+    "text": "If it is not right, do not do it; if it is not true, do not say it.",
+    "author": "Marcus Aurelius",
+    "category": [
+      "discipline",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q287",
+    "text": "First say to yourself what you would be; then do what you have to do.",
+    "author": "Epictetus",
+    "category": [
+      "discipline",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q288",
+    "text": "How vain it is to sit down to write when you have not stood up to live.",
+    "author": "Henry David Thoreau",
+    "category": [
+      "action",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q289",
+    "text": "Meanings are not determined by situations, but we determine ourselves by the meanings we give to situations.",
+    "author": "Alfred Adler",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q290",
+    "text": "Exaggerated sensitiveness is an expression of the feeling of inferiority.",
+    "author": "Alfred Adler",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q291",
+    "text": "In some ways suffering ceases to be suffering at the moment it finds a meaning.",
+    "author": "Viktor Frankl",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q292",
+    "text": "There is no coming to consciousness without pain.",
+    "author": "Carl Jung",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q293",
+    "text": "He who has a why to live for can bear almost any how.",
+    "author": "Friedrich Nietzsche",
+    "category": [
+      "endurance",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q294",
+    "text": "It never ceases to amaze me: we all love ourselves more than other people, but care more about their opinion than our own.",
+    "author": "Marcus Aurelius",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q295",
+    "text": "If you wish to improve, be content to appear clueless or stupid in extraneous matters.",
+    "author": "Epictetus",
+    "category": [
+      "discipline",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q296",
+    "text": "No man is free who is not master of himself.",
+    "author": "Epictetus",
+    "category": [
+      "discipline",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q297",
+    "text": "The greatest thing in the world is to know how to belong to oneself.",
+    "author": "Michel de Montaigne",
+    "category": [
+      "focus",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q298",
+    "text": "If a man does not keep pace with his companions, perhaps it is because he hears a different drummer.",
+    "author": "Henry David Thoreau",
+    "category": [
+      "focus",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q299",
+    "text": "Everything can be taken from a man but one thing: the last of the human freedoms, to choose one's attitude in any given set of circumstances.",
+    "author": "Viktor Frankl",
+    "category": [
+      "endurance",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q300",
+    "text": "It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.",
+    "author": "Seneca",
+    "category": [
+      "action",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q301",
+    "text": "While we are postponing, life speeds by.",
+    "author": "Seneca",
+    "category": [
+      "action",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q302",
+    "text": "To dare is to lose one's footing momentarily. Not to dare is to lose oneself.",
+    "author": "Soren Kierkegaard",
+    "category": [
+      "action",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q303",
+    "text": "He who fears he will suffer, already suffers from what he fears.",
+    "author": "Michel de Montaigne",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q304",
+    "text": "No one can build you the bridge on which you must cross the river of life, no one but you yourself alone.",
+    "author": "Friedrich Nietzsche",
+    "category": [
+      "action",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q305",
+    "text": "The good physician treats the disease; the great physician treats the patient who has the disease.",
+    "author": "William Osler",
+    "category": [
+      "focus",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q306",
+    "text": "The secret of the care of the patient is in caring for the patient.",
+    "author": "Francis W. Peabody",
+    "category": [
+      "focus",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q307",
+    "text": "The expectation that we can be immersed in suffering and loss daily and not be touched by it is as unrealistic as expecting to be able to walk through water without getting wet.",
+    "author": "Rachel Naomi Remen",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q308",
+    "text": "You matter because you are you, and you matter to the end of your life.",
+    "author": "Cicely Saunders",
+    "category": [
+      "reflection",
+      "gratitude"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q309",
+    "text": "I attribute my success to this: I never gave or took any excuse.",
+    "author": "Florence Nightingale",
+    "category": [
+      "discipline",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q310",
+    "text": "You can't ever reach perfection, but you can believe in an asymptote toward which you are ceaselessly striving.",
+    "author": "Paul Kalanithi",
+    "category": [
+      "discipline",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q311",
+    "text": "Better is possible. It does not take genius. It takes diligence.",
+    "author": "Atul Gawande",
+    "category": [
+      "discipline",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q312",
+    "text": "I cannot pretend I am without fear. But my predominant feeling is one of gratitude.",
+    "author": "Oliver Sacks",
+    "category": [
+      "gratitude",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q313",
+    "text": "Love is the only way to grasp another human being in the innermost core of his personality.",
+    "author": "Viktor Frankl",
+    "category": [
+      "reflection",
+      "gratitude"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q314",
+    "text": "The curious paradox is that when I accept myself just as I am, then I can change.",
+    "author": "Carl Rogers",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q315",
+    "text": "Though the physicality of death destroys us, the idea of death saves us.",
+    "author": "Irvin Yalom",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q316",
+    "text": "Hope, unlike optimism, is rooted in unalloyed reality.",
+    "author": "Jerome Groopman",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q317",
+    "text": "Words are the most powerful tool a doctor possesses, but words, like a two-edged sword, can maim as well as heal.",
+    "author": "Bernard Lown",
+    "category": [
+      "discipline",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q318",
+    "text": "Wherever the art of medicine is loved, there is also a love of humanity.",
+    "author": "Hippocrates",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q319",
+    "text": "May I never see in the patient anything but a fellow creature in pain.",
+    "author": "Moses Maimonides",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q320",
+    "text": "You must trust and believe in people, or life becomes impossible.",
+    "author": "Anton Chekhov",
+    "category": [
+      "reflection",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q321",
+    "text": "It's the humdrum, day-in, day-out, everyday work that is the real satisfaction of the practice of medicine.",
+    "author": "William Carlos Williams",
+    "category": [
+      "discipline",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q322",
+    "text": "The dignity that we seek in dying must be found in the dignity with which we have lived our lives.",
+    "author": "Sherwin Nuland",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q323",
+    "text": "The most beautiful people we have known are those who have known defeat, known suffering, known struggle, known loss, and have found their way out of the depths.",
+    "author": "Elisabeth Kubler-Ross",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q324",
+    "text": "I don't know what your destiny will be, but one thing I know: the only ones among you who will be really happy are those who have sought and found how to serve.",
+    "author": "Albert Schweitzer",
+    "category": [
+      "leadership",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q325",
+    "text": "The happiness of your life depends upon the quality of your thoughts.",
+    "author": "Marcus Aurelius",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q326",
+    "text": "Confine yourself to the present.",
+    "author": "Marcus Aurelius",
+    "category": [
+      "focus",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q327",
+    "text": "How much time he gains who does not look to see what his neighbor says or does or thinks.",
+    "author": "Marcus Aurelius",
+    "category": [
+      "focus",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q328",
+    "text": "Look well into thyself; there is a source of strength which will always spring up if thou wilt always look.",
+    "author": "Marcus Aurelius",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q329",
+    "text": "The best revenge is not to be like your enemy.",
+    "author": "Marcus Aurelius",
+    "category": [
+      "discipline",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q330",
+    "text": "Make the best use of what is in your power, and take the rest as it happens.",
+    "author": "Epictetus",
+    "category": [
+      "discipline",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q331",
+    "text": "He is a wise man who does not grieve for the things which he has not, but rejoices for those which he has.",
+    "author": "Epictetus",
+    "category": [
+      "gratitude",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q332",
+    "text": "Only the educated are free.",
+    "author": "Epictetus",
+    "category": [
+      "discipline",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q333",
+    "text": "Men are disturbed not by the things which happen, but by the opinions about the things.",
+    "author": "Epictetus",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q334",
+    "text": "As is a tale, so is life: not how long it is, but how good it is, is what matters.",
+    "author": "Seneca",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q335",
+    "text": "Sometimes even to live is an act of courage.",
+    "author": "Seneca",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q336",
+    "text": "If a man knows not to which port he sails, no wind is favorable.",
+    "author": "Seneca",
+    "category": [
+      "focus",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q337",
+    "text": "He suffers more than necessary, who suffers before it is necessary.",
+    "author": "Seneca",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q338",
+    "text": "Do not spoil what you have by desiring what you have not; remember that what you now have was once among the things you only hoped for.",
+    "author": "Epicurus",
+    "category": [
+      "gratitude",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q339",
+    "text": "Life is never made unbearable by circumstances, but only by lack of meaning and purpose.",
+    "author": "Viktor Frankl",
+    "category": [
+      "endurance",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q340",
+    "text": "Ultimately, man should not ask what the meaning of his life is, but rather he must recognize that it is he who is asked.",
+    "author": "Viktor Frankl",
+    "category": [
+      "reflection",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q341",
+    "text": "For the meaning of life differs from man to man, from day to day and from hour to hour.",
+    "author": "Viktor Frankl",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q342",
+    "text": "Who looks outside, dreams; who looks inside, awakes.",
+    "author": "Carl Jung",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q343",
+    "text": "We cannot change anything until we accept it.",
+    "author": "Carl Jung",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q344",
+    "text": "Everything that irritates us about others can lead us to an understanding of ourselves.",
+    "author": "Carl Jung",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q345",
+    "text": "Life can only be understood backwards; but it must be lived forwards.",
+    "author": "Soren Kierkegaard",
+    "category": [
+      "reflection",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q346",
+    "text": "Purity of heart is to will one thing.",
+    "author": "Soren Kierkegaard",
+    "category": [
+      "focus",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q347",
+    "text": "You must have chaos within you to give birth to a dancing star.",
+    "author": "Friedrich Nietzsche",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q348",
+    "text": "Nothing is so firmly believed as that which we least know.",
+    "author": "Michel de Montaigne",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q349",
+    "text": "The value of life lies not in the length of days, but in the use we make of them.",
+    "author": "Michel de Montaigne",
+    "category": [
+      "focus",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q350",
+    "text": "Life is short, the art long, opportunity fleeting, experiment treacherous, judgment difficult.",
+    "author": "Hippocrates",
+    "category": [
+      "discipline",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q351",
+    "text": "To cure sometimes, to relieve often, to comfort always.",
+    "author": "Edward L. Trudeau",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q352",
+    "text": "Medicine is a science of uncertainty and an art of probability.",
+    "author": "William Osler",
+    "category": [
+      "focus",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q353",
+    "text": "The practice of medicine is an art, not a trade; a calling, not a business; a calling in which your heart will be exercised equally with your head.",
+    "author": "William Osler",
+    "category": [
+      "discipline",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q354",
+    "text": "Listen to your patient, he is telling you the diagnosis.",
+    "author": "William Osler",
+    "category": [
+      "focus",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q355",
+    "text": "Were there none who were discontented with what they have, the world would never reach anything better.",
+    "author": "Florence Nightingale",
+    "category": [
+      "action",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q356",
+    "text": "The very first requirement in a hospital is that it should do the sick no harm.",
+    "author": "Florence Nightingale",
+    "category": [
+      "discipline",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q357",
+    "text": "Helping, fixing, and serving represent three different ways of seeing life.",
+    "author": "Rachel Naomi Remen",
+    "category": [
+      "reflection",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q358",
+    "text": "People want autonomy, control over their own lives.",
+    "author": "Atul Gawande",
+    "category": [
+      "focus",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q359",
+    "text": "Our ultimate goal, after all, is not a good death but a good life to the very end.",
+    "author": "Atul Gawande",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q360",
+    "text": "The friend who can be silent with us in a moment of despair or confusion is a friend who cares.",
+    "author": "Henri Nouwen",
+    "category": [
+      "reflection",
+      "gratitude"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q361",
+    "text": "Compassion asks us to go where it hurts, to enter into the places of pain, to share in brokenness, fear, confusion, and anguish.",
+    "author": "Henri Nouwen",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q362",
+    "text": "The idea that some lives matter less is the root of all that is wrong with the world.",
+    "author": "Paul Farmer",
+    "category": [
+      "leadership",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q363",
+    "text": "The only real nation is humanity.",
+    "author": "Paul Farmer",
+    "category": [
+      "reflection",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q364",
+    "text": "We are built to make mistakes, coded for error.",
+    "author": "Lewis Thomas",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q365",
+    "text": "It is a joy to be hidden but a disaster not to be found.",
+    "author": "Donald Winnicott",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q366",
+    "text": "Love is the only sane and satisfactory answer to the problem of human existence.",
+    "author": "Erich Fromm",
+    "category": [
+      "reflection",
+      "gratitude"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q367",
+    "text": "Creativity requires the courage to let go of certainties.",
+    "author": "Erich Fromm",
+    "category": [
+      "action",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q368",
+    "text": "How people die remains in the memory of those who live on.",
+    "author": "Cicely Saunders",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q369",
+    "text": "Our real journey in life is interior.",
+    "author": "Thomas Merton",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q370",
+    "text": "The beginning of love is to let those we love be perfectly themselves.",
+    "author": "Thomas Merton",
+    "category": [
+      "reflection",
+      "gratitude"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q371",
+    "text": "Attention is the rarest and purest form of generosity.",
+    "author": "Simone Weil",
+    "category": [
+      "focus",
+      "gratitude"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q372",
+    "text": "Love is not consolation. It is light.",
+    "author": "Simone Weil",
+    "category": [
+      "reflection",
+      "gratitude"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q373",
+    "text": "The love of our neighbor in all its fullness simply means being able to say: What are you going through?",
+    "author": "Simone Weil",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q374",
+    "text": "Let everything happen to you: beauty and terror. Just keep going. No feeling is final.",
+    "author": "Rainer Maria Rilke",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q375",
+    "text": "The future enters into us, in order to transform itself in us, long before it happens.",
+    "author": "Rainer Maria Rilke",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q376",
+    "text": "Attention is the beginning of devotion.",
+    "author": "Mary Oliver",
+    "category": [
+      "focus",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q377",
+    "text": "It may be that when we no longer know what to do, we have come to our real work, and that when we no longer know which way to go, we have begun our real journey.",
+    "author": "Wendell Berry",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q378",
+    "text": "The antidote to exhaustion is not necessarily rest. The antidote to exhaustion is wholeheartedness.",
+    "author": "David Whyte",
+    "category": [
+      "endurance",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q379",
+    "text": "Self-care is never a selfish act; it is simply good stewardship of the only gift I have, the gift I was put on earth to offer to others.",
+    "author": "Parker J. Palmer",
+    "category": [
+      "rest",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q380",
+    "text": "The sad truth is that most evil is done by people who never make up their minds to be good or evil.",
+    "author": "Hannah Arendt",
+    "category": [
+      "discipline",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q381",
+    "text": "We must learn to regard people less in the light of what they do or omit to do, and more in the light of what they suffer.",
+    "author": "Dietrich Bonhoeffer",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q382",
+    "text": "It does not matter how slowly you go, so long as you do not stop.",
+    "author": "Confucius",
+    "category": [
+      "endurance",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q383",
+    "text": "Knowing others is intelligence; knowing yourself is true wisdom. Mastering others is strength; mastering yourself is true power.",
+    "author": "Lao Tzu",
+    "category": [
+      "reflection",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q384",
+    "text": "Everyone thinks of changing the world, but no one thinks of changing himself.",
+    "author": "Leo Tolstoy",
+    "category": [
+      "reflection",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q385",
+    "text": "The mystery of human existence lies not in just staying alive, but in finding something to live for.",
+    "author": "Fyodor Dostoevsky",
+    "category": [
+      "focus",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q386",
+    "text": "Pain and suffering are always inevitable for a large intelligence and a deep heart.",
+    "author": "Fyodor Dostoevsky",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q387",
+    "text": "All of humanity's problems stem from man's inability to sit quietly in a room alone.",
+    "author": "Blaise Pascal",
+    "category": [
+      "reflection",
+      "rest"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q388",
+    "text": "The heart has its reasons which reason knows nothing of.",
+    "author": "Blaise Pascal",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q389",
+    "text": "What do we live for, if it is not to make life less difficult for each other?",
+    "author": "George Eliot",
+    "category": [
+      "reflection",
+      "gratitude"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q390",
+    "text": "Arrange whatever pieces come your way.",
+    "author": "Virginia Woolf",
+    "category": [
+      "action",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q391",
+    "text": "We do not receive wisdom; we must discover it for ourselves after a journey that no one can take for us or spare us.",
+    "author": "Marcel Proust",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q392",
+    "text": "For us, there is only the trying. The rest is not our business.",
+    "author": "T.S. Eliot",
+    "category": [
+      "action",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q393",
+    "text": "How we spend our days is, of course, how we spend our lives.",
+    "author": "Annie Dillard",
+    "category": [
+      "focus",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q394",
+    "text": "Not everything that is faced can be changed, but nothing can be changed until it is faced.",
+    "author": "James Baldwin",
+    "category": [
+      "endurance",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q395",
+    "text": "Love is the extremely difficult realization that something other than oneself is real.",
+    "author": "Iris Murdoch",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q396",
+    "text": "The doctor himself is a drug.",
+    "author": "Michael Balint",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q397",
+    "text": "Nothing will ever be attempted if all possible objections must first be overcome.",
+    "author": "Samuel Johnson",
+    "category": [
+      "action",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q398",
+    "text": "Nothing is miserable unless you think it so; and nothing brings happiness unless you are content with it.",
+    "author": "Boethius",
+    "category": [
+      "reflection",
+      "gratitude"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q399",
+    "text": "The essence of bravery is being without self-deception.",
+    "author": "Pema Chodron",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q400",
+    "text": "The most precious gift we can offer anyone is our attention.",
+    "author": "Thich Nhat Hanh",
+    "category": [
+      "focus",
+      "gratitude"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q401",
+    "text": "Courage is not simply one of the virtues, but the form of every virtue at the testing point.",
+    "author": "C.S. Lewis",
+    "category": [
+      "endurance",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
   }
 ]
