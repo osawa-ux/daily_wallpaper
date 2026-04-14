@@ -38,35 +38,92 @@ python main.py
 
 ### 毎日自動で壁紙を変える（タスクスケジューラ登録）
 
-PowerShell で以下を実行してください（**clone した場所のパスに合わせてください**）。
+**運用ポリシー**:
+- 毎日 **9:00** に壁紙を切り替える
+- 9:00 にPCが起動していなかった場合は、**次回ログオン時** または **見逃したスケジュールの自動追いかけ実行** ですみやかに切り替わる
+- 同日中に何度実行しても二重更新しない（`main.py` 側で history.json を見てガード）
+
+#### 推奨: PowerShell 一発登録（複数トリガー対応）
+
+PowerShell を **管理者で起動**し、以下を実行してください（**clone した場所のパスに合わせてください**）。
 
 ```powershell
 $repo = "$HOME\daily_wallpaper"   # ← clone した場所に合わせる
 $python = "$repo\.venv\Scripts\python.exe"
+$user = "$env:USERDOMAIN\$env:USERNAME"
 
 $action = New-ScheduledTaskAction `
     -Execute $python `
     -Argument "main.py" `
     -WorkingDirectory $repo
 
-$trigger = New-ScheduledTaskTrigger -Daily -At 7am
+# Trigger 1: 毎日 9:00
+$daily = New-ScheduledTaskTrigger -Daily -At 9am
+
+# Trigger 2: ログオン時（起動していなかった日の追いかけ用）
+$logon = New-ScheduledTaskTrigger -AtLogOn -User $user
+
+# Settings: 見逃した実行を起動後すみやかに / 二重起動防止
+$settings = New-ScheduledTaskSettingsSet `
+    -StartWhenAvailable `
+    -MultipleInstances IgnoreNew `
+    -AllowStartIfOnBatteries `
+    -DontStopIfGoingOnBatteries
 
 Register-ScheduledTask `
     -TaskName "DailyQuoteWallpaper" `
     -Action $action `
-    -Trigger $trigger `
-    -Description "Daily minimal quote wallpaper generator"
+    -Trigger @($daily, $logon) `
+    -Settings $settings `
+    -Description "Daily minimal quote wallpaper generator (9:00 daily + at logon catch-up)"
 ```
 
-これで毎朝 7:00 に自動で新しい名言の壁紙に切り替わります。
+これで:
+- 毎朝 9:00 に自動で新しい名言の壁紙に切り替わる
+- 9:00 にPCがオフだった場合 → ログオン時に自動実行
+- それでも追いつけなかった場合 → `StartWhenAvailable` (= "Run task as soon as possible after a scheduled start is missed") により次回起動後すみやかに実行
+- 9:00 ちょうどとログオンが重なっても → `IgnoreNew` (= "Do not start a new instance") で二重起動なし
+- さらに `main.py` 側でも history.json で同日二重更新をガード
 
-**確認方法**: `Win + R` → `taskschd.msc` → タスクスケジューラライブラリに `DailyQuoteWallpaper` があればOK。右クリック「実行」で即時テストできます。
+#### GUI で確認・調整する場合
 
-**時刻を変えたい / 削除したい**:
+`Win + R` → `taskschd.msc` → タスクスケジューラライブラリ → `DailyQuoteWallpaper`
+
+確認すべき設定:
+
+| タブ | 項目 | 推奨値 |
+|---|---|---|
+| **トリガー** | Trigger 1 | Daily / At 9:00 AM |
+| **トリガー** | Trigger 2 | At log on / 自分のユーザー |
+| **条件** | (バッテリーで実行) | ON 推奨 |
+| **設定** | Run task as soon as possible after a scheduled start is missed | **ON**（追いかけ実行）|
+| **設定** | If the task is already running, then the following rule applies | **Do not start a new instance**（二重起動防止）|
+
+> **ヒント**: 「At startup」ではなく「**At log on**」を推奨します。At startup はサービス起動時に走るためデスクトップが未準備のケースがあり、壁紙設定が失敗することがあります。At log on ならユーザーセッションが確立してから走るので安全です。
+
+#### 即時テスト・削除
+
 ```powershell
+# すぐに動作確認（手動実行）
+Start-ScheduledTask -TaskName "DailyQuoteWallpaper"
+
+# 同日2回目以降は history.json ガードでスキップされる
+# 強制再実行したい場合は手動で:
+& "$HOME\daily_wallpaper\.venv\Scripts\python.exe" "$HOME\daily_wallpaper\main.py" --force
+
 # 削除
 Unregister-ScheduledTask -TaskName "DailyQuoteWallpaper" -Confirm:$false
 ```
+
+#### schtasks (cmd) で登録したい場合の最小例
+
+```cmd
+schtasks /Create /TN "DailyQuoteWallpaper" /SC DAILY /ST 09:00 ^
+  /TR "\"%USERPROFILE%\daily_wallpaper\.venv\Scripts\python.exe\" \"%USERPROFILE%\daily_wallpaper\main.py\"" ^
+  /F
+```
+
+ただし schtasks は1コマンドで複数トリガーや「missed schedule 追いかけ」設定ができないため、**PowerShell 版を強く推奨**します。
 
 ### 自分の好きな名言を追加する（Claude Code 推奨）
 

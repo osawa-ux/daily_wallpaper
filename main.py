@@ -58,6 +58,8 @@ def parse_args() -> argparse.Namespace:
                         help="Show style routing decision without generating image")
     parser.add_argument("--validate-quotes", action="store_true",
                         help="Validate quotes.json structure and data quality")
+    parser.add_argument("--force", action="store_true",
+                        help="Force regeneration even if today's wallpaper is already set")
     return parser.parse_args()
 
 
@@ -110,6 +112,23 @@ def main() -> None:
         history_path = BASE_DIR / config.get("history_path", "output/history.json")
         history = load_history(history_path)
         mood = args.mood or config.get("default_mood")
+
+        # Idempotency guard: skip if today's wallpaper was already generated.
+        # Bypassed by --force, --preview, --quote-id, and visual comparison
+        # modes (which are explicit testing flows).
+        is_standard_run = not (
+            args.force or args.preview or args.quote_id
+            or args.variants or args.compare_author or args.compare_bg
+            or args.compare_font or args.explain_style
+        )
+        if is_standard_run:
+            from datetime import date
+            today_iso = date.today().isoformat()
+            if any(entry.get("date") == today_iso for entry in history):
+                logger.info("Wallpaper already updated today (%s). Skipping.", today_iso)
+                print(f"Wallpaper already updated today ({today_iso}). Use --force to override.")
+                logger.info("=== Done (skipped) ===")
+                return
 
         quote = select_quote(quotes, config, history, mood=mood, force_id=args.quote_id)
         if quote is None:
