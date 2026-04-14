@@ -72,7 +72,7 @@ VALID_CATEGORIES = {
     "action", "discipline", "focus", "leadership",
     "endurance", "reflection", "rest", "gratitude",
 }
-VALID_VERIFICATION = {"verified", "translated", "original"}
+VALID_VERIFICATION = {"verified", "translated", "original", "secondary"}
 VALID_LENGTHS = {"short", "medium", "long"}
 
 
