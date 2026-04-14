@@ -2616,5 +2616,575 @@
     "season_tags": [],
     "length": "long",
     "enabled": true
+  },
+  {
+    "id": "q183",
+    "text": "That which does not kill us makes us stronger.",
+    "author": "Friedrich Nietzsche",
+    "category": [
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q184",
+    "text": "To dare is to lose one's footing momentarily. Not to dare is to lose oneself.",
+    "author": "Søren Kierkegaard",
+    "category": [
+      "action",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q185",
+    "text": "Mastering others is strength. Mastering yourself is true power.",
+    "author": "Lao Tzu",
+    "category": [
+      "discipline",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q186",
+    "text": "No man ever steps in the same river twice, for it's not the same river and he's not the same man.",
+    "author": "Heraclitus",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q187",
+    "text": "No man is free who is not master of himself.",
+    "author": "Epictetus",
+    "category": [
+      "discipline",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q188",
+    "text": "The good life is one inspired by love and guided by knowledge.",
+    "author": "Bertrand Russell",
+    "category": [
+      "reflection",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q189",
+    "text": "The greatest weapon against stress is our ability to choose one thought over another.",
+    "author": "William James",
+    "category": [
+      "focus",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q190",
+    "text": "To exist is to change, to change is to mature, to mature is to go on creating oneself endlessly.",
+    "author": "Henri Bergson",
+    "category": [
+      "action",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q191",
+    "text": "Perhaps all the dragons in our lives are princesses who are only waiting to see us act, just once, with beauty and courage.",
+    "author": "Rainer Maria Rilke",
+    "category": [
+      "endurance",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q192",
+    "text": "Everyone thinks of changing the world, but no one thinks of changing himself.",
+    "author": "Leo Tolstoy",
+    "category": [
+      "discipline",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q193",
+    "text": "Only those who will risk going too far can possibly find out how far one can go.",
+    "author": "T.S. Eliot",
+    "category": [
+      "action",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q194",
+    "text": "Arrange whatever pieces come your way.",
+    "author": "Virginia Woolf",
+    "category": [
+      "endurance",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q195",
+    "text": "The best way out is always through.",
+    "author": "Robert Frost",
+    "category": [
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q196",
+    "text": "Go confidently in the direction of your dreams. Live the life you have imagined.",
+    "author": "Henry David Thoreau",
+    "category": [
+      "action",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q197",
+    "text": "Keep your face always toward the sunshine, and shadows will fall behind you.",
+    "author": "Walt Whitman",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q198",
+    "text": "You can't cross the sea merely by standing and staring at the water.",
+    "author": "Rabindranath Tagore",
+    "category": [
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q199",
+    "text": "I am a slow walker, but I never walk back.",
+    "author": "Abraham Lincoln",
+    "category": [
+      "endurance",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q200",
+    "text": "You gain strength, courage, and confidence by every experience in which you really stop to look fear in the face.",
+    "author": "Eleanor Roosevelt",
+    "category": [
+      "endurance",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q201",
+    "text": "Do one thing every day that scares you.",
+    "author": "Eleanor Roosevelt",
+    "category": [
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q202",
+    "text": "Never, never, never give in.",
+    "author": "Winston Churchill",
+    "category": [
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true,
+    "background": "1941年10月29日、母校ハロー校での演説より。"
+  },
+  {
+    "id": "q203",
+    "text": "Work for something because it is good, not just because it stands a chance to succeed.",
+    "author": "Václav Havel",
+    "category": [
+      "discipline",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q204",
+    "text": "Far better is it to dare mighty things, to win glorious triumphs, even though checkered by failure, than to rank with those poor spirits who neither enjoy much nor suffer much.",
+    "author": "Theodore Roosevelt",
+    "category": [
+      "action",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true,
+    "background": "1899年シカゴ演説『The Strenuous Life』より。"
+  },
+  {
+    "id": "q205",
+    "text": "武士道において、誠は言と成の二字より成る。言ったことは必ず成す、それが誠である。",
+    "author": "新渡戸稲造",
+    "category": [
+      "discipline",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "secondary",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true,
+    "background": "『武士道』第五章「義」の趣旨を要約した表現。原文の直訳ではない。"
+  },
+  {
+    "id": "q206",
+    "text": "われわれの内にひそむ無限の可能性を信ずる者にとって、人生は果てしない探求である。",
+    "author": "岡倉天心",
+    "category": [
+      "reflection",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "secondary",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q207",
+    "text": "禅は何よりも実行を重んずる。語ることに意味はない、生きることにのみ意味がある。",
+    "author": "鈴木大拙",
+    "category": [
+      "discipline",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "secondary",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true,
+    "background": "鈴木大拙の禅論を要約した表現。原文の直訳ではない。"
+  },
+  {
+    "id": "q208",
+    "text": "人は何処までも自己自身に忠実であらねばならぬ。",
+    "author": "西田幾多郎",
+    "category": [
+      "discipline",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q209",
+    "text": "人生の最大の悲劇は、人生が短いことにあるのではなく、人生で本当に大事なものに気づくのが遅すぎることにある。",
+    "author": "三島由紀夫",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "secondary",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true,
+    "background": "広く流通する表現だが一次出典は未特定。"
+  },
+  {
+    "id": "q210",
+    "text": "楽しみながら、苦しみながら、それでもなお自分の道を歩く。それが人生である。",
+    "author": "司馬遼太郎",
+    "category": [
+      "endurance",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "secondary",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true,
+    "background": "司馬作品の人生観を要約した表現。"
+  },
+  {
+    "id": "q211",
+    "text": "信念のある人間は、最後の最後まで諦めない。諦めないから、信念なのである。",
+    "author": "城山三郎",
+    "category": [
+      "endurance",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "secondary",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q212",
+    "text": "心が積極的であれば、人生は積極的に展開する。",
+    "author": "中村天風",
+    "category": [
+      "discipline",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q213",
+    "text": "真面目とは、真の面目を発揮することである。",
+    "author": "森信三",
+    "category": [
+      "discipline",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q214",
+    "text": "晴れてよし 曇りてもよし 富士の山 もとの姿は変はらざりけり",
+    "author": "山岡鉄舟",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q215",
+    "text": "Have the courage to follow your heart and intuition. They somehow already know what you truly want to become.",
+    "author": "Steve Jobs",
+    "category": [
+      "reflection",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true,
+    "background": "2005年スタンフォード大学卒業式スピーチより。"
+  },
+  {
+    "id": "q216",
+    "text": "I knew that if I failed I wouldn't regret that, but I knew the one thing I might regret is not trying.",
+    "author": "Jeff Bezos",
+    "category": [
+      "action",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q217",
+    "text": "The hardest thing in the world is to simplify your life; it's so easy to make it complex.",
+    "author": "Yvon Chouinard",
+    "category": [
+      "focus",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q218",
+    "text": "The capacity to care is the thing which gives life its deepest significance.",
+    "author": "Pablo Casals",
+    "category": [
+      "reflection",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q219",
+    "text": "I have already settled it for myself so flattery and criticism go down the same drain and I am quite free.",
+    "author": "Georgia O'Keeffe",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q220",
+    "text": "人間を描くということは、人間の心を描くことである。技巧ではない、心である。",
+    "author": "黒澤明",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "secondary",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
   }
 ]
