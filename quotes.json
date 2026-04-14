@@ -553,24 +553,6 @@
     "enabled": true
   },
   {
-    "id": "q037",
-    "text": "Believe you can and you're halfway there.",
-    "author": "Theodore Roosevelt",
-    "category": [
-      "endurance",
-      "action"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [
-      "uncertain",
-      "brave"
-    ],
-    "season_tags": [],
-    "length": "short",
-    "enabled": true
-  },
-  {
     "id": "q038",
     "text": "Don't watch the clock; do what it does. Keep going.",
     "author": "Sam Levenson",
@@ -1220,23 +1202,6 @@
     "mood_tags": [
       "tired",
       "stressed"
-    ],
-    "season_tags": [],
-    "length": "medium",
-    "enabled": true
-  },
-  {
-    "id": "q084",
-    "text": "First they ignore you, then they ridicule you, then they fight you, and then you win.",
-    "author": "Mahatma Gandhi",
-    "category": [
-      "endurance",
-      "leadership"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [
-      "brave"
     ],
     "season_tags": [],
     "length": "medium",
@@ -2407,6 +2372,249 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q167",
+    "text": "成功する最大の要諦とは何か。それは、最後の最後まで諦めないこと。",
+    "author": "安倍晋三",
+    "category": [
+      "endurance",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true,
+    "background": "2012年の自民党総裁選出馬時の演説より。第一次政権退陣後、再起を期す中で語った言葉。"
+  },
+  {
+    "id": "q168",
+    "text": "挑戦する人がいて初めて何回も挑戦できる社会に日本は変わっていきます。",
+    "author": "安倍晋三",
+    "category": [
+      "action",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true,
+    "background": "第二次政権下、再チャレンジ可能な社会づくりを訴えた所信表明・関連演説の文脈で繰り返し用いた表現。"
+  },
+  {
+    "id": "q169",
+    "text": "政治家は結果責任である。",
+    "author": "安倍晋三",
+    "category": [
+      "leadership",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "secondary",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true,
+    "background": "国会答弁や記者会見で語ったとされる発言。一次出典は未特定のため secondary 扱い。"
+  },
+  {
+    "id": "q170",
+    "text": "You may have to fight a battle more than once to win it.",
+    "author": "Margaret Thatcher",
+    "category": [
+      "endurance",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q171",
+    "text": "I do not know anyone who has got to the top without hard work. That is the recipe. It will not always get you to the top, but it will get you pretty near.",
+    "author": "Margaret Thatcher",
+    "category": [
+      "discipline",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q172",
+    "text": "Life is not just eating, drinking, television and cinema. The human mind must be creative, must be self-generating; it cannot depend on others.",
+    "author": "Lee Kuan Yew",
+    "category": [
+      "reflection",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q173",
+    "text": "There is no passion to be found playing small — in settling for a life that is less than the one you are capable of living.",
+    "author": "Nelson Mandela",
+    "category": [
+      "action",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q174",
+    "text": "Hope is not the conviction that something will turn out well, but the certainty that something makes sense, regardless of how it turns out.",
+    "author": "Václav Havel",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q175",
+    "text": "It is not the critic who counts. The credit belongs to the one who is actually in the arena, whose face is marred by dust and sweat and blood, who strives valiantly, who errs and comes short again and again.",
+    "author": "Theodore Roosevelt",
+    "category": [
+      "action",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true,
+    "background": "1910年パリ・ソルボンヌ大学での演説『Citizenship in a Republic』通称「Man in the Arena」より抜粋。"
+  },
+  {
+    "id": "q176",
+    "text": "Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek.",
+    "author": "Barack Obama",
+    "category": [
+      "action",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q177",
+    "text": "Efforts and courage are not enough without purpose and direction.",
+    "author": "John F. Kennedy",
+    "category": [
+      "focus",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q178",
+    "text": "If you're going through hell, keep going.",
+    "author": "Winston Churchill",
+    "category": [
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q179",
+    "text": "In the depth of winter, I finally learned that within me there lay an invincible summer.",
+    "author": "Albert Camus",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q180",
+    "text": "Waste no more time arguing what a good man should be. Be one.",
+    "author": "Marcus Aurelius",
+    "category": [
+      "discipline",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q181",
+    "text": "Tell me, what is it you plan to do with your one wild and precious life?",
+    "author": "Mary Oliver",
+    "category": [
+      "reflection",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q182",
+    "text": "It may be that when we no longer know what to do, we have come to our real work; and that when we no longer know which way to go, we have begun our real journey.",
+    "author": "Wendell Berry",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
     "enabled": true
   }
 ]
