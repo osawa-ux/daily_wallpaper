@@ -868,26 +868,6 @@
     "enabled": true
   },
   {
-    "id": "q059",
-    "text": "夢を見ることができれば、それは実現できる。",
-    "author": "Walt Disney",
-    "category": [
-      "action",
-      "leadership"
-    ],
-    "translated": true,
-    "verification_status": "translated",
-    "mood_tags": [
-      "motivated",
-      "brave"
-    ],
-    "season_tags": [
-      "spring"
-    ],
-    "length": "short",
-    "enabled": true
-  },
-  {
     "id": "q061",
     "text": "The only limit to our realization of tomorrow is our doubts of today.",
     "author": "Franklin D. Roosevelt",
@@ -1208,25 +1188,6 @@
     "enabled": true
   },
   {
-    "id": "q086",
-    "text": "人生に失敗がないと、人生を失敗する。",
-    "author": "斎藤茂太",
-    "category": [
-      "reflection",
-      "endurance"
-    ],
-    "translated": true,
-    "verification_status": "translated",
-    "mood_tags": [
-      "uncertain"
-    ],
-    "season_tags": [
-      "autumn"
-    ],
-    "length": "short",
-    "enabled": true
-  },
-  {
     "id": "q087",
     "text": "The only person you are destined to become is the person you decide to be.",
     "author": "Ralph Waldo Emerson",
@@ -1258,23 +1219,6 @@
     "season_tags": [
       "autumn"
     ],
-    "length": "short",
-    "enabled": true
-  },
-  {
-    "id": "q090",
-    "text": "為せば成る、為さねば成らぬ何事も。",
-    "author": "上杉鷹山",
-    "category": [
-      "action",
-      "discipline"
-    ],
-    "translated": true,
-    "verification_status": "translated",
-    "mood_tags": [
-      "motivated"
-    ],
-    "season_tags": [],
     "length": "short",
     "enabled": true
   },
@@ -1431,21 +1375,6 @@
     "enabled": true
   },
   {
-    "id": "q103",
-    "text": "僕の前に道はない 僕の後ろに道は出来る",
-    "author": "高村光太郎",
-    "category": [
-      "action",
-      "leadership"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "short",
-    "enabled": true
-  },
-  {
     "id": "q104",
     "text": "智に働けば角が立つ。情に棹させば流される。意地を通せば窮屈だ。",
     "author": "夏目漱石",
@@ -1501,21 +1430,6 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
-  },
-  {
-    "id": "q108",
-    "text": "おもしろきこともなき世をおもしろく",
-    "author": "高杉晋作",
-    "category": [
-      "reflection",
-      "action"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "short",
     "enabled": true
   },
   {
@@ -1635,41 +1549,11 @@
     "enabled": true
   },
   {
-    "id": "q117",
-    "text": "分け入っても分け入っても青い山",
-    "author": "種田山頭火",
-    "category": [
-      "endurance",
-      "reflection"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "short",
-    "enabled": true
-  },
-  {
     "id": "q118",
     "text": "汚れつちまつた悲しみに 今日も小雪の降りかかる",
     "author": "中原中也",
     "category": [
       "reflection"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "medium",
-    "enabled": true
-  },
-  {
-    "id": "q119",
-    "text": "天は人の上に人を造らず人の下に人を造らず。",
-    "author": "福沢諭吉",
-    "category": [
-      "reflection",
-      "leadership"
     ],
     "translated": false,
     "verification_status": "verified",
@@ -1685,20 +1569,6 @@
     "category": [
       "leadership",
       "discipline"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "medium",
-    "enabled": true
-  },
-  {
-    "id": "q121",
-    "text": "国境の長いトンネルを抜けると雪国であった。",
-    "author": "川端康成",
-    "category": [
-      "reflection"
     ],
     "translated": false,
     "verification_status": "verified",
@@ -1750,36 +1620,6 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
-  },
-  {
-    "id": "q125",
-    "text": "論語と算盤は一致すべきものである。",
-    "author": "渋沢栄一",
-    "category": [
-      "discipline",
-      "leadership"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "short",
-    "enabled": true
-  },
-  {
-    "id": "q126",
-    "text": "黄金の奴隷たるなかれ。",
-    "author": "出光佐三",
-    "category": [
-      "discipline",
-      "reflection"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "short",
     "enabled": true
   },
   {
@@ -1975,37 +1815,9 @@
     "enabled": true
   },
   {
-    "id": "q140",
-    "text": "門松は冥土の旅の一里塚 めでたくもあり めでたくもなし",
-    "author": "一休宗純",
-    "category": [
-      "reflection"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "medium",
-    "enabled": true
-  },
-  {
     "id": "q141",
     "text": "願はくは花の下にて春死なん そのきさらぎの望月のころ",
     "author": "西行",
-    "category": [
-      "reflection"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "medium",
-    "enabled": true
-  },
-  {
-    "id": "q142",
-    "text": "ゆく河の流れは絶えずして、しかも、もとの水にあらず。",
-    "author": "鴨長明",
     "category": [
       "reflection"
     ],
@@ -2098,21 +1910,6 @@
     "category": [
       "reflection",
       "focus"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "short",
-    "enabled": true
-  },
-  {
-    "id": "q149",
-    "text": "振り向くな振り向くな後ろには夢がない",
-    "author": "寺山修司",
-    "category": [
-      "action",
-      "reflection"
     ],
     "translated": false,
     "verification_status": "verified",
@@ -3182,6 +2979,380 @@
     ],
     "translated": false,
     "verification_status": "secondary",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q221",
+    "text": "The impediment to action advances action. What stands in the way becomes the way.",
+    "author": "Marcus Aurelius",
+    "category": [
+      "action",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q222",
+    "text": "It is not that we have a short time to live, but that we waste much of it.",
+    "author": "Seneca",
+    "category": [
+      "reflection",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q223",
+    "text": "Difficulties strengthen the mind, as labor does the body.",
+    "author": "Seneca",
+    "category": [
+      "endurance",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q224",
+    "text": "First say to yourself what you would be; and then do what you have to do.",
+    "author": "Epictetus",
+    "category": [
+      "discipline",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q225",
+    "text": "Character is destiny.",
+    "author": "Heraclitus",
+    "category": [
+      "reflection",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "secondary",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q226",
+    "text": "Begin at once to live, and count each separate day as a separate life.",
+    "author": "Seneca",
+    "category": [
+      "discipline",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q227",
+    "text": "The best revenge is not to be like your enemy.",
+    "author": "Marcus Aurelius",
+    "category": [
+      "reflection",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q228",
+    "text": "The mind is not a vessel to be filled, but a fire to be kindled.",
+    "author": "Plutarch",
+    "category": [
+      "focus",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "secondary",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q229",
+    "text": "Things do not change; we change.",
+    "author": "Henry David Thoreau",
+    "category": [
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q230",
+    "text": "The greatest thing in the world is to know how to belong to oneself.",
+    "author": "Michel de Montaigne",
+    "category": [
+      "reflection",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q231",
+    "text": "Let everything happen to you: beauty and terror. Just keep going. No feeling is final.",
+    "author": "Rainer Maria Rilke",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q232",
+    "text": "Be patient toward all that is unsolved in your heart and try to love the questions themselves.",
+    "author": "Rainer Maria Rilke",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q233",
+    "text": "I believe that man will not merely endure: he will prevail.",
+    "author": "William Faulkner",
+    "category": [
+      "endurance",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q234",
+    "text": "All we have to decide is what to do with the time that is given us.",
+    "author": "J.R.R. Tolkien",
+    "category": [
+      "action",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q235",
+    "text": "Someone I loved once gave me a box full of darkness. It took me years to understand that this too, was a gift.",
+    "author": "Mary Oliver",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q236",
+    "text": "Hope is the thing with feathers that perches in the soul, and sings the tune without the words, and never stops at all.",
+    "author": "Emily Dickinson",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true
+  },
+  {
+    "id": "q237",
+    "text": "Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.",
+    "author": "Samuel Beckett",
+    "category": [
+      "endurance",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q238",
+    "text": "Traveler, there is no path. The path is made by walking.",
+    "author": "Antonio Machado",
+    "category": [
+      "action",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q239",
+    "text": "I am not afraid of storms, for I am learning how to sail my ship.",
+    "author": "Louisa May Alcott",
+    "category": [
+      "endurance",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "secondary",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q240",
+    "text": "If there is no struggle, there is no progress.",
+    "author": "Frederick Douglass",
+    "category": [
+      "action",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q241",
+    "text": "Nothing ever goes away until it has taught us what we need to know.",
+    "author": "Pema Chödrön",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q242",
+    "text": "Action springs not from thought, but from a readiness for responsibility.",
+    "author": "Dietrich Bonhoeffer",
+    "category": [
+      "leadership",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q243",
+    "text": "Attention is the rarest and purest form of generosity.",
+    "author": "Simone Weil",
+    "category": [
+      "focus",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true
+  },
+  {
+    "id": "q244",
+    "text": "Enthusiasm is common. Endurance is rare.",
+    "author": "Angela Duckworth",
+    "category": [
+      "discipline",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true
+  },
+  {
+    "id": "q245",
+    "text": "You do not rise to the level of your goals. You fall to the level of your systems.",
+    "author": "James Clear",
+    "category": [
+      "discipline",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
