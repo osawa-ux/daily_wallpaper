@@ -6,6 +6,24 @@ venv/
 dist/
 build/
 .env
+.env.*
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Secrets
+.secrets/
+*.pem
+*.p12
+credentials*.json
+token*.json
 
 # Output images and runtime state — not tracked
 # history.json is runtime state (per-machine), not source — each PC maintains its own

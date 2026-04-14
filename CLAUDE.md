@@ -10,8 +10,8 @@
 
 以下の共通ルールに従う:
 
-- 原本: `C:\Users\Motoi\OneDrive\個人用 Vault\.secrets\daily_wallpaper\`
-- 実行用: `C:\Users\Motoi\.secrets\daily_wallpaper\`
+- 原本: クラウド同期ストレージ配下の個人 Vault（例: `~/OneDrive/.secrets/daily_wallpaper/`）
+- 実行用: `~/.secrets/daily_wallpaper/`
 - コード内の参照順: 環境変数 → `~/.secrets/daily_wallpaper/` → フォールバック
 - `.env`, `credentials*.json`, `token*.json`, `*.p12`, `*.pem` などの秘密情報は Git に入れない
 - secret の実値をコードやコメントにハードコードしない
