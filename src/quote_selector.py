@@ -49,6 +49,9 @@ SCHOOL_MAP: dict[str, str] = {
     "Henry David Thoreau": "philosophy",
     "Ralph Waldo Emerson": "philosophy",
     "Blaise Pascal": "philosophy",
+    "Cicero": "philosophy",
+    "Boethius": "philosophy",
+    "Epicurus": "philosophy",
     # --- Existentialism ---
     "Søren Kierkegaard": "existential",
     "Friedrich Nietzsche": "existential",
@@ -111,6 +114,7 @@ SCHOOL_MAP: dict[str, str] = {
     "Christian Wiman": "spiritual",
     "C.S. Lewis": "spiritual",
     "Mother Teresa": "spiritual",
+    "G.K. Chesterton": "spiritual",
     # --- Poetry ---
     "Mary Oliver": "poetry",
     "Emily Dickinson": "poetry",
@@ -152,6 +156,7 @@ SCHOOL_MAP: dict[str, str] = {
     "Rebecca Solnit": "essayist",
     "Pico Iyer": "essayist",
     "Oliver Burkeman": "essayist",
+    "Anne Lamott": "essayist",
     # --- Modern / productivity ---
     "James Clear": "modern",
     "Steve Jobs": "modern",

@@ -5742,5 +5742,117 @@
     "length": "short",
     "enabled": true,
     "source_note": "Peace Is Every Step (1991)"
+  },
+  {
+    "id": "q422",
+    "text": "Be joyful though you have considered all the facts.",
+    "author": "Wendell Berry",
+    "category": [
+      "gratitude",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true,
+    "source_note": "Manifesto: The Mad Farmer Liberation Front (1973)"
+  },
+  {
+    "id": "q423",
+    "text": "I would maintain that thanks are the highest form of thought, and that gratitude is happiness doubled by wonder.",
+    "author": "G.K. Chesterton",
+    "category": [
+      "gratitude",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true,
+    "source_note": "A Short History of England (1917), ch. 6"
+  },
+  {
+    "id": "q424",
+    "text": "Gratitude is not only the greatest of virtues, but the parent of all others.",
+    "author": "Cicero",
+    "category": [
+      "gratitude",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true,
+    "source_note": "Pro Plancio 80 (oration, 54 BC)"
+  },
+  {
+    "id": "q425",
+    "text": "In ordinary life we hardly realize that we receive a great deal more than we give, and that it is only with gratitude that life becomes rich.",
+    "author": "Dietrich Bonhoeffer",
+    "category": [
+      "gratitude",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true,
+    "source_note": "Letters and Papers from Prison (1943)"
+  },
+  {
+    "id": "q426",
+    "text": "I have been a sentient being, a thinking animal, on this beautiful planet, and that in itself has been an enormous privilege and adventure.",
+    "author": "Oliver Sacks",
+    "category": [
+      "gratitude",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true,
+    "source_note": "Gratitude (2015), posthumous essay collection"
+  },
+  {
+    "id": "q427",
+    "text": "The three most essential prayers are Help, Thanks, Wow.",
+    "author": "Anne Lamott",
+    "category": [
+      "gratitude",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true,
+    "source_note": "Help, Thanks, Wow: The Three Essential Prayers (2012)"
+  },
+  {
+    "id": "q428",
+    "text": "When it's over, I want to say: all my life I was a bride married to amazement.",
+    "author": "Mary Oliver",
+    "category": [
+      "gratitude",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true,
+    "source_note": "When Death Comes — New and Selected Poems (1992)"
   }
 ]
