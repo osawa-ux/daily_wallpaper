@@ -3837,21 +3837,6 @@
     "enabled": true
   },
   {
-    "id": "q278",
-    "text": "Follow your heart but take your brain with you.",
-    "author": "Alfred Adler",
-    "category": [
-      "focus",
-      "action"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "short",
-    "enabled": true
-  },
-  {
     "id": "q279",
     "text": "The chief danger in life is that you may take too many precautions.",
     "author": "Alfred Adler",
@@ -3896,38 +3881,9 @@
     "enabled": true
   },
   {
-    "id": "q282",
-    "text": "When we are no longer able to change a situation, we are challenged to change ourselves.",
-    "author": "Viktor Frankl",
-    "category": [
-      "endurance",
-      "reflection"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "medium",
-    "enabled": true
-  },
-  {
-    "id": "q283",
-    "text": "We suffer more often in imagination than in reality.",
-    "author": "Seneca",
-    "category": [
-      "reflection"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "short",
-    "enabled": true
-  },
-  {
     "id": "q284",
     "text": "Anxiety is the dizziness of freedom.",
-    "author": "Soren Kierkegaard",
+    "author": "Søren Kierkegaard",
     "category": [
       "reflection"
     ],
@@ -3936,21 +3892,6 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
-  },
-  {
-    "id": "q285",
-    "text": "Waste no more time arguing what a good man should be. Be one.",
-    "author": "Marcus Aurelius",
-    "category": [
-      "action",
-      "discipline"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "medium",
     "enabled": true
   },
   {
@@ -4103,36 +4044,6 @@
     "enabled": true
   },
   {
-    "id": "q296",
-    "text": "No man is free who is not master of himself.",
-    "author": "Epictetus",
-    "category": [
-      "discipline",
-      "leadership"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "short",
-    "enabled": true
-  },
-  {
-    "id": "q297",
-    "text": "The greatest thing in the world is to know how to belong to oneself.",
-    "author": "Michel de Montaigne",
-    "category": [
-      "focus",
-      "reflection"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "medium",
-    "enabled": true
-  },
-  {
     "id": "q298",
     "text": "If a man does not keep pace with his companions, perhaps it is because he hears a different drummer.",
     "author": "Henry David Thoreau",
@@ -4190,21 +4101,6 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
-  },
-  {
-    "id": "q302",
-    "text": "To dare is to lose one's footing momentarily. Not to dare is to lose oneself.",
-    "author": "Soren Kierkegaard",
-    "category": [
-      "action",
-      "endurance"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "medium",
     "enabled": true
   },
   {
@@ -4597,21 +4493,6 @@
     "enabled": true
   },
   {
-    "id": "q329",
-    "text": "The best revenge is not to be like your enemy.",
-    "author": "Marcus Aurelius",
-    "category": [
-      "discipline",
-      "leadership"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "short",
-    "enabled": true
-  },
-  {
     "id": "q330",
     "text": "Make the best use of what is in your power, and take the rest as it happens.",
     "author": "Epictetus",
@@ -4835,24 +4716,9 @@
     "enabled": true
   },
   {
-    "id": "q345",
-    "text": "Life can only be understood backwards; but it must be lived forwards.",
-    "author": "Soren Kierkegaard",
-    "category": [
-      "reflection",
-      "action"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "medium",
-    "enabled": true
-  },
-  {
     "id": "q346",
     "text": "Purity of heart is to will one thing.",
-    "author": "Soren Kierkegaard",
+    "author": "Søren Kierkegaard",
     "category": [
       "focus",
       "discipline"
@@ -4862,21 +4728,6 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
-  },
-  {
-    "id": "q347",
-    "text": "You must have chaos within you to give birth to a dancing star.",
-    "author": "Friedrich Nietzsche",
-    "category": [
-      "endurance",
-      "reflection"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "medium",
     "enabled": true
   },
   {
@@ -5224,21 +5075,6 @@
     "enabled": true
   },
   {
-    "id": "q371",
-    "text": "Attention is the rarest and purest form of generosity.",
-    "author": "Simone Weil",
-    "category": [
-      "focus",
-      "gratitude"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "short",
-    "enabled": true
-  },
-  {
     "id": "q372",
     "text": "Love is not consolation. It is light.",
     "author": "Simone Weil",
@@ -5260,21 +5096,6 @@
     "category": [
       "reflection",
       "focus"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "medium",
-    "enabled": true
-  },
-  {
-    "id": "q374",
-    "text": "Let everything happen to you: beauty and terror. Just keep going. No feeling is final.",
-    "author": "Rainer Maria Rilke",
-    "category": [
-      "endurance",
-      "reflection"
     ],
     "translated": false,
     "verification_status": "verified",
@@ -5314,21 +5135,6 @@
     "enabled": true
   },
   {
-    "id": "q377",
-    "text": "It may be that when we no longer know what to do, we have come to our real work, and that when we no longer know which way to go, we have begun our real journey.",
-    "author": "Wendell Berry",
-    "category": [
-      "reflection",
-      "endurance"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "long",
-    "enabled": true
-  },
-  {
     "id": "q378",
     "text": "The antidote to exhaustion is not necessarily rest. The antidote to exhaustion is wholeheartedness.",
     "author": "David Whyte",
@@ -5341,21 +5147,6 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
-  },
-  {
-    "id": "q379",
-    "text": "Self-care is never a selfish act; it is simply good stewardship of the only gift I have, the gift I was put on earth to offer to others.",
-    "author": "Parker J. Palmer",
-    "category": [
-      "rest",
-      "reflection"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "long",
     "enabled": true
   },
   {
@@ -5389,42 +5180,12 @@
     "enabled": true
   },
   {
-    "id": "q382",
-    "text": "It does not matter how slowly you go, so long as you do not stop.",
-    "author": "Confucius",
-    "category": [
-      "endurance",
-      "discipline"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "medium",
-    "enabled": true
-  },
-  {
     "id": "q383",
     "text": "Knowing others is intelligence; knowing yourself is true wisdom. Mastering others is strength; mastering yourself is true power.",
     "author": "Lao Tzu",
     "category": [
       "reflection",
       "discipline"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "medium",
-    "enabled": true
-  },
-  {
-    "id": "q384",
-    "text": "Everyone thinks of changing the world, but no one thinks of changing himself.",
-    "author": "Leo Tolstoy",
-    "category": [
-      "reflection",
-      "action"
     ],
     "translated": false,
     "verification_status": "verified",
@@ -5508,21 +5269,6 @@
     "enabled": true
   },
   {
-    "id": "q390",
-    "text": "Arrange whatever pieces come your way.",
-    "author": "Virginia Woolf",
-    "category": [
-      "action",
-      "endurance"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "short",
-    "enabled": true
-  },
-  {
     "id": "q391",
     "text": "We do not receive wisdom; we must discover it for ourselves after a journey that no one can take for us or spare us.",
     "author": "Marcel Proust",
@@ -5544,36 +5290,6 @@
     "category": [
       "action",
       "discipline"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "medium",
-    "enabled": true
-  },
-  {
-    "id": "q393",
-    "text": "How we spend our days is, of course, how we spend our lives.",
-    "author": "Annie Dillard",
-    "category": [
-      "focus",
-      "discipline"
-    ],
-    "translated": false,
-    "verification_status": "verified",
-    "mood_tags": [],
-    "season_tags": [],
-    "length": "short",
-    "enabled": true
-  },
-  {
-    "id": "q394",
-    "text": "Not everything that is faced can be changed, but nothing can be changed until it is faced.",
-    "author": "James Baldwin",
-    "category": [
-      "endurance",
-      "action"
     ],
     "translated": false,
     "verification_status": "verified",
@@ -5645,7 +5361,7 @@
   {
     "id": "q399",
     "text": "The essence of bravery is being without self-deception.",
-    "author": "Pema Chodron",
+    "author": "Pema Chödrön",
     "category": [
       "reflection",
       "endurance"
