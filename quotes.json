@@ -3072,7 +3072,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "author_cap"
   },
   {
     "id": "q227",
@@ -3789,7 +3790,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "weak_attribution"
   },
   {
     "id": "q275",
@@ -3907,7 +3909,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "author_cap"
   },
   {
     "id": "q287",
@@ -3922,7 +3925,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "near_duplicate"
   },
   {
     "id": "q288",
@@ -3966,7 +3970,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "author_cap"
   },
   {
     "id": "q291",
@@ -3996,7 +4001,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "author_cap"
   },
   {
     "id": "q293",
@@ -4026,7 +4032,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "author_cap"
   },
   {
     "id": "q295",
@@ -4041,7 +4048,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "author_cap"
   },
   {
     "id": "q298",
@@ -4086,7 +4094,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "author_cap"
   },
   {
     "id": "q301",
@@ -4445,7 +4454,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "author_cap"
   },
   {
     "id": "q326",
@@ -4475,7 +4485,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "author_cap"
   },
   {
     "id": "q328",
@@ -4490,7 +4501,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "author_cap"
   },
   {
     "id": "q330",
@@ -4520,7 +4532,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "author_cap"
   },
   {
     "id": "q332",
@@ -4535,7 +4548,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "author_cap"
   },
   {
     "id": "q333",
@@ -4565,7 +4579,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "author_cap"
   },
   {
     "id": "q335",
@@ -4595,7 +4610,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "author_cap"
   },
   {
     "id": "q337",
@@ -4610,7 +4626,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "author_cap"
   },
   {
     "id": "q338",
@@ -4655,7 +4672,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "author_cap"
   },
   {
     "id": "q341",
@@ -4670,7 +4688,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "author_cap"
   },
   {
     "id": "q342",
@@ -4713,7 +4732,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": false,
+    "pool_reason": "author_cap"
   },
   {
     "id": "q346",
