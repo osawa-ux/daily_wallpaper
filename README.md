@@ -334,18 +334,22 @@ output/
 | `id` | ユニーク ID（`q001` 形式） |
 | `category` | `action`, `discipline`, `focus`, `leadership`, `endurance`, `reflection`, `rest`, `gratitude` から複数 |
 | `translated` | 翻訳 quote は `true` |
-| `verification_status` | `verified`（検証済）, `translated`（翻訳）, `original`（オリジナル） |
+| `verification_status` | `verified`（検証済）, `translated`（翻訳）, `original`（オリジナル）, `secondary`（二次ソース由来） |
 | `length` | `short`, `medium`, `long` |
-| `enabled` | `false` で選択対象から除外 |
+| `enabled` | `false` で選択対象から除外（保留プールとして残す） |
 | `mood_tags` | mood 補正との関連（参考情報） |
 | `season_tags` | 季節との関連（参考情報） |
+| `source_note` | 出典確認メモ（任意）。追加時にどの本・演説・年などから取ったかを残す |
+| `pool_reason` | 休眠理由（任意）。`enabled:false` にした理由を記録。例: `author_cap`, `near_duplicate`, `weak_attribution` |
 
-### 100本構成への拡張時の注意
+> `quotes.json` は active な採用データと、`enabled:false` の保留プールを同居させて管理している。削除せず休眠させることで、方針変更時に復活できるようにしている。
 
-- `id` はユニークに保つ（`q061` 以降を連番で追加）
+### 追加時の注意
+
+- `id` はユニークに保つ（連番で追加。現状は `q400` 台まで使用中）
 - `category` は必ず1つ以上指定（スタイルルーティングに使用）
-- `enabled: false` で一時無効化可能
-- 将来 `source` フィールドを追加しても既存コードは壊れない
+- `enabled: false` で一時無効化可能（保留プール）。その際は `pool_reason` に理由を残す
+- 出典が確認できる場合は `source_note` に一言残しておくと後から検証しやすい
 
 ## config.json の編集方法
 
@@ -461,7 +465,7 @@ python main.py --validate-quotes
 daily_wallpaper/
   main.py                     # CLI エントリポイント
   config.json                 # 全設定（ルーティング、重み、レイアウト）
-  quotes.json                 # Quote データ（60件）
+  quotes.json                 # Quote データ（数百件規模 / active + 保留プール）
   requirements.txt            # Pillow, numpy
   src/
     config_loader.py           # 設定・quote 読み込み
@@ -483,7 +487,6 @@ daily_wallpaper/
 
 ## 今後の拡張ポイント
 
-- quotes.json を 100 件以上に拡充
 - 4K / マルチモニター対応
 - カスタムフォント（Google Fonts など）の導入
 - GUI / トレイアプリ化
