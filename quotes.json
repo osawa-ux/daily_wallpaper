@@ -5422,5 +5422,325 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true
+  },
+  {
+    "id": "q402",
+    "text": "We are here to add what we can to life, not to get what we can from it.",
+    "author": "William Osler",
+    "category": [
+      "leadership",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true,
+    "source_note": "A Way of Life, 1913 address to Yale students"
+  },
+  {
+    "id": "q403",
+    "text": "Even if I'm dying, until I actually die, I am still living.",
+    "author": "Paul Kalanithi",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true,
+    "source_note": "When Breath Becomes Air (2016)"
+  },
+  {
+    "id": "q404",
+    "text": "Every act of perception is to some degree an act of creation, and every act of memory is to some degree an act of imagination.",
+    "author": "Oliver Sacks",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true,
+    "source_note": "Musicophilia (2007)"
+  },
+  {
+    "id": "q405",
+    "text": "The bedside examination is not simply a clinical encounter. It is a ritual.",
+    "author": "Abraham Verghese",
+    "category": [
+      "leadership",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true,
+    "source_note": "A Doctor's Touch — TED Global 2011"
+  },
+  {
+    "id": "q406",
+    "text": "Let us never consider ourselves finished nurses. We must be learning all of our lives.",
+    "author": "Florence Nightingale",
+    "category": [
+      "discipline",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true,
+    "source_note": "Letter to probationer nurses, St Thomas's, 1872"
+  },
+  {
+    "id": "q407",
+    "text": "The nurse is temporarily the consciousness of the unconscious, the love of life for the suicidal, the leg of the amputee, the eyes of the newly blind.",
+    "author": "Virginia Henderson",
+    "category": [
+      "leadership",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true,
+    "source_note": "The Nature of Nursing (1966)"
+  },
+  {
+    "id": "q408",
+    "text": "Suffering is only intolerable when nobody cares.",
+    "author": "Cicely Saunders",
+    "category": [
+      "leadership",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true,
+    "source_note": "Care of the Dying lectures, St Christopher's Hospice"
+  },
+  {
+    "id": "q409",
+    "text": "All real living is meeting.",
+    "author": "Martin Buber",
+    "category": [
+      "reflection",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true,
+    "source_note": "I and Thou (1923, tr. Smith)"
+  },
+  {
+    "id": "q410",
+    "text": "Loneliness is the pain of being alone; solitude is the glory of being alone.",
+    "author": "Paul Tillich",
+    "category": [
+      "reflection",
+      "rest"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true,
+    "source_note": "The Eternal Now (1963)"
+  },
+  {
+    "id": "q411",
+    "text": "One's life has value so long as one attributes value to the life of others, by means of love, friendship, indignation, compassion.",
+    "author": "Simone de Beauvoir",
+    "category": [
+      "leadership",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true,
+    "source_note": "La Vieillesse / The Coming of Age (1970)"
+  },
+  {
+    "id": "q412",
+    "text": "Philosophy means: to be on the way. Its questions are more essential than its answers.",
+    "author": "Karl Jaspers",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true,
+    "source_note": "Way to Wisdom (1951)"
+  },
+  {
+    "id": "q413",
+    "text": "The two most powerful warriors are patience and time.",
+    "author": "Leo Tolstoy",
+    "category": [
+      "endurance",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true,
+    "source_note": "War and Peace (1869), Kutuzov's counsel"
+  },
+  {
+    "id": "q414",
+    "text": "If you surrender to the wind, you can ride it.",
+    "author": "Toni Morrison",
+    "category": [
+      "action",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true,
+    "source_note": "Song of Solomon (1977)"
+  },
+  {
+    "id": "q415",
+    "text": "It is good to have an end to journey toward; but it is the journey that matters, in the end.",
+    "author": "Ursula K. Le Guin",
+    "category": [
+      "reflection",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true,
+    "source_note": "The Left Hand of Darkness (1969)"
+  },
+  {
+    "id": "q416",
+    "text": "Wherever you turn your eyes the world can shine like transfiguration. You don't have to bring a thing to it except a little willingness to see.",
+    "author": "Marilynne Robinson",
+    "category": [
+      "reflection",
+      "gratitude"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "long",
+    "enabled": true,
+    "source_note": "Gilead (2004)"
+  },
+  {
+    "id": "q417",
+    "text": "Vulnerability is not weakness; it's our greatest measure of courage.",
+    "author": "Brené Brown",
+    "category": [
+      "endurance",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true,
+    "source_note": "Daring Greatly (2012)"
+  },
+  {
+    "id": "q418",
+    "text": "Often when you think you're at the end of something, you're at the beginning of something else.",
+    "author": "Fred Rogers",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true,
+    "source_note": "Dartmouth commencement address, 2002"
+  },
+  {
+    "id": "q419",
+    "text": "The good life is a process, not a state of being. It is a direction, not a destination.",
+    "author": "Carl Rogers",
+    "category": [
+      "discipline",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "enabled": true,
+    "source_note": "On Becoming a Person (1961)"
+  },
+  {
+    "id": "q420",
+    "text": "To live without hope is to cease to live.",
+    "author": "Fyodor Dostoevsky",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true,
+    "source_note": "The House of the Dead (1862)"
+  },
+  {
+    "id": "q421",
+    "text": "Walk as if you are kissing the earth with your feet.",
+    "author": "Thich Nhat Hanh",
+    "category": [
+      "focus",
+      "gratitude"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "enabled": true,
+    "source_note": "Peace Is Every Step (1991)"
   }
 ]
