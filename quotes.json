@@ -18,7 +18,8 @@
       "summer"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q002",
@@ -35,7 +36,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q003",
@@ -55,7 +57,8 @@
       "spring"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q004",
@@ -71,7 +74,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q005",
@@ -91,7 +95,8 @@
       "winter"
     ],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q006",
@@ -108,7 +113,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q007",
@@ -125,7 +131,8 @@
       "autumn"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q008",
@@ -141,7 +148,8 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q009",
@@ -161,7 +169,8 @@
       "winter"
     ],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q010",
@@ -180,7 +189,8 @@
       "spring"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q011",
@@ -200,7 +210,8 @@
       "winter"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q012",
@@ -220,7 +231,8 @@
       "summer"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q013",
@@ -240,7 +252,8 @@
       "winter"
     ],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q014",
@@ -259,7 +272,8 @@
       "autumn"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q015",
@@ -278,7 +292,8 @@
       "spring"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q016",
@@ -295,7 +310,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q018",
@@ -314,7 +330,8 @@
       "winter"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q019",
@@ -331,7 +348,8 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q020",
@@ -350,7 +368,8 @@
       "autumn"
     ],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q021",
@@ -368,7 +387,8 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q022",
@@ -388,7 +408,8 @@
       "spring"
     ],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q023",
@@ -403,7 +424,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q024",
@@ -420,7 +442,8 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q025",
@@ -438,7 +461,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q026",
@@ -458,7 +482,8 @@
       "winter"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q027",
@@ -474,7 +499,8 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q028",
@@ -492,7 +518,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q033",
@@ -512,7 +539,8 @@
       "winter"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q035",
@@ -530,7 +558,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q036",
@@ -550,7 +579,8 @@
       "spring"
     ],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q038",
@@ -567,7 +597,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q039",
@@ -583,7 +614,8 @@
       "autumn"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q040",
@@ -600,7 +632,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q041",
@@ -616,7 +649,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q042",
@@ -634,7 +668,8 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q043",
@@ -652,7 +687,8 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q044",
@@ -666,7 +702,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q045",
@@ -685,7 +722,8 @@
       "spring"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q046",
@@ -702,7 +740,8 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q047",
@@ -719,7 +758,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q048",
@@ -737,7 +777,8 @@
       "winter"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q049",
@@ -754,7 +795,8 @@
       "summer"
     ],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q050",
@@ -769,7 +811,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q051",
@@ -787,7 +830,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q052",
@@ -805,7 +849,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q056",
@@ -824,7 +869,8 @@
       "autumn"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q057",
@@ -845,7 +891,8 @@
       "summer"
     ],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q058",
@@ -865,7 +912,8 @@
       "winter"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q061",
@@ -884,7 +932,8 @@
       "spring"
     ],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q062",
@@ -901,7 +950,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q063",
@@ -917,7 +967,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q064",
@@ -934,7 +985,8 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q065",
@@ -953,7 +1005,8 @@
       "spring"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q066",
@@ -970,7 +1023,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q067",
@@ -988,7 +1042,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q068",
@@ -1007,7 +1062,8 @@
       "winter"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q069",
@@ -1025,7 +1081,8 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q070",
@@ -1043,7 +1100,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q071",
@@ -1060,7 +1118,8 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q072",
@@ -1077,7 +1136,8 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q073",
@@ -1096,7 +1156,8 @@
       "spring"
     ],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q076",
@@ -1113,7 +1174,8 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q077",
@@ -1130,7 +1192,8 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q078",
@@ -1150,7 +1213,8 @@
       "winter"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q080",
@@ -1167,7 +1231,8 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q082",
@@ -1185,7 +1250,8 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q087",
@@ -1203,7 +1269,8 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q088",
@@ -1220,7 +1287,8 @@
       "autumn"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q091",
@@ -1237,7 +1305,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q092",
@@ -1253,7 +1322,8 @@
       "autumn"
     ],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q093",
@@ -1272,7 +1342,8 @@
       "winter"
     ],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q095",
@@ -1290,7 +1361,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q096",
@@ -1307,7 +1379,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q098",
@@ -1324,7 +1397,8 @@
     ],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q099",
@@ -1342,7 +1416,8 @@
     ],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q101",
@@ -1357,7 +1432,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q102",
@@ -1372,7 +1448,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q104",
@@ -1386,7 +1463,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q105",
@@ -1401,7 +1479,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q106",
@@ -1416,7 +1495,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q107",
@@ -1430,7 +1510,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q109",
@@ -1445,7 +1526,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q110",
@@ -1459,7 +1541,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q111",
@@ -1474,7 +1557,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q112",
@@ -1488,7 +1572,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q113",
@@ -1503,7 +1588,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q114",
@@ -1517,7 +1603,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q115",
@@ -1531,7 +1618,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q116",
@@ -1546,7 +1634,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q118",
@@ -1560,7 +1649,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q120",
@@ -1575,7 +1665,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q122",
@@ -1590,7 +1681,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q123",
@@ -1605,7 +1697,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q124",
@@ -1620,7 +1713,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q127",
@@ -1635,7 +1729,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q128",
@@ -1650,7 +1745,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q129",
@@ -1665,7 +1761,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q130",
@@ -1680,7 +1777,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q131",
@@ -1694,7 +1792,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q132",
@@ -1708,7 +1807,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q133",
@@ -1722,7 +1822,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q134",
@@ -1737,7 +1838,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q135",
@@ -1752,7 +1854,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q136",
@@ -1767,7 +1870,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q137",
@@ -1782,7 +1886,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q138",
@@ -1797,7 +1902,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q139",
@@ -1812,7 +1918,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q141",
@@ -1826,7 +1933,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q143",
@@ -1841,7 +1949,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q144",
@@ -1856,7 +1965,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q145",
@@ -1871,7 +1981,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q146",
@@ -1886,7 +1997,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q147",
@@ -1901,7 +2013,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q148",
@@ -1916,7 +2029,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q150",
@@ -1931,7 +2045,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q151",
@@ -1946,7 +2061,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q152",
@@ -1960,7 +2076,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q153",
@@ -1975,7 +2092,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q154",
@@ -1990,7 +2108,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q155",
@@ -2004,7 +2123,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q156",
@@ -2019,7 +2139,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q157",
@@ -2034,7 +2155,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q158",
@@ -2049,7 +2171,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q159",
@@ -2064,7 +2187,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q160",
@@ -2079,7 +2203,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q161",
@@ -2094,7 +2219,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q162",
@@ -2109,7 +2235,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q163",
@@ -2124,7 +2251,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q164",
@@ -2139,7 +2267,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q165",
@@ -2154,7 +2283,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q166",
@@ -2169,7 +2299,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q167",
@@ -2185,7 +2316,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "background": "2012年の自民党総裁選出馬時の演説より。第一次政権退陣後、再起を期す中で語った言葉。"
+    "background": "2012年の自民党総裁選出馬時の演説より。第一次政権退陣後、再起を期す中で語った言葉。",
+    "language": "ja"
   },
   {
     "id": "q168",
@@ -2201,7 +2333,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "background": "第二次政権下、再チャレンジ可能な社会づくりを訴えた所信表明・関連演説の文脈で繰り返し用いた表現。"
+    "background": "第二次政権下、再チャレンジ可能な社会づくりを訴えた所信表明・関連演説の文脈で繰り返し用いた表現。",
+    "language": "ja"
   },
   {
     "id": "q169",
@@ -2217,7 +2350,8 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "background": "国会答弁や記者会見で語ったとされる発言。一次出典は未特定のため secondary 扱い。"
+    "background": "国会答弁や記者会見で語ったとされる発言。一次出典は未特定のため secondary 扱い。",
+    "language": "ja"
   },
   {
     "id": "q170",
@@ -2232,7 +2366,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q171",
@@ -2247,7 +2382,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q172",
@@ -2262,7 +2398,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q173",
@@ -2277,7 +2414,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q174",
@@ -2292,7 +2430,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q175",
@@ -2308,7 +2447,8 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "background": "1910年パリ・ソルボンヌ大学での演説『Citizenship in a Republic』通称「Man in the Arena」より抜粋。"
+    "background": "1910年パリ・ソルボンヌ大学での演説『Citizenship in a Republic』通称「Man in the Arena」より抜粋。",
+    "language": "en"
   },
   {
     "id": "q176",
@@ -2323,7 +2463,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q177",
@@ -2338,7 +2479,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q178",
@@ -2352,7 +2494,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q179",
@@ -2367,7 +2510,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q180",
@@ -2382,7 +2526,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q181",
@@ -2397,7 +2542,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q182",
@@ -2412,7 +2558,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q183",
@@ -2426,7 +2573,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q184",
@@ -2441,7 +2589,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q185",
@@ -2456,7 +2605,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q186",
@@ -2470,7 +2620,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q187",
@@ -2485,7 +2636,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q188",
@@ -2500,7 +2652,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q189",
@@ -2515,7 +2668,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q190",
@@ -2530,7 +2684,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q191",
@@ -2545,7 +2700,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q192",
@@ -2560,7 +2716,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q193",
@@ -2575,7 +2732,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q194",
@@ -2590,7 +2748,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q195",
@@ -2604,7 +2763,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q196",
@@ -2619,7 +2779,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q197",
@@ -2634,7 +2795,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q198",
@@ -2648,7 +2810,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q199",
@@ -2663,7 +2826,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q200",
@@ -2678,7 +2842,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q201",
@@ -2692,7 +2857,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q202",
@@ -2707,7 +2873,8 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "background": "1941年10月29日、母校ハロー校での演説より。"
+    "background": "1941年10月29日、母校ハロー校での演説より。",
+    "language": "en"
   },
   {
     "id": "q203",
@@ -2722,7 +2889,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q204",
@@ -2738,7 +2906,8 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "background": "1899年シカゴ演説『The Strenuous Life』より。"
+    "background": "1899年シカゴ演説『The Strenuous Life』より。",
+    "language": "en"
   },
   {
     "id": "q205",
@@ -2754,7 +2923,8 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "background": "『武士道』第五章「義」の趣旨を要約した表現。原文の直訳ではない。"
+    "background": "『武士道』第五章「義」の趣旨を要約した表現。原文の直訳ではない。",
+    "language": "ja"
   },
   {
     "id": "q206",
@@ -2769,7 +2939,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q207",
@@ -2785,7 +2956,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "background": "鈴木大拙の禅論を要約した表現。原文の直訳ではない。"
+    "background": "鈴木大拙の禅論を要約した表現。原文の直訳ではない。",
+    "language": "ja"
   },
   {
     "id": "q208",
@@ -2800,7 +2972,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q209",
@@ -2815,7 +2988,8 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "background": "広く流通する表現だが一次出典は未特定。"
+    "background": "広く流通する表現だが一次出典は未特定。",
+    "language": "ja"
   },
   {
     "id": "q210",
@@ -2831,7 +3005,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "background": "司馬作品の人生観を要約した表現。"
+    "background": "司馬作品の人生観を要約した表現。",
+    "language": "ja"
   },
   {
     "id": "q211",
@@ -2846,7 +3021,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q212",
@@ -2861,7 +3037,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q213",
@@ -2876,7 +3053,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q214",
@@ -2891,7 +3069,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q215",
@@ -2907,7 +3086,8 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "background": "2005年スタンフォード大学卒業式スピーチより。"
+    "background": "2005年スタンフォード大学卒業式スピーチより。",
+    "language": "en"
   },
   {
     "id": "q216",
@@ -2922,7 +3102,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q217",
@@ -2937,7 +3118,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q218",
@@ -2952,7 +3134,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q219",
@@ -2967,7 +3150,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q220",
@@ -2982,7 +3166,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "ja"
   },
   {
     "id": "q221",
@@ -2997,7 +3182,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q222",
@@ -3012,7 +3198,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q223",
@@ -3027,7 +3214,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q224",
@@ -3042,7 +3230,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q225",
@@ -3057,7 +3246,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q226",
@@ -3073,7 +3263,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": false,
-    "pool_reason": "author_cap"
+    "pool_reason": "author_cap",
+    "language": "en"
   },
   {
     "id": "q227",
@@ -3088,7 +3279,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q228",
@@ -3103,7 +3295,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q229",
@@ -3117,7 +3310,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q230",
@@ -3132,7 +3326,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q231",
@@ -3147,7 +3342,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q232",
@@ -3162,7 +3358,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q233",
@@ -3177,7 +3374,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q234",
@@ -3192,7 +3390,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q235",
@@ -3207,7 +3406,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q236",
@@ -3222,7 +3422,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q237",
@@ -3237,7 +3438,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q238",
@@ -3252,7 +3454,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q239",
@@ -3267,7 +3470,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q240",
@@ -3282,7 +3486,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q241",
@@ -3297,7 +3502,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q242",
@@ -3312,7 +3518,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q243",
@@ -3327,7 +3534,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q244",
@@ -3342,7 +3550,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q245",
@@ -3357,7 +3566,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q246",
@@ -3372,7 +3582,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q247",
@@ -3387,7 +3598,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q248",
@@ -3402,7 +3614,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q249",
@@ -3417,7 +3630,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q250",
@@ -3432,7 +3646,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q251",
@@ -3447,7 +3662,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q252",
@@ -3462,7 +3678,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q253",
@@ -3477,7 +3694,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q254",
@@ -3492,7 +3710,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q255",
@@ -3507,7 +3726,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q256",
@@ -3522,7 +3742,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q257",
@@ -3537,7 +3758,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q258",
@@ -3552,7 +3774,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q259",
@@ -3567,7 +3790,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q260",
@@ -3582,7 +3806,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q261",
@@ -3597,7 +3822,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q262",
@@ -3612,7 +3838,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q263",
@@ -3626,7 +3853,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q264",
@@ -3641,7 +3869,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q265",
@@ -3656,7 +3885,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q266",
@@ -3671,7 +3901,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q267",
@@ -3686,7 +3917,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q268",
@@ -3701,7 +3933,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q269",
@@ -3716,7 +3949,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q270",
@@ -3731,7 +3965,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q271",
@@ -3746,7 +3981,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q272",
@@ -3761,7 +3997,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q273",
@@ -3776,7 +4013,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q274",
@@ -3791,7 +4029,8 @@
     "season_tags": [],
     "length": "short",
     "enabled": false,
-    "pool_reason": "weak_attribution"
+    "pool_reason": "weak_attribution",
+    "language": "en"
   },
   {
     "id": "q275",
@@ -3806,7 +4045,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q276",
@@ -3821,7 +4061,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q277",
@@ -3836,7 +4077,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q279",
@@ -3851,7 +4093,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q280",
@@ -3865,7 +4108,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q281",
@@ -3880,7 +4124,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q284",
@@ -3894,7 +4139,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q286",
@@ -3910,7 +4156,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": false,
-    "pool_reason": "author_cap"
+    "pool_reason": "author_cap",
+    "language": "en"
   },
   {
     "id": "q287",
@@ -3926,7 +4173,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": false,
-    "pool_reason": "near_duplicate"
+    "pool_reason": "near_duplicate",
+    "language": "en"
   },
   {
     "id": "q288",
@@ -3941,7 +4189,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q289",
@@ -3956,7 +4205,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q290",
@@ -3971,7 +4221,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": false,
-    "pool_reason": "author_cap"
+    "pool_reason": "author_cap",
+    "language": "en"
   },
   {
     "id": "q291",
@@ -3986,7 +4237,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q292",
@@ -4002,7 +4254,8 @@
     "season_tags": [],
     "length": "short",
     "enabled": false,
-    "pool_reason": "author_cap"
+    "pool_reason": "author_cap",
+    "language": "en"
   },
   {
     "id": "q293",
@@ -4017,7 +4270,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q294",
@@ -4033,7 +4287,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": false,
-    "pool_reason": "author_cap"
+    "pool_reason": "author_cap",
+    "language": "en"
   },
   {
     "id": "q295",
@@ -4049,7 +4304,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": false,
-    "pool_reason": "author_cap"
+    "pool_reason": "author_cap",
+    "language": "en"
   },
   {
     "id": "q298",
@@ -4064,7 +4320,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q299",
@@ -4079,7 +4336,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q300",
@@ -4095,7 +4353,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": false,
-    "pool_reason": "author_cap"
+    "pool_reason": "author_cap",
+    "language": "en"
   },
   {
     "id": "q301",
@@ -4110,7 +4369,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q303",
@@ -4125,7 +4385,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q304",
@@ -4140,7 +4401,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q305",
@@ -4155,7 +4417,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q306",
@@ -4170,7 +4433,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q307",
@@ -4185,7 +4449,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q308",
@@ -4200,7 +4465,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q309",
@@ -4215,7 +4481,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q310",
@@ -4230,7 +4497,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q311",
@@ -4245,7 +4513,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q312",
@@ -4260,7 +4529,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q313",
@@ -4275,7 +4545,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q314",
@@ -4289,7 +4560,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q315",
@@ -4304,7 +4576,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q316",
@@ -4319,7 +4592,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q317",
@@ -4334,7 +4608,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q318",
@@ -4349,7 +4624,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q319",
@@ -4364,7 +4640,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q320",
@@ -4379,7 +4656,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q321",
@@ -4394,7 +4672,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q322",
@@ -4409,7 +4688,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q323",
@@ -4424,7 +4704,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q324",
@@ -4439,7 +4720,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q325",
@@ -4455,7 +4737,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": false,
-    "pool_reason": "author_cap"
+    "pool_reason": "author_cap",
+    "language": "en"
   },
   {
     "id": "q326",
@@ -4470,7 +4753,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q327",
@@ -4486,7 +4770,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": false,
-    "pool_reason": "author_cap"
+    "pool_reason": "author_cap",
+    "language": "en"
   },
   {
     "id": "q328",
@@ -4502,7 +4787,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": false,
-    "pool_reason": "author_cap"
+    "pool_reason": "author_cap",
+    "language": "en"
   },
   {
     "id": "q330",
@@ -4517,7 +4803,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q331",
@@ -4533,7 +4820,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": false,
-    "pool_reason": "author_cap"
+    "pool_reason": "author_cap",
+    "language": "en"
   },
   {
     "id": "q332",
@@ -4549,7 +4837,8 @@
     "season_tags": [],
     "length": "short",
     "enabled": false,
-    "pool_reason": "author_cap"
+    "pool_reason": "author_cap",
+    "language": "en"
   },
   {
     "id": "q333",
@@ -4564,7 +4853,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q334",
@@ -4580,7 +4870,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": false,
-    "pool_reason": "author_cap"
+    "pool_reason": "author_cap",
+    "language": "en"
   },
   {
     "id": "q335",
@@ -4595,7 +4886,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q336",
@@ -4611,7 +4903,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": false,
-    "pool_reason": "author_cap"
+    "pool_reason": "author_cap",
+    "language": "en"
   },
   {
     "id": "q337",
@@ -4627,7 +4920,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": false,
-    "pool_reason": "author_cap"
+    "pool_reason": "author_cap",
+    "language": "en"
   },
   {
     "id": "q338",
@@ -4642,7 +4936,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q339",
@@ -4657,7 +4952,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q340",
@@ -4673,7 +4969,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": false,
-    "pool_reason": "author_cap"
+    "pool_reason": "author_cap",
+    "language": "en"
   },
   {
     "id": "q341",
@@ -4689,7 +4986,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": false,
-    "pool_reason": "author_cap"
+    "pool_reason": "author_cap",
+    "language": "en"
   },
   {
     "id": "q342",
@@ -4703,7 +5001,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q343",
@@ -4718,7 +5017,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q344",
@@ -4733,7 +5033,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": false,
-    "pool_reason": "author_cap"
+    "pool_reason": "author_cap",
+    "language": "en"
   },
   {
     "id": "q346",
@@ -4748,7 +5049,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q348",
@@ -4763,7 +5065,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q349",
@@ -4778,7 +5081,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q350",
@@ -4793,7 +5097,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q351",
@@ -4808,7 +5113,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q352",
@@ -4823,7 +5129,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q353",
@@ -4838,7 +5145,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "long",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q354",
@@ -4853,7 +5161,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q355",
@@ -4868,7 +5177,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q356",
@@ -4883,7 +5193,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q357",
@@ -4898,7 +5209,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q358",
@@ -4913,7 +5225,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q359",
@@ -4928,7 +5241,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q360",
@@ -4943,7 +5257,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q361",
@@ -4958,7 +5273,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q362",
@@ -4973,7 +5289,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q363",
@@ -4988,7 +5305,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q364",
@@ -5003,7 +5321,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q365",
@@ -5017,7 +5336,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q366",
@@ -5032,7 +5352,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q367",
@@ -5047,7 +5368,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q368",
@@ -5062,7 +5384,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q369",
@@ -5077,7 +5400,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q370",
@@ -5092,7 +5416,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q372",
@@ -5107,7 +5432,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q373",
@@ -5122,7 +5448,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q375",
@@ -5137,7 +5464,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q376",
@@ -5152,7 +5480,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q378",
@@ -5167,7 +5496,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q380",
@@ -5182,7 +5512,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q381",
@@ -5197,7 +5528,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q383",
@@ -5212,7 +5544,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q385",
@@ -5227,7 +5560,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q386",
@@ -5242,7 +5576,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q387",
@@ -5257,7 +5592,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q388",
@@ -5271,7 +5607,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q389",
@@ -5286,7 +5623,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q391",
@@ -5301,7 +5639,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q392",
@@ -5316,7 +5655,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q395",
@@ -5331,7 +5671,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q396",
@@ -5346,7 +5687,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q397",
@@ -5361,7 +5703,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q398",
@@ -5376,7 +5719,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q399",
@@ -5391,7 +5735,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q400",
@@ -5406,7 +5751,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "short",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q401",
@@ -5421,7 +5767,8 @@
     "mood_tags": [],
     "season_tags": [],
     "length": "medium",
-    "enabled": true
+    "enabled": true,
+    "language": "en"
   },
   {
     "id": "q402",
@@ -5437,7 +5784,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "source_note": "A Way of Life, 1913 address to Yale students"
+    "source_note": "A Way of Life, 1913 address to Yale students",
+    "language": "en"
   },
   {
     "id": "q403",
@@ -5453,7 +5801,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "source_note": "When Breath Becomes Air (2016)"
+    "source_note": "When Breath Becomes Air (2016)",
+    "language": "en"
   },
   {
     "id": "q404",
@@ -5469,7 +5818,8 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "source_note": "Musicophilia (2007)"
+    "source_note": "Musicophilia (2007)",
+    "language": "en"
   },
   {
     "id": "q405",
@@ -5485,7 +5835,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "source_note": "A Doctor's Touch — TED Global 2011"
+    "source_note": "A Doctor's Touch — TED Global 2011",
+    "language": "en"
   },
   {
     "id": "q406",
@@ -5501,7 +5852,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "source_note": "Letter to probationer nurses, St Thomas's, 1872"
+    "source_note": "Letter to probationer nurses, St Thomas's, 1872",
+    "language": "en"
   },
   {
     "id": "q407",
@@ -5517,7 +5869,8 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "source_note": "The Nature of Nursing (1966)"
+    "source_note": "The Nature of Nursing (1966)",
+    "language": "en"
   },
   {
     "id": "q408",
@@ -5533,7 +5886,8 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "source_note": "Care of the Dying lectures, St Christopher's Hospice"
+    "source_note": "Care of the Dying lectures, St Christopher's Hospice",
+    "language": "en"
   },
   {
     "id": "q409",
@@ -5549,7 +5903,8 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "source_note": "I and Thou (1923, tr. Smith)"
+    "source_note": "I and Thou (1923, tr. Smith)",
+    "language": "en"
   },
   {
     "id": "q410",
@@ -5565,7 +5920,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "source_note": "The Eternal Now (1963)"
+    "source_note": "The Eternal Now (1963)",
+    "language": "en"
   },
   {
     "id": "q411",
@@ -5581,7 +5937,8 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "source_note": "La Vieillesse / The Coming of Age (1970)"
+    "source_note": "La Vieillesse / The Coming of Age (1970)",
+    "language": "en"
   },
   {
     "id": "q412",
@@ -5597,7 +5954,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "source_note": "Way to Wisdom (1951)"
+    "source_note": "Way to Wisdom (1951)",
+    "language": "en"
   },
   {
     "id": "q413",
@@ -5613,7 +5971,8 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "source_note": "War and Peace (1869), Kutuzov's counsel"
+    "source_note": "War and Peace (1869), Kutuzov's counsel",
+    "language": "en"
   },
   {
     "id": "q414",
@@ -5629,7 +5988,8 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "source_note": "Song of Solomon (1977)"
+    "source_note": "Song of Solomon (1977)",
+    "language": "en"
   },
   {
     "id": "q415",
@@ -5645,7 +6005,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "source_note": "The Left Hand of Darkness (1969)"
+    "source_note": "The Left Hand of Darkness (1969)",
+    "language": "en"
   },
   {
     "id": "q416",
@@ -5661,7 +6022,8 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "source_note": "Gilead (2004)"
+    "source_note": "Gilead (2004)",
+    "language": "en"
   },
   {
     "id": "q417",
@@ -5677,7 +6039,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "source_note": "Daring Greatly (2012)"
+    "source_note": "Daring Greatly (2012)",
+    "language": "en"
   },
   {
     "id": "q418",
@@ -5693,7 +6056,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "source_note": "Dartmouth commencement address, 2002"
+    "source_note": "Dartmouth commencement address, 2002",
+    "language": "en"
   },
   {
     "id": "q419",
@@ -5709,7 +6073,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "source_note": "On Becoming a Person (1961)"
+    "source_note": "On Becoming a Person (1961)",
+    "language": "en"
   },
   {
     "id": "q420",
@@ -5725,7 +6090,8 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "source_note": "The House of the Dead (1862)"
+    "source_note": "The House of the Dead (1862)",
+    "language": "en"
   },
   {
     "id": "q421",
@@ -5741,7 +6107,8 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "source_note": "Peace Is Every Step (1991)"
+    "source_note": "Peace Is Every Step (1991)",
+    "language": "en"
   },
   {
     "id": "q422",
@@ -5757,7 +6124,8 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "source_note": "Manifesto: The Mad Farmer Liberation Front (1973)"
+    "source_note": "Manifesto: The Mad Farmer Liberation Front (1973)",
+    "language": "en"
   },
   {
     "id": "q423",
@@ -5773,7 +6141,8 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "source_note": "A Short History of England (1917), ch. 6"
+    "source_note": "A Short History of England (1917), ch. 6",
+    "language": "en"
   },
   {
     "id": "q424",
@@ -5789,7 +6158,8 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "source_note": "Pro Plancio 80 (oration, 54 BC)"
+    "source_note": "Pro Plancio 80 (oration, 54 BC)",
+    "language": "en"
   },
   {
     "id": "q425",
@@ -5805,7 +6175,8 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "source_note": "Letters and Papers from Prison (1943)"
+    "source_note": "Letters and Papers from Prison (1943)",
+    "language": "en"
   },
   {
     "id": "q426",
@@ -5821,7 +6192,8 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "source_note": "Gratitude (2015), posthumous essay collection"
+    "source_note": "Gratitude (2015), posthumous essay collection",
+    "language": "en"
   },
   {
     "id": "q427",
@@ -5837,7 +6209,8 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "source_note": "Help, Thanks, Wow: The Three Essential Prayers (2012)"
+    "source_note": "Help, Thanks, Wow: The Three Essential Prayers (2012)",
+    "language": "en"
   },
   {
     "id": "q428",
@@ -5853,6 +6226,327 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "source_note": "When Death Comes — New and Selected Poems (1992)"
+    "source_note": "When Death Comes — New and Selected Poems (1992)",
+    "language": "en"
+  },
+  {
+    "id": "q429",
+    "text": "To cure the body without the mind is not to cure at all.",
+    "author": "Alexander Lowen",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "language": "en",
+    "enabled": true
+  },
+  {
+    "id": "q430",
+    "text": "The physician who teaches people to sustain their health is the superior physician.",
+    "author": "Huang Di Nei Jing",
+    "category": [
+      "discipline",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "language": "en",
+    "enabled": true
+  },
+  {
+    "id": "q431",
+    "text": "Observation, reason, human understanding, courage; these make the physician.",
+    "author": "Martin H. Fischer",
+    "category": [
+      "discipline",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "language": "en",
+    "enabled": true
+  },
+  {
+    "id": "q432",
+    "text": "The art of medicine consists of amusing the patient while nature cures the disease.",
+    "author": "Voltaire",
+    "category": [
+      "reflection",
+      "rest"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "language": "en",
+    "enabled": true
+  },
+  {
+    "id": "q433",
+    "text": "No man is a good doctor who has never been sick himself.",
+    "author": "Chinese Proverb",
+    "category": [
+      "reflection",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "language": "en",
+    "enabled": true
+  },
+  {
+    "id": "q434",
+    "text": "Only by going alone in silence, without baggage, can one truly get into the heart of the wilderness.",
+    "author": "John Muir",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "language": "en",
+    "enabled": true
+  },
+  {
+    "id": "q435",
+    "text": "Wealth consists not in having great possessions, but in having few wants.",
+    "author": "Epictetus",
+    "category": [
+      "gratitude",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "language": "en",
+    "enabled": true
+  },
+  {
+    "id": "q436",
+    "text": "Associate with people who are likely to improve you.",
+    "author": "Seneca",
+    "category": [
+      "discipline",
+      "leadership"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "language": "en",
+    "enabled": true
+  },
+  {
+    "id": "q437",
+    "text": "If you accomplish something good with hard work, the labor passes quickly, but the good endures.",
+    "author": "Musonius Rufus",
+    "category": [
+      "endurance",
+      "discipline"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "language": "en",
+    "enabled": true
+  },
+  {
+    "id": "q438",
+    "text": "The whole future lies in uncertainty: live immediately.",
+    "author": "Seneca",
+    "category": [
+      "action",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "language": "en",
+    "enabled": true
+  },
+  {
+    "id": "q439",
+    "text": "One must still have chaos in oneself to be able to give birth to a dancing star.",
+    "author": "Friedrich Nietzsche",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "language": "en",
+    "enabled": true
+  },
+  {
+    "id": "q440",
+    "text": "The shoe that fits one person pinches another; there is no recipe for living that suits all cases.",
+    "author": "Carl Jung",
+    "category": [
+      "reflection",
+      "focus"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "language": "en",
+    "enabled": true
+  },
+  {
+    "id": "q441",
+    "text": "What a man can be, he must be. This need we may call self-actualization.",
+    "author": "Abraham Maslow",
+    "category": [
+      "focus",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "medium",
+    "language": "en",
+    "enabled": true
+  },
+  {
+    "id": "q442",
+    "text": "The good life is a process, not a state of being.",
+    "author": "Carl Rogers",
+    "category": [
+      "reflection",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "language": "en",
+    "enabled": true
+  },
+  {
+    "id": "q443",
+    "text": "なせば成る なさねば成らぬ何事も 成らぬは人の なさぬなりけり",
+    "author": "上杉鷹山",
+    "category": [
+      "action",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "language": "ja",
+    "enabled": true
+  },
+  {
+    "id": "q444",
+    "text": "一日一字を記さば一年にして三百六十字を得、一夜一時を怠らば百歳の間三万六千時を失う",
+    "author": "吉田松陰",
+    "category": [
+      "discipline",
+      "endurance"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "language": "ja",
+    "enabled": true
+  },
+  {
+    "id": "q445",
+    "text": "花は盛りに、月は隈なきをのみ見るものかは",
+    "author": "兼好法師",
+    "category": [
+      "reflection",
+      "gratitude"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "language": "ja",
+    "enabled": true
+  },
+  {
+    "id": "q446",
+    "text": "敬天愛人",
+    "author": "西郷隆盛",
+    "category": [
+      "leadership",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "language": "ja",
+    "enabled": true
+  },
+  {
+    "id": "q447",
+    "text": "In the middle of difficulty lies opportunity.",
+    "author": "Albert Einstein",
+    "category": [
+      "endurance",
+      "action"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "language": "en",
+    "enabled": true
+  },
+  {
+    "id": "q448",
+    "text": "Turn your wounds into wisdom.",
+    "author": "Oprah Winfrey",
+    "category": [
+      "endurance",
+      "reflection"
+    ],
+    "translated": false,
+    "verification_status": "verified",
+    "mood_tags": [],
+    "season_tags": [],
+    "length": "short",
+    "language": "en",
+    "enabled": true
   }
 ]

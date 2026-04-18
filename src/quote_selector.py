@@ -15,11 +15,13 @@ SCHOOL_OVERRIDES_BY_ID offers a small escape hatch for rare exceptions.
 """
 
 import hashlib
+import json
 import logging
 import math
 import random
 from collections import Counter
 from datetime import date, timedelta
+from pathlib import Path
 from typing import Any
 
 from .utils import get_current_season, get_weekday_name
@@ -434,4 +436,81 @@ def select_quote(
         return chosen
 
     logger.info("Fallback: resetting history filter.")
+    return rng.choice(quotes)
+
+
+# ---------------------------------------------------------------------------
+# Calendar-based selection
+# ---------------------------------------------------------------------------
+
+def _load_calendar(base_dir: Path) -> dict[str, str] | None:
+    """Load calendar_assignments.json. Returns None if not found."""
+    cal_path = base_dir / "calendar_assignments.json"
+    if not cal_path.exists():
+        return None
+    try:
+        return json.loads(cal_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as e:
+        logger.warning("Failed to load calendar_assignments.json: %s", e)
+        return None
+
+
+def _load_reserve(base_dir: Path) -> list[str]:
+    """Load calendar_reserve.json. Returns empty list if not found."""
+    res_path = base_dir / "calendar_reserve.json"
+    if not res_path.exists():
+        return []
+    try:
+        return json.loads(res_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return []
+
+
+def select_quote_by_calendar(
+    quotes: list[dict[str, Any]],
+    base_dir: Path,
+    force_id: str | None = None,
+) -> dict[str, Any] | None:
+    """Select a quote by MM-DD calendar assignment.
+
+    Falls back to reserve if the assigned quote is missing/disabled,
+    then to random selection as last resort.
+    """
+    if not quotes:
+        logger.error("No quotes available.")
+        return None
+
+    if force_id:
+        for q in quotes:
+            if q["id"] == force_id:
+                logger.info("Forced quote: %s", force_id)
+                return q
+        logger.warning("Quote ID %s not found, falling back to calendar.", force_id)
+
+    by_id = {q["id"]: q for q in quotes}
+    today = date.today()
+    mmdd = f"{today.month:02d}-{today.day:02d}"
+
+    calendar = _load_calendar(base_dir)
+    if calendar is None:
+        logger.warning("No calendar_assignments.json found, falling back to random.")
+        return None
+
+    assigned_id = calendar.get(mmdd)
+    if assigned_id and assigned_id in by_id:
+        logger.info("Calendar selection: %s -> %s", mmdd, assigned_id)
+        return by_id[assigned_id]
+
+    logger.warning("Calendar assignment for %s not found or disabled (id=%s), trying reserve.", mmdd, assigned_id)
+
+    # Try reserve
+    reserve_ids = _load_reserve(base_dir)
+    for rid in reserve_ids:
+        if rid in by_id:
+            logger.info("Using reserve quote: %s for %s", rid, mmdd)
+            return by_id[rid]
+
+    # Last resort
+    logger.warning("No reserve available, using random selection for %s.", mmdd)
+    rng = random.Random(int(today.strftime("%Y%m%d")))
     return rng.choice(quotes)

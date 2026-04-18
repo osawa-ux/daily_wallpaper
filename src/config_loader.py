@@ -144,7 +144,14 @@ def validate_quotes(base_dir: Path, config: dict[str, Any] | None = None) -> lis
 
     # Summary stats
     total = len(data)
-    enabled = sum(1 for q in data if q.get("enabled", True))
+    enabled_qs = [q for q in data if q.get("enabled", True)]
+    disabled_qs = [q for q in data if not q.get("enabled", True)]
+    ja_total = sum(1 for q in data if q.get("language") == "ja")
+    en_total = sum(1 for q in data if q.get("language") == "en")
+    ja_enabled = sum(1 for q in enabled_qs if q.get("language") == "ja")
+    en_enabled = sum(1 for q in enabled_qs if q.get("language") == "en")
+    no_lang = sum(1 for q in data if "language" not in q)
+
     cat_counts: dict[str, int] = {}
     for q in data:
         for c in q.get("category", []):
@@ -152,9 +159,14 @@ def validate_quotes(base_dir: Path, config: dict[str, Any] | None = None) -> lis
 
     stats = [
         f"--- Stats ---",
-        f"Total quotes: {total}",
-        f"Enabled: {enabled}, Disabled: {total - enabled}",
-        f"Category distribution: {dict(sorted(cat_counts.items(), key=lambda x: -x[1]))}",
+        f"Total: {total}",
+        f"Enabled: {len(enabled_qs)}, Disabled: {len(disabled_qs)}",
+        f"Language: ja={ja_total} (enabled {ja_enabled}), en={en_total} (enabled {en_enabled})",
     ]
+    if no_lang:
+        stats.append(f"Warning: {no_lang} quotes missing 'language' field")
+    stats.append(
+        f"Category distribution: {dict(sorted(cat_counts.items(), key=lambda x: -x[1]))}"
+    )
 
     return issues + [""] + stats

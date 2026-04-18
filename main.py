@@ -58,8 +58,13 @@ def parse_args() -> argparse.Namespace:
                         help="Show style routing decision without generating image")
     parser.add_argument("--validate-quotes", action="store_true",
                         help="Validate quotes.json structure and data quality")
+    parser.add_argument("--validate-calendar", action="store_true",
+                        help="Validate calendar_assignments.json constraints and distribution")
     parser.add_argument("--force", action="store_true",
                         help="Force regeneration even if today's wallpaper is already set")
+    parser.add_argument("--mode", type=str, default="calendar",
+                        choices=["calendar", "random"],
+                        help="Selection mode: 'calendar' (MM-DD fixed) or 'random' (weighted random). Default: calendar")
     return parser.parse_args()
 
 
@@ -68,7 +73,7 @@ def main() -> None:
 
     from src.config_loader import load_config, load_quotes, validate_quotes
     from src.history_manager import load_history, save_history, add_entry
-    from src.quote_selector import select_quote
+    from src.quote_selector import select_quote, select_quote_by_calendar
     from src.wallpaper_generator import (
         generate_wallpaper, generate_variants, generate_author_comparison,
         generate_bg_comparison, generate_font_comparison, generate_demo,
@@ -88,11 +93,39 @@ def main() -> None:
         # Validate-only mode
         if args.validate_quotes:
             results = validate_quotes(BASE_DIR, config)
-            errors = [r for r in results if r and not r.startswith("---") and not r.startswith("Total") and not r.startswith("Enabled") and not r.startswith("Category")]
+            stats_prefixes = ("---", "Total", "Enabled", "Category", "Language", "Warning")
+            errors = [r for r in results if r and not r.startswith(stats_prefixes)]
             print(f"Validation: {len(errors)} issue(s) found.\n")
             for line in results:
                 print(f"  {line}")
             sys.exit(1 if errors else 0)
+
+        if args.validate_calendar:
+            from scripts.generate_calendar import (
+                validate_calendar, print_distribution, ALL_DAYS,
+            )
+            cal_path = BASE_DIR / "calendar_assignments.json"
+            if not cal_path.exists():
+                print("calendar_assignments.json not found. Run scripts/generate_calendar.py first.")
+                sys.exit(1)
+            import json as _json
+            cal = _json.loads(cal_path.read_text(encoding="utf-8"))
+            all_qs = _json.loads((BASE_DIR / "quotes.json").read_text(encoding="utf-8"))
+            by_id = {q["id"]: q for q in all_qs}
+            issues = validate_calendar(cal, by_id)
+            if issues:
+                print(f"Calendar violations: {len(issues)}")
+                for issue in issues:
+                    print(f"  {issue}")
+            else:
+                print("All calendar constraints satisfied.")
+            print(f"Days assigned: {len(cal)}/366")
+            res_path = BASE_DIR / "calendar_reserve.json"
+            if res_path.exists():
+                reserve = _json.loads(res_path.read_text(encoding="utf-8"))
+                print(f"Reserve quotes: {len(reserve)}")
+            print_distribution(cal, by_id)
+            sys.exit(1 if issues else 0)
 
         quotes = load_quotes(BASE_DIR)
         if not quotes:
@@ -130,7 +163,14 @@ def main() -> None:
                 logger.info("=== Done (skipped) ===")
                 return
 
-        quote = select_quote(quotes, config, history, mood=mood, force_id=args.quote_id)
+        if args.mode == "calendar":
+            quote = select_quote_by_calendar(quotes, BASE_DIR, force_id=args.quote_id)
+            if quote is None:
+                # Fallback to random if calendar not available
+                logger.info("Calendar mode unavailable, falling back to random.")
+                quote = select_quote(quotes, config, history, mood=mood, force_id=args.quote_id)
+        else:
+            quote = select_quote(quotes, config, history, mood=mood, force_id=args.quote_id)
         if quote is None:
             logger.error("Failed to select a quote.")
             print("Error: Could not select a quote.")
