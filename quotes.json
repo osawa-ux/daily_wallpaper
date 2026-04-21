@@ -2,7 +2,9 @@
   {
     "id": "q001",
     "text": "Stay hungry. Stay foolish.",
+    "translation_ja": "ハングリーであれ、愚か者であれ。",
     "author": "Steve Jobs",
+    "author_title_ja": "Apple 創業者",
     "category": [
       "action",
       "discipline"
@@ -24,7 +26,9 @@
   {
     "id": "q002",
     "text": "Done is better than perfect.",
+    "translation_ja": "完璧より、まず終わらせること。",
     "author": "Sheryl Sandberg",
+    "author_title_ja": "Meta 元COO",
     "category": [
       "action",
       "discipline"
@@ -42,7 +46,9 @@
   {
     "id": "q003",
     "text": "The best way to predict the future is to create it.",
+    "translation_ja": "未来を予測する最善の方法は、自ら未来を創ることだ。",
     "author": "Peter Drucker",
+    "author_title_ja": "経営学者",
     "category": [
       "action",
       "leadership"
@@ -63,7 +69,9 @@
   {
     "id": "q004",
     "text": "Discipline is the bridge between goals and accomplishment.",
+    "translation_ja": "規律は、目標と達成をつなぐ橋だ。",
     "author": "Jim Rohn",
+    "author_title_ja": "自己啓発著者",
     "category": [
       "discipline"
     ],
@@ -80,7 +88,9 @@
   {
     "id": "q005",
     "text": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "translation_ja": "私たちは繰り返す行いそのものだ。ゆえに卓越とは行為ではなく、習慣である。",
     "author": "Aristotle",
+    "author_title_ja": "古代ギリシャの哲学者",
     "category": [
       "discipline",
       "endurance"
@@ -101,7 +111,9 @@
   {
     "id": "q006",
     "text": "Focus on being productive instead of busy.",
+    "translation_ja": "忙しくあるのではなく、生産的であることに集中せよ。",
     "author": "Tim Ferriss",
+    "author_title_ja": "起業家・作家",
     "category": [
       "focus",
       "discipline"
@@ -119,7 +131,9 @@
   {
     "id": "q007",
     "text": "Simplicity is the ultimate sophistication.",
+    "translation_ja": "シンプルさこそ、究極の洗練である。",
     "author": "Leonardo da Vinci",
+    "author_title_ja": "ルネサンス期の芸術家",
     "category": [
       "focus",
       "reflection"
@@ -137,7 +151,9 @@
   {
     "id": "q008",
     "text": "A leader is one who knows the way, goes the way, and shows the way.",
+    "translation_ja": "リーダーとは、道を知り、道を行き、道を示す者である。",
     "author": "John C. Maxwell",
+    "author_title_ja": "リーダーシップ論の著者",
     "category": [
       "leadership"
     ],
@@ -154,7 +170,9 @@
   {
     "id": "q009",
     "text": "It does not matter how slowly you go as long as you do not stop.",
+    "translation_ja": "どれほどゆっくりでも構わない。立ち止まらない限り。",
     "author": "Confucius",
+    "author_title_ja": "古代中国の思想家",
     "category": [
       "endurance",
       "discipline"
@@ -175,7 +193,9 @@
   {
     "id": "q010",
     "text": "The only way to do great work is to love what you do.",
+    "translation_ja": "偉大な仕事をする唯一の方法は、自分の仕事を愛することだ。",
     "author": "Steve Jobs",
+    "author_title_ja": "Apple 創業者",
     "category": [
       "action",
       "reflection"
@@ -195,7 +215,9 @@
   {
     "id": "q011",
     "text": "In the middle of difficulty lies opportunity.",
+    "translation_ja": "困難の真っ只中にこそ、機会はある。",
     "author": "Albert Einstein",
+    "author_title_ja": "物理学者",
     "category": [
       "endurance",
       "leadership"
@@ -216,7 +238,9 @@
   {
     "id": "q012",
     "text": "What you do today can improve all your tomorrows.",
+    "translation_ja": "今日の行いは、これからのすべての日々を良くできる。",
     "author": "Ralph Marston",
+    "author_title_ja": "米国の作家",
     "category": [
       "action",
       "discipline"
@@ -237,7 +261,9 @@
   {
     "id": "q013",
     "text": "Rest when you're weary. Refresh and renew yourself, your body, your mind, your spirit.",
+    "translation_ja": "疲れたら休め。体と心と魂を取り戻せ。",
     "author": "Ralph Waldo Emerson",
+    "author_title_ja": "米国の思想家・詩人",
     "category": [
       "rest",
       "reflection"
@@ -258,7 +284,9 @@
   {
     "id": "q014",
     "text": "Gratitude turns what we have into enough.",
+    "translation_ja": "感謝は、今あるものを十分なものに変える。",
     "author": "Melody Beattie",
+    "author_title_ja": "米国の作家",
     "category": [
       "gratitude",
       "reflection"
@@ -278,7 +306,9 @@
   {
     "id": "q015",
     "text": "The secret of getting ahead is getting started.",
+    "translation_ja": "前に進む秘訣は、まず始めることだ。",
     "author": "Mark Twain",
+    "author_title_ja": "米国の作家",
     "category": [
       "action"
     ],
@@ -298,7 +328,9 @@
   {
     "id": "q016",
     "text": "Small daily improvements over time lead to stunning results.",
+    "translation_ja": "日々の小さな改善は、やがて見事な結果を生む。",
     "author": "Robin Sharma",
+    "author_title_ja": "自己啓発著者",
     "category": [
       "discipline",
       "endurance"
@@ -316,7 +348,9 @@
   {
     "id": "q018",
     "text": "The harder the conflict, the greater the triumph.",
+    "translation_ja": "争いが苛烈であるほど、勝利の価値は大きい。",
     "author": "George Washington",
+    "author_title_ja": "初代米国大統領",
     "category": [
       "endurance",
       "leadership"
@@ -336,7 +370,9 @@
   {
     "id": "q019",
     "text": "Almost everything will work again if you unplug it for a few minutes. Including you.",
+    "translation_ja": "たいていのものは、少し電源を切れば再び動き出す。あなた自身も含めて。",
     "author": "Anne Lamott",
+    "author_title_ja": "米国の作家",
     "category": [
       "rest"
     ],
@@ -354,7 +390,9 @@
   {
     "id": "q020",
     "text": "Enjoy the little things, for one day you may look back and realize they were the big things.",
+    "translation_ja": "小さなことを楽しもう。いつか振り返ったとき、それが大きなことだったと気づくから。",
     "author": "Robert Brault",
+    "author_title_ja": "米国の作家",
     "category": [
       "gratitude",
       "reflection"
@@ -374,7 +412,9 @@
   {
     "id": "q021",
     "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "translation_ja": "成功は終わりではなく、失敗も致命的ではない。大切なのは、続ける勇気である。",
     "author": "Winston Churchill",
+    "author_title_ja": "英国首相",
     "category": [
       "endurance",
       "action"
@@ -393,7 +433,9 @@
   {
     "id": "q022",
     "text": "You don't have to be great to start, but you have to start to be great.",
+    "translation_ja": "始めるために偉大である必要はない。だが、偉大になるには始めなければならない。",
     "author": "Zig Ziglar",
+    "author_title_ja": "自己啓発講演家",
     "category": [
       "action",
       "endurance"
@@ -414,7 +456,9 @@
   {
     "id": "q023",
     "text": "The mind is everything. What you think you become.",
+    "translation_ja": "心がすべてだ。思った通りの人間になる。",
     "author": "Buddha",
+    "author_title_ja": "仏教の開祖",
     "category": [
       "reflection",
       "focus"
@@ -448,7 +492,9 @@
   {
     "id": "q025",
     "text": "Do what you can, with what you have, where you are.",
+    "translation_ja": "今いる場所で、今あるもので、できることをせよ。",
     "author": "Theodore Roosevelt",
+    "author_title_ja": "第26代米国大統領",
     "category": [
       "action",
       "endurance"
@@ -467,7 +513,9 @@
   {
     "id": "q026",
     "text": "The quieter you become, the more you can hear.",
+    "translation_ja": "静かになるほど、より多くのことが聞こえてくる。",
     "author": "Rumi",
+    "author_title_ja": "ペルシアの詩人",
     "category": [
       "reflection",
       "focus"
@@ -488,7 +536,9 @@
   {
     "id": "q027",
     "text": "Leadership is not about being in charge. It is about taking care of those in your charge.",
+    "translation_ja": "リーダーシップとは、権力を握ることではない。預かった人々を大切にすることだ。",
     "author": "Simon Sinek",
+    "author_title_ja": "作家・講演家",
     "category": [
       "leadership"
     ],
@@ -505,6 +555,7 @@
   {
     "id": "q028",
     "text": "Your limitation — it's only your imagination.",
+    "translation_ja": "あなたの限界は、あなたの想像力に過ぎない。",
     "author": "",
     "category": [
       "action",
@@ -524,7 +575,9 @@
   {
     "id": "q033",
     "text": "Hardships often prepare ordinary people for an extraordinary destiny.",
+    "translation_ja": "苦難はしばしば、平凡な人を非凡な運命へと導く。",
     "author": "C.S. Lewis",
+    "author_title_ja": "英国の作家",
     "category": [
       "endurance",
       "leadership"
@@ -545,7 +598,9 @@
   {
     "id": "q035",
     "text": "Act as if what you do makes a difference. It does.",
+    "translation_ja": "あなたの行いが何かを変えると信じて行動せよ。実際、それは変える。",
     "author": "William James",
+    "author_title_ja": "米国の心理学者・哲学者",
     "category": [
       "action",
       "leadership"
@@ -564,7 +619,9 @@
   {
     "id": "q036",
     "text": "You are never too old to set another goal or to dream a new dream.",
+    "translation_ja": "新しい目標や夢を持つのに、遅すぎるということはない。",
     "author": "C.S. Lewis",
+    "author_title_ja": "英国の作家",
     "category": [
       "action",
       "reflection"
@@ -585,7 +642,9 @@
   {
     "id": "q038",
     "text": "Don't watch the clock; do what it does. Keep going.",
+    "translation_ja": "時計を見るな。時計がするように、動き続けよ。",
     "author": "Sam Levenson",
+    "author_title_ja": "米国のユーモア作家",
     "category": [
       "endurance",
       "discipline"
@@ -603,7 +662,9 @@
   {
     "id": "q039",
     "text": "An unexamined life is not worth living.",
+    "translation_ja": "吟味されない人生は、生きるに値しない。",
     "author": "Socrates",
+    "author_title_ja": "古代ギリシャの哲学者",
     "category": [
       "reflection"
     ],
@@ -620,7 +681,9 @@
   {
     "id": "q040",
     "text": "Not all those who wander are lost.",
+    "translation_ja": "さまよう者すべてが、迷っているわけではない。",
     "author": "J.R.R. Tolkien",
+    "author_title_ja": "英国の作家",
     "category": [
       "reflection",
       "rest"
@@ -638,7 +701,9 @@
   {
     "id": "q041",
     "text": "Quality is not an act, it is a habit.",
+    "translation_ja": "質は行為ではなく、習慣である。",
     "author": "Aristotle",
+    "author_title_ja": "古代ギリシャの哲学者",
     "category": [
       "discipline"
     ],
@@ -655,7 +720,9 @@
   {
     "id": "q042",
     "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+    "translation_ja": "過去も未来も、自分の内にあるものに比べれば、ちっぽけなものだ。",
     "author": "Ralph Waldo Emerson",
+    "author_title_ja": "米国の思想家・詩人",
     "category": [
       "endurance",
       "reflection"
@@ -674,7 +741,9 @@
   {
     "id": "q043",
     "text": "Courage is not the absence of fear, but the triumph over it.",
+    "translation_ja": "勇気とは、恐れがないことではなく、恐れに打ち勝つことだ。",
     "author": "Nelson Mandela",
+    "author_title_ja": "南アフリカ元大統領",
     "category": [
       "endurance",
       "leadership"
@@ -693,7 +762,9 @@
   {
     "id": "q044",
     "text": "Be yourself; everyone else is already taken.",
+    "translation_ja": "自分自身であれ。他の誰かの役はもう埋まっている。",
     "author": "Oscar Wilde",
+    "author_title_ja": "英国の作家",
     "category": [
       "reflection"
     ],
@@ -708,7 +779,9 @@
   {
     "id": "q045",
     "text": "The journey of a thousand miles begins with a single step.",
+    "translation_ja": "千里の道も一歩から。",
     "author": "Lao Tzu",
+    "author_title_ja": "道教の開祖",
     "category": [
       "action",
       "endurance"
@@ -728,7 +801,9 @@
   {
     "id": "q046",
     "text": "Knowing is not enough; we must apply. Wishing is not enough; we must do.",
+    "translation_ja": "知るだけでは足りない。応用せよ。願うだけでは足りない。行動せよ。",
     "author": "Johann Wolfgang von Goethe",
+    "author_title_ja": "ドイツの文豪",
     "category": [
       "action",
       "discipline"
@@ -746,7 +821,9 @@
   {
     "id": "q047",
     "text": "The only impossible journey is the one you never begin.",
+    "translation_ja": "唯一不可能な旅は、決して始めない旅だ。",
     "author": "Tony Robbins",
+    "author_title_ja": "自己啓発講演家",
     "category": [
       "action"
     ],
@@ -764,7 +841,9 @@
   {
     "id": "q048",
     "text": "Sleep is the best meditation.",
+    "translation_ja": "眠りは、最高の瞑想である。",
     "author": "Dalai Lama",
+    "author_title_ja": "チベット仏教の指導者",
     "category": [
       "rest"
     ],
@@ -783,7 +862,9 @@
   {
     "id": "q049",
     "text": "Let us be grateful to the people who make us happy; they are the charming gardeners who make our souls blossom.",
+    "translation_ja": "私たちを幸せにする人に感謝しよう。彼らは魂を花開かせる、心優しき庭師だ。",
     "author": "Marcel Proust",
+    "author_title_ja": "フランスの作家",
     "category": [
       "gratitude"
     ],
@@ -801,7 +882,9 @@
   {
     "id": "q050",
     "text": "Strive not to be a success, but rather to be of value.",
+    "translation_ja": "成功ではなく、価値ある人間であろうと努めよ。",
     "author": "Albert Einstein",
+    "author_title_ja": "物理学者",
     "category": [
       "leadership",
       "reflection"
@@ -817,7 +900,9 @@
   {
     "id": "q051",
     "text": "It always seems impossible until it's done.",
+    "translation_ja": "何ごとも、成し遂げるまでは不可能に見える。",
     "author": "Nelson Mandela",
+    "author_title_ja": "南アフリカ元大統領",
     "category": [
       "endurance",
       "action"
@@ -836,7 +921,9 @@
   {
     "id": "q052",
     "text": "You must be the change you wish to see in the world.",
+    "translation_ja": "世界に見たい変化があるなら、自分自身がその変化になりなさい。",
     "author": "Mahatma Gandhi",
+    "author_title_ja": "インド独立の父",
     "category": [
       "leadership",
       "action"
@@ -855,7 +942,9 @@
   {
     "id": "q056",
     "text": "Turn your wounds into wisdom.",
+    "translation_ja": "傷を知恵に変えなさい。",
     "author": "Oprah Winfrey",
+    "author_title_ja": "米国のテレビ司会者",
     "category": [
       "endurance",
       "reflection"
@@ -875,7 +964,9 @@
   {
     "id": "q057",
     "text": "The present moment is filled with joy and happiness. If you are attentive, you will see it.",
+    "translation_ja": "今この瞬間は、喜びと幸福に満ちている。注意深く見れば、それは見える。",
     "author": "Thich Nhat Hanh",
+    "author_title_ja": "ベトナムの禅僧",
     "category": [
       "gratitude",
       "reflection"
@@ -897,7 +988,9 @@
   {
     "id": "q058",
     "text": "He who has a why to live can bear almost any how.",
+    "translation_ja": "生きる理由を持つ者は、ほぼどんな苦しみにも耐えられる。",
     "author": "Friedrich Nietzsche",
+    "author_title_ja": "ドイツの哲学者",
     "category": [
       "endurance",
       "reflection"
@@ -918,7 +1011,9 @@
   {
     "id": "q061",
     "text": "The only limit to our realization of tomorrow is our doubts of today.",
+    "translation_ja": "明日を実現する唯一の限界は、今日の疑念である。",
     "author": "Franklin D. Roosevelt",
+    "author_title_ja": "第32代米国大統領",
     "category": [
       "endurance",
       "action"
@@ -938,7 +1033,9 @@
   {
     "id": "q062",
     "text": "Well done is better than well said.",
+    "translation_ja": "うまく言うより、うまくやる方がよい。",
     "author": "Benjamin Franklin",
+    "author_title_ja": "米国建国の父",
     "category": [
       "action",
       "discipline"
@@ -956,7 +1053,9 @@
   {
     "id": "q063",
     "text": "Life is what happens when you're busy making other plans.",
+    "translation_ja": "人生とは、別の計画を立てている間に起こるものだ。",
     "author": "John Lennon",
+    "author_title_ja": "英国の音楽家",
     "category": [
       "reflection"
     ],
@@ -973,7 +1072,9 @@
   {
     "id": "q064",
     "text": "Perfection is not attainable, but if we chase perfection we can catch excellence.",
+    "translation_ja": "完璧に到達することはできない。だが、完璧を追えば卓越を掴める。",
     "author": "Vince Lombardi",
+    "author_title_ja": "米国のアメフト監督",
     "category": [
       "discipline",
       "endurance"
@@ -991,7 +1092,9 @@
   {
     "id": "q065",
     "text": "The way to get started is to quit talking and begin doing.",
+    "translation_ja": "始めるには、語るのをやめて動き出すことだ。",
     "author": "Walt Disney",
+    "author_title_ja": "ディズニー 創業者",
     "category": [
       "action"
     ],
@@ -1011,7 +1114,9 @@
   {
     "id": "q066",
     "text": "If you want to lift yourself up, lift up someone else.",
+    "translation_ja": "自分を高めたければ、他人を高めよ。",
     "author": "Booker T. Washington",
+    "author_title_ja": "米国の教育者",
     "category": [
       "leadership",
       "gratitude"
@@ -1029,7 +1134,9 @@
   {
     "id": "q067",
     "text": "Opportunities don't happen. You create them.",
+    "translation_ja": "機会は起こるものではない。自分で作るものだ。",
     "author": "Chris Grosser",
+    "author_title_ja": "米国の実業家",
     "category": [
       "action",
       "leadership"
@@ -1048,7 +1155,9 @@
   {
     "id": "q068",
     "text": "A smooth sea never made a skilled sailor.",
+    "translation_ja": "穏やかな海は、熟練の船乗りを育てない。",
     "author": "Franklin D. Roosevelt",
+    "author_title_ja": "第32代米国大統領",
     "category": [
       "endurance"
     ],
@@ -1068,7 +1177,9 @@
   {
     "id": "q069",
     "text": "I have not failed. I've just found 10,000 ways that won't work.",
+    "translation_ja": "私は失敗していない。うまくいかない方法を一万通り見つけただけだ。",
     "author": "Thomas Edison",
+    "author_title_ja": "米国の発明家",
     "category": [
       "endurance",
       "discipline"
@@ -1087,7 +1198,9 @@
   {
     "id": "q070",
     "text": "Everything you've ever wanted is on the other side of fear.",
+    "translation_ja": "あなたが本当に欲しかったものは、恐れの向こう側にある。",
     "author": "George Addair",
+    "author_title_ja": "米国の講演家",
     "category": [
       "action",
       "endurance"
@@ -1124,7 +1237,9 @@
   {
     "id": "q072",
     "text": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "translation_ja": "人生の最大の栄光は、倒れないことではなく、倒れるたびに立ち上がることにある。",
     "author": "Nelson Mandela",
+    "author_title_ja": "南アフリカ元大統領",
     "category": [
       "endurance",
       "leadership"
@@ -1142,7 +1257,9 @@
   {
     "id": "q073",
     "text": "Happiness is not something ready made. It comes from your own actions.",
+    "translation_ja": "幸福は出来合いのものではなく、自分の行動から生まれる。",
     "author": "Dalai Lama",
+    "author_title_ja": "チベット仏教の指導者",
     "category": [
       "action",
       "gratitude"
@@ -1162,7 +1279,9 @@
   {
     "id": "q076",
     "text": "Your time is limited. Don't waste it living someone else's life.",
+    "translation_ja": "時間は限られている。他人の人生を生きて無駄にするな。",
     "author": "Steve Jobs",
+    "author_title_ja": "Apple 創業者",
     "category": [
       "action",
       "reflection"
@@ -1180,7 +1299,9 @@
   {
     "id": "q077",
     "text": "Do not go where the path may lead; go instead where there is no path and leave a trail.",
+    "translation_ja": "道のある所ではなく、道のない所を行け。そして足跡を残せ。",
     "author": "Ralph Waldo Emerson",
+    "author_title_ja": "米国の思想家・詩人",
     "category": [
       "leadership",
       "action"
@@ -1198,7 +1319,9 @@
   {
     "id": "q078",
     "text": "The wound is the place where the Light enters you.",
+    "translation_ja": "傷こそが、光の入り口である。",
     "author": "Rumi",
+    "author_title_ja": "ペルシアの詩人",
     "category": [
       "reflection",
       "endurance"
@@ -1219,7 +1342,9 @@
   {
     "id": "q080",
     "text": "The two most important days in your life are the day you are born and the day you find out why.",
+    "translation_ja": "人生で最も大切な二日間は、生まれた日と、なぜ生まれたかを知る日だ。",
     "author": "Mark Twain",
+    "author_title_ja": "米国の作家",
     "category": [
       "reflection",
       "leadership"
@@ -1237,7 +1362,9 @@
   {
     "id": "q082",
     "text": "In three words I can sum up everything I've learned about life: it goes on.",
+    "translation_ja": "人生について学んだすべてを三語で言えば――人生は続く。",
     "author": "Robert Frost",
+    "author_title_ja": "米国の詩人",
     "category": [
       "reflection",
       "endurance"
@@ -1256,7 +1383,9 @@
   {
     "id": "q087",
     "text": "The only person you are destined to become is the person you decide to be.",
+    "translation_ja": "あなたが必ずなれる唯一の人物は、自分がなると決めた人物である。",
     "author": "Ralph Waldo Emerson",
+    "author_title_ja": "米国の思想家・詩人",
     "category": [
       "action",
       "leadership"
@@ -1275,7 +1404,9 @@
   {
     "id": "q088",
     "text": "What we achieve inwardly will change outer reality.",
+    "translation_ja": "内面で達成したものは、やがて外の現実を変える。",
     "author": "Plutarch",
+    "author_title_ja": "古代ギリシャの歴史家",
     "category": [
       "reflection",
       "focus"
@@ -1293,7 +1424,9 @@
   {
     "id": "q091",
     "text": "Innovation distinguishes between a leader and a follower.",
+    "translation_ja": "革新こそが、リーダーと追随者を分ける。",
     "author": "Steve Jobs",
+    "author_title_ja": "Apple 創業者",
     "category": [
       "leadership",
       "action"
@@ -1311,7 +1444,9 @@
   {
     "id": "q092",
     "text": "The only true wisdom is in knowing you know nothing.",
+    "translation_ja": "真の知恵とは、自分が何も知らないと知ることだ。",
     "author": "Socrates",
+    "author_title_ja": "古代ギリシャの哲学者",
     "category": [
       "reflection"
     ],
@@ -1328,7 +1463,9 @@
   {
     "id": "q093",
     "text": "When you reach the end of your rope, tie a knot in it and hang on.",
+    "translation_ja": "ロープの端まで来たら、結び目を作って掴まっていろ。",
     "author": "Franklin D. Roosevelt",
+    "author_title_ja": "第32代米国大統領",
     "category": [
       "endurance"
     ],
@@ -1348,7 +1485,9 @@
   {
     "id": "q095",
     "text": "Start where you are. Use what you have. Do what you can.",
+    "translation_ja": "今いる場所で始めよ。今あるものを使え。できることをせよ。",
     "author": "Arthur Ashe",
+    "author_title_ja": "米国のテニス選手",
     "category": [
       "action",
       "endurance"
@@ -1367,7 +1506,9 @@
   {
     "id": "q096",
     "text": "Sow a thought, reap an action. Sow an action, reap a habit.",
+    "translation_ja": "思考を蒔けば行動を刈り、行動を蒔けば習慣を刈る。",
     "author": "Stephen Covey",
+    "author_title_ja": "米国の作家",
     "category": [
       "discipline",
       "focus"
@@ -1385,7 +1526,9 @@
   {
     "id": "q098",
     "text": "Don't let yesterday take up too much of today.",
+    "translation_ja": "昨日に、今日を奪わせるな。",
     "author": "Will Rogers",
+    "author_title_ja": "米国のユーモア作家",
     "category": [
       "action",
       "focus"
@@ -1403,7 +1546,9 @@
   {
     "id": "q099",
     "text": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    "translation_ja": "明日死ぬかのように生き、永遠に生きるかのように学べ。",
     "author": "Mahatma Gandhi",
+    "author_title_ja": "インド独立の父",
     "category": [
       "action",
       "reflection"
@@ -2051,7 +2196,9 @@
   {
     "id": "q151",
     "text": "You have power over your mind — not outside events. Realize this, and you will find strength.",
+    "translation_ja": "あなたが支配できるのは、外の出来事ではなく自分の心だ。それに気づけば、力を得られる。",
     "author": "Marcus Aurelius",
+    "author_title_ja": "ローマ皇帝・ストア哲学者",
     "category": [
       "reflection",
       "discipline"
@@ -2067,7 +2214,9 @@
   {
     "id": "q152",
     "text": "We suffer more often in imagination than in reality.",
+    "translation_ja": "私たちは現実より、想像の中でより多く苦しむ。",
     "author": "Seneca",
+    "author_title_ja": "ローマのストア哲学者",
     "category": [
       "reflection"
     ],
@@ -2082,7 +2231,9 @@
   {
     "id": "q153",
     "text": "It's not what happens to you, but how you react to it that matters.",
+    "translation_ja": "何が起こるかではなく、それにどう反応するかが重要だ。",
     "author": "Epictetus",
+    "author_title_ja": "ストア派の哲学者",
     "category": [
       "reflection",
       "endurance"
@@ -2098,7 +2249,9 @@
   {
     "id": "q154",
     "text": "When we are no longer able to change a situation, we are challenged to change ourselves.",
+    "translation_ja": "状況を変えられないとき、私たちは自分自身を変えることを求められる。",
     "author": "Viktor Frankl",
+    "author_title_ja": "心理学者・精神科医",
     "category": [
       "reflection",
       "endurance"
@@ -2114,7 +2267,9 @@
   {
     "id": "q155",
     "text": "Life can only be understood backwards; but it must be lived forwards.",
+    "translation_ja": "人生は振り返ってのみ理解できるが、前を向いて生きるしかない。",
     "author": "Søren Kierkegaard",
+    "author_title_ja": "デンマークの哲学者",
     "category": [
       "reflection"
     ],
@@ -2129,7 +2284,9 @@
   {
     "id": "q156",
     "text": "I am not what happened to me, I am what I choose to become.",
+    "translation_ja": "私は私に起こったことではない。私は自分がなると選んだものだ。",
     "author": "Carl Jung",
+    "author_title_ja": "スイスの心理学者",
     "category": [
       "reflection",
       "action"
@@ -2145,7 +2302,9 @@
   {
     "id": "q157",
     "text": "Don't ask what the world needs. Ask what makes you come alive, and go do it. Because what the world needs is people who have come alive.",
+    "translation_ja": "世界が何を必要としているかではなく、自分を生き生きとさせるものを問え。そしてそれをせよ。世界が必要とするのは、生きている人間だ。",
     "author": "Howard Thurman",
+    "author_title_ja": "米国の神学者",
     "category": [
       "action",
       "reflection"
@@ -2161,7 +2320,9 @@
   {
     "id": "q158",
     "text": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
+    "translation_ja": "人生に恐れるべきものは何もない。理解すべきものがあるだけだ。より多く理解し、より少なく恐れるときだ。",
     "author": "Marie Curie",
+    "author_title_ja": "物理学者・化学者",
     "category": [
       "reflection",
       "endurance"
@@ -2177,7 +2338,9 @@
   {
     "id": "q159",
     "text": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+    "translation_ja": "人は言葉を忘れ、行いを忘れる。だが、与えた感情だけは決して忘れない。",
     "author": "Maya Angelou",
+    "author_title_ja": "米国の詩人",
     "category": [
       "leadership",
       "reflection"
@@ -2193,7 +2356,9 @@
   {
     "id": "q160",
     "text": "Not everything that is faced can be changed, but nothing can be changed until it is faced.",
+    "translation_ja": "向き合ったすべてを変えられるとは限らない。だが、向き合わずに変わるものは何もない。",
     "author": "James Baldwin",
+    "author_title_ja": "米国の作家",
     "category": [
       "action",
       "reflection"
@@ -2209,7 +2374,9 @@
   {
     "id": "q161",
     "text": "The world breaks everyone, and afterward many are strong at the broken places.",
+    "translation_ja": "世界は誰をも打ちのめす。だがその後、多くの者は壊れた場所でこそ強くなる。",
     "author": "Ernest Hemingway",
+    "author_title_ja": "米国の作家",
     "category": [
       "endurance",
       "reflection"
@@ -2225,7 +2392,9 @@
   {
     "id": "q162",
     "text": "And the day came when the risk to remain tight in a bud was more painful than the risk it took to blossom.",
+    "translation_ja": "そしてある日、蕾のまま固く閉じている痛みが、花開く痛みを超えた。",
     "author": "Anaïs Nin",
+    "author_title_ja": "フランス系米国作家",
     "category": [
       "action",
       "reflection"
@@ -2241,7 +2410,9 @@
   {
     "id": "q163",
     "text": "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.",
+    "translation_ja": "完璧とは、加えるものが何もないときではなく、削るものが何もないときに達する。",
     "author": "Antoine de Saint-Exupéry",
+    "author_title_ja": "フランスの作家・飛行家",
     "category": [
       "focus",
       "discipline"
@@ -2257,7 +2428,9 @@
   {
     "id": "q164",
     "text": "How we spend our days is, of course, how we spend our lives.",
+    "translation_ja": "日々の過ごし方が、そのまま人生の過ごし方である。",
     "author": "Annie Dillard",
+    "author_title_ja": "米国の作家",
     "category": [
       "reflection",
       "focus"
@@ -2273,7 +2446,9 @@
   {
     "id": "q165",
     "text": "If you want to fly, you have to give up the things that weigh you down.",
+    "translation_ja": "飛びたいなら、自分を重くしているものを手放すしかない。",
     "author": "Toni Morrison",
+    "author_title_ja": "米国の作家",
     "category": [
       "action",
       "reflection"
@@ -2289,7 +2464,9 @@
   {
     "id": "q166",
     "text": "The big money is not in the buying and the selling, but in the waiting.",
+    "translation_ja": "大きな金は、売買ではなく、待つことの中にある。",
     "author": "Charlie Munger",
+    "author_title_ja": "投資家・バフェットの盟友",
     "category": [
       "discipline",
       "endurance"
@@ -2356,7 +2533,9 @@
   {
     "id": "q170",
     "text": "You may have to fight a battle more than once to win it.",
+    "translation_ja": "勝つためには、同じ戦いを何度も戦わねばならぬこともある。",
     "author": "Margaret Thatcher",
+    "author_title_ja": "英国元首相",
     "category": [
       "endurance",
       "action"
@@ -2372,7 +2551,9 @@
   {
     "id": "q171",
     "text": "I do not know anyone who has got to the top without hard work. That is the recipe. It will not always get you to the top, but it will get you pretty near.",
+    "translation_ja": "頂点に立った人で、努力せずに辿り着いた人を私は知らない。それがレシピだ。必ず頂点に届くとは限らないが、かなり近くまで連れて行ってくれる。",
     "author": "Margaret Thatcher",
+    "author_title_ja": "英国元首相",
     "category": [
       "discipline",
       "endurance"
@@ -2388,7 +2569,9 @@
   {
     "id": "q172",
     "text": "Life is not just eating, drinking, television and cinema. The human mind must be creative, must be self-generating; it cannot depend on others.",
+    "translation_ja": "人生は飲食や娯楽だけではない。人の心は創造的であり、自ら生み出すものでなければならない。他人に頼ってはならない。",
     "author": "Lee Kuan Yew",
+    "author_title_ja": "シンガポール建国の父",
     "category": [
       "reflection",
       "discipline"
@@ -2404,7 +2587,9 @@
   {
     "id": "q173",
     "text": "There is no passion to be found playing small — in settling for a life that is less than the one you are capable of living.",
+    "translation_ja": "小さく生きることに、情熱は宿らない――自分の可能性以下の人生に甘んじることに。",
     "author": "Nelson Mandela",
+    "author_title_ja": "南アフリカ元大統領",
     "category": [
       "action",
       "leadership"
@@ -2420,7 +2605,9 @@
   {
     "id": "q174",
     "text": "Hope is not the conviction that something will turn out well, but the certainty that something makes sense, regardless of how it turns out.",
+    "translation_ja": "希望とは、うまくいくという確信ではなく、結果に関わらず意味があるという確信だ。",
     "author": "Václav Havel",
+    "author_title_ja": "チェコ元大統領",
     "category": [
       "endurance",
       "reflection"
@@ -2436,7 +2623,9 @@
   {
     "id": "q175",
     "text": "It is not the critic who counts. The credit belongs to the one who is actually in the arena, whose face is marred by dust and sweat and blood, who strives valiantly, who errs and comes short again and again.",
+    "translation_ja": "評するのは批評家ではない。栄誉は、実際に闘技場に立ち、埃と汗と血にまみれ、懸命に戦い、幾度となく過ちを犯す者のものだ。",
     "author": "Theodore Roosevelt",
+    "author_title_ja": "第26代米国大統領",
     "category": [
       "action",
       "endurance"
@@ -2453,7 +2642,9 @@
   {
     "id": "q176",
     "text": "Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek.",
+    "translation_ja": "誰かを待っても、別の時を待っても、変化は来ない。私たちこそが待っていた存在だ。私たちが求めた変化そのものだ。",
     "author": "Barack Obama",
+    "author_title_ja": "第44代米国大統領",
     "category": [
       "action",
       "leadership"
@@ -2469,7 +2660,9 @@
   {
     "id": "q177",
     "text": "Efforts and courage are not enough without purpose and direction.",
+    "translation_ja": "目的と方向がなければ、努力と勇気だけでは足りない。",
     "author": "John F. Kennedy",
+    "author_title_ja": "第35代米国大統領",
     "category": [
       "focus",
       "discipline"
@@ -2485,7 +2678,9 @@
   {
     "id": "q178",
     "text": "If you're going through hell, keep going.",
+    "translation_ja": "地獄を進んでいる最中なら、立ち止まるな。",
     "author": "Winston Churchill",
+    "author_title_ja": "英国元首相",
     "category": [
       "endurance"
     ],
@@ -2500,7 +2695,9 @@
   {
     "id": "q179",
     "text": "In the depth of winter, I finally learned that within me there lay an invincible summer.",
+    "translation_ja": "真冬の只中で、私はついに気づいた。自分の中に無敵の夏があることに。",
     "author": "Albert Camus",
+    "author_title_ja": "フランスの作家・哲学者",
     "category": [
       "endurance",
       "reflection"
@@ -2516,7 +2713,9 @@
   {
     "id": "q180",
     "text": "Waste no more time arguing what a good man should be. Be one.",
+    "translation_ja": "善き人とは何かを論じるのはもうやめて、そうなれ。",
     "author": "Marcus Aurelius",
+    "author_title_ja": "ローマ皇帝・ストア哲学者",
     "category": [
       "discipline",
       "action"
@@ -2532,7 +2731,9 @@
   {
     "id": "q181",
     "text": "Tell me, what is it you plan to do with your one wild and precious life?",
+    "translation_ja": "教えてほしい。この、かけがえのない、狂おしい一度きりの人生で、何をするつもりなのか。",
     "author": "Mary Oliver",
+    "author_title_ja": "米国の詩人",
     "category": [
       "reflection",
       "action"
@@ -2548,7 +2749,9 @@
   {
     "id": "q182",
     "text": "It may be that when we no longer know what to do, we have come to our real work; and that when we no longer know which way to go, we have begun our real journey.",
+    "translation_ja": "何をすべきか分からなくなったとき、本当の仕事が始まる。どの道を行けばいいか分からなくなったとき、本当の旅が始まる。",
     "author": "Wendell Berry",
+    "author_title_ja": "米国の作家・思想家",
     "category": [
       "reflection",
       "endurance"
@@ -2564,7 +2767,9 @@
   {
     "id": "q183",
     "text": "That which does not kill us makes us stronger.",
+    "translation_ja": "私たちを殺さないものは、私たちを強くする。",
     "author": "Friedrich Nietzsche",
+    "author_title_ja": "ドイツの哲学者",
     "category": [
       "endurance"
     ],
@@ -2579,7 +2784,9 @@
   {
     "id": "q184",
     "text": "To dare is to lose one's footing momentarily. Not to dare is to lose oneself.",
+    "translation_ja": "挑むことは、一瞬足場を失うこと。挑まないことは、自分自身を失うこと。",
     "author": "Søren Kierkegaard",
+    "author_title_ja": "デンマークの哲学者",
     "category": [
       "action",
       "endurance"
@@ -2595,7 +2802,9 @@
   {
     "id": "q185",
     "text": "Mastering others is strength. Mastering yourself is true power.",
+    "translation_ja": "他人を治めるのは力。自分を治めるのは真の力。",
     "author": "Lao Tzu",
+    "author_title_ja": "道教の開祖",
     "category": [
       "discipline",
       "focus"
@@ -2611,7 +2820,9 @@
   {
     "id": "q186",
     "text": "No man ever steps in the same river twice, for it's not the same river and he's not the same man.",
+    "translation_ja": "誰も同じ川に二度足を踏み入れることはできない。川も人も、もう同じではないからだ。",
     "author": "Heraclitus",
+    "author_title_ja": "古代ギリシャの哲学者",
     "category": [
       "reflection"
     ],
@@ -2626,7 +2837,9 @@
   {
     "id": "q187",
     "text": "No man is free who is not master of himself.",
+    "translation_ja": "自らを治められぬ者に、自由はない。",
     "author": "Epictetus",
+    "author_title_ja": "ストア派の哲学者",
     "category": [
       "discipline",
       "reflection"
@@ -2642,7 +2855,9 @@
   {
     "id": "q188",
     "text": "The good life is one inspired by love and guided by knowledge.",
+    "translation_ja": "良き人生とは、愛に導かれ、知によって進むものだ。",
     "author": "Bertrand Russell",
+    "author_title_ja": "英国の哲学者",
     "category": [
       "reflection",
       "leadership"
@@ -2658,7 +2873,9 @@
   {
     "id": "q189",
     "text": "The greatest weapon against stress is our ability to choose one thought over another.",
+    "translation_ja": "ストレスに対する最大の武器は、一つの思考を別の思考に選び直す力だ。",
     "author": "William James",
+    "author_title_ja": "米国の心理学者・哲学者",
     "category": [
       "focus",
       "endurance"
@@ -2674,7 +2891,9 @@
   {
     "id": "q190",
     "text": "To exist is to change, to change is to mature, to mature is to go on creating oneself endlessly.",
+    "translation_ja": "存在するとは変わること、変わるとは成熟すること、成熟するとは自らを限りなく創り続けることだ。",
     "author": "Henri Bergson",
+    "author_title_ja": "フランスの哲学者",
     "category": [
       "action",
       "reflection"
@@ -2690,7 +2909,9 @@
   {
     "id": "q191",
     "text": "Perhaps all the dragons in our lives are princesses who are only waiting to see us act, just once, with beauty and courage.",
+    "translation_ja": "人生の竜たちはもしかしたら姫たちかもしれない。ただ、あなたが一度だけ、美しく、勇気を持って行動するのを待っているのだ。",
     "author": "Rainer Maria Rilke",
+    "author_title_ja": "オーストリアの詩人",
     "category": [
       "endurance",
       "action"
@@ -2706,7 +2927,9 @@
   {
     "id": "q192",
     "text": "Everyone thinks of changing the world, but no one thinks of changing himself.",
+    "translation_ja": "誰もが世界を変えようと考えるが、自分を変えようとは誰も考えない。",
     "author": "Leo Tolstoy",
+    "author_title_ja": "ロシアの文豪",
     "category": [
       "discipline",
       "reflection"
@@ -2722,7 +2945,9 @@
   {
     "id": "q193",
     "text": "Only those who will risk going too far can possibly find out how far one can go.",
+    "translation_ja": "遠くへ行きすぎる危険を冒す者だけが、どこまで行けるかを知ることができる。",
     "author": "T.S. Eliot",
+    "author_title_ja": "英国の詩人",
     "category": [
       "action",
       "endurance"
@@ -2738,7 +2963,9 @@
   {
     "id": "q194",
     "text": "Arrange whatever pieces come your way.",
+    "translation_ja": "あなたのもとに来るものは、それが何であれ整えよ。",
     "author": "Virginia Woolf",
+    "author_title_ja": "英国の作家",
     "category": [
       "endurance",
       "action"
@@ -2754,7 +2981,9 @@
   {
     "id": "q195",
     "text": "The best way out is always through.",
+    "translation_ja": "最良の抜け道は、常に突き抜けることだ。",
     "author": "Robert Frost",
+    "author_title_ja": "米国の詩人",
     "category": [
       "endurance"
     ],
@@ -2769,7 +2998,9 @@
   {
     "id": "q196",
     "text": "Go confidently in the direction of your dreams. Live the life you have imagined.",
+    "translation_ja": "夢の方向へ堂々と進め。思い描いた人生を生きよ。",
     "author": "Henry David Thoreau",
+    "author_title_ja": "米国の作家・思想家",
     "category": [
       "action",
       "reflection"
@@ -2785,7 +3016,9 @@
   {
     "id": "q197",
     "text": "Keep your face always toward the sunshine, and shadows will fall behind you.",
+    "translation_ja": "常に顔を太陽に向けていれば、影は背後に落ちる。",
     "author": "Walt Whitman",
+    "author_title_ja": "米国の詩人",
     "category": [
       "endurance",
       "reflection"
@@ -2801,7 +3034,9 @@
   {
     "id": "q198",
     "text": "You can't cross the sea merely by standing and staring at the water.",
+    "translation_ja": "海を眺めているだけでは、海を渡ることはできない。",
     "author": "Rabindranath Tagore",
+    "author_title_ja": "インドの詩人",
     "category": [
       "action"
     ],
@@ -2816,7 +3051,9 @@
   {
     "id": "q199",
     "text": "I am a slow walker, but I never walk back.",
+    "translation_ja": "私は歩みは遅い。だが、後ろには戻らない。",
     "author": "Abraham Lincoln",
+    "author_title_ja": "第16代米国大統領",
     "category": [
       "endurance",
       "discipline"
@@ -2832,7 +3069,9 @@
   {
     "id": "q200",
     "text": "You gain strength, courage, and confidence by every experience in which you really stop to look fear in the face.",
+    "translation_ja": "本当に立ち止まり恐れと向き合った一つ一つの経験から、力・勇気・自信を得られる。",
     "author": "Eleanor Roosevelt",
+    "author_title_ja": "米国の人権活動家",
     "category": [
       "endurance",
       "action"
@@ -2848,7 +3087,9 @@
   {
     "id": "q201",
     "text": "Do one thing every day that scares you.",
+    "translation_ja": "毎日、自分を少し怖がらせることを一つしなさい。",
     "author": "Eleanor Roosevelt",
+    "author_title_ja": "米国の人権活動家",
     "category": [
       "action"
     ],
@@ -2863,7 +3104,9 @@
   {
     "id": "q202",
     "text": "Never, never, never give in.",
+    "translation_ja": "決して、決して、決して屈するな。",
     "author": "Winston Churchill",
+    "author_title_ja": "英国元首相",
     "category": [
       "endurance"
     ],
@@ -2879,7 +3122,9 @@
   {
     "id": "q203",
     "text": "Work for something because it is good, not just because it stands a chance to succeed.",
+    "translation_ja": "成功の見込みがあるからではなく、善いことだから、それに取り組め。",
     "author": "Václav Havel",
+    "author_title_ja": "チェコ元大統領",
     "category": [
       "discipline",
       "action"
@@ -2895,7 +3140,9 @@
   {
     "id": "q204",
     "text": "Far better is it to dare mighty things, to win glorious triumphs, even though checkered by failure, than to rank with those poor spirits who neither enjoy much nor suffer much.",
+    "translation_ja": "たとえ失敗に彩られても、偉大なことに挑み栄光の勝利を得るほうが、喜びも悲しみも少ない者に並ぶよりはるかに良い。",
     "author": "Theodore Roosevelt",
+    "author_title_ja": "第26代米国大統領",
     "category": [
       "action",
       "endurance"
@@ -3075,7 +3322,9 @@
   {
     "id": "q215",
     "text": "Have the courage to follow your heart and intuition. They somehow already know what you truly want to become.",
+    "translation_ja": "心と直感に従う勇気を持て。それらは、あなたが本当になりたい姿をすでに知っている。",
     "author": "Steve Jobs",
+    "author_title_ja": "Apple 創業者",
     "category": [
       "reflection",
       "action"
@@ -3092,7 +3341,9 @@
   {
     "id": "q216",
     "text": "I knew that if I failed I wouldn't regret that, but I knew the one thing I might regret is not trying.",
+    "translation_ja": "失敗しても後悔しないと分かっていた。だが、挑まないことだけは後悔するかもしれないと知っていた。",
     "author": "Jeff Bezos",
+    "author_title_ja": "Amazon 創業者",
     "category": [
       "action",
       "endurance"
@@ -3108,7 +3359,9 @@
   {
     "id": "q217",
     "text": "The hardest thing in the world is to simplify your life; it's so easy to make it complex.",
+    "translation_ja": "世界で最も難しいのは、人生を単純にすること。複雑にするのはあまりに簡単だ。",
     "author": "Yvon Chouinard",
+    "author_title_ja": "パタゴニア 創業者",
     "category": [
       "focus",
       "discipline"
@@ -3124,7 +3377,9 @@
   {
     "id": "q218",
     "text": "The capacity to care is the thing which gives life its deepest significance.",
+    "translation_ja": "気にかける力こそが、人生に最も深い意味を与える。",
     "author": "Pablo Casals",
+    "author_title_ja": "スペインのチェリスト",
     "category": [
       "reflection",
       "leadership"
@@ -3140,7 +3395,9 @@
   {
     "id": "q219",
     "text": "I have already settled it for myself so flattery and criticism go down the same drain and I am quite free.",
+    "translation_ja": "私の中ではすでに決着がついているから、称賛も批判も同じ排水溝を流れていく。私はとても自由だ。",
     "author": "Georgia O'Keeffe",
+    "author_title_ja": "米国の画家",
     "category": [
       "reflection",
       "focus"
@@ -3172,7 +3429,9 @@
   {
     "id": "q221",
     "text": "The impediment to action advances action. What stands in the way becomes the way.",
+    "translation_ja": "行動を妨げるものこそ、行動を進めるものになる。立ちはだかるものが、道になる。",
     "author": "Marcus Aurelius",
+    "author_title_ja": "ローマ皇帝・ストア哲学者",
     "category": [
       "action",
       "endurance"
@@ -3188,7 +3447,9 @@
   {
     "id": "q222",
     "text": "It is not that we have a short time to live, but that we waste much of it.",
+    "translation_ja": "人生が短いのではない。人生の多くを浪費しているのだ。",
     "author": "Seneca",
+    "author_title_ja": "ローマのストア哲学者",
     "category": [
       "reflection",
       "discipline"
@@ -3204,7 +3465,9 @@
   {
     "id": "q223",
     "text": "Difficulties strengthen the mind, as labor does the body.",
+    "translation_ja": "困難は心を鍛える。労働が体を鍛えるように。",
     "author": "Seneca",
+    "author_title_ja": "ローマのストア哲学者",
     "category": [
       "endurance",
       "discipline"
@@ -3220,7 +3483,9 @@
   {
     "id": "q224",
     "text": "First say to yourself what you would be; and then do what you have to do.",
+    "translation_ja": "まず自分が何者になるかを決めよ。次に、そのためにすべきことをせよ。",
     "author": "Epictetus",
+    "author_title_ja": "ストア派の哲学者",
     "category": [
       "discipline",
       "action"
@@ -3236,7 +3501,9 @@
   {
     "id": "q225",
     "text": "Character is destiny.",
+    "translation_ja": "人格は運命である。",
     "author": "Heraclitus",
+    "author_title_ja": "古代ギリシャの哲学者",
     "category": [
       "reflection",
       "discipline"
@@ -3269,7 +3536,9 @@
   {
     "id": "q227",
     "text": "The best revenge is not to be like your enemy.",
+    "translation_ja": "最良の復讐は、敵のようにならないことだ。",
     "author": "Marcus Aurelius",
+    "author_title_ja": "ローマ皇帝・ストア哲学者",
     "category": [
       "reflection",
       "leadership"
@@ -3285,7 +3554,9 @@
   {
     "id": "q228",
     "text": "The mind is not a vessel to be filled, but a fire to be kindled.",
+    "translation_ja": "心は満たす器ではなく、点火する火である。",
     "author": "Plutarch",
+    "author_title_ja": "古代ギリシャの歴史家",
     "category": [
       "focus",
       "reflection"
@@ -3301,7 +3572,9 @@
   {
     "id": "q229",
     "text": "Things do not change; we change.",
+    "translation_ja": "物事が変わるのではない。私たちが変わるのだ。",
     "author": "Henry David Thoreau",
+    "author_title_ja": "米国の作家・思想家",
     "category": [
       "reflection"
     ],
@@ -3316,7 +3589,9 @@
   {
     "id": "q230",
     "text": "The greatest thing in the world is to know how to belong to oneself.",
+    "translation_ja": "この世で最も偉大なことは、自分自身に属する術を知ることだ。",
     "author": "Michel de Montaigne",
+    "author_title_ja": "フランスの思想家",
     "category": [
       "reflection",
       "discipline"
@@ -3332,7 +3607,9 @@
   {
     "id": "q231",
     "text": "Let everything happen to you: beauty and terror. Just keep going. No feeling is final.",
+    "translation_ja": "何もかもを受け入れよ――美しいことも、恐ろしいことも。ただ進み続けよ。どんな感情も最終ではない。",
     "author": "Rainer Maria Rilke",
+    "author_title_ja": "オーストリアの詩人",
     "category": [
       "endurance",
       "reflection"
@@ -3348,7 +3625,9 @@
   {
     "id": "q232",
     "text": "Be patient toward all that is unsolved in your heart and try to love the questions themselves.",
+    "translation_ja": "心の中の未解決なものすべてに辛抱強くあれ。そして、問いそのものを愛そうとせよ。",
     "author": "Rainer Maria Rilke",
+    "author_title_ja": "オーストリアの詩人",
     "category": [
       "reflection",
       "endurance"
@@ -3364,7 +3643,9 @@
   {
     "id": "q233",
     "text": "I believe that man will not merely endure: he will prevail.",
+    "translation_ja": "人は耐えるだけでなく、打ち克つと私は信じる。",
     "author": "William Faulkner",
+    "author_title_ja": "米国の作家",
     "category": [
       "endurance",
       "leadership"
@@ -3380,7 +3661,9 @@
   {
     "id": "q234",
     "text": "All we have to decide is what to do with the time that is given us.",
+    "translation_ja": "私たちに決められるのは、与えられた時間で何をするかだけだ。",
     "author": "J.R.R. Tolkien",
+    "author_title_ja": "英国の作家",
     "category": [
       "action",
       "reflection"
@@ -3396,7 +3679,9 @@
   {
     "id": "q235",
     "text": "Someone I loved once gave me a box full of darkness. It took me years to understand that this too, was a gift.",
+    "translation_ja": "かつて愛した人が、闇の詰まった箱を私にくれた。それが贈り物だったと理解するのに、何年もかかった。",
     "author": "Mary Oliver",
+    "author_title_ja": "米国の詩人",
     "category": [
       "reflection",
       "endurance"
@@ -3412,7 +3697,9 @@
   {
     "id": "q236",
     "text": "Hope is the thing with feathers that perches in the soul, and sings the tune without the words, and never stops at all.",
+    "translation_ja": "希望は羽根を持つもの。魂に止まり、言葉なき調べを歌い、決して止まらない。",
     "author": "Emily Dickinson",
+    "author_title_ja": "米国の詩人",
     "category": [
       "reflection",
       "endurance"
@@ -3428,7 +3715,9 @@
   {
     "id": "q237",
     "text": "Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.",
+    "translation_ja": "試みた。失敗した。構わない。再び試み、再び失敗し、より良く失敗せよ。",
     "author": "Samuel Beckett",
+    "author_title_ja": "アイルランドの劇作家",
     "category": [
       "endurance",
       "action"
@@ -3444,7 +3733,9 @@
   {
     "id": "q238",
     "text": "Traveler, there is no path. The path is made by walking.",
+    "translation_ja": "旅人よ、道はない。道は歩くことによって作られる。",
     "author": "Antonio Machado",
+    "author_title_ja": "スペインの詩人",
     "category": [
       "action",
       "reflection"
@@ -3460,7 +3751,9 @@
   {
     "id": "q239",
     "text": "I am not afraid of storms, for I am learning how to sail my ship.",
+    "translation_ja": "嵐を恐れない。なぜなら、私は自分の船を操る術を学んでいるから。",
     "author": "Louisa May Alcott",
+    "author_title_ja": "米国の作家",
     "category": [
       "endurance",
       "action"
@@ -3476,7 +3769,9 @@
   {
     "id": "q240",
     "text": "If there is no struggle, there is no progress.",
+    "translation_ja": "闘争なくして、前進はない。",
     "author": "Frederick Douglass",
+    "author_title_ja": "米国の奴隷解放運動家",
     "category": [
       "action",
       "endurance"
@@ -3492,7 +3787,9 @@
   {
     "id": "q241",
     "text": "Nothing ever goes away until it has taught us what we need to know.",
+    "translation_ja": "何ごとも、私たちが学ぶべきことを教えるまでは、去ってはいかない。",
     "author": "Pema Chödrön",
+    "author_title_ja": "チベット仏教の尼僧",
     "category": [
       "reflection",
       "endurance"
@@ -3508,7 +3805,9 @@
   {
     "id": "q242",
     "text": "Action springs not from thought, but from a readiness for responsibility.",
+    "translation_ja": "行動は思考からではなく、責任を引き受ける覚悟から生まれる。",
     "author": "Dietrich Bonhoeffer",
+    "author_title_ja": "ドイツの神学者",
     "category": [
       "leadership",
       "action"
@@ -3524,7 +3823,9 @@
   {
     "id": "q243",
     "text": "Attention is the rarest and purest form of generosity.",
+    "translation_ja": "注意を向けることは、最も稀で純粋な寛容である。",
     "author": "Simone Weil",
+    "author_title_ja": "フランスの哲学者",
     "category": [
       "focus",
       "reflection"
@@ -3540,7 +3841,9 @@
   {
     "id": "q244",
     "text": "Enthusiasm is common. Endurance is rare.",
+    "translation_ja": "熱意はありふれている。持続こそ稀だ。",
     "author": "Angela Duckworth",
+    "author_title_ja": "米国の心理学者",
     "category": [
       "discipline",
       "endurance"
@@ -3556,7 +3859,9 @@
   {
     "id": "q245",
     "text": "You do not rise to the level of your goals. You fall to the level of your systems.",
+    "translation_ja": "人は目標の高さまで上がるのではない。仕組みの低さまで落ちる。",
     "author": "James Clear",
+    "author_title_ja": "米国の作家",
     "category": [
       "discipline",
       "focus"
@@ -3572,7 +3877,9 @@
   {
     "id": "q246",
     "text": "Instructions for living a life: Pay attention. Be astonished. Tell about it.",
+    "translation_ja": "生き方の指南――注意深くあれ。驚け。それについて語れ。",
     "author": "Mary Oliver",
+    "author_title_ja": "米国の詩人",
     "category": [
       "focus",
       "reflection"
@@ -3588,7 +3895,9 @@
   {
     "id": "q247",
     "text": "The world asks of us only the strength we have and we give it. Then it asks more, and we give it.",
+    "translation_ja": "世界は、私たちが持つだけの力を求め、私たちはそれを差し出す。そしてまた求める。また差し出す。",
     "author": "Jane Hirshfield",
+    "author_title_ja": "米国の詩人",
     "category": [
       "endurance",
       "reflection"
@@ -3604,7 +3913,9 @@
   {
     "id": "q248",
     "text": "Before you know kindness as the deepest thing inside, you must know sorrow as the other deepest thing.",
+    "translation_ja": "優しさを心の最も深いものとして知る前に、悲しみをもう一つの深いものとして知らねばならない。",
     "author": "Naomi Shihab Nye",
+    "author_title_ja": "米国の詩人",
     "category": [
       "reflection",
       "gratitude"
@@ -3620,7 +3931,9 @@
   {
     "id": "q249",
     "text": "Anything or anyone that does not bring you alive is too small for you.",
+    "translation_ja": "あなたを生き生きとさせないものや人は、あなたには小さすぎる。",
     "author": "David Whyte",
+    "author_title_ja": "英国の詩人",
     "category": [
       "action",
       "reflection"
@@ -3636,7 +3949,9 @@
   {
     "id": "q250",
     "text": "Start close in, don't take the second step or the third, start with the first thing close in, the step you don't want to take.",
+    "translation_ja": "すぐ近くから始めよ。二歩目も三歩目も飛ばさず、踏み出したくない最初の一歩から。",
     "author": "David Whyte",
+    "author_title_ja": "英国の詩人",
     "category": [
       "action",
       "discipline"
@@ -3652,7 +3967,9 @@
   {
     "id": "q251",
     "text": "The only choice we have as we mature is how we inhabit our vulnerability.",
+    "translation_ja": "成熟する私たちに残された唯一の選択は、自分の弱さとどう共に暮らすかだけだ。",
     "author": "David Whyte",
+    "author_title_ja": "英国の詩人",
     "category": [
       "reflection",
       "endurance"
@@ -3668,7 +3985,9 @@
   {
     "id": "q252",
     "text": "Hope is not a lottery ticket you can sit on the sofa and clutch. It is an axe you break down doors with in an emergency.",
+    "translation_ja": "希望は、ソファに座って握りしめる宝くじではない。緊急時に扉を打ち破る斧だ。",
     "author": "Rebecca Solnit",
+    "author_title_ja": "米国の作家",
     "category": [
       "action",
       "endurance"
@@ -3684,7 +4003,9 @@
   {
     "id": "q253",
     "text": "In an age of speed, nothing could be more invigorating than going slow. In an age of distraction, nothing can feel more luxurious than paying attention.",
+    "translation_ja": "速さの時代にあって、ゆっくり進むことほど活力を与えてくれるものはない。注意が散る時代に、注意を払うことほど贅沢なものはない。",
     "author": "Pico Iyer",
+    "author_title_ja": "英国の作家",
     "category": [
       "focus",
       "reflection"
@@ -3700,7 +4021,9 @@
   {
     "id": "q254",
     "text": "Before you tell your life what you intend to do with it, listen for what it intends to do with you.",
+    "translation_ja": "人生に何をするか告げる前に、人生があなたに何をしようとしているかを聞きなさい。",
     "author": "Parker Palmer",
+    "author_title_ja": "米国の教育者",
     "category": [
       "reflection",
       "discipline"
@@ -3716,7 +4039,9 @@
   {
     "id": "q255",
     "text": "Self-care is never a selfish act — it is simply good stewardship of the only gift I have.",
+    "translation_ja": "セルフケアは決して利己的な行為ではない。自分に与えられた唯一の贈り物を大切に管理することだ。",
     "author": "Parker Palmer",
+    "author_title_ja": "米国の教育者",
     "category": [
       "discipline",
       "rest"
@@ -3732,7 +4057,9 @@
   {
     "id": "q256",
     "text": "Words make worlds.",
+    "translation_ja": "言葉は世界を創る。",
     "author": "Krista Tippett",
+    "author_title_ja": "米国のジャーナリスト",
     "category": [
       "leadership",
       "reflection"
@@ -3748,7 +4075,9 @@
   {
     "id": "q257",
     "text": "There are a thousand thousand reasons to live this life, every one of them sufficient.",
+    "translation_ja": "この人生を生きる理由は千の千倍ある。そのどれもがそれだけで十分だ。",
     "author": "Marilynne Robinson",
+    "author_title_ja": "米国の作家",
     "category": [
       "reflection",
       "gratitude"
@@ -3764,7 +4093,9 @@
   {
     "id": "q258",
     "text": "You are the sky. Everything else — it's just the weather.",
+    "translation_ja": "あなたは空そのものだ。それ以外はすべて、ただの天気である。",
     "author": "Pema Chödrön",
+    "author_title_ja": "チベット仏教の尼僧",
     "category": [
       "reflection",
       "endurance"
@@ -3780,7 +4111,9 @@
   {
     "id": "q259",
     "text": "May you listen to your longing to be free.",
+    "translation_ja": "自由でありたいという自分の切望に、耳を傾けよ。",
     "author": "John O'Donohue",
+    "author_title_ja": "アイルランドの詩人",
     "category": [
       "reflection",
       "action"
@@ -3796,7 +4129,9 @@
   {
     "id": "q260",
     "text": "Your soul knows the geography of your destiny.",
+    "translation_ja": "あなたの魂は、自分の運命の地図を知っている。",
     "author": "John O'Donohue",
+    "author_title_ja": "アイルランドの詩人",
     "category": [
       "reflection",
       "focus"
@@ -3812,7 +4147,9 @@
   {
     "id": "q261",
     "text": "It is my belief that the more you study delight, the more delight there is to study.",
+    "translation_ja": "喜びを学べば学ぶほど、学ぶべき喜びがさらに増える。",
     "author": "Ross Gay",
+    "author_title_ja": "米国の詩人",
     "category": [
       "gratitude",
       "reflection"
@@ -3828,7 +4165,9 @@
   {
     "id": "q262",
     "text": "You could make this place beautiful.",
+    "translation_ja": "あなたなら、この場所を美しくできる。",
     "author": "Maggie Smith",
+    "author_title_ja": "米国の詩人",
     "category": [
       "action",
       "reflection"
@@ -3844,7 +4183,9 @@
   {
     "id": "q263",
     "text": "Faith is nothing more — but how much this is — than a motion of the soul toward God.",
+    "translation_ja": "信仰とは、それ以上でもそれ以下でもなく――魂が神へと動くこと。そしてそれがどれほどのことか。",
     "author": "Christian Wiman",
+    "author_title_ja": "米国の詩人",
     "category": [
       "reflection"
     ],
@@ -3859,7 +4200,9 @@
   {
     "id": "q264",
     "text": "Critical thinking without hope is cynicism. Hope without critical thinking is naivety.",
+    "translation_ja": "希望なき批判的思考は冷笑である。批判的思考なき希望は素朴である。",
     "author": "Maria Popova",
+    "author_title_ja": "米国の作家・エッセイスト",
     "category": [
       "reflection",
       "discipline"
@@ -3875,7 +4218,9 @@
   {
     "id": "q265",
     "text": "You don't have a right to the cards you believe you should have been dealt. You have an obligation to play the hell out of the ones you're holding.",
+    "translation_ja": "配られるべきだったと思うカードへの権利はない。あなたにあるのは、手元のカードを全力で切る義務だ。",
     "author": "Cheryl Strayed",
+    "author_title_ja": "米国の作家",
     "category": [
       "endurance",
       "discipline"
@@ -3891,7 +4236,9 @@
   {
     "id": "q266",
     "text": "Be brave enough to break your own heart.",
+    "translation_ja": "自分自身の心を壊すだけの勇気を持て。",
     "author": "Cheryl Strayed",
+    "author_title_ja": "米国の作家",
     "category": [
       "action",
       "endurance"
@@ -3907,7 +4254,9 @@
   {
     "id": "q267",
     "text": "To love yourself is to understand that you don't have to be anyone but the one you are.",
+    "translation_ja": "自分を愛するとは、自分以外の誰かになる必要がないと理解することだ。",
     "author": "Mark Nepo",
+    "author_title_ja": "米国の詩人",
     "category": [
       "reflection",
       "discipline"
@@ -3923,7 +4272,9 @@
   {
     "id": "q268",
     "text": "Anyone who isn't embarrassed of who they were last year probably isn't learning enough.",
+    "translation_ja": "昨年の自分を恥ずかしく思わない人間は、たぶん十分に学んでいない。",
     "author": "Alain de Botton",
+    "author_title_ja": "スイスの哲学者",
     "category": [
       "reflection",
       "discipline"
@@ -3939,7 +4290,9 @@
   {
     "id": "q269",
     "text": "Own your slippers, own who you are, own how you look, own your family, own the talents you have, and own the ones you don't.",
+    "translation_ja": "自分の日常を、自分自身を、見た目を、家族を、持つ才能も持たない才能も、すべて自分のものとして受け止めよ。",
     "author": "Abraham Verghese",
+    "author_title_ja": "米国の医師・作家",
     "category": [
       "reflection",
       "discipline"
@@ -3955,7 +4308,9 @@
   {
     "id": "q270",
     "text": "What I regret most in my life are failures of kindness.",
+    "translation_ja": "人生で最も後悔していることは、優しさが足りなかった瞬間だ。",
     "author": "George Saunders",
+    "author_title_ja": "米国の作家",
     "category": [
       "reflection",
       "leadership"
@@ -3971,7 +4326,9 @@
   {
     "id": "q271",
     "text": "Err in the direction of kindness.",
+    "translation_ja": "迷ったら、優しさの方へ間違えよ。",
     "author": "George Saunders",
+    "author_title_ja": "米国の作家",
     "category": [
       "leadership",
       "action"
@@ -3987,7 +4344,9 @@
   {
     "id": "q272",
     "text": "It is not happiness that makes us grateful, but gratitude that makes us happy.",
+    "translation_ja": "幸福が感謝を生むのではない。感謝が幸福を生む。",
     "author": "David Steindl-Rast",
+    "author_title_ja": "オーストリアの修道士",
     "category": [
       "gratitude",
       "reflection"
@@ -4003,7 +4362,9 @@
   {
     "id": "q273",
     "text": "Rest is not a prize for those who have earned it. It is a sacred inheritance.",
+    "translation_ja": "休息は、それに値する者への褒美ではない。神聖な遺産である。",
     "author": "Cole Arthur Riley",
+    "author_title_ja": "米国の詩人",
     "category": [
       "rest",
       "reflection"
@@ -4035,7 +4396,9 @@
   {
     "id": "q275",
     "text": "Trust only movement. Life happens at the level of events, not of words.",
+    "translation_ja": "信じるべきは動きだけだ。人生は言葉の次元ではなく、出来事の次元で起こる。",
     "author": "Alfred Adler",
+    "author_title_ja": "オーストリアの心理学者",
     "category": [
       "action",
       "focus"
@@ -4051,7 +4414,9 @@
   {
     "id": "q276",
     "text": "It is always easier to fight for one's principles than to live up to them.",
+    "translation_ja": "信念のために戦うことは、信念どおりに生きることよりもいつも簡単だ。",
     "author": "Alfred Adler",
+    "author_title_ja": "オーストリアの心理学者",
     "category": [
       "discipline",
       "endurance"
@@ -4067,7 +4432,9 @@
   {
     "id": "q277",
     "text": "To be a human being means to possess a feeling of inferiority which constantly presses towards its own conquest.",
+    "translation_ja": "人間であるとは、常にそれを乗り越えようとする劣等感を抱えることだ。",
     "author": "Alfred Adler",
+    "author_title_ja": "オーストリアの心理学者",
     "category": [
       "endurance",
       "reflection"
@@ -4083,7 +4450,9 @@
   {
     "id": "q279",
     "text": "The chief danger in life is that you may take too many precautions.",
+    "translation_ja": "人生最大の危険は、用心を重ねすぎることだ。",
     "author": "Alfred Adler",
+    "author_title_ja": "オーストリアの心理学者",
     "category": [
       "action",
       "leadership"
@@ -4099,7 +4468,9 @@
   {
     "id": "q280",
     "text": "Until you make the unconscious conscious, it will direct your life and you will call it fate.",
+    "translation_ja": "無意識を意識化しない限り、それがあなたの人生を導き、あなたはそれを運命と呼ぶ。",
     "author": "Carl Jung",
+    "author_title_ja": "スイスの心理学者",
     "category": [
       "reflection"
     ],
@@ -4114,7 +4485,9 @@
   {
     "id": "q281",
     "text": "The most terrifying thing is to accept oneself completely.",
+    "translation_ja": "最も恐ろしいのは、自分を完全に受け入れることだ。",
     "author": "Carl Jung",
+    "author_title_ja": "スイスの心理学者",
     "category": [
       "reflection",
       "endurance"
@@ -4130,7 +4503,9 @@
   {
     "id": "q284",
     "text": "Anxiety is the dizziness of freedom.",
+    "translation_ja": "不安とは、自由のめまいである。",
     "author": "Søren Kierkegaard",
+    "author_title_ja": "デンマークの哲学者",
     "category": [
       "reflection"
     ],
@@ -4179,7 +4554,9 @@
   {
     "id": "q288",
     "text": "How vain it is to sit down to write when you have not stood up to live.",
+    "translation_ja": "生きるために立ち上がらずに、書くために座るのがどれほど虚しいことか。",
     "author": "Henry David Thoreau",
+    "author_title_ja": "米国の作家・思想家",
     "category": [
       "action",
       "discipline"
@@ -4195,7 +4572,9 @@
   {
     "id": "q289",
     "text": "Meanings are not determined by situations, but we determine ourselves by the meanings we give to situations.",
+    "translation_ja": "意味は状況が決めるのではない。状況に私たちが与える意味が、私たち自身を決めるのだ。",
     "author": "Alfred Adler",
+    "author_title_ja": "オーストリアの心理学者",
     "category": [
       "reflection",
       "focus"
@@ -4227,7 +4606,9 @@
   {
     "id": "q291",
     "text": "In some ways suffering ceases to be suffering at the moment it finds a meaning.",
+    "translation_ja": "苦しみは、意味を見出した瞬間、ある意味で苦しみでなくなる。",
     "author": "Viktor Frankl",
+    "author_title_ja": "心理学者・精神科医",
     "category": [
       "endurance",
       "reflection"
@@ -4260,7 +4641,9 @@
   {
     "id": "q293",
     "text": "He who has a why to live for can bear almost any how.",
+    "translation_ja": "生きる理由を持つ者は、ほぼどんな生き方にも耐えられる。",
     "author": "Friedrich Nietzsche",
+    "author_title_ja": "ドイツの哲学者",
     "category": [
       "endurance",
       "focus"
@@ -4310,7 +4693,9 @@
   {
     "id": "q298",
     "text": "If a man does not keep pace with his companions, perhaps it is because he hears a different drummer.",
+    "translation_ja": "人が仲間と歩調を合わせないのは、おそらく違う太鼓の音を聞いているからだ。",
     "author": "Henry David Thoreau",
+    "author_title_ja": "米国の作家・思想家",
     "category": [
       "focus",
       "reflection"
@@ -4326,7 +4711,9 @@
   {
     "id": "q299",
     "text": "Everything can be taken from a man but one thing: the last of the human freedoms, to choose one's attitude in any given set of circumstances.",
+    "translation_ja": "人からはすべてが奪われ得る。だが、ただ一つ、どんな状況でも態度を選ぶ自由だけは奪えない。",
     "author": "Viktor Frankl",
+    "author_title_ja": "心理学者・精神科医",
     "category": [
       "endurance",
       "leadership"
@@ -4359,7 +4746,9 @@
   {
     "id": "q301",
     "text": "While we are postponing, life speeds by.",
+    "translation_ja": "先延ばしにしているうちに、人生は駆け抜けていく。",
     "author": "Seneca",
+    "author_title_ja": "ローマのストア哲学者",
     "category": [
       "action",
       "discipline"
@@ -4375,7 +4764,9 @@
   {
     "id": "q303",
     "text": "He who fears he will suffer, already suffers from what he fears.",
+    "translation_ja": "苦しむのではないかと恐れる者は、恐れるそのものからすでに苦しんでいる。",
     "author": "Michel de Montaigne",
+    "author_title_ja": "フランスの思想家",
     "category": [
       "reflection",
       "endurance"
@@ -4391,7 +4782,9 @@
   {
     "id": "q304",
     "text": "No one can build you the bridge on which you must cross the river of life, no one but you yourself alone.",
+    "translation_ja": "人生の川を渡るための橋は、誰もあなたのために架けられない。ただ自分自身しか。",
     "author": "Friedrich Nietzsche",
+    "author_title_ja": "ドイツの哲学者",
     "category": [
       "action",
       "leadership"
@@ -4407,7 +4800,9 @@
   {
     "id": "q305",
     "text": "The good physician treats the disease; the great physician treats the patient who has the disease.",
+    "translation_ja": "良き医師は病を治す。偉大な医師は、病を持つ患者を治す。",
     "author": "William Osler",
+    "author_title_ja": "近代医学の父",
     "category": [
       "focus",
       "reflection"
@@ -4423,7 +4818,9 @@
   {
     "id": "q306",
     "text": "The secret of the care of the patient is in caring for the patient.",
+    "translation_ja": "患者を診る秘訣は、患者を大切に思うことにある。",
     "author": "Francis W. Peabody",
+    "author_title_ja": "米国の内科医",
     "category": [
       "focus",
       "reflection"
@@ -4439,7 +4836,9 @@
   {
     "id": "q307",
     "text": "The expectation that we can be immersed in suffering and loss daily and not be touched by it is as unrealistic as expecting to be able to walk through water without getting wet.",
+    "translation_ja": "毎日苦しみと喪失に浸かりながら、何の影響も受けないと思うのは、水の中を濡れずに歩けると思うのと同じくらい非現実的だ。",
     "author": "Rachel Naomi Remen",
+    "author_title_ja": "米国の医師・作家",
     "category": [
       "endurance",
       "reflection"
@@ -4455,7 +4854,9 @@
   {
     "id": "q308",
     "text": "You matter because you are you, and you matter to the end of your life.",
+    "translation_ja": "あなたは、あなたであるがゆえに大切であり、人生の最期まで大切である。",
     "author": "Cicely Saunders",
+    "author_title_ja": "ホスピス運動の創始者",
     "category": [
       "reflection",
       "gratitude"
@@ -4471,7 +4872,9 @@
   {
     "id": "q309",
     "text": "I attribute my success to this: I never gave or took any excuse.",
+    "translation_ja": "私の成功は、言い訳を与えず、受け取らなかったことに帰する。",
     "author": "Florence Nightingale",
+    "author_title_ja": "近代看護の創始者",
     "category": [
       "discipline",
       "endurance"
@@ -4487,7 +4890,9 @@
   {
     "id": "q310",
     "text": "You can't ever reach perfection, but you can believe in an asymptote toward which you are ceaselessly striving.",
+    "translation_ja": "完璧には決して届かない。だが、絶えず近づこうとする漸近線を信じることはできる。",
     "author": "Paul Kalanithi",
+    "author_title_ja": "米国の脳神経外科医",
     "category": [
       "discipline",
       "endurance"
@@ -4503,7 +4908,9 @@
   {
     "id": "q311",
     "text": "Better is possible. It does not take genius. It takes diligence.",
+    "translation_ja": "「より良く」は可能だ。才能ではなく、勤勉さによって。",
     "author": "Atul Gawande",
+    "author_title_ja": "米国の外科医・作家",
     "category": [
       "discipline",
       "action"
@@ -4519,7 +4926,9 @@
   {
     "id": "q312",
     "text": "I cannot pretend I am without fear. But my predominant feeling is one of gratitude.",
+    "translation_ja": "恐れがないふりはできない。だが、私の主たる感情は感謝である。",
     "author": "Oliver Sacks",
+    "author_title_ja": "英国の神経内科医",
     "category": [
       "gratitude",
       "reflection"
@@ -4535,7 +4944,9 @@
   {
     "id": "q313",
     "text": "Love is the only way to grasp another human being in the innermost core of his personality.",
+    "translation_ja": "愛こそが、他者の人格の最も深い核を捉える唯一の方法だ。",
     "author": "Viktor Frankl",
+    "author_title_ja": "心理学者・精神科医",
     "category": [
       "reflection",
       "gratitude"
@@ -4551,7 +4962,9 @@
   {
     "id": "q314",
     "text": "The curious paradox is that when I accept myself just as I am, then I can change.",
+    "translation_ja": "奇妙な逆説だが、ありのままの自分を受け入れた時、初めて人は変わることができる。",
     "author": "Carl Rogers",
+    "author_title_ja": "米国の心理学者",
     "category": [
       "reflection"
     ],
@@ -4566,7 +4979,9 @@
   {
     "id": "q315",
     "text": "Though the physicality of death destroys us, the idea of death saves us.",
+    "translation_ja": "死の肉体性は私たちを破壊するが、死の観念は私たちを救う。",
     "author": "Irvin Yalom",
+    "author_title_ja": "米国の精神科医",
     "category": [
       "reflection",
       "endurance"
@@ -4582,7 +4997,9 @@
   {
     "id": "q316",
     "text": "Hope, unlike optimism, is rooted in unalloyed reality.",
+    "translation_ja": "希望は楽観とは違い、混じり気のない現実に根ざしている。",
     "author": "Jerome Groopman",
+    "author_title_ja": "米国の血液内科医",
     "category": [
       "endurance",
       "reflection"
@@ -4598,7 +5015,9 @@
   {
     "id": "q317",
     "text": "Words are the most powerful tool a doctor possesses, but words, like a two-edged sword, can maim as well as heal.",
+    "translation_ja": "言葉は医師が持つ最も強力な道具である。だが両刃の剣のように、癒すと同時に傷つけうる。",
     "author": "Bernard Lown",
+    "author_title_ja": "米国の循環器内科医",
     "category": [
       "discipline",
       "focus"
@@ -4614,7 +5033,9 @@
   {
     "id": "q318",
     "text": "Wherever the art of medicine is loved, there is also a love of humanity.",
+    "translation_ja": "医の術が愛されるところには、人への愛もまたある。",
     "author": "Hippocrates",
+    "author_title_ja": "古代ギリシャの医師",
     "category": [
       "reflection",
       "focus"
@@ -4630,7 +5051,9 @@
   {
     "id": "q319",
     "text": "May I never see in the patient anything but a fellow creature in pain.",
+    "translation_ja": "患者の中に、痛みを抱えた同じ人間以外のものを見ることがありませんように。",
     "author": "Moses Maimonides",
+    "author_title_ja": "中世の医師・哲学者",
     "category": [
       "reflection",
       "focus"
@@ -4646,7 +5069,9 @@
   {
     "id": "q320",
     "text": "You must trust and believe in people, or life becomes impossible.",
+    "translation_ja": "人を信じ、信頼せねばならぬ。さもなくば、人生は成り立たない。",
     "author": "Anton Chekhov",
+    "author_title_ja": "ロシアの作家・医師",
     "category": [
       "reflection",
       "leadership"
@@ -4662,7 +5087,9 @@
   {
     "id": "q321",
     "text": "It's the humdrum, day-in, day-out, everyday work that is the real satisfaction of the practice of medicine.",
+    "translation_ja": "医療の実践の真の満足は、地味で日々続く平凡な仕事の中にある。",
     "author": "William Carlos Williams",
+    "author_title_ja": "米国の詩人・医師",
     "category": [
       "discipline",
       "focus"
@@ -4678,7 +5105,9 @@
   {
     "id": "q322",
     "text": "The dignity that we seek in dying must be found in the dignity with which we have lived our lives.",
+    "translation_ja": "死に際に求める尊厳は、生きてきた人生の尊厳の中にこそ見出される。",
     "author": "Sherwin Nuland",
+    "author_title_ja": "米国の外科医・作家",
     "category": [
       "reflection",
       "endurance"
@@ -4694,7 +5123,9 @@
   {
     "id": "q323",
     "text": "The most beautiful people we have known are those who have known defeat, known suffering, known struggle, known loss, and have found their way out of the depths.",
+    "translation_ja": "最も美しい人は、敗北・苦しみ・闘い・喪失を知り、その深淵から抜け出す道を見つけた人々だ。",
     "author": "Elisabeth Kubler-Ross",
+    "author_title_ja": "精神科医・終末期医療の先駆者",
     "category": [
       "endurance",
       "reflection"
@@ -4710,7 +5141,9 @@
   {
     "id": "q324",
     "text": "I don't know what your destiny will be, but one thing I know: the only ones among you who will be really happy are those who have sought and found how to serve.",
+    "translation_ja": "あなたの運命が何かは分からない。だが一つだけ分かる。本当に幸せな者は、仕える方法を探し、見出した者だけだ。",
     "author": "Albert Schweitzer",
+    "author_title_ja": "アルザスの医師・思想家",
     "category": [
       "leadership",
       "reflection"
@@ -4743,7 +5176,9 @@
   {
     "id": "q326",
     "text": "Confine yourself to the present.",
+    "translation_ja": "今この瞬間にとどまれ。",
     "author": "Marcus Aurelius",
+    "author_title_ja": "ローマ皇帝・ストア哲学者",
     "category": [
       "focus",
       "discipline"
@@ -4793,7 +5228,9 @@
   {
     "id": "q330",
     "text": "Make the best use of what is in your power, and take the rest as it happens.",
+    "translation_ja": "自分の力の及ぶものを最大限に用い、それ以外は起こるがままに受け入れよ。",
     "author": "Epictetus",
+    "author_title_ja": "ストア派の哲学者",
     "category": [
       "discipline",
       "endurance"
@@ -4843,7 +5280,9 @@
   {
     "id": "q333",
     "text": "Men are disturbed not by the things which happen, but by the opinions about the things.",
+    "translation_ja": "人を乱すのは出来事ではない。出来事についての見方である。",
     "author": "Epictetus",
+    "author_title_ja": "ストア派の哲学者",
     "category": [
       "reflection",
       "focus"
@@ -4876,7 +5315,9 @@
   {
     "id": "q335",
     "text": "Sometimes even to live is an act of courage.",
+    "translation_ja": "時には、生きることそのものが勇気ある行為である。",
     "author": "Seneca",
+    "author_title_ja": "ローマのストア哲学者",
     "category": [
       "endurance",
       "reflection"
@@ -4926,7 +5367,9 @@
   {
     "id": "q338",
     "text": "Do not spoil what you have by desiring what you have not; remember that what you now have was once among the things you only hoped for.",
+    "translation_ja": "持たないものを欲して、今あるものを損なうな。今あるものもかつては願っていたものだと思い出せ。",
     "author": "Epicurus",
+    "author_title_ja": "古代ギリシャの哲学者",
     "category": [
       "gratitude",
       "reflection"
@@ -4942,7 +5385,9 @@
   {
     "id": "q339",
     "text": "Life is never made unbearable by circumstances, but only by lack of meaning and purpose.",
+    "translation_ja": "人生を耐え難くするのは状況ではなく、意味と目的の欠如である。",
     "author": "Viktor Frankl",
+    "author_title_ja": "心理学者・精神科医",
     "category": [
       "endurance",
       "focus"
@@ -4992,7 +5437,9 @@
   {
     "id": "q342",
     "text": "Who looks outside, dreams; who looks inside, awakes.",
+    "translation_ja": "外を見る者は夢み、内を見る者は目覚める。",
     "author": "Carl Jung",
+    "author_title_ja": "スイスの心理学者",
     "category": [
       "reflection"
     ],
@@ -5007,7 +5454,9 @@
   {
     "id": "q343",
     "text": "We cannot change anything until we accept it.",
+    "translation_ja": "受け入れるまで、私たちは何も変えられない。",
     "author": "Carl Jung",
+    "author_title_ja": "スイスの心理学者",
     "category": [
       "reflection",
       "endurance"
@@ -5039,7 +5488,9 @@
   {
     "id": "q346",
     "text": "Purity of heart is to will one thing.",
+    "translation_ja": "心の純粋さとは、一つのことを望むことだ。",
     "author": "Søren Kierkegaard",
+    "author_title_ja": "デンマークの哲学者",
     "category": [
       "focus",
       "discipline"
@@ -5055,7 +5506,9 @@
   {
     "id": "q348",
     "text": "Nothing is so firmly believed as that which we least know.",
+    "translation_ja": "最も知らないことほど、最も強く信じられる。",
     "author": "Michel de Montaigne",
+    "author_title_ja": "フランスの思想家",
     "category": [
       "reflection",
       "focus"
@@ -5071,7 +5524,9 @@
   {
     "id": "q349",
     "text": "The value of life lies not in the length of days, but in the use we make of them.",
+    "translation_ja": "人生の価値は、日数の長さではなく、その使い方にある。",
     "author": "Michel de Montaigne",
+    "author_title_ja": "フランスの思想家",
     "category": [
       "focus",
       "reflection"
@@ -5087,7 +5542,9 @@
   {
     "id": "q350",
     "text": "Life is short, the art long, opportunity fleeting, experiment treacherous, judgment difficult.",
+    "translation_ja": "人生は短く、技は長い。機会は束の間、試みは危うく、判断は難しい。",
     "author": "Hippocrates",
+    "author_title_ja": "古代ギリシャの医師",
     "category": [
       "discipline",
       "endurance"
@@ -5103,7 +5560,9 @@
   {
     "id": "q351",
     "text": "To cure sometimes, to relieve often, to comfort always.",
+    "translation_ja": "時に治し、しばしば和らげ、常に慰める。",
     "author": "Edward L. Trudeau",
+    "author_title_ja": "米国の結核医",
     "category": [
       "reflection",
       "focus"
@@ -5119,7 +5578,9 @@
   {
     "id": "q352",
     "text": "Medicine is a science of uncertainty and an art of probability.",
+    "translation_ja": "医学は不確実性の科学であり、確率の技術である。",
     "author": "William Osler",
+    "author_title_ja": "近代医学の父",
     "category": [
       "focus",
       "reflection"
@@ -5135,7 +5596,9 @@
   {
     "id": "q353",
     "text": "The practice of medicine is an art, not a trade; a calling, not a business; a calling in which your heart will be exercised equally with your head.",
+    "translation_ja": "医療の実践は商売ではなく、技である。業ではなく召命であり、頭と同じように心を使う召命である。",
     "author": "William Osler",
+    "author_title_ja": "近代医学の父",
     "category": [
       "discipline",
       "reflection"
@@ -5151,7 +5614,9 @@
   {
     "id": "q354",
     "text": "Listen to your patient, he is telling you the diagnosis.",
+    "translation_ja": "患者の言葉を聴きなさい。診断は患者が教えてくれている。",
     "author": "William Osler",
+    "author_title_ja": "近代医学の父",
     "category": [
       "focus",
       "discipline"
@@ -5167,7 +5632,9 @@
   {
     "id": "q355",
     "text": "Were there none who were discontented with what they have, the world would never reach anything better.",
+    "translation_ja": "現状に不満を持つ者がいなければ、世界は決してより良いものに到達しない。",
     "author": "Florence Nightingale",
+    "author_title_ja": "近代看護の創始者",
     "category": [
       "action",
       "leadership"
@@ -5183,7 +5650,9 @@
   {
     "id": "q356",
     "text": "The very first requirement in a hospital is that it should do the sick no harm.",
+    "translation_ja": "病院の第一の要件は、病人に害を与えないことである。",
     "author": "Florence Nightingale",
+    "author_title_ja": "近代看護の創始者",
     "category": [
       "discipline",
       "focus"
@@ -5199,7 +5668,9 @@
   {
     "id": "q357",
     "text": "Helping, fixing, and serving represent three different ways of seeing life.",
+    "translation_ja": "助けること、直すこと、仕えること――この三つは人生の見方を異にする。",
     "author": "Rachel Naomi Remen",
+    "author_title_ja": "米国の医師・作家",
     "category": [
       "reflection",
       "leadership"
@@ -5215,7 +5686,9 @@
   {
     "id": "q358",
     "text": "People want autonomy, control over their own lives.",
+    "translation_ja": "人は、自分の人生を自分でコントロールしたいのだ。",
     "author": "Atul Gawande",
+    "author_title_ja": "米国の外科医・作家",
     "category": [
       "focus",
       "reflection"
@@ -5231,7 +5704,9 @@
   {
     "id": "q359",
     "text": "Our ultimate goal, after all, is not a good death but a good life to the very end.",
+    "translation_ja": "究極の目標は、良い死ではない。最期まで続く良い人生である。",
     "author": "Atul Gawande",
+    "author_title_ja": "米国の外科医・作家",
     "category": [
       "reflection",
       "focus"
@@ -5247,7 +5722,9 @@
   {
     "id": "q360",
     "text": "The friend who can be silent with us in a moment of despair or confusion is a friend who cares.",
+    "translation_ja": "絶望や混乱のとき、黙って共にいてくれる友こそ、本当に気にかけてくれる友だ。",
     "author": "Henri Nouwen",
+    "author_title_ja": "オランダの神学者",
     "category": [
       "reflection",
       "gratitude"
@@ -5263,7 +5740,9 @@
   {
     "id": "q361",
     "text": "Compassion asks us to go where it hurts, to enter into the places of pain, to share in brokenness, fear, confusion, and anguish.",
+    "translation_ja": "慈しみは、痛みのある場所へ行き、その痛みに入り、壊れた思いや恐れ、混乱、苦悩を共にすることを求める。",
     "author": "Henri Nouwen",
+    "author_title_ja": "オランダの神学者",
     "category": [
       "reflection",
       "endurance"
@@ -5279,7 +5758,9 @@
   {
     "id": "q362",
     "text": "The idea that some lives matter less is the root of all that is wrong with the world.",
+    "translation_ja": "ある命のほうが価値が低いという考えこそ、世界のあらゆる歪みの根源だ。",
     "author": "Paul Farmer",
+    "author_title_ja": "米国の医師・人類学者",
     "category": [
       "leadership",
       "reflection"
@@ -5295,7 +5776,9 @@
   {
     "id": "q363",
     "text": "The only real nation is humanity.",
+    "translation_ja": "唯一本当の国は、人類である。",
     "author": "Paul Farmer",
+    "author_title_ja": "米国の医師・人類学者",
     "category": [
       "reflection",
       "leadership"
@@ -5311,7 +5794,9 @@
   {
     "id": "q364",
     "text": "We are built to make mistakes, coded for error.",
+    "translation_ja": "私たちは間違いを犯すように作られている。誤ることを書き込まれている。",
     "author": "Lewis Thomas",
+    "author_title_ja": "米国の医師・随筆家",
     "category": [
       "reflection",
       "endurance"
@@ -5327,7 +5812,9 @@
   {
     "id": "q365",
     "text": "It is a joy to be hidden but a disaster not to be found.",
+    "translation_ja": "隠れていることは喜びだ。だが、見つけられないことは災いだ。",
     "author": "Donald Winnicott",
+    "author_title_ja": "英国の小児科医・精神分析家",
     "category": [
       "reflection"
     ],
@@ -5342,7 +5829,9 @@
   {
     "id": "q366",
     "text": "Love is the only sane and satisfactory answer to the problem of human existence.",
+    "translation_ja": "愛は、人間存在の問いに対する、唯一の健全で満ち足りた答えだ。",
     "author": "Erich Fromm",
+    "author_title_ja": "ドイツの精神分析家",
     "category": [
       "reflection",
       "gratitude"
@@ -5358,7 +5847,9 @@
   {
     "id": "q367",
     "text": "Creativity requires the courage to let go of certainties.",
+    "translation_ja": "創造には、確かなものを手放す勇気がいる。",
     "author": "Erich Fromm",
+    "author_title_ja": "ドイツの精神分析家",
     "category": [
       "action",
       "endurance"
@@ -5374,7 +5865,9 @@
   {
     "id": "q368",
     "text": "How people die remains in the memory of those who live on.",
+    "translation_ja": "人がどう死んだかは、残された者の記憶に残り続ける。",
     "author": "Cicely Saunders",
+    "author_title_ja": "ホスピス運動の創始者",
     "category": [
       "reflection",
       "endurance"
@@ -5390,7 +5883,9 @@
   {
     "id": "q369",
     "text": "Our real journey in life is interior.",
+    "translation_ja": "私たちの本当の人生の旅は、内面にある。",
     "author": "Thomas Merton",
+    "author_title_ja": "米国の修道士",
     "category": [
       "reflection",
       "focus"
@@ -5406,7 +5901,9 @@
   {
     "id": "q370",
     "text": "The beginning of love is to let those we love be perfectly themselves.",
+    "translation_ja": "愛の始まりは、愛する人が完全にその人自身でいられるようにすることだ。",
     "author": "Thomas Merton",
+    "author_title_ja": "米国の修道士",
     "category": [
       "reflection",
       "gratitude"
@@ -5422,7 +5919,9 @@
   {
     "id": "q372",
     "text": "Love is not consolation. It is light.",
+    "translation_ja": "愛は慰めではない。光である。",
     "author": "Simone Weil",
+    "author_title_ja": "フランスの哲学者",
     "category": [
       "reflection",
       "gratitude"
@@ -5438,7 +5937,9 @@
   {
     "id": "q373",
     "text": "The love of our neighbor in all its fullness simply means being able to say: What are you going through?",
+    "translation_ja": "隣人を真に愛するとは、ただこう問えることだ――「あなたは今、何を抱えているのですか?」",
     "author": "Simone Weil",
+    "author_title_ja": "フランスの哲学者",
     "category": [
       "reflection",
       "focus"
@@ -5454,7 +5955,9 @@
   {
     "id": "q375",
     "text": "The future enters into us, in order to transform itself in us, long before it happens.",
+    "translation_ja": "未来は、それが起こる遥か以前に、私たちの中に入り込み、私たちの中で形を変えようとする。",
     "author": "Rainer Maria Rilke",
+    "author_title_ja": "オーストリアの詩人",
     "category": [
       "reflection",
       "endurance"
@@ -5470,7 +5973,9 @@
   {
     "id": "q376",
     "text": "Attention is the beginning of devotion.",
+    "translation_ja": "注意を向けることは、献身の始まりだ。",
     "author": "Mary Oliver",
+    "author_title_ja": "米国の詩人",
     "category": [
       "focus",
       "reflection"
@@ -5486,7 +5991,9 @@
   {
     "id": "q378",
     "text": "The antidote to exhaustion is not necessarily rest. The antidote to exhaustion is wholeheartedness.",
+    "translation_ja": "疲弊の解毒剤は、必ずしも休息ではない。疲弊の解毒剤は、心を尽くすことだ。",
     "author": "David Whyte",
+    "author_title_ja": "英国の詩人",
     "category": [
       "endurance",
       "focus"
@@ -5502,7 +6009,9 @@
   {
     "id": "q380",
     "text": "The sad truth is that most evil is done by people who never make up their minds to be good or evil.",
+    "translation_ja": "悲しい真実は、ほとんどの悪は善悪を決めなかった人々によってなされる、ということだ。",
     "author": "Hannah Arendt",
+    "author_title_ja": "ドイツ系米国の哲学者",
     "category": [
       "discipline",
       "reflection"
@@ -5518,7 +6027,9 @@
   {
     "id": "q381",
     "text": "We must learn to regard people less in the light of what they do or omit to do, and more in the light of what they suffer.",
+    "translation_ja": "人を、その人が何をしたか・しなかったかよりも、その人が何を耐えているかという光の中で見る術を、私たちは学ばねばならない。",
     "author": "Dietrich Bonhoeffer",
+    "author_title_ja": "ドイツの神学者",
     "category": [
       "reflection",
       "focus"
@@ -5534,7 +6045,9 @@
   {
     "id": "q383",
     "text": "Knowing others is intelligence; knowing yourself is true wisdom. Mastering others is strength; mastering yourself is true power.",
+    "translation_ja": "他人を知るのは知性だ。自分を知るのは真の知恵だ。他人を治めるのは力だ。自分を治めるのは真の力だ。",
     "author": "Lao Tzu",
+    "author_title_ja": "道教の開祖",
     "category": [
       "reflection",
       "discipline"
@@ -5550,7 +6063,9 @@
   {
     "id": "q385",
     "text": "The mystery of human existence lies not in just staying alive, but in finding something to live for.",
+    "translation_ja": "人間存在の神秘は、ただ生き続けることではなく、何のために生きるかを見出すことにある。",
     "author": "Fyodor Dostoevsky",
+    "author_title_ja": "ロシアの文豪",
     "category": [
       "focus",
       "reflection"
@@ -5566,7 +6081,9 @@
   {
     "id": "q386",
     "text": "Pain and suffering are always inevitable for a large intelligence and a deep heart.",
+    "translation_ja": "大きな知性と深い心には、痛みと苦しみは常に避けられない。",
     "author": "Fyodor Dostoevsky",
+    "author_title_ja": "ロシアの文豪",
     "category": [
       "endurance",
       "reflection"
@@ -5582,7 +6099,9 @@
   {
     "id": "q387",
     "text": "All of humanity's problems stem from man's inability to sit quietly in a room alone.",
+    "translation_ja": "人類のすべての問題は、部屋に一人で静かに座っていられないことから生じる。",
     "author": "Blaise Pascal",
+    "author_title_ja": "フランスの哲学者",
     "category": [
       "reflection",
       "rest"
@@ -5598,7 +6117,9 @@
   {
     "id": "q388",
     "text": "The heart has its reasons which reason knows nothing of.",
+    "translation_ja": "心には理性の知らない、心の理由がある。",
     "author": "Blaise Pascal",
+    "author_title_ja": "フランスの哲学者",
     "category": [
       "reflection"
     ],
@@ -5613,7 +6134,9 @@
   {
     "id": "q389",
     "text": "What do we live for, if it is not to make life less difficult for each other?",
+    "translation_ja": "互いの人生を少しでも楽にすること以外に、私たちは何のために生きるのか。",
     "author": "George Eliot",
+    "author_title_ja": "英国の作家",
     "category": [
       "reflection",
       "gratitude"
@@ -5629,7 +6152,9 @@
   {
     "id": "q391",
     "text": "We do not receive wisdom; we must discover it for ourselves after a journey that no one can take for us or spare us.",
+    "translation_ja": "知恵は与えられるものではない。誰も代わりに歩けない旅の果てに、自ら発見するものだ。",
     "author": "Marcel Proust",
+    "author_title_ja": "フランスの作家",
     "category": [
       "reflection",
       "endurance"
@@ -5645,7 +6170,9 @@
   {
     "id": "q392",
     "text": "For us, there is only the trying. The rest is not our business.",
+    "translation_ja": "私たちにできるのは、試みることだけだ。あとのことは、私たちの関与するところではない。",
     "author": "T.S. Eliot",
+    "author_title_ja": "英国の詩人",
     "category": [
       "action",
       "discipline"
@@ -5661,7 +6188,9 @@
   {
     "id": "q395",
     "text": "Love is the extremely difficult realization that something other than oneself is real.",
+    "translation_ja": "愛とは、自分以外のものが実在すると気づく、極めて困難な認識である。",
     "author": "Iris Murdoch",
+    "author_title_ja": "英国の作家・哲学者",
     "category": [
       "reflection",
       "focus"
@@ -5677,7 +6206,9 @@
   {
     "id": "q396",
     "text": "The doctor himself is a drug.",
+    "translation_ja": "医師自身が薬である。",
     "author": "Michael Balint",
+    "author_title_ja": "英国の精神分析家",
     "category": [
       "reflection",
       "focus"
@@ -5693,7 +6224,9 @@
   {
     "id": "q397",
     "text": "Nothing will ever be attempted if all possible objections must first be overcome.",
+    "translation_ja": "すべての反対を事前に克服する必要があるなら、何事も始められない。",
     "author": "Samuel Johnson",
+    "author_title_ja": "英国の文人",
     "category": [
       "action",
       "endurance"
@@ -5709,7 +6242,9 @@
   {
     "id": "q398",
     "text": "Nothing is miserable unless you think it so; and nothing brings happiness unless you are content with it.",
+    "translation_ja": "そう思わなければ何も惨めではない。満足していなければ何も幸福を運ばない。",
     "author": "Boethius",
+    "author_title_ja": "ローマの哲学者",
     "category": [
       "reflection",
       "gratitude"
@@ -5725,7 +6260,9 @@
   {
     "id": "q399",
     "text": "The essence of bravery is being without self-deception.",
+    "translation_ja": "勇気の本質は、自分を欺かないことにある。",
     "author": "Pema Chödrön",
+    "author_title_ja": "チベット仏教の尼僧",
     "category": [
       "reflection",
       "endurance"
@@ -5741,7 +6278,9 @@
   {
     "id": "q400",
     "text": "The most precious gift we can offer anyone is our attention.",
+    "translation_ja": "誰かに贈れる最も尊い贈り物は、自分の注意である。",
     "author": "Thich Nhat Hanh",
+    "author_title_ja": "ベトナムの禅僧",
     "category": [
       "focus",
       "gratitude"
@@ -5757,7 +6296,9 @@
   {
     "id": "q401",
     "text": "Courage is not simply one of the virtues, but the form of every virtue at the testing point.",
+    "translation_ja": "勇気は単なる一つの徳ではない。試される瞬間における、すべての徳の姿だ。",
     "author": "C.S. Lewis",
+    "author_title_ja": "英国の作家",
     "category": [
       "endurance",
       "discipline"
@@ -5773,7 +6314,9 @@
   {
     "id": "q402",
     "text": "We are here to add what we can to life, not to get what we can from it.",
+    "translation_ja": "私たちはここに、人生から奪うためではなく、人生に加えるために来ている。",
     "author": "William Osler",
+    "author_title_ja": "近代医学の父",
     "category": [
       "leadership",
       "reflection"
@@ -5790,7 +6333,9 @@
   {
     "id": "q403",
     "text": "Even if I'm dying, until I actually die, I am still living.",
+    "translation_ja": "たとえ死にゆく身でも、実際に死ぬまで、私は生きている。",
     "author": "Paul Kalanithi",
+    "author_title_ja": "米国の脳神経外科医",
     "category": [
       "endurance",
       "reflection"
@@ -5807,7 +6352,9 @@
   {
     "id": "q404",
     "text": "Every act of perception is to some degree an act of creation, and every act of memory is to some degree an act of imagination.",
+    "translation_ja": "すべての知覚は、ある程度創造の行為であり、すべての記憶は、ある程度想像の行為である。",
     "author": "Oliver Sacks",
+    "author_title_ja": "英国の神経内科医",
     "category": [
       "reflection",
       "focus"
@@ -5824,7 +6371,9 @@
   {
     "id": "q405",
     "text": "The bedside examination is not simply a clinical encounter. It is a ritual.",
+    "translation_ja": "ベッドサイドでの診察は、単なる臨床の場ではない。それは儀式である。",
     "author": "Abraham Verghese",
+    "author_title_ja": "米国の医師・作家",
     "category": [
       "leadership",
       "focus"
@@ -5841,7 +6390,9 @@
   {
     "id": "q406",
     "text": "Let us never consider ourselves finished nurses. We must be learning all of our lives.",
+    "translation_ja": "自分を完成した看護師と思ってはならない。私たちは生涯、学び続けねばならない。",
     "author": "Florence Nightingale",
+    "author_title_ja": "近代看護の創始者",
     "category": [
       "discipline",
       "leadership"
@@ -5858,7 +6409,9 @@
   {
     "id": "q407",
     "text": "The nurse is temporarily the consciousness of the unconscious, the love of life for the suicidal, the leg of the amputee, the eyes of the newly blind.",
+    "translation_ja": "看護師は、意識なき者の意識であり、自殺を願う者の生への愛であり、切断者の脚であり、失明したばかりの者の目となる。",
     "author": "Virginia Henderson",
+    "author_title_ja": "看護理論家",
     "category": [
       "leadership",
       "reflection"
@@ -5875,7 +6428,9 @@
   {
     "id": "q408",
     "text": "Suffering is only intolerable when nobody cares.",
+    "translation_ja": "苦しみが耐え難くなるのは、誰も気にかけないときだけだ。",
     "author": "Cicely Saunders",
+    "author_title_ja": "ホスピス運動の創始者",
     "category": [
       "leadership",
       "reflection"
@@ -5892,7 +6447,9 @@
   {
     "id": "q409",
     "text": "All real living is meeting.",
+    "translation_ja": "真に生きるとは、出会うことである。",
     "author": "Martin Buber",
+    "author_title_ja": "オーストリアの哲学者",
     "category": [
       "reflection",
       "leadership"
@@ -5909,7 +6466,9 @@
   {
     "id": "q410",
     "text": "Loneliness is the pain of being alone; solitude is the glory of being alone.",
+    "translation_ja": "孤独は、独りでいることの苦痛。独居は、独りでいることの栄光。",
     "author": "Paul Tillich",
+    "author_title_ja": "ドイツ系米国の神学者",
     "category": [
       "reflection",
       "rest"
@@ -5926,7 +6485,9 @@
   {
     "id": "q411",
     "text": "One's life has value so long as one attributes value to the life of others, by means of love, friendship, indignation, compassion.",
+    "translation_ja": "愛、友情、義憤、慈しみによって、他者の命に価値を与え続ける限り、自分の命にも価値はある。",
     "author": "Simone de Beauvoir",
+    "author_title_ja": "フランスの哲学者",
     "category": [
       "leadership",
       "reflection"
@@ -5943,7 +6504,9 @@
   {
     "id": "q412",
     "text": "Philosophy means: to be on the way. Its questions are more essential than its answers.",
+    "translation_ja": "哲学とは、途上にあることだ。問いは、答えよりも本質的である。",
     "author": "Karl Jaspers",
+    "author_title_ja": "ドイツの哲学者",
     "category": [
       "reflection",
       "focus"
@@ -5960,7 +6523,9 @@
   {
     "id": "q413",
     "text": "The two most powerful warriors are patience and time.",
+    "translation_ja": "最も強い戦士は、忍耐と時間だ。",
     "author": "Leo Tolstoy",
+    "author_title_ja": "ロシアの文豪",
     "category": [
       "endurance",
       "discipline"
@@ -5977,7 +6542,9 @@
   {
     "id": "q414",
     "text": "If you surrender to the wind, you can ride it.",
+    "translation_ja": "風に身を委ねれば、風に乗ることができる。",
     "author": "Toni Morrison",
+    "author_title_ja": "米国の作家",
     "category": [
       "action",
       "endurance"
@@ -5994,7 +6561,9 @@
   {
     "id": "q415",
     "text": "It is good to have an end to journey toward; but it is the journey that matters, in the end.",
+    "translation_ja": "旅に終着点があるのはよい。だが結局、大切なのは旅そのものだ。",
     "author": "Ursula K. Le Guin",
+    "author_title_ja": "米国の作家",
     "category": [
       "reflection",
       "action"
@@ -6011,7 +6580,9 @@
   {
     "id": "q416",
     "text": "Wherever you turn your eyes the world can shine like transfiguration. You don't have to bring a thing to it except a little willingness to see.",
+    "translation_ja": "どこに目を向けても、世界は変容のように輝きうる。見ようとする少しの意思さえあれば、他には何もいらない。",
     "author": "Marilynne Robinson",
+    "author_title_ja": "米国の作家",
     "category": [
       "reflection",
       "gratitude"
@@ -6028,7 +6599,9 @@
   {
     "id": "q417",
     "text": "Vulnerability is not weakness; it's our greatest measure of courage.",
+    "translation_ja": "弱さを見せることは、弱さではない。勇気の最大の尺度だ。",
     "author": "Brené Brown",
+    "author_title_ja": "米国の研究者・作家",
     "category": [
       "endurance",
       "leadership"
@@ -6045,7 +6618,9 @@
   {
     "id": "q418",
     "text": "Often when you think you're at the end of something, you're at the beginning of something else.",
+    "translation_ja": "何かの終わりだと感じるとき、たいていそれは別の何かの始まりだ。",
     "author": "Fred Rogers",
+    "author_title_ja": "米国の司会者",
     "category": [
       "endurance",
       "reflection"
@@ -6062,7 +6637,9 @@
   {
     "id": "q419",
     "text": "The good life is a process, not a state of being. It is a direction, not a destination.",
+    "translation_ja": "良き人生は、状態ではなくプロセスだ。目的地ではなく、方向だ。",
     "author": "Carl Rogers",
+    "author_title_ja": "米国の心理学者",
     "category": [
       "discipline",
       "reflection"
@@ -6079,7 +6656,9 @@
   {
     "id": "q420",
     "text": "To live without hope is to cease to live.",
+    "translation_ja": "希望なく生きることは、生きることをやめることだ。",
     "author": "Fyodor Dostoevsky",
+    "author_title_ja": "ロシアの文豪",
     "category": [
       "endurance",
       "reflection"
@@ -6096,7 +6675,9 @@
   {
     "id": "q421",
     "text": "Walk as if you are kissing the earth with your feet.",
+    "translation_ja": "足で大地に口づけするように、歩きなさい。",
     "author": "Thich Nhat Hanh",
+    "author_title_ja": "ベトナムの禅僧",
     "category": [
       "focus",
       "gratitude"
@@ -6113,7 +6694,9 @@
   {
     "id": "q422",
     "text": "Be joyful though you have considered all the facts.",
+    "translation_ja": "すべての事実を見たうえで、なお喜んで生きよ。",
     "author": "Wendell Berry",
+    "author_title_ja": "米国の作家・思想家",
     "category": [
       "gratitude",
       "endurance"
@@ -6130,7 +6713,9 @@
   {
     "id": "q423",
     "text": "I would maintain that thanks are the highest form of thought, and that gratitude is happiness doubled by wonder.",
+    "translation_ja": "感謝は思考の最高の形であり、驚きによって倍になった幸福である。",
     "author": "G.K. Chesterton",
+    "author_title_ja": "英国の作家",
     "category": [
       "gratitude",
       "reflection"
@@ -6147,7 +6732,9 @@
   {
     "id": "q424",
     "text": "Gratitude is not only the greatest of virtues, but the parent of all others.",
+    "translation_ja": "感謝は最高の徳であるだけでなく、あらゆる徳の親である。",
     "author": "Cicero",
+    "author_title_ja": "ローマの哲学者・政治家",
     "category": [
       "gratitude",
       "leadership"
@@ -6164,7 +6751,9 @@
   {
     "id": "q425",
     "text": "In ordinary life we hardly realize that we receive a great deal more than we give, and that it is only with gratitude that life becomes rich.",
+    "translation_ja": "日常の暮らしの中では、与えるよりも遥かに多くを受け取っていることに、私たちはほとんど気づかない。感謝があって初めて、人生は豊かになる。",
     "author": "Dietrich Bonhoeffer",
+    "author_title_ja": "ドイツの神学者",
     "category": [
       "gratitude",
       "reflection"
@@ -6181,7 +6770,9 @@
   {
     "id": "q426",
     "text": "I have been a sentient being, a thinking animal, on this beautiful planet, and that in itself has been an enormous privilege and adventure.",
+    "translation_ja": "この美しい惑星で、思考する動物・感じる存在として生きられたこと、それ自体が途方もない特権であり、冒険だった。",
     "author": "Oliver Sacks",
+    "author_title_ja": "英国の神経内科医",
     "category": [
       "gratitude",
       "reflection"
@@ -6198,7 +6789,9 @@
   {
     "id": "q427",
     "text": "The three most essential prayers are Help, Thanks, Wow.",
+    "translation_ja": "最も大切な祈りは三つ――助けて、ありがとう、すごい。",
     "author": "Anne Lamott",
+    "author_title_ja": "米国の作家",
     "category": [
       "gratitude",
       "reflection"
@@ -6215,7 +6808,9 @@
   {
     "id": "q428",
     "text": "When it's over, I want to say: all my life I was a bride married to amazement.",
+    "translation_ja": "人生が終わるとき、こう言いたい――私は生涯、驚きと結婚した花嫁だった、と。",
     "author": "Mary Oliver",
+    "author_title_ja": "米国の詩人",
     "category": [
       "gratitude",
       "reflection"
@@ -6232,7 +6827,9 @@
   {
     "id": "q429",
     "text": "To cure the body without the mind is not to cure at all.",
+    "translation_ja": "心を伴わずに体だけを治すのは、治すことにはならない。",
     "author": "Alexander Lowen",
+    "author_title_ja": "米国の精神科医",
     "category": [
       "reflection",
       "focus"
@@ -6248,7 +6845,9 @@
   {
     "id": "q430",
     "text": "The physician who teaches people to sustain their health is the superior physician.",
+    "translation_ja": "病を未然に防ぎ、健康を保つことを教える医師こそ、上工である。",
     "author": "Huang Di Nei Jing",
+    "author_title_ja": "中国最古の医学書",
     "category": [
       "discipline",
       "leadership"
@@ -6264,7 +6863,9 @@
   {
     "id": "q431",
     "text": "Observation, reason, human understanding, courage; these make the physician.",
+    "translation_ja": "観察、推論、人間理解、勇気――これらが医師を医師たらしめる。",
     "author": "Martin H. Fischer",
+    "author_title_ja": "米国の医師・アフォリスト",
     "category": [
       "discipline",
       "focus"
@@ -6280,7 +6881,9 @@
   {
     "id": "q432",
     "text": "The art of medicine consists of amusing the patient while nature cures the disease.",
+    "translation_ja": "医術とは、自然が病を治している間、患者を和ませる技である。",
     "author": "Voltaire",
+    "author_title_ja": "フランスの思想家",
     "category": [
       "reflection",
       "rest"
@@ -6296,7 +6899,9 @@
   {
     "id": "q433",
     "text": "No man is a good doctor who has never been sick himself.",
+    "translation_ja": "自ら病んだことのない者に、良き医師はいない。",
     "author": "Chinese Proverb",
+    "author_title_ja": "中国のことわざ",
     "category": [
       "reflection",
       "endurance"
@@ -6312,7 +6917,9 @@
   {
     "id": "q434",
     "text": "Only by going alone in silence, without baggage, can one truly get into the heart of the wilderness.",
+    "translation_ja": "荷物も持たず、沈黙の中で独り行くときにのみ、荒野の核心に入ることができる。",
     "author": "John Muir",
+    "author_title_ja": "米国の自然保護家",
     "category": [
       "reflection",
       "focus"
@@ -6328,7 +6935,9 @@
   {
     "id": "q435",
     "text": "Wealth consists not in having great possessions, but in having few wants.",
+    "translation_ja": "富とは、多くを所有することではなく、望みが少ないことにある。",
     "author": "Epictetus",
+    "author_title_ja": "ストア派の哲学者",
     "category": [
       "gratitude",
       "discipline"
@@ -6344,7 +6953,9 @@
   {
     "id": "q436",
     "text": "Associate with people who are likely to improve you.",
+    "translation_ja": "あなたを高めてくれるような人と付き合いなさい。",
     "author": "Seneca",
+    "author_title_ja": "ローマのストア哲学者",
     "category": [
       "discipline",
       "leadership"
@@ -6360,7 +6971,9 @@
   {
     "id": "q437",
     "text": "If you accomplish something good with hard work, the labor passes quickly, but the good endures.",
+    "translation_ja": "努力して善きものを成し遂げれば、労苦はすぐに過ぎ去り、善さだけが残る。",
     "author": "Musonius Rufus",
+    "author_title_ja": "ローマのストア哲学者",
     "category": [
       "endurance",
       "discipline"
@@ -6376,7 +6989,9 @@
   {
     "id": "q438",
     "text": "The whole future lies in uncertainty: live immediately.",
+    "translation_ja": "未来はすべて不確かだ。ゆえに、今すぐ生きよ。",
     "author": "Seneca",
+    "author_title_ja": "ローマのストア哲学者",
     "category": [
       "action",
       "focus"
@@ -6392,7 +7007,9 @@
   {
     "id": "q439",
     "text": "One must still have chaos in oneself to be able to give birth to a dancing star.",
+    "translation_ja": "踊る星を産むには、自らの内に混沌を抱えていなければならない。",
     "author": "Friedrich Nietzsche",
+    "author_title_ja": "ドイツの哲学者",
     "category": [
       "endurance",
       "reflection"
@@ -6408,7 +7025,9 @@
   {
     "id": "q440",
     "text": "The shoe that fits one person pinches another; there is no recipe for living that suits all cases.",
+    "translation_ja": "ある人に合う靴は、別の人には痛い。あらゆる人生に合うレシピなど存在しない。",
     "author": "Carl Jung",
+    "author_title_ja": "スイスの心理学者",
     "category": [
       "reflection",
       "focus"
@@ -6424,7 +7043,9 @@
   {
     "id": "q441",
     "text": "What a man can be, he must be. This need we may call self-actualization.",
+    "translation_ja": "人がなれるものに、人はならねばならない。この欲求を、自己実現と呼ぶ。",
     "author": "Abraham Maslow",
+    "author_title_ja": "米国の心理学者",
     "category": [
       "focus",
       "action"
@@ -6440,7 +7061,9 @@
   {
     "id": "q442",
     "text": "The good life is a process, not a state of being.",
+    "translation_ja": "良き人生は、状態ではなくプロセスだ。",
     "author": "Carl Rogers",
+    "author_title_ja": "米国の心理学者",
     "category": [
       "reflection",
       "action"
@@ -6520,7 +7143,9 @@
   {
     "id": "q447",
     "text": "In the middle of difficulty lies opportunity.",
+    "translation_ja": "困難の真っ只中にこそ、機会はある。",
     "author": "Albert Einstein",
+    "author_title_ja": "物理学者",
     "category": [
       "endurance",
       "action"
@@ -6536,7 +7161,9 @@
   {
     "id": "q448",
     "text": "Turn your wounds into wisdom.",
+    "translation_ja": "傷を知恵に変えなさい。",
     "author": "Oprah Winfrey",
+    "author_title_ja": "米国のテレビ司会者",
     "category": [
       "endurance",
       "reflection"

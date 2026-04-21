@@ -626,6 +626,7 @@ def generate_wallpaper(
     style_preset: str | None = None,
     author_size_ratio_override: float | None = None,
     bg_style: str = "default",
+    bilingual: bool | None = None,
 ) -> Path:
     """Generate wallpaper image and return the output path.
 
@@ -681,12 +682,27 @@ def generate_wallpaper(
     text = quote["text"]
     author = quote.get("author", "")
     show_author = config.get("show_author", True) and bool(author)
-    need_jp = _has_cjk(text) or _has_cjk(author)
+
+    # Bilingual: show translation_ja below English quote when enabled
+    if bilingual is None:
+        bilingual = config.get("show_translation", False)
+    translation = quote.get("translation_ja", "") or ""
+    show_translation = (
+        bilingual
+        and bool(translation.strip())
+        and not _has_cjk(text)  # skip if main text is already Japanese
+    )
+
+    need_jp = _has_cjk(text) or _has_cjk(author) or show_translation
 
     # Font sizing
     quote_font_size = _compute_font_size(text, width, height, config, size_scale)
     author_ratio = author_size_ratio_override or config.get("author_size_ratio", 0.26)
     author_font_size = max(int(quote_font_size * author_ratio), 14)
+
+    # Translation: ~55% of quote size, Japanese font
+    translation_ratio = config.get("translation_size_ratio", 0.55)
+    translation_font_size = max(int(quote_font_size * translation_ratio), 18)
 
     font_quote_path = config.get("font_quote")
     font_author_path = config.get("font_author")
@@ -699,6 +715,17 @@ def generate_wallpaper(
         font_author_path, author_font_size, need_jp,
         candidates=preset["font_author_candidates"],
     )
+    translation_font = None
+    if show_translation:
+        translation_font = _resolve_font(None, translation_font_size, True)
+
+    # Author title (e.g. "Apple 創業者") — shown below author in bilingual mode
+    author_title = (quote.get("author_title_ja") or "").strip()
+    show_author_title = bilingual and bool(author_title) and show_author
+    author_title_font = None
+    author_title_font_size = max(int(author_font_size * 0.78), 12)
+    if show_author_title:
+        author_title_font = _resolve_font(None, author_title_font_size, True)
 
     # Layout
     margin_x = int(width * 0.14)
@@ -717,6 +744,24 @@ def generate_wallpaper(
 
     total_quote_height = sum(line_heights) + line_spacing * max(len(lines) - 1, 0)
 
+    # Translation block (below quote, above author)
+    translation_lines: list[str] = []
+    translation_line_heights: list[int] = []
+    translation_block_height = 0
+    translation_gap = 0
+    if show_translation and translation_font is not None:
+        translation_lines = _smart_wrap(translation, translation_font, max_text_width)
+        for tline in translation_lines:
+            tbbox = translation_font.getbbox(tline)
+            translation_line_heights.append(tbbox[3] - tbbox[1])
+        t_line_spacing = int(translation_font_size * 0.45)
+        translation_gap = int(quote_font_size * 0.55)
+        translation_block_height = (
+            translation_gap
+            + sum(translation_line_heights)
+            + t_line_spacing * max(len(translation_lines) - 1, 0)
+        )
+
     # Author spacing
     author_gap_ratio = config.get("author_gap_ratio", 1.0)
     author_gap = int(quote_font_size * author_gap_ratio)
@@ -726,7 +771,13 @@ def generate_wallpaper(
         a_bbox = author_font.getbbox(author_text)
         author_block_height = author_gap + (a_bbox[3] - a_bbox[1])
 
-    total_height = total_quote_height + author_block_height
+    # Author title now renders inline (to the right of the author name),
+    # so it does not add vertical height.
+    total_height = (
+        total_quote_height
+        + translation_block_height
+        + author_block_height
+    )
 
     # Translated label
     show_translated = (
@@ -752,15 +803,48 @@ def generate_wallpaper(
         draw.text((x, y), line, font=quote_font, fill=text_color)
         y += line_heights[i] + line_spacing
 
+    # Draw Japanese translation — smaller, muted, centered
+    if show_translation and translation_font is not None:
+        y += translation_gap - line_spacing
+        translation_color = (165, 165, 172)
+        t_line_spacing = int(translation_font_size * 0.45)
+        for i, tline in enumerate(translation_lines):
+            tw = translation_font.getlength(tline)
+            tx = (width - tw) / 2
+            draw.text((tx, y), tline, font=translation_font, fill=translation_color)
+            y += translation_line_heights[i] + t_line_spacing
+        y += line_spacing - t_line_spacing  # restore for author offset math
+
     # Draw author — subtle, offset from text
     if show_author:
         y += author_gap - line_spacing  # replace last line_spacing with author_gap
         author_text = f"— {author}"
         author_width = author_font.getlength(author_text)
+
+        # If bilingual title is enabled, render it inline to the right of the author.
+        # Compute combined width first so we can center the whole block.
+        title_inline_gap = 0
+        title_width = 0
+        if show_author_title and author_title_font is not None:
+            title_inline_gap = int(author_font_size * 1.2)  # visible gap between name and title
+            title_width = author_title_font.getlength(author_title)
+
+        total_author_width = author_width + title_inline_gap + title_width
+
         # Right of center, elegant positioning
-        ax = (width + author_width) / 2 - author_width + int(width * 0.02)
-        ax = max(margin_x, min(ax, width - margin_x - author_width))
+        ax = (width + total_author_width) / 2 - total_author_width + int(width * 0.02)
+        ax = max(margin_x, min(ax, width - margin_x - total_author_width))
         draw.text((ax, y), author_text, font=author_font, fill=author_color)
+
+        if show_author_title and author_title_font is not None:
+            # Baseline-align the smaller title with the author line
+            author_ascent, _ = author_font.getmetrics()
+            title_ascent, _ = author_title_font.getmetrics()
+            title_y = y + (author_ascent - title_ascent)
+            tx = ax + author_width + title_inline_gap
+            title_color = (125, 125, 132)
+            draw.text((tx, title_y), author_title, font=author_title_font, fill=title_color)
+
         y += int(author_block_height - author_gap)
 
     # Translated label (very subtle)

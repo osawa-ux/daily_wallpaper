@@ -62,6 +62,10 @@ def parse_args() -> argparse.Namespace:
                         help="Validate calendar_assignments.json constraints and distribution")
     parser.add_argument("--force", action="store_true",
                         help="Force regeneration even if today's wallpaper is already set")
+    parser.add_argument("--bilingual", dest="bilingual", action="store_true", default=None,
+                        help="Show Japanese translation below English quote (requires translation_ja in quote)")
+    parser.add_argument("--no-bilingual", dest="bilingual", action="store_false",
+                        help="Disable Japanese translation even if config.show_translation is true")
     parser.add_argument("--mode", type=str, default="calendar",
                         choices=["calendar", "random"],
                         help="Selection mode: 'calendar' (MM-DD fixed) or 'random' (weighted random). Default: calendar")
@@ -217,7 +221,7 @@ def main() -> None:
             output_path = variant_paths[1]
         else:
             info = select_best_style(quote, config)
-            output_path = generate_wallpaper(quote, config, BASE_DIR)
+            output_path = generate_wallpaper(quote, config, BASE_DIR, bilingual=args.bilingual)
             print(f"Style: {info['font_preset']} + {info['bg_style']} ({info['rule']})")
         print(f"Wallpaper: {output_path}")
 
