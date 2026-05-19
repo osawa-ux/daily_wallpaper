@@ -227,9 +227,10 @@ def main() -> None:
 
         # Set wallpaper
         should_set = not args.preview and not args.no_set_wallpaper
+        wallpaper_set_success = None  # None = not attempted
         if should_set:
-            success = set_wallpaper(output_path)
-            if success:
+            wallpaper_set_success = set_wallpaper(output_path)
+            if wallpaper_set_success:
                 print("Desktop wallpaper updated.")
             else:
                 print("Warning: Failed to set wallpaper (image was saved).")
@@ -237,10 +238,22 @@ def main() -> None:
             logger.info("Wallpaper setting skipped.")
             print("Wallpaper setting skipped.")
 
-        # Save history
-        season = get_current_season()
-        history = add_entry(history, quote, mood, season, str(output_path))
-        save_history(history_path, history)
+        # Save history (conditional)
+        is_debug_run = (
+            args.preview or args.no_set_wallpaper
+            or args.variants or args.compare_author
+            or args.compare_bg or args.compare_font
+        )
+        if is_debug_run:
+            logger.info("Non-standard run: history write skipped.")
+        elif should_set and not wallpaper_set_success:
+            logger.warning(
+                "Wallpaper set failed: history write skipped to allow self-healing on next run."
+            )
+        else:
+            season = get_current_season()
+            history = add_entry(history, quote, mood, season, str(output_path))
+            save_history(history_path, history)
 
         logger.info("=== Done ===")
 

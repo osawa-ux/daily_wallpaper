@@ -29,3 +29,16 @@ Obsidian Vault の `30_Areas/能力カタログ.md` を更新する（必須）�
 - コード内の参照順: 環境変数 → `~/.secrets/daily_wallpaper/` → フォールバック
 - `.env`, `credentials*.json`, `token*.json`, `*.p12`, `*.pem` などの秘密情報は Git に入れない
 - secret の実値をコードやコメントにハードコードしない
+
+## quotes.json 変更後の必須手順
+
+quotes.json を編集（追加・無効化・修正）した後は、以下を実行して整合性を確認する:
+
+```bash
+python main.py --validate-quotes && python main.py --validate-calendar
+```
+
+- `--validate-quotes`: quotes.json のスキーマ・カテゴリ・重複を検証
+- `--validate-calendar`: calendar_assignments.json の constraint と disabled quote 残置を検証
+
+calendar に割り当てられた quote が disabled になっている場合、reserve → random fallback が走り、年間設計がサイレントに崩れるため、quotes 変更時の実行を習慣化する。
