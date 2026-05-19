@@ -3,6 +3,7 @@
   "wallpaper_height": 1080,
   "cooldown_days": 45,
   "show_author": true,
+  "show_translation": true,
   "show_translated_label": false,
   "overlay_opacity": 0.55,
   "use_background_images": false,

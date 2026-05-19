@@ -30,7 +30,11 @@ token*.json
 output/*.jpg
 output/history.json
 output/previews/
+output/[0-9]*_*/
 logs/
+
+# Manual backups (git history is sufficient)
+quotes.backup.*.json
 
 # === auto-commit 第二防御（2026-05-08 追加）===
 # push-pc skill から auto-commit を撤去（2026-05-08）。万が一の保険として

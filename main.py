@@ -185,6 +185,14 @@ def main() -> None:
         if quote.get("author"):
             print(f"  - {quote['author']}")
 
+        # Commentary 優先: bilingual モード時、commentary_ja があれば translation_ja を上書き
+        # (Step 4e: 意訳 simple/kaisetsu を直訳より優先表示)
+        use_bilingual = args.bilingual if args.bilingual is not None else config.get("show_translation", False)
+        if use_bilingual and quote.get("commentary_ja"):
+            quote = dict(quote)
+            quote["translation_ja"] = quote["commentary_ja"]
+            logger.info("Using commentary_ja (style=%s)", quote.get("commentary_style", "?"))
+
         # Explain style mode
         if args.explain_style:
             info = select_best_style(quote, config)

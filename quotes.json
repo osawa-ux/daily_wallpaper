@@ -21,7 +21,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "飢えた心を忘れず、賢くなりきらぬ姿勢で進む。",
+    "commentary_style": "simple"
   },
   {
     "id": "q002",
@@ -41,7 +43,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "完璧を待つよりも、まず形にして終わらせる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q003",
@@ -64,7 +68,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "未来は当てるものではなく、自分の手で築くもの。",
+    "commentary_style": "simple"
   },
   {
     "id": "q004",
@@ -83,7 +89,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "規律という橋を渡り、目標は達成へと届く。",
+    "commentary_style": "simple"
   },
   {
     "id": "q005",
@@ -106,7 +114,9 @@
     ],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人は繰り返す行いそのものである。だから卓越とは行為ではなく、習慣だ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q006",
@@ -126,7 +136,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "忙しさではなく、実りある時間に心を寄せる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q007",
@@ -146,7 +158,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "簡素であることが、磨き上げた末の到達点。",
+    "commentary_style": "simple"
   },
   {
     "id": "q008",
@@ -165,7 +179,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "道を知り、自ら歩み、他者に示す者がリーダーである。",
+    "commentary_style": "simple"
   },
   {
     "id": "q009",
@@ -188,7 +204,9 @@
     ],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "歩みが遅くてよい。止まりさえしなければ、前へ進む。",
+    "commentary_style": "simple"
   },
   {
     "id": "q010",
@@ -210,7 +228,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "愛せる仕事だけが、本当の意味で仕事になる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q011",
@@ -233,7 +253,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "困難のただ中にこそ、次の機会は潜んでいる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q012",
@@ -256,7 +278,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "今日の一歩が、これから来る日々を変える。",
+    "commentary_style": "simple"
   },
   {
     "id": "q013",
@@ -279,7 +303,9 @@
     ],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "疲れたら休む。体と心を取り戻し、新たに歩み始める。",
+    "commentary_style": "simple"
   },
   {
     "id": "q014",
@@ -301,7 +327,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "感謝とは、いま手にあるものを、足ると言い直すこと。",
+    "commentary_style": "simple"
   },
   {
     "id": "q015",
@@ -323,7 +351,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "前へ進む秘訣は、ただひとつ、始めることに尽きる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q016",
@@ -343,7 +373,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "毎日の小さな改善が、やがて大きな景色を生む。",
+    "commentary_style": "simple"
   },
   {
     "id": "q018",
@@ -365,7 +397,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "戦いが厳しいほど、勝ちとった日の手応えは深い。",
+    "commentary_style": "simple"
   },
   {
     "id": "q019",
@@ -385,7 +419,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "大抵のものは数分電源を抜けば動き出す。あなたも例外ではない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q020",
@@ -407,7 +443,9 @@
     ],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "些細な日々を慈しむ。後から思えば、大きな日々となる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q021",
@@ -428,7 +466,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "成功も失敗も途中の景色。続ける勇気こそが本道である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q022",
@@ -451,7 +491,9 @@
     ],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "始めなければ偉大にはなれない。今は完璧でなくてよい。",
+    "commentary_style": "simple"
   },
   {
     "id": "q023",
@@ -469,7 +511,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "思いがそのまま、自分の姿そのものを形づくる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q024",
@@ -487,7 +531,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "ja"
+    "language": "ja",
+    "commentary_ja": "努力は裏切らない。ただし、正しい方角に進んでいる場合にかぎる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q025",
@@ -508,7 +554,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "今いる場所で、あるもので、できることをせよ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q026",
@@ -531,7 +579,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "心が静まるほどに、世界の細かな声が聞こえる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q027",
@@ -550,7 +600,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "預かった人々を守ること、それがリーダーの仕事である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q028",
@@ -570,7 +622,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "限界と思っているものは、想像が描いた線にすぎない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q033",
@@ -593,7 +647,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "苦難はしばしば、平凡な人を稀な運命へと整える。",
+    "commentary_style": "simple"
   },
   {
     "id": "q035",
@@ -614,7 +670,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "自分の行いが世界を変えると信じて動け。実際にそうなる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q036",
@@ -637,7 +695,9 @@
     ],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "新しい夢を抱くのに、もう遅すぎるという年齢はない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q038",
@@ -657,7 +717,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "時計を眺めるのをやめ、時計のように刻み続ける。",
+    "commentary_style": "simple"
   },
   {
     "id": "q039",
@@ -676,7 +738,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "吟味されることのない人生は、生きるに値しない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q040",
@@ -696,7 +760,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "さまよう者がみな、道に迷っているわけではない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q041",
@@ -715,7 +781,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "質は一度の行為ではなく、続ける習慣から生まれる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q042",
@@ -736,7 +804,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "過去も未来も、内に抱くものに比べれば些細にすぎぬ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q043",
@@ -757,7 +827,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "勇気とは恐れがないことではなく、それを越える力である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q044",
@@ -774,7 +846,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "他人の役は埋まっている。自分自身を生きる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q045",
@@ -796,7 +870,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "千里の旅も、足元のたった一歩から始まる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q046",
@@ -816,7 +892,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "知るだけでも願うだけでもなく、用いて行動するのである。",
+    "commentary_style": "simple"
   },
   {
     "id": "q047",
@@ -836,7 +914,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "踏み出さない旅だけが、本当に進めない旅となる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q048",
@@ -857,7 +937,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "深い眠りこそが、もっとも静かな瞑想となるのである。",
+    "commentary_style": "simple"
   },
   {
     "id": "q049",
@@ -877,7 +959,9 @@
     ],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "幸せをくれる人は、私たちの内側を花咲かせる庭師である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q050",
@@ -895,7 +979,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "成功よりも、誰かの役に立つ人であろうとする。",
+    "commentary_style": "simple"
   },
   {
     "id": "q051",
@@ -916,7 +1002,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "成し遂げるまでは、いつも不可能に見えるものだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q052",
@@ -937,7 +1025,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "世界に望む変化を、まず自分自身が体現する姿で示す。",
+    "commentary_style": "simple"
   },
   {
     "id": "q056",
@@ -959,7 +1049,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "受けた傷を、明日のための知恵へと織り直していく。",
+    "commentary_style": "simple"
   },
   {
     "id": "q057",
@@ -983,7 +1075,9 @@
     ],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "いまこの瞬間は、よろこびに満ちている。気づく人にだけ、それは姿を現す。",
+    "commentary_style": "simple"
   },
   {
     "id": "q058",
@@ -1006,7 +1100,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "生きる理由があれば、どんな苦境にも耐えられる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q061",
@@ -1028,7 +1124,9 @@
     ],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "明日の実現を阻む唯一の壁は、今日抱く疑念である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q062",
@@ -1048,7 +1146,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "うまく語るより、うまく為したほうがよい。",
+    "commentary_style": "simple"
   },
   {
     "id": "q063",
@@ -1067,7 +1167,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人生とは、別の予定を立てている間に、起きてしまっているものだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q064",
@@ -1087,7 +1189,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "完璧には届かぬものだ。だが追えば、卓越に手が届く。",
+    "commentary_style": "simple"
   },
   {
     "id": "q065",
@@ -1109,7 +1213,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "始めるには、語るのをやめて、まず動き出すこと。",
+    "commentary_style": "simple"
   },
   {
     "id": "q066",
@@ -1129,7 +1235,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "自分を持ち上げたいなら、まず誰かを持ち上げる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q067",
@@ -1150,7 +1258,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "機会は降って来ない。自分の手で形にする。",
+    "commentary_style": "simple"
   },
   {
     "id": "q068",
@@ -1172,7 +1282,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "穏やかな海では、優れた船乗りは育たない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q069",
@@ -1193,7 +1305,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "失敗ではない。うまくいかぬ道を一万通り見つけたのだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q070",
@@ -1214,7 +1328,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "本当に欲しいものは、恐れの向こう側で待っている。",
+    "commentary_style": "simple"
   },
   {
     "id": "q071",
@@ -1252,7 +1368,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "倒れぬことではなく、倒れて立ち上がる姿に栄光がある。",
+    "commentary_style": "simple"
   },
   {
     "id": "q073",
@@ -1274,7 +1392,9 @@
     ],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "幸福は出来合いではなく、日々の自分の行いから生まれる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q076",
@@ -1294,7 +1414,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "時間は限られる。他人の人生をなぞって過ごすことはない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q077",
@@ -1314,7 +1436,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "道のある所を行かず、道なき場所に自らの足跡を残す。",
+    "commentary_style": "simple"
   },
   {
     "id": "q078",
@@ -1337,7 +1461,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "傷ついた場所こそ、光が射し入る入り口。痛みの隙間から、世界はあなたを照らす。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q080",
@@ -1357,7 +1483,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "生まれた日と、生まれた理由を知る日がもっとも尊い。",
+    "commentary_style": "simple"
   },
   {
     "id": "q082",
@@ -1378,7 +1506,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "学んだ全てを三語で言うなら、人生は続くということ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q087",
@@ -1399,7 +1529,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "必ずなれる唯一の自分は、なると決めた自分の姿である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q088",
@@ -1419,7 +1551,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "内側で成し遂げたものが、やがて外の世界をかたちづくる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q091",
@@ -1439,7 +1573,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "新しい何かを生む者だけが、先頭を歩いてゆく。",
+    "commentary_style": "simple"
   },
   {
     "id": "q092",
@@ -1458,7 +1594,9 @@
     ],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "本当の知恵とは、自らが何も知らぬと知ること。",
+    "commentary_style": "simple"
   },
   {
     "id": "q093",
@@ -1480,7 +1618,9 @@
     ],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "ロープの端まで来たら、結び目を作ってそこに掴まり続ける。",
+    "commentary_style": "simple"
   },
   {
     "id": "q095",
@@ -1501,7 +1641,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "今いる場所、今あるもの、今できることから始める。",
+    "commentary_style": "simple"
   },
   {
     "id": "q096",
@@ -1521,7 +1663,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "思考を蒔けば行動が実り、行動を蒔けば習慣が実る。",
+    "commentary_style": "simple"
   },
   {
     "id": "q098",
@@ -1541,7 +1685,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "昨日に、今日という時間を奪わせないこと。",
+    "commentary_style": "simple"
   },
   {
     "id": "q099",
@@ -1562,7 +1708,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "明日去る覚悟で生き、永遠を生きる構えで学び続ける。",
+    "commentary_style": "simple"
   },
   {
     "id": "q101",
@@ -2209,7 +2357,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "外の出来事ではなく、自分の心こそ支配できる領分である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q152",
@@ -2226,7 +2376,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "苦しみの多くは、現実より想像の中にある。",
+    "commentary_style": "simple"
   },
   {
     "id": "q153",
@@ -2244,7 +2396,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "何が起きたかより、それにどう応じるかが分かれ目になる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q154",
@@ -2262,7 +2416,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "状況を変えられぬとき、問われるのは自分の変容だ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q155",
@@ -2279,7 +2435,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人生は振り返って分かるが、前を向いて生きる以外ない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q156",
@@ -2297,7 +2455,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "起きた出来事ではなく、選び取る姿こそが自分である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q157",
@@ -2315,7 +2475,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "世界が求めるのは、自分の命を燃やして生きる人である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q158",
@@ -2333,7 +2495,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "恐れる前に理解する。理解が深まれば、恐れは薄れる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q159",
@@ -2351,7 +2515,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人は言葉も行いも忘れる。残るのは、与えた感情だけ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q160",
@@ -2369,7 +2535,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "向き合えば全てが変わるとは限らぬが、向き合わねば何も変わらぬ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q161",
@@ -2387,7 +2555,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "世は誰をも打ちのめす。だが砕けた場所からこそ強くなる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q162",
@@ -2405,7 +2575,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "蕾のまま閉じる痛みが、花開く痛みを超える日がくる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q163",
@@ -2423,7 +2595,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "完璧とは、加えるものではなく削るものが尽きた地点である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q164",
@@ -2441,7 +2615,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "一日の使い方が、そのまま一生の使い方になる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q165",
@@ -2459,7 +2635,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "飛びたければ、自分を重くしている荷をひとつずつ降ろすことだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q166",
@@ -2477,7 +2655,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "大きな利は売買ではなく、じっと待っている時間のなかから運ばれてくる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q167",
@@ -2546,7 +2726,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "同じ戦いを幾度も挑む覚悟が、勝利の条件になる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q171",
@@ -2564,7 +2746,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "頂に汗なしで届いた者はいない。努力は頂を約束しないが、そのすぐ手前までは運ぶ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q172",
@@ -2582,7 +2766,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人生は娯楽だけではない。心は自ら生み出す側にいる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q173",
@@ -2600,7 +2786,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "持てる力より小さく生きる場所に、本物の情熱は宿らない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q174",
@@ -2618,7 +2806,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "希望とは結果の楽観ではなく、意味の確信である。先が見えなくても支えになる足場。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q175",
@@ -2637,7 +2827,9 @@
     "length": "long",
     "enabled": true,
     "background": "1910年パリ・ソルボンヌ大学での演説『Citizenship in a Republic』通称「Man in the Arena」より抜粋。",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "栄誉は批評家ではなく、土の上で汗と血を流す者に渡る。",
+    "commentary_style": "simple"
   },
   {
     "id": "q176",
@@ -2655,7 +2847,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "誰かを待っても変化は来ない。求めた変化は私たち自身である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q177",
@@ -2673,7 +2867,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "努力も勇気も、向かう先と目的が定まって初めて本当の力になる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q178",
@@ -2690,7 +2886,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "地獄の只中なら、止まらず歩き続けることだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q179",
@@ -2708,7 +2906,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "真冬の底でようやく気づいた、自分の中に夏があると。",
+    "commentary_style": "simple"
   },
   {
     "id": "q180",
@@ -2726,7 +2926,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "善き人を論じる暇に、自らがその一人になる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q181",
@@ -2744,7 +2946,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "一度きりの荒々しい人生を、何に費やすつもりなのか。",
+    "commentary_style": "simple"
   },
   {
     "id": "q182",
@@ -2762,7 +2966,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "迷い始めた地点こそ、本当の仕事と旅の入口になる。地図のない道が自分の道。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q183",
@@ -2779,7 +2985,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "命を奪わぬものは、いつか自分の強さになる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q184",
@@ -2797,7 +3005,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "挑むとは、一瞬足場を失うこと。挑まぬとは、自分そのものを失うこと。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q185",
@@ -2815,7 +3025,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人を従えるのは力。自らを治めるのが本当の力だ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q186",
@@ -2832,7 +3044,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "同じ川に二度入ることはできない。流れも人も、すでに別物になっている。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q187",
@@ -2850,7 +3064,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "自らを治められない者に、本当の自由はない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q188",
@@ -2868,7 +3084,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "良き人生とは、愛に背を押され、知に道を選ばせるものである。",
+    "commentary_style": "simple"
   },
   {
     "id": "q189",
@@ -2886,7 +3104,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "重圧に効く最大の武器は、ひとつの思考を別の思考に選び直す力である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q190",
@@ -2904,7 +3124,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "生きるとは変わること、変わるとは自分を作り続けることだ。完成形はなく、進行形のままが本来の姿。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q191",
@@ -2922,7 +3144,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "あなたを脅かす竜は、姫の化身かもしれない。勇気ある一歩を、ただ待っている。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q192",
@@ -2940,7 +3164,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "世界を変える話は熱い。自分を変える話は誰もしない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q193",
@@ -2958,7 +3184,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "遠くへ行きすぎる危険を冒す者だけが、人がどこまで行けるかを知る。",
+    "commentary_style": "simple"
   },
   {
     "id": "q194",
@@ -2976,7 +3204,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "手元に来たものは、何であれ整える。それが生き方になる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q195",
@@ -2993,7 +3223,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "抜け道を探すより、真ん中を突き抜けるほうが近い。",
+    "commentary_style": "simple"
   },
   {
     "id": "q196",
@@ -3011,7 +3243,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "夢の方角へ堂々と進み、自分の思い描いた人生をそのまま生きる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q197",
@@ -3029,7 +3263,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "顔を太陽に向ければ、影は背後に落ちて気にならない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q198",
@@ -3046,7 +3282,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "海をただ眺めているだけでは、向こうの岸にはたどり着けない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q199",
@@ -3064,7 +3302,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "歩みは遅くてよい。ただ後ろへは戻らないこと。",
+    "commentary_style": "simple"
   },
   {
     "id": "q200",
@@ -3082,7 +3322,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "立ち止まり恐れと向き合うたび、力と勇気と自信は育つ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q201",
@@ -3099,7 +3341,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "毎日ひとつ、自分が少し怖がることをする。",
+    "commentary_style": "simple"
   },
   {
     "id": "q202",
@@ -3117,7 +3361,9 @@
     "length": "short",
     "enabled": true,
     "background": "1941年10月29日、母校ハロー校での演説より。",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "決して、決して、決して、屈しないことだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q203",
@@ -3135,7 +3381,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "成功の見込みがあるからではなく、善いからそれに取り組むこと。",
+    "commentary_style": "simple"
   },
   {
     "id": "q204",
@@ -3154,7 +3402,9 @@
     "length": "long",
     "enabled": true,
     "background": "1899年シカゴ演説『The Strenuous Life』より。",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "失敗込みで大きく挑むほうが、痛みも喜びも薄い席より良い。",
+    "commentary_style": "simple"
   },
   {
     "id": "q205",
@@ -3336,7 +3586,9 @@
     "length": "long",
     "enabled": true,
     "background": "2005年スタンフォード大学卒業式スピーチより。",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "心と直感に従う勇気を持つ。なりたい姿はすでに知られている。",
+    "commentary_style": "simple"
   },
   {
     "id": "q216",
@@ -3354,7 +3606,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "失敗の後悔より、挑まなかった後悔のほうがずっと重い。",
+    "commentary_style": "simple"
   },
   {
     "id": "q217",
@@ -3372,7 +3626,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人生を単純にすることが最も難しい。複雑にするのは易しい。",
+    "commentary_style": "simple"
   },
   {
     "id": "q218",
@@ -3390,7 +3646,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "誰かを気にかける力が、人生に一番深い意味を与える。",
+    "commentary_style": "simple"
   },
   {
     "id": "q219",
@@ -3408,7 +3666,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "心の決着がついたから、褒められても貶されても同じ穴に流れる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q220",
@@ -3442,7 +3702,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "行く手を阻むものこそ、そのまま進むための道に変わる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q222",
@@ -3460,7 +3722,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人生は短いのではなく、その多くを浪費しているのだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q223",
@@ -3478,7 +3742,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "労働が体を鍛えるのと同じように、困難は人の心を鍛える。",
+    "commentary_style": "simple"
   },
   {
     "id": "q224",
@@ -3496,7 +3762,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "まず何者になるかを決め、それからすべきことに取りかかる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q225",
@@ -3514,7 +3782,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "その人の性格こそが、そのままその人の運命になる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q226",
@@ -3549,7 +3819,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "最良の仕返しとは、その相手と同じ人間にならずにいることだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q228",
@@ -3567,7 +3839,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "心とは満たすための器ではなく、火をつけるための薪である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q229",
@@ -3584,7 +3858,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "物事が変わるのではない。変わるのは私たちのほうだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q230",
@@ -3602,7 +3878,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "最も大いなることは、自分自身に帰属する術を知ること。",
+    "commentary_style": "simple"
   },
   {
     "id": "q231",
@@ -3620,7 +3898,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "美も恐れもすべて受け入れて進む。どの感情も最後ではない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q232",
@@ -3638,7 +3918,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "答えの出ない問いに辛抱強くあり、問いそのものを愛そうとする。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q233",
@@ -3656,7 +3938,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人はただ耐えるだけではない、必ず打ち克つと私は信じている。",
+    "commentary_style": "simple"
   },
   {
     "id": "q234",
@@ -3674,7 +3958,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "私たちに決められるのは、与えられた時間の使い方だけだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q235",
@@ -3692,7 +3978,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "愛した人がくれた闇の箱も、贈り物だと気づくのに長い年月がかかった。",
+    "commentary_style": "simple"
   },
   {
     "id": "q236",
@@ -3710,7 +3998,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "希望は胸に止まる小鳥のように、言葉なき調べを歌い続ける。止まらないところに本質がある。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q237",
@@ -3728,7 +4018,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "やってみた。失敗した。構わない、もう一度。失敗の質を、すこしずつ磨いてゆく。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q238",
@@ -3746,7 +4038,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "旅人よ、道はない。歩いた跡が道になる。地図を待たず、最初の一歩がそのまま地面を引く。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q239",
@@ -3764,7 +4058,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "嵐は怖くない。自分の船を操る術を学んでいる最中だから。",
+    "commentary_style": "simple"
   },
   {
     "id": "q240",
@@ -3782,7 +4078,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "ぶつかり合いがどこにもない場所では、前に進むこともない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q241",
@@ -3800,7 +4098,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "私たちが学ぶべきことを教え終えるまで、何ごともそこから去らない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q242",
@@ -3818,7 +4118,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "行動は思考からではなく、責任を引き受ける覚悟から生まれる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q243",
@@ -3836,7 +4138,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人に注意を向けること。それは、もっとも稀で純粋な、贈与のかたち。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q244",
@@ -3854,7 +4158,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "熱意はありふれている。続く力こそ稀である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q245",
@@ -3872,7 +4178,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "目標の高さに届くのではなく、仕組みの低さまで落ちる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q246",
@@ -3890,7 +4198,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "生き方の手順は三つ――目を凝らし、驚き、それを誰かに語る。",
+    "commentary_style": "simple"
   },
   {
     "id": "q247",
@@ -3908,7 +4218,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "世界は持てる力を求め、私たちは差し出す。求められるたび、また差し出す。",
+    "commentary_style": "simple"
   },
   {
     "id": "q248",
@@ -3926,7 +4238,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "優しさを心の底で知る前に、悲しみを同じ深さで知る必要がある。両方が対になる経験。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q249",
@@ -3944,7 +4258,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "自分を生き生きとさせない相手や場所は、自分には小さすぎる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q250",
@@ -3962,7 +4278,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "すぐそばから始まる。二歩目でも三歩目でもなく、避けてきた最初の一歩こそが入口になる。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q251",
@@ -3980,7 +4298,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "大人になって残された選択は、自分の弱さとどう共に暮らすかだけ。消す道は最初からない。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q252",
@@ -3998,7 +4318,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "希望は宝くじではない。扉を打ち破る一本の斧である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q253",
@@ -4016,7 +4338,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "速さの時代に遅さが力を与え、散る時代に注意を払うことが贅沢になる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q254",
@@ -4034,7 +4358,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人生に予定を告げる前に、人生があなたに望むことを聴け。",
+    "commentary_style": "simple"
   },
   {
     "id": "q255",
@@ -4052,7 +4378,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "自分を労わるのは利己ではなく、唯一の贈り物を大切に扱う行為だ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q256",
@@ -4070,7 +4398,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "言葉は、そのまま一つの世界を立ち上げる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q257",
@@ -4088,7 +4418,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "この一日を生きる理由は無数にあり、どれも単独で十分である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q258",
@@ -4106,7 +4438,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "あなたという空。喜びも悲しみも、ただ流れてゆく天気にすぎない。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q259",
@@ -4124,7 +4458,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "自由を求めて胸が疼くなら、その音に耳を澄ませよ。願いは声になる前から、最初に動いている。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q260",
@@ -4142,7 +4478,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "進むべき道は、頭より先に内側が察している。耳を澄ます日がある。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q261",
@@ -4160,7 +4498,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "喜びは見つめるほど姿を増やす。注意の方向が世界を変える。",
+    "commentary_style": "simple"
   },
   {
     "id": "q262",
@@ -4178,7 +4518,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "今いる場所を美しくできるのは、ほかでもなく自分である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q263",
@@ -4195,7 +4537,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "信仰とは、心が静かに彼方へと傾くその動きにすぎない——だがそれが、すべて。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q264",
@@ -4213,7 +4557,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "希望のない分析は冷笑となり、分析のない希望は甘さに傾く。",
+    "commentary_style": "simple"
   },
   {
     "id": "q265",
@@ -4231,7 +4577,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "望んだ手札を引く権利はない。配られた札を全力で切る義務だけがある。",
+    "commentary_style": "simple"
   },
   {
     "id": "q266",
@@ -4249,7 +4597,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "自分の心を痛める選択を、それでも引き受ける勇気を持つ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q267",
@@ -4267,7 +4617,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "自分を愛するとは、別の誰かになる必要はないと気づくことだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q268",
@@ -4285,7 +4637,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "一年前の自分が気恥ずかしいなら、それは学んできた証である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q269",
@@ -4303,7 +4657,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "暮らし、姿、家族、得手も不得手も、まるごと自分のものとする。",
+    "commentary_style": "simple"
   },
   {
     "id": "q270",
@@ -4321,7 +4677,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "一番悔やまれるのは、優しさが足りなかった一瞬の方である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q271",
@@ -4339,7 +4697,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "迷ったときは、優しい側へ間違えるほうを選ぶ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q272",
@@ -4357,7 +4717,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "幸せが感謝を生むのではない。感謝するから幸せが立ち上がる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q273",
@@ -4375,7 +4737,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "休息は努力への褒美ではなく、誰もが受け継ぐ生まれながらの権利だ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q274",
@@ -4409,7 +4773,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "信じるべきは動きだ。人生は言葉ではなく出来事の層で進む。",
+    "commentary_style": "simple"
   },
   {
     "id": "q276",
@@ -4427,7 +4793,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "信念のために戦うほうが、信念どおりに暮らすよりずっと易しい。",
+    "commentary_style": "simple"
   },
   {
     "id": "q277",
@@ -4445,7 +4813,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人であるとは、越えようと押し上げる劣等感を抱えて生きることだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q279",
@@ -4463,7 +4833,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人生で最も危ういのは、用心を重ねすぎてしまうことである。",
+    "commentary_style": "simple"
   },
   {
     "id": "q280",
@@ -4480,7 +4852,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "無意識に気づかぬうちは、それが人生を動かす。人はそれをやがて、運命と呼ぶ。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q281",
@@ -4498,7 +4872,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "自分をまるごと受け入れるのが最も怖い。他者を許すよりずっと難しい。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q284",
@@ -4515,7 +4891,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "不安とは自由の眩暈である。選べる広さが、人を立ちすくませる。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q286",
@@ -4567,7 +4945,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "生きて立ち上がる前に書こうとしても、言葉は空回りする。",
+    "commentary_style": "simple"
   },
   {
     "id": "q289",
@@ -4585,7 +4965,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "状況が意味を決めるのではない。意味の与え方が自分を形づくる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q290",
@@ -4619,7 +5001,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "苦しみは、意味が見えた瞬間に、もう純粋な苦しみではなくなる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q292",
@@ -4654,7 +5038,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "生きる理由が一つあれば、人はどんな生き方にも耐えられる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q294",
@@ -4706,7 +5092,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "歩調が合わないのは、聞こえている太鼓の音が違うからだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q299",
@@ -4724,7 +5112,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "すべてを奪われても、どう向き合うかを選ぶ自由だけは残される。",
+    "commentary_style": "simple"
   },
   {
     "id": "q300",
@@ -4759,7 +5149,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "先延ばしを重ねるあいだに、人生は静かに過ぎ去っていく。",
+    "commentary_style": "simple"
   },
   {
     "id": "q303",
@@ -4777,7 +5169,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "苦しむのを恐れる者は、恐れる時点で既に半分苦しんでいる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q304",
@@ -4795,7 +5189,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人生の川を渡る橋は、結局のところ自分の手でしか架けられない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q305",
@@ -4813,7 +5209,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "良き医師は病を診、優れた医師は病を負う人を診る。",
+    "commentary_style": "simple"
   },
   {
     "id": "q306",
@@ -4831,7 +5229,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "患者を診る要諦は、その人を本当に気にかけることにある。",
+    "commentary_style": "simple"
   },
   {
     "id": "q307",
@@ -4849,7 +5249,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "毎日苦と喪失に浸って濡れずに帰れると思うのは、無理な相談だ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q308",
@@ -4867,7 +5269,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "あなたはあなたであるゆえに大切。生の終わりまで、ずっと。",
+    "commentary_style": "simple"
   },
   {
     "id": "q309",
@@ -4885,7 +5289,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "私の成功は、言い訳を渡さず受け取らなかったことに尽きる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q310",
@@ -4903,7 +5309,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "完璧には届かない。それでも、近づき続けることはできる。その歩みそのものが人を磨く。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q311",
@@ -4921,7 +5329,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "「より良く」は到達できる。要るのは才ではなく、地道さである。",
+    "commentary_style": "simple"
   },
   {
     "id": "q312",
@@ -4939,7 +5349,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "恐れがないとは言えない。それでも胸を満たすのは感謝だ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q313",
@@ -4957,7 +5369,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "相手の核に触れる道は、結局のところ愛するほかにない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q314",
@@ -4974,7 +5388,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "ありのままの自分を受け入れたとき、人は初めて変わる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q315",
@@ -4992,7 +5408,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "死そのものは身体を壊す。だが死を思う行いは、生き方を立て直す。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q316",
@@ -5010,7 +5428,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "希望は楽観と違い、ありのままの現実に根を下ろしている。",
+    "commentary_style": "simple"
   },
   {
     "id": "q317",
@@ -5028,7 +5448,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "言葉は医師の最強の道具だが、刃のように癒しも傷つけもする。",
+    "commentary_style": "simple"
   },
   {
     "id": "q318",
@@ -5046,7 +5468,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "医の業が愛される場所には、人を愛する心も必ず宿っている。",
+    "commentary_style": "simple"
   },
   {
     "id": "q319",
@@ -5064,7 +5488,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "患者の中に、痛みを抱えた一人の人間以外を見ないでいたい。",
+    "commentary_style": "simple"
   },
   {
     "id": "q320",
@@ -5082,7 +5508,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人を信じて生きる。それなしに、人生は成り立ってゆかない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q321",
@@ -5100,7 +5528,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "医療の本当の手応えは、地味で平凡な日々の繰り返しにある。",
+    "commentary_style": "simple"
   },
   {
     "id": "q322",
@@ -5118,7 +5548,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "死に際の品位は、生きてきた日々の品位の中にしか見出せない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q323",
@@ -5136,7 +5568,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "最も美しい人は、敗北や喪失を経て、深みから帰ってきた人である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q324",
@@ -5154,7 +5588,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "本当に幸せな人は、誰かに仕える道を探し当てた人だけである。",
+    "commentary_style": "simple"
   },
   {
     "id": "q325",
@@ -5189,7 +5625,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "今この瞬間にとどまり、ほかへ心を散らさないでいる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q327",
@@ -5241,7 +5679,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "手の届く範囲を最大限に使い、残りは起こるままに受ける。",
+    "commentary_style": "simple"
   },
   {
     "id": "q331",
@@ -5293,7 +5733,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人を乱すのは出来事ではなく、その出来事の受け止め方である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q334",
@@ -5328,7 +5770,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "ただ生きているということが、それだけで勇気ある行為のときがある。",
+    "commentary_style": "simple"
   },
   {
     "id": "q336",
@@ -5380,7 +5824,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "持たぬものを欲して今を損なうな。今あるものも、かつての願いだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q339",
@@ -5398,7 +5844,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人生を耐え難くするのは境遇ではなく、意味と目的の不在である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q340",
@@ -5449,7 +5897,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "外を見る者は夢み、内を見る者は目を覚ます。視線の向きが境目だ。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q343",
@@ -5467,7 +5917,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "受け入れる手前では、人は何ひとつ変えられないでいる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q344",
@@ -5501,7 +5953,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "心の澄み切りとは、ただ一つのことを望むことに尽きる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q348",
@@ -5519,7 +5973,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "知らないことほど、人はいちずに強く信じてしまう。",
+    "commentary_style": "simple"
   },
   {
     "id": "q349",
@@ -5537,7 +5993,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人生の価値は日数の長さではなく、その使い方で決まる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q350",
@@ -5555,7 +6013,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人生は短く、技は長い。機会は束の間、判断は常に難しい。",
+    "commentary_style": "simple"
   },
   {
     "id": "q351",
@@ -5573,7 +6033,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "時に治し、しばしば和らげ、そして常に慰める仕事である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q352",
@@ -5591,7 +6053,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "医学は不確実さの科学であり、確率を読みとる技でもある。",
+    "commentary_style": "simple"
   },
   {
     "id": "q353",
@@ -5609,7 +6073,9 @@
     "season_tags": [],
     "length": "long",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "医療は商いではなく業であり、頭と同じだけ心を使う仕事だ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q354",
@@ -5627,7 +6093,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "患者の話を聴く。診断は本人の言葉の中で語られている。",
+    "commentary_style": "simple"
   },
   {
     "id": "q355",
@@ -5645,7 +6113,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "現状に満足しない誰かがいてはじめて、世界は次の段へ進む。",
+    "commentary_style": "simple"
   },
   {
     "id": "q356",
@@ -5663,7 +6133,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "病院に求められる第一条件は、病める人に害を与えないことだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q357",
@@ -5681,7 +6153,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "助ける、直す、仕える。三つはそれぞれ違う世界の見方である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q358",
@@ -5699,7 +6173,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人は誰もが、自分の人生を自分で決めたいと願っている。",
+    "commentary_style": "simple"
   },
   {
     "id": "q359",
@@ -5717,7 +6193,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "目指すべきは良い死ではなく、最期まで続く良い暮らしである。",
+    "commentary_style": "simple"
   },
   {
     "id": "q360",
@@ -5735,7 +6213,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "絶望のとき黙って隣にいてくれる人こそ、真の友だ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q361",
@@ -5753,7 +6233,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "思いやりは痛む場所へ赴き、恐れや混乱を共に抱える行為である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q362",
@@ -5771,7 +6253,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "命の価値に上下があるという発想が、世界の歪みの根を作る。",
+    "commentary_style": "simple"
   },
   {
     "id": "q363",
@@ -5789,7 +6273,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "本当の意味で唯一の国家は、人類そのものなのである。",
+    "commentary_style": "simple"
   },
   {
     "id": "q364",
@@ -5807,7 +6293,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "私たちは誤るように作られ、間違いを犯すよう設計されている。",
+    "commentary_style": "simple"
   },
   {
     "id": "q365",
@@ -5824,7 +6312,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "隠れていたいと願う。だが誰にも見つけられないのは、また別の苦しみだ。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q366",
@@ -5842,7 +6332,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人間存在の問いに対する、健やかな答えはただ愛だけだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q367",
@@ -5860,7 +6352,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "確かなものを手放す勇気から、新しいものは生まれる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q368",
@@ -5878,7 +6372,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人がどう死んだかは、残された者の記憶に刻まれる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q369",
@@ -5896,7 +6392,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "本当の人生の旅は、自分の内側で進んでいる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q370",
@@ -5914,7 +6412,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "愛は、相手がその人のままでいられる場をつくることから始まる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q372",
@@ -5932,7 +6432,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "愛は慰めではなく光である。闇を覆い隠さず、道そのものを照らす。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q373",
@@ -5950,7 +6452,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "「いま、何を抱えていますか」と問えること。それが隣人愛だ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q375",
@@ -5968,7 +6472,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "未来は起こる遥か前から心に宿る。私たちはそこで未来を育てている。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q376",
@@ -5986,7 +6492,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "目を向け、耳を澄ますこと。愛はそこから始まる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q378",
@@ -6004,7 +6512,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "疲れの薬は休息ではなく、心を尽くすこと。中途半端こそ人を消耗させる。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q380",
@@ -6022,7 +6532,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "悪の多くは、善悪を決めぬまま流された人がもたらす。",
+    "commentary_style": "simple"
   },
   {
     "id": "q381",
@@ -6040,7 +6552,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人を、行いより、何を耐えているかで見る。そこに本当の理解が生まれる。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q383",
@@ -6058,7 +6572,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "他人を知るより、自分を知るほうが本当の知恵に近い。",
+    "commentary_style": "simple"
   },
   {
     "id": "q385",
@@ -6076,7 +6592,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "ただ生きるのではなく、何のために生きるかを見つけること。",
+    "commentary_style": "simple"
   },
   {
     "id": "q386",
@@ -6094,7 +6612,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "大きな知性と深い心には、痛みは避けがたい。鈍さで身を守るより、痛みを受けて器が広がる。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q387",
@@ -6112,7 +6632,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人類の悩みは、独りで静かに座っていられないことから始まる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q388",
@@ -6129,7 +6651,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "心には、理屈では届かない心なりの理由がある。",
+    "commentary_style": "simple"
   },
   {
     "id": "q389",
@@ -6147,7 +6671,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "互いの人生を少し楽にする以外に、生きる理由があるだろうか。",
+    "commentary_style": "simple"
   },
   {
     "id": "q391",
@@ -6165,7 +6691,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "知恵は授かるものではない。自ら歩いた道の果てに、自分で見つけるもの。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q392",
@@ -6183,7 +6711,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "私たちにできるのは、試みること、それだけ。結果は、もう私たちの領分ではない。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q395",
@@ -6201,7 +6731,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "愛とは、自分以外も確かに在ると気づく難しさだ。他者を風景にせず、輪郭ごと迎え入れる作業。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q396",
@@ -6219,7 +6751,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "医師という存在そのものが、患者にとっての薬になる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q397",
@@ -6237,7 +6771,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "あらゆる反論を先に潰そうとすれば、何ひとつ始められない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q398",
@@ -6255,7 +6791,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "惨めかどうかも、幸せかどうかも、結局は受けとめ方で決まる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q399",
@@ -6273,7 +6811,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "勇気の本質は、自分を欺かずに見つめることにある。",
+    "commentary_style": "simple"
   },
   {
     "id": "q400",
@@ -6291,7 +6831,9 @@
     "season_tags": [],
     "length": "short",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人に贈れる最も尊いものは、相手に向けるまなざしである。",
+    "commentary_style": "simple"
   },
   {
     "id": "q401",
@@ -6309,7 +6851,9 @@
     "season_tags": [],
     "length": "medium",
     "enabled": true,
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "勇気とは徳の一つではなく、試される瞬間に現れる徳の姿だ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q402",
@@ -6328,7 +6872,9 @@
     "length": "medium",
     "enabled": true,
     "source_note": "A Way of Life, 1913 address to Yale students",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人生から何を得るかではなく、何を加えるかが問われている。",
+    "commentary_style": "simple"
   },
   {
     "id": "q403",
@@ -6347,7 +6893,9 @@
     "length": "medium",
     "enabled": true,
     "source_note": "When Breath Becomes Air (2016)",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "死にゆく身であっても、その瞬間まで人は生きている。",
+    "commentary_style": "simple"
   },
   {
     "id": "q404",
@@ -6366,7 +6914,9 @@
     "length": "long",
     "enabled": true,
     "source_note": "Musicophilia (2007)",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "見ることも思い出すことも、どこかで創ることに似ている。",
+    "commentary_style": "simple"
   },
   {
     "id": "q405",
@@ -6385,7 +6935,9 @@
     "length": "medium",
     "enabled": true,
     "source_note": "A Doctor's Touch — TED Global 2011",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "ベッドサイドでの診察は、臨床の場であると同時に儀式である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q406",
@@ -6404,7 +6956,9 @@
     "length": "medium",
     "enabled": true,
     "source_note": "Letter to probationer nurses, St Thomas's, 1872",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "看護師に完成はない。学び続ける姿勢そのものが看護である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q407",
@@ -6423,7 +6977,9 @@
     "length": "long",
     "enabled": true,
     "source_note": "The Nature of Nursing (1966)",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "看護師は、患者が欠いたものを一時的に肩代わりする存在である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q408",
@@ -6442,7 +6998,9 @@
     "length": "short",
     "enabled": true,
     "source_note": "Care of the Dying lectures, St Christopher's Hospice",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "苦しみが耐え難くなるのは、誰も気にかけてくれないときだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q409",
@@ -6461,7 +7019,9 @@
     "length": "short",
     "enabled": true,
     "source_note": "I and Thou (1923, tr. Smith)",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "真に生きるとは、誰かと出会うこと。出会いの外側に、生はない。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q410",
@@ -6480,7 +7040,9 @@
     "length": "medium",
     "enabled": true,
     "source_note": "The Eternal Now (1963)",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "独りでいることが痛みなら孤独、誇りなら独居と呼ばれる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q411",
@@ -6499,7 +7061,9 @@
     "length": "long",
     "enabled": true,
     "source_note": "La Vieillesse / The Coming of Age (1970)",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "他者の命を大切に思える限り、自分の命にも価値が宿る。",
+    "commentary_style": "simple"
   },
   {
     "id": "q412",
@@ -6518,7 +7082,9 @@
     "length": "medium",
     "enabled": true,
     "source_note": "Way to Wisdom (1951)",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "哲学とは、答えに着くことではなく、問いの途上にあることだ。歩き続ける姿勢が、答えより深い。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q413",
@@ -6537,7 +7103,9 @@
     "length": "short",
     "enabled": true,
     "source_note": "War and Peace (1869), Kutuzov's counsel",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "最強の戦士は、忍耐と時間という名の二人である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q414",
@@ -6556,7 +7124,9 @@
     "length": "short",
     "enabled": true,
     "source_note": "Song of Solomon (1977)",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "風に逆らわず身を委ねれば、風に運んでもらえる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q415",
@@ -6575,7 +7145,9 @@
     "length": "medium",
     "enabled": true,
     "source_note": "The Left Hand of Darkness (1969)",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "終着点も大切だが、最後に残るのは旅の途上で見たものだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q416",
@@ -6594,7 +7166,9 @@
     "length": "long",
     "enabled": true,
     "source_note": "Gilead (2004)",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "どこに目を向けても、世界は変容のように輝きうる。必要なのは見ようとする、ほんの少しの構え。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q417",
@@ -6613,7 +7187,9 @@
     "length": "medium",
     "enabled": true,
     "source_note": "Daring Greatly (2012)",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "弱さを見せることは弱さではなく、勇気の最大の証である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q418",
@@ -6632,7 +7208,9 @@
     "length": "medium",
     "enabled": true,
     "source_note": "Dartmouth commencement address, 2002",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "何かが終わったと感じる場所は、たいてい次の始まりだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q419",
@@ -6651,7 +7229,9 @@
     "length": "medium",
     "enabled": true,
     "source_note": "On Becoming a Person (1961)",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "良き人生は到達点ではなく、向かう方向のことである。",
+    "commentary_style": "simple"
   },
   {
     "id": "q420",
@@ -6670,7 +7250,9 @@
     "length": "short",
     "enabled": true,
     "source_note": "The House of the Dead (1862)",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "希望を失うことは、生きることを手放すのに等しい。",
+    "commentary_style": "simple"
   },
   {
     "id": "q421",
@@ -6689,7 +7271,9 @@
     "length": "short",
     "enabled": true,
     "source_note": "Peace Is Every Step (1991)",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "足の裏で大地に挨拶するように、一歩ずつ歩く。",
+    "commentary_style": "simple"
   },
   {
     "id": "q422",
@@ -6708,7 +7292,9 @@
     "length": "short",
     "enabled": true,
     "source_note": "Manifesto: The Mad Farmer Liberation Front (1973)",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "厳しい事実をすべて見たうえで、それでも喜びを選ぶ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q423",
@@ -6727,7 +7313,9 @@
     "length": "long",
     "enabled": true,
     "source_note": "A Short History of England (1917), ch. 6",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "感謝は思考の最も高い形であり、驚きが幸福を倍にしてくれる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q424",
@@ -6746,7 +7334,9 @@
     "length": "medium",
     "enabled": true,
     "source_note": "Pro Plancio 80 (oration, 54 BC)",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "感謝は最高の徳であると同時に、すべての徳を育てる親である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q425",
@@ -6765,7 +7355,9 @@
     "length": "long",
     "enabled": true,
     "source_note": "Letters and Papers from Prison (1943)",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "私たちは与える以上に受け取っている。感謝が暮らしを豊かにする。",
+    "commentary_style": "simple"
   },
   {
     "id": "q426",
@@ -6784,7 +7376,9 @@
     "length": "long",
     "enabled": true,
     "source_note": "Gratitude (2015), posthumous essay collection",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "この惑星で考え、感じて生きられたこと自体が冒険であった。",
+    "commentary_style": "simple"
   },
   {
     "id": "q427",
@@ -6803,7 +7397,9 @@
     "length": "short",
     "enabled": true,
     "source_note": "Help, Thanks, Wow: The Three Essential Prayers (2012)",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "本当に必要な祈りは三つだけ。助けて、ありがとう、すごい。",
+    "commentary_style": "simple"
   },
   {
     "id": "q428",
@@ -6822,7 +7418,9 @@
     "length": "long",
     "enabled": true,
     "source_note": "When Death Comes — New and Selected Poems (1992)",
-    "language": "en"
+    "language": "en",
+    "commentary_ja": "人生の終わりに、驚きと連れ添った日々だったと言いたい。",
+    "commentary_style": "simple"
   },
   {
     "id": "q429",
@@ -6840,7 +7438,9 @@
     "season_tags": [],
     "length": "short",
     "language": "en",
-    "enabled": true
+    "enabled": true,
+    "commentary_ja": "心を置き去りに体だけを治しても、治したことにはならない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q430",
@@ -6858,7 +7458,9 @@
     "season_tags": [],
     "length": "medium",
     "language": "en",
-    "enabled": true
+    "enabled": true,
+    "commentary_ja": "病を治す医師より、病を未然に防ぐ医師のほうが優れている。",
+    "commentary_style": "simple"
   },
   {
     "id": "q431",
@@ -6876,7 +7478,9 @@
     "season_tags": [],
     "length": "medium",
     "language": "en",
-    "enabled": true
+    "enabled": true,
+    "commentary_ja": "観察、推論、人間理解、勇気――医師を医師にするのはこの四つだ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q432",
@@ -6894,7 +7498,9 @@
     "season_tags": [],
     "length": "medium",
     "language": "en",
-    "enabled": true
+    "enabled": true,
+    "commentary_ja": "医術とは、自然が癒している間、患者の不安を和らげる技である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q433",
@@ -6912,7 +7518,9 @@
     "season_tags": [],
     "length": "short",
     "language": "en",
-    "enabled": true
+    "enabled": true,
+    "commentary_ja": "自ら病んだ経験を持つ者だけが、良き医師になれる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q434",
@@ -6930,7 +7538,9 @@
     "season_tags": [],
     "length": "medium",
     "language": "en",
-    "enabled": true
+    "enabled": true,
+    "commentary_ja": "荷物を持たず、独り沈黙の中を行くとき、自然の核心に届く。",
+    "commentary_style": "simple"
   },
   {
     "id": "q435",
@@ -6948,7 +7558,9 @@
     "season_tags": [],
     "length": "medium",
     "language": "en",
-    "enabled": true
+    "enabled": true,
+    "commentary_ja": "豊かさとは、多くを持つよりも、望みが少ないことにある。",
+    "commentary_style": "simple"
   },
   {
     "id": "q436",
@@ -6966,7 +7578,9 @@
     "season_tags": [],
     "length": "short",
     "language": "en",
-    "enabled": true
+    "enabled": true,
+    "commentary_ja": "自分を高めてくれる人と、時間を共にする。",
+    "commentary_style": "simple"
   },
   {
     "id": "q437",
@@ -6984,7 +7598,9 @@
     "season_tags": [],
     "length": "medium",
     "language": "en",
-    "enabled": true
+    "enabled": true,
+    "commentary_ja": "労苦はすぐに過ぎ去り、努力で得た善きものだけが残る。",
+    "commentary_style": "simple"
   },
   {
     "id": "q438",
@@ -7002,7 +7618,9 @@
     "season_tags": [],
     "length": "short",
     "language": "en",
-    "enabled": true
+    "enabled": true,
+    "commentary_ja": "未来は不確かだ。だから今を生きるよりほかにない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q439",
@@ -7020,7 +7638,9 @@
     "season_tags": [],
     "length": "medium",
     "language": "en",
-    "enabled": true
+    "enabled": true,
+    "commentary_ja": "踊る星を産むには、内に混沌を抱えるしかない。整いすぎは創造を殺す。",
+    "commentary_style": "kaisetsu"
   },
   {
     "id": "q440",
@@ -7038,7 +7658,9 @@
     "season_tags": [],
     "length": "medium",
     "language": "en",
-    "enabled": true
+    "enabled": true,
+    "commentary_ja": "誰かに合う靴も、別の人には痛む。万人向けの生き方などない。",
+    "commentary_style": "simple"
   },
   {
     "id": "q441",
@@ -7056,7 +7678,9 @@
     "season_tags": [],
     "length": "medium",
     "language": "en",
-    "enabled": true
+    "enabled": true,
+    "commentary_ja": "なれるはずの自分になること――それを自己実現と呼ぶ。",
+    "commentary_style": "simple"
   },
   {
     "id": "q442",
@@ -7074,7 +7698,9 @@
     "season_tags": [],
     "length": "short",
     "language": "en",
-    "enabled": true
+    "enabled": true,
+    "commentary_ja": "良き人生は、たどり着く状態ではなく、進み続ける過程である。",
+    "commentary_style": "simple"
   },
   {
     "id": "q443",
@@ -7156,7 +7782,9 @@
     "season_tags": [],
     "length": "short",
     "language": "en",
-    "enabled": true
+    "enabled": true,
+    "commentary_ja": "困難の真ん中にこそ、新しい機会はひそんでいる。",
+    "commentary_style": "simple"
   },
   {
     "id": "q448",
@@ -7174,6 +7802,8 @@
     "season_tags": [],
     "length": "short",
     "language": "en",
-    "enabled": true
+    "enabled": true,
+    "commentary_ja": "傷を抱えたままにせず、知恵へと変えていく。",
+    "commentary_style": "simple"
   }
 ]
