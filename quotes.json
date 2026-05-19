@@ -22,7 +22,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "飢えた心を忘れず、賢くなりきらぬ姿勢で進む。",
+    "commentary_ja": "満ち足りた者は止まる。飢えと未熟さこそ、次へ動かす燃料になる。",
     "commentary_style": "simple"
   },
   {
@@ -44,7 +44,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "完璧を待つよりも、まず形にして終わらせる。",
+    "commentary_ja": "完成度ではなく完了が世界に届く。出してから磨けばよい。",
     "commentary_style": "simple"
   },
   {
@@ -90,7 +90,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "規律という橋を渡り、目標は達成へと届く。",
+    "commentary_ja": "目標と達成のあいだには深い溝がある。それを渡す唯一の橋が規律である。",
     "commentary_style": "simple"
   },
   {
@@ -115,7 +115,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "人は繰り返す行いそのものである。だから卓越とは行為ではなく、習慣だ。",
+    "commentary_ja": "日々の繰り返しが人を形づくる。卓越とは一度の行為ではなく、続く習慣の中にある。",
     "commentary_style": "simple"
   },
   {
@@ -137,7 +137,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "忙しさではなく、実りある時間に心を寄せる。",
+    "commentary_ja": "忙しさは動きの量、生産性は実りの量。混同しないこと。",
     "commentary_style": "simple"
   },
   {
@@ -159,7 +159,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "簡素であることが、磨き上げた末の到達点。",
+    "commentary_ja": "削り尽くした先にしか、簡素は現れない。安易な素朴さと取り違えない。",
     "commentary_style": "simple"
   },
   {
@@ -254,7 +254,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "困難のただ中にこそ、次の機会は潜んでいる。",
+    "commentary_ja": "困難は機会の隠れ場所である。平穏のなかには、それは出てこない。",
     "commentary_style": "simple"
   },
   {
@@ -304,7 +304,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "疲れたら休む。体と心を取り戻し、新たに歩み始める。",
+    "commentary_ja": "疲れた体と心を、無理に走らせない。休むことは、続けるための仕事である。",
     "commentary_style": "simple"
   },
   {
@@ -328,7 +328,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "感謝とは、いま手にあるものを、足ると言い直すこと。",
+    "commentary_ja": "感謝は、いま手にあるものを『これで十分だ』と感じさせてくれる。",
     "commentary_style": "simple"
   },
   {
@@ -352,7 +352,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "前へ進む秘訣は、ただひとつ、始めることに尽きる。",
+    "commentary_ja": "先へ進むための最大の秘訣は、たったひとつ。まず始めることだ。",
     "commentary_style": "simple"
   },
   {
@@ -532,7 +532,7 @@
     "length": "medium",
     "enabled": true,
     "language": "ja",
-    "commentary_ja": "努力は裏切らない。ただし、正しい方角に進んでいる場合にかぎる。",
+    "commentary_ja": "努力は裏切らない。ただし、向きが合っているときに限る。",
     "commentary_style": "simple"
   },
   {
@@ -555,7 +555,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "今いる場所で、あるもので、できることをせよ。",
+    "commentary_ja": "今いる場所、今あるもの、できることから始める。それで足りる。",
     "commentary_style": "simple"
   },
   {
@@ -718,7 +718,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "時計を眺めるのをやめ、時計のように刻み続ける。",
+    "commentary_ja": "時計を気にせず、時計と同じように刻み続ける。",
     "commentary_style": "simple"
   },
   {
@@ -739,7 +739,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "吟味されることのない人生は、生きるに値しない。",
+    "commentary_ja": "問い直すことのない人生は、ただ過ぎていくだけだ。",
     "commentary_style": "simple"
   },
   {
@@ -805,7 +805,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "過去も未来も、内に抱くものに比べれば些細にすぎぬ。",
+    "commentary_ja": "過去も未来も、内に抱えているものに比べれば小さい。",
     "commentary_style": "simple"
   },
   {
@@ -893,7 +893,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "知るだけでも願うだけでもなく、用いて行動するのである。",
+    "commentary_ja": "知ることと願うことは入口にすぎない。用い、行うところに道が開ける。",
     "commentary_style": "simple"
   },
   {
@@ -938,7 +938,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "深い眠りこそが、もっとも静かな瞑想となるのである。",
+    "commentary_ja": "ぐっすり眠ることが、最も静かで深い瞑想になる。",
     "commentary_style": "simple"
   },
   {
@@ -1026,7 +1026,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "世界に望む変化を、まず自分自身が体現する姿で示す。",
+    "commentary_ja": "世界に望む変化を、まず自分自身で生きてみる。",
     "commentary_style": "simple"
   },
   {
@@ -1101,7 +1101,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "生きる理由があれば、どんな苦境にも耐えられる。",
+    "commentary_ja": "生きる理由がある者は、どんな苦しみの形にも耐えられる。",
     "commentary_style": "simple"
   },
   {
@@ -1168,7 +1168,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "人生とは、別の予定を立てている間に、起きてしまっているものだ。",
+    "commentary_ja": "予定を立てている脇で、人生のほうは静かに進んでしまっている。",
     "commentary_style": "simple"
   },
   {
@@ -1283,7 +1283,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "穏やかな海では、優れた船乗りは育たない。",
+    "commentary_ja": "凪の海では、腕のいい船乗りは生まれない。荒れた海が船乗りを育てる。",
     "commentary_style": "simple"
   },
   {
@@ -1437,7 +1437,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "道のある所を行かず、道なき場所に自らの足跡を残す。",
+    "commentary_ja": "敷かれた道を辿るのではなく、道のない場所に自分の足跡を残していく。",
     "commentary_style": "simple"
   },
   {
@@ -1462,7 +1462,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "傷ついた場所こそ、光が射し入る入り口。痛みの隙間から、世界はあなたを照らす。",
+    "commentary_ja": "傷ついた場所こそ、光が射し入る入り口になる。",
     "commentary_style": "kaisetsu"
   },
   {
@@ -1484,7 +1484,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "生まれた日と、生まれた理由を知る日がもっとも尊い。",
+    "commentary_ja": "生まれた日と、なぜ生まれたかを知った日。この二日が人生を貫いている。",
     "commentary_style": "simple"
   },
   {
@@ -1595,7 +1595,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "本当の知恵とは、自らが何も知らぬと知ること。",
+    "commentary_ja": "本当の知恵は、知らないと知るところから始まる。",
     "commentary_style": "simple"
   },
   {
@@ -1619,7 +1619,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "ロープの端まで来たら、結び目を作ってそこに掴まり続ける。",
+    "commentary_ja": "限界の端まで来たら、そこに結び目を作って、もう一度しがみつく。",
     "commentary_style": "simple"
   },
   {
@@ -1664,7 +1664,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "思考を蒔けば行動が実り、行動を蒔けば習慣が実る。",
+    "commentary_ja": "思考を蒔けば行動が芽吹き、行動を蒔けば習慣が根づく。",
     "commentary_style": "simple"
   },
   {
@@ -1686,7 +1686,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "昨日に、今日という時間を奪わせないこと。",
+    "commentary_ja": "昨日のことに、今日の時間を譲り渡さない。",
     "commentary_style": "simple"
   },
   {
@@ -2358,7 +2358,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "外の出来事ではなく、自分の心こそ支配できる領分である。",
+    "commentary_ja": "外の出来事ではなく、自分の心こそ動かせる場所である。",
     "commentary_style": "simple"
   },
   {
@@ -2436,7 +2436,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "人生は振り返って分かるが、前を向いて生きる以外ない。",
+    "commentary_ja": "理解は過去から、生は未来へ。視線の向きが違うことを受け入れる。",
     "commentary_style": "simple"
   },
   {
@@ -2476,7 +2476,7 @@
     "length": "long",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "世界が求めるのは、自分の命を燃やして生きる人である。",
+    "commentary_ja": "世界が求めているのは、自分の内側が灯っている人だ。",
     "commentary_style": "simple"
   },
   {
@@ -2536,7 +2536,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "向き合えば全てが変わるとは限らぬが、向き合わねば何も変わらぬ。",
+    "commentary_ja": "向き合えば全てが変わるとは限らない。だが向き合わなければ何も変わらない。",
     "commentary_style": "simple"
   },
   {
@@ -2556,7 +2556,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "世は誰をも打ちのめす。だが砕けた場所からこそ強くなる。",
+    "commentary_ja": "世はすべての人を打ちのめす。だが砕けた箇所こそ、後にいちばん強くなる。",
     "commentary_style": "simple"
   },
   {
@@ -2656,7 +2656,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "大きな利は売買ではなく、じっと待っている時間のなかから運ばれてくる。",
+    "commentary_ja": "大きな利は売買からではなく、動かずに待つ時間の中から運ばれてくる。",
     "commentary_style": "simple"
   },
   {
@@ -2767,7 +2767,7 @@
     "length": "long",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "人生は娯楽だけではない。心は自ら生み出す側にいる。",
+    "commentary_ja": "人生は娯楽だけではない。心は受け取るだけでなく、自ら生み出すものである。",
     "commentary_style": "simple"
   },
   {
@@ -2828,7 +2828,7 @@
     "enabled": true,
     "background": "1910年パリ・ソルボンヌ大学での演説『Citizenship in a Republic』通称「Man in the Arena」より抜粋。",
     "language": "en",
-    "commentary_ja": "栄誉は批評家ではなく、土の上で汗と血を流す者に渡る。",
+    "commentary_ja": "栄誉は批評する側ではなく、土の上で汗を流して挑む者に渡る。",
     "commentary_style": "simple"
   },
   {
@@ -2907,7 +2907,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "真冬の底でようやく気づいた、自分の中に夏があると。",
+    "commentary_ja": "真冬の底で気づいた――自分の中には、誰にも消せない夏がある。",
     "commentary_style": "simple"
   },
   {
@@ -2947,7 +2947,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "一度きりの荒々しい人生を、何に費やすつもりなのか。",
+    "commentary_ja": "この、かけがえのない一度きりの人生を、自分は何に差し出すのか。",
     "commentary_style": "simple"
   },
   {
@@ -2986,7 +2986,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "命を奪わぬものは、いつか自分の強さになる。",
+    "commentary_ja": "耐え抜いた試練は、そのまま自分の力に変わる。",
     "commentary_style": "simple"
   },
   {
@@ -3006,7 +3006,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "挑むとは、一瞬足場を失うこと。挑まぬとは、自分そのものを失うこと。",
+    "commentary_ja": "挑むとは、一瞬足場を失うこと。挑まぬとは、自分そのものを失うこと。挑む側の損失は一瞬で済む。",
     "commentary_style": "kaisetsu"
   },
   {
@@ -3045,7 +3045,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "同じ川に二度入ることはできない。流れも人も、すでに別物になっている。",
+    "commentary_ja": "同じ川に二度入ることはできない。流れも、入る自分も、もう同じではない。",
     "commentary_style": "kaisetsu"
   },
   {
@@ -3125,7 +3125,7 @@
     "length": "long",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "生きるとは変わること、変わるとは自分を作り続けることだ。完成形はなく、進行形のままが本来の姿。",
+    "commentary_ja": "生きるとは変わること。変わり続け、自分を作り続けるその過程こそ、本来の姿である。",
     "commentary_style": "kaisetsu"
   },
   {
@@ -3185,7 +3185,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "遠くへ行きすぎる危険を冒す者だけが、人がどこまで行けるかを知る。",
+    "commentary_ja": "行きすぎる危険を引き受ける者だけが、自分の本当の遠さを知る。",
     "commentary_style": "simple"
   },
   {
@@ -3205,7 +3205,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "手元に来たものは、何であれ整える。それが生き方になる。",
+    "commentary_ja": "巡ってきた一片一片を、まずは並べ直してみる。それが生き方になる。",
     "commentary_style": "simple"
   },
   {
@@ -3244,7 +3244,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "夢の方角へ堂々と進み、自分の思い描いた人生をそのまま生きる。",
+    "commentary_ja": "夢の方角へ堂々と進めば、思い描いた人生のほうが自分に近づいてくる。",
     "commentary_style": "simple"
   },
   {
@@ -3362,7 +3362,7 @@
     "enabled": true,
     "background": "1941年10月29日、母校ハロー校での演説より。",
     "language": "en",
-    "commentary_ja": "決して、決して、決して、屈しないことだ。",
+    "commentary_ja": "決して、決して、決して、引かないことだ。",
     "commentary_style": "simple"
   },
   {
@@ -3382,7 +3382,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "成功の見込みがあるからではなく、善いからそれに取り組むこと。",
+    "commentary_ja": "見込みがあるからではなく、善いから取り組む。それが続ける力の源になる。",
     "commentary_style": "simple"
   },
   {
@@ -3587,7 +3587,7 @@
     "enabled": true,
     "background": "2005年スタンフォード大学卒業式スピーチより。",
     "language": "en",
-    "commentary_ja": "心と直感に従う勇気を持つ。なりたい姿はすでに知られている。",
+    "commentary_ja": "心と直感に従う勇気を持つ。なりたい自分の姿を、それらはもう知っている。",
     "commentary_style": "simple"
   },
   {
@@ -3667,7 +3667,7 @@
     "length": "long",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "心の決着がついたから、褒められても貶されても同じ穴に流れる。",
+    "commentary_ja": "自分の中で決着がついているから、称賛も批判も同じ流れに任せて、自由でいられる。",
     "commentary_style": "simple"
   },
   {
@@ -3723,7 +3723,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "人生は短いのではなく、その多くを浪費しているのだ。",
+    "commentary_ja": "人生は短いのではない。その多くを、こちらが浪費しているだけだ。",
     "commentary_style": "simple"
   },
   {
@@ -3783,7 +3783,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "その人の性格こそが、そのままその人の運命になる。",
+    "commentary_ja": "人格こそが、その人の運命をかたちづくる。",
     "commentary_style": "simple"
   },
   {
@@ -3840,7 +3840,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "心とは満たすための器ではなく、火をつけるための薪である。",
+    "commentary_ja": "心は満たすための器ではなく、火を灯すための薪である。点火されて初めて働く。",
     "commentary_style": "simple"
   },
   {
@@ -3879,7 +3879,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "最も大いなることは、自分自身に帰属する術を知ること。",
+    "commentary_ja": "最も大いなることは、自分が自分のものでいられる術を知ることだ。",
     "commentary_style": "simple"
   },
   {
@@ -4059,7 +4059,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "嵐は怖くない。自分の船を操る術を学んでいる最中だから。",
+    "commentary_ja": "嵐そのものは怖くない。自分の船を操る術を、いまも学んでいる。",
     "commentary_style": "simple"
   },
   {
@@ -4079,7 +4079,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "ぶつかり合いがどこにもない場所では、前に進むこともない。",
+    "commentary_ja": "ぶつかり合いのない場所には、進むための力も生まれない。",
     "commentary_style": "simple"
   },
   {
@@ -4119,7 +4119,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "行動は思考からではなく、責任を引き受ける覚悟から生まれる。",
+    "commentary_ja": "行動は考えからではなく、責任を引き受ける覚悟から生まれる。",
     "commentary_style": "simple"
   },
   {
@@ -4139,7 +4139,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "人に注意を向けること。それは、もっとも稀で純粋な、贈与のかたち。",
+    "commentary_ja": "人に注意を向けること。それが、もっとも稀で純粋な、贈り物のかたちである。",
     "commentary_style": "kaisetsu"
   },
   {
@@ -4179,7 +4179,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "目標の高さに届くのではなく、仕組みの低さまで落ちる。",
+    "commentary_ja": "人は目標の高さまで上がるのではなく、自分が築いた仕組みの水準に落ち着く。",
     "commentary_style": "simple"
   },
   {
@@ -4219,7 +4219,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "世界は持てる力を求め、私たちは差し出す。求められるたび、また差し出す。",
+    "commentary_ja": "世界は持てる力だけを求める。差し出すと、また同じだけ求められる。それが続いていく。",
     "commentary_style": "simple"
   },
   {
@@ -4259,7 +4259,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "自分を生き生きとさせない相手や場所は、自分には小さすぎる。",
+    "commentary_ja": "自分を生かしてくれない場所や人は、自分にとって器が小さい。離れていい合図だ。",
     "commentary_style": "simple"
   },
   {
@@ -4279,7 +4279,7 @@
     "length": "long",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "すぐそばから始まる。二歩目でも三歩目でもなく、避けてきた最初の一歩こそが入口になる。",
+    "commentary_ja": "すぐそばから始める。二歩目でも三歩目でもなく、避けてきた最初の一歩こそが入口になる。",
     "commentary_style": "kaisetsu"
   },
   {
@@ -4299,7 +4299,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "大人になって残された選択は、自分の弱さとどう共に暮らすかだけ。消す道は最初からない。",
+    "commentary_ja": "成熟とは弱さを消すことではなく、その弱さとどう住み合うかを選び直すことだ。",
     "commentary_style": "kaisetsu"
   },
   {
@@ -4339,7 +4339,7 @@
     "length": "long",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "速さの時代に遅さが力を与え、散る時代に注意を払うことが贅沢になる。",
+    "commentary_ja": "速さに抗う遅さ、散逸に抗う注意。今日の贅沢はその二つだけで足りる。",
     "commentary_style": "simple"
   },
   {
@@ -4399,7 +4399,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "言葉は、そのまま一つの世界を立ち上げる。",
+    "commentary_ja": "選んだ一語が、その日の世界の輪郭をつくる。",
     "commentary_style": "simple"
   },
   {
@@ -4439,7 +4439,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "あなたという空。喜びも悲しみも、ただ流れてゆく天気にすぎない。",
+    "commentary_ja": "あなたは空そのもの。喜びも悲しみも、ただ流れてゆく天気にすぎない。",
     "commentary_style": "kaisetsu"
   },
   {
@@ -4459,7 +4459,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "自由を求めて胸が疼くなら、その音に耳を澄ませよ。願いは声になる前から、最初に動いている。",
+    "commentary_ja": "自由を求める疼きは、声になる前から動いている。その音にまず耳を澄ます。",
     "commentary_style": "kaisetsu"
   },
   {
@@ -4479,7 +4479,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "進むべき道は、頭より先に内側が察している。耳を澄ます日がある。",
+    "commentary_ja": "進むべき道は、頭より先に内側が知っている。時に耳を澄ませばいい。",
     "commentary_style": "kaisetsu"
   },
   {
@@ -4519,7 +4519,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "今いる場所を美しくできるのは、ほかでもなく自分である。",
+    "commentary_ja": "この場所を美しくできるのは、ほかでもなく今ここにいる自分だ。",
     "commentary_style": "simple"
   },
   {
@@ -4538,7 +4538,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "信仰とは、心が静かに彼方へと傾くその動きにすぎない——だがそれが、すべて。",
+    "commentary_ja": "信仰とは、心が大きなものへと傾く小さな揺れにすぎない。だが、その揺れがすべてを動かす。",
     "commentary_style": "kaisetsu"
   },
   {
@@ -4598,7 +4598,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "自分の心を痛める選択を、それでも引き受ける勇気を持つ。",
+    "commentary_ja": "胸の裂けるような選択こそ、自分のために引き受ける。それが本当の勇気だ。",
     "commentary_style": "simple"
   },
   {
@@ -4658,7 +4658,7 @@
     "length": "long",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "暮らし、姿、家族、得手も不得手も、まるごと自分のものとする。",
+    "commentary_ja": "履き慣れたスリッパも、自分の姿も、家族も、得手も不得手も、まるごと自分のものとして引き受ける。",
     "commentary_style": "simple"
   },
   {
@@ -4678,7 +4678,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "一番悔やまれるのは、優しさが足りなかった一瞬の方である。",
+    "commentary_ja": "後で最も悔やまれるのは、足りなかった優しさの一瞬の方だ。",
     "commentary_style": "simple"
   },
   {
@@ -4698,7 +4698,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "迷ったときは、優しい側へ間違えるほうを選ぶ。",
+    "commentary_ja": "迷うなら、優しさの側へ間違えておく。",
     "commentary_style": "simple"
   },
   {
@@ -4738,7 +4738,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "休息は努力への褒美ではなく、誰もが受け継ぐ生まれながらの権利だ。",
+    "commentary_ja": "休息は努力への褒美ではない。誰もが受け継いだ、神聖な分け前だ。",
     "commentary_style": "simple"
   },
   {
@@ -4834,7 +4834,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "人生で最も危ういのは、用心を重ねすぎてしまうことである。",
+    "commentary_ja": "人生で最も危ういのは、用心を重ねすぎて動けなくなることだ。",
     "commentary_style": "simple"
   },
   {
@@ -5039,7 +5039,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "生きる理由が一つあれば、人はどんな生き方にも耐えられる。",
+    "commentary_ja": "なぜ生きるかが定まっていれば、どう生きるかはほぼ何でも耐えられる。",
     "commentary_style": "simple"
   },
   {
@@ -5250,7 +5250,7 @@
     "length": "long",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "毎日苦と喪失に浸って濡れずに帰れると思うのは、無理な相談だ。",
+    "commentary_ja": "毎日、苦しみに身を浸して何も触れないでいる、というのは、水中を濡れずに歩くようなものだ。",
     "commentary_style": "simple"
   },
   {
@@ -5290,7 +5290,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "私の成功は、言い訳を渡さず受け取らなかったことに尽きる。",
+    "commentary_ja": "成功の核は一つ。言い訳を渡さず、受け取らなかったことだ。",
     "commentary_style": "simple"
   },
   {
@@ -5310,7 +5310,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "完璧には届かない。それでも、近づき続けることはできる。その歩みそのものが人を磨く。",
+    "commentary_ja": "完璧には届かない。それでも、絶えず近づき続けることはできる。",
     "commentary_style": "kaisetsu"
   },
   {
@@ -5409,7 +5409,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "死そのものは身体を壊す。だが死を思う行いは、生き方を立て直す。",
+    "commentary_ja": "死そのものは身を壊す。だが死を思うことは、生き方を立て直してくれる。",
     "commentary_style": "kaisetsu"
   },
   {
@@ -5449,7 +5449,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "言葉は医師の最強の道具だが、刃のように癒しも傷つけもする。",
+    "commentary_ja": "言葉は医師の最強の道具だ。同じ刃が、癒しもすれば傷もつける。",
     "commentary_style": "simple"
   },
   {
@@ -5489,7 +5489,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "患者の中に、痛みを抱えた一人の人間以外を見ないでいたい。",
+    "commentary_ja": "患者を見るときは、痛みを抱えた一人の人間として、それだけを見ていたい。",
     "commentary_style": "simple"
   },
   {
@@ -5626,7 +5626,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "今この瞬間にとどまり、ほかへ心を散らさないでいる。",
+    "commentary_ja": "今この一点に身を置く。それ以外の場所へ心を散らさない。",
     "commentary_style": "simple"
   },
   {
@@ -5918,7 +5918,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "受け入れる手前では、人は何ひとつ変えられないでいる。",
+    "commentary_ja": "受け入れる前に変えようとしても動かない。受容こそが変化の入口だ。",
     "commentary_style": "simple"
   },
   {
@@ -5994,7 +5994,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "人生の価値は日数の長さではなく、その使い方で決まる。",
+    "commentary_ja": "人生の価値は日数ではなく、その日々を何に使ったかで決まる。",
     "commentary_style": "simple"
   },
   {
@@ -6014,7 +6014,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "人生は短く、技は長い。機会は束の間、判断は常に難しい。",
+    "commentary_ja": "人生は短く、医の道は長い。機会は束の間、判断はいつも難しい。",
     "commentary_style": "simple"
   },
   {
@@ -6034,7 +6034,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "時に治し、しばしば和らげ、そして常に慰める仕事である。",
+    "commentary_ja": "時に治し、しばしば和らげ、常に慰める。これが医の仕事だ。",
     "commentary_style": "simple"
   },
   {
@@ -6094,7 +6094,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "患者の話を聴く。診断は本人の言葉の中で語られている。",
+    "commentary_ja": "患者の言葉に耳を傾けよ。診断はすでに本人が語っている。",
     "commentary_style": "simple"
   },
   {
@@ -6154,7 +6154,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "助ける、直す、仕える。三つはそれぞれ違う世界の見方である。",
+    "commentary_ja": "助ける、直すは上から、仕えるは並んで。立ち位置が変われば、見える世界も変わる。",
     "commentary_style": "simple"
   },
   {
@@ -6194,7 +6194,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "目指すべきは良い死ではなく、最期まで続く良い暮らしである。",
+    "commentary_ja": "目指すべきは『良い死』ではない。最期の瞬間まで続く『良い暮らし』だ。",
     "commentary_style": "simple"
   },
   {
@@ -6214,7 +6214,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "絶望のとき黙って隣にいてくれる人こそ、真の友だ。",
+    "commentary_ja": "言葉より、隣に黙って居てくれる人。それが本当に気にかけている友だ。",
     "commentary_style": "simple"
   },
   {
@@ -6234,7 +6234,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "思いやりは痛む場所へ赴き、恐れや混乱を共に抱える行為である。",
+    "commentary_ja": "思いやりとは、痛む場所へ自ら踏み込み、相手の壊れや恐れごと引き受けることだ。",
     "commentary_style": "simple"
   },
   {
@@ -6254,7 +6254,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "命の価値に上下があるという発想が、世界の歪みの根を作る。",
+    "commentary_ja": "ある命は軽い――その一線を引いた瞬間に、世界は歪み始める。",
     "commentary_style": "simple"
   },
   {
@@ -6274,7 +6274,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "本当の意味で唯一の国家は、人類そのものなのである。",
+    "commentary_ja": "国境ではなく人類。それだけが本当の意味で帰属できる場所だ。",
     "commentary_style": "simple"
   },
   {
@@ -6294,7 +6294,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "私たちは誤るように作られ、間違いを犯すよう設計されている。",
+    "commentary_ja": "私たちは誤るように作られている。間違いは故障ではなく、設計の一部だ。",
     "commentary_style": "simple"
   },
   {
@@ -6313,7 +6313,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "隠れていたいと願う。だが誰にも見つけられないのは、また別の苦しみだ。",
+    "commentary_ja": "隠れていたい――その願いは喜び。だが誰にも見つけられないなら、それは静かな災いだ。",
     "commentary_style": "kaisetsu"
   },
   {
@@ -6333,7 +6333,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "人間存在の問いに対する、健やかな答えはただ愛だけだ。",
+    "commentary_ja": "人間とは何かという問いに、健やかに答えうるのは、ただ愛だけだ。",
     "commentary_style": "simple"
   },
   {
@@ -6373,7 +6373,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "人がどう死んだかは、残された者の記憶に刻まれる。",
+    "commentary_ja": "人がどう逝ったかは、残された者の記憶に長く残る。だから最期の場の質が問われる。",
     "commentary_style": "simple"
   },
   {
@@ -6533,7 +6533,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "悪の多くは、善悪を決めぬまま流された人がもたらす。",
+    "commentary_ja": "悪の大半は、悪人ではなく、善悪を決めぬまま流された人の手で起こる。",
     "commentary_style": "simple"
   },
   {
@@ -6573,7 +6573,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "他人を知るより、自分を知るほうが本当の知恵に近い。",
+    "commentary_ja": "他人を知るのは知性、自分を知るのが知恵。他人を治めるのは力、自分を治めて初めて真の力となる。",
     "commentary_style": "simple"
   },
   {
@@ -6613,7 +6613,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "大きな知性と深い心には、痛みは避けがたい。鈍さで身を守るより、痛みを受けて器が広がる。",
+    "commentary_ja": "知性が大きく、心が深い者ほど、痛みや苦しみから逃れられない。それが代償であり、証でもある。",
     "commentary_style": "kaisetsu"
   },
   {
@@ -6752,7 +6752,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "医師という存在そのものが、患者にとっての薬になる。",
+    "commentary_ja": "医師という存在そのものが、患者にとって一つの薬になる。だから自分の在り方を整える。",
     "commentary_style": "simple"
   },
   {
@@ -6792,7 +6792,7 @@
     "length": "medium",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "惨めかどうかも、幸せかどうかも、結局は受けとめ方で決まる。",
+    "commentary_ja": "惨めさも幸福も、出来事の側ではなく、受けとめる側に宿っている。",
     "commentary_style": "simple"
   },
   {
@@ -6812,7 +6812,7 @@
     "length": "short",
     "enabled": true,
     "language": "en",
-    "commentary_ja": "勇気の本質は、自分を欺かずに見つめることにある。",
+    "commentary_ja": "勇気とは、自分を欺かずに見ること。自己欺瞞を捨てた瞬間から始まる。",
     "commentary_style": "simple"
   },
   {
@@ -6894,7 +6894,7 @@
     "enabled": true,
     "source_note": "When Breath Becomes Air (2016)",
     "language": "en",
-    "commentary_ja": "死にゆく身であっても、その瞬間まで人は生きている。",
+    "commentary_ja": "死にゆく身であっても、息のあるその瞬間までは、まぎれもなく生きている。",
     "commentary_style": "simple"
   },
   {
@@ -6936,7 +6936,7 @@
     "enabled": true,
     "source_note": "A Doctor's Touch — TED Global 2011",
     "language": "en",
-    "commentary_ja": "ベッドサイドでの診察は、臨床の場であると同時に儀式である。",
+    "commentary_ja": "ベッドサイドでの診察は、技術の場であると同時に、患者と向き合う儀式でもある。",
     "commentary_style": "simple"
   },
   {
@@ -6957,7 +6957,7 @@
     "enabled": true,
     "source_note": "Letter to probationer nurses, St Thomas's, 1872",
     "language": "en",
-    "commentary_ja": "看護師に完成はない。学び続ける姿勢そのものが看護である。",
+    "commentary_ja": "看護師に完成はない。生涯にわたって学び続けるものである。",
     "commentary_style": "simple"
   },
   {
@@ -6978,7 +6978,7 @@
     "enabled": true,
     "source_note": "The Nature of Nursing (1966)",
     "language": "en",
-    "commentary_ja": "看護師は、患者が欠いたものを一時的に肩代わりする存在である。",
+    "commentary_ja": "看護師とは、意識を失った人の意識、命を諦めた人の生への愛、脚を失った人の脚、目を失った人の目になる存在だ。",
     "commentary_style": "simple"
   },
   {
@@ -7062,7 +7062,7 @@
     "enabled": true,
     "source_note": "La Vieillesse / The Coming of Age (1970)",
     "language": "en",
-    "commentary_ja": "他者の命を大切に思える限り、自分の命にも価値が宿る。",
+    "commentary_ja": "他者の生を尊いと感じている限り、自分の生にも価値は宿る。愛・友情・義憤・慈しみがその回路だ。",
     "commentary_style": "simple"
   },
   {
@@ -7104,7 +7104,7 @@
     "enabled": true,
     "source_note": "War and Peace (1869), Kutuzov's counsel",
     "language": "en",
-    "commentary_ja": "最強の戦士は、忍耐と時間という名の二人である。",
+    "commentary_ja": "最強の戦士は、忍耐と時間。この二人は決して焦らず、決して諦めない。",
     "commentary_style": "simple"
   },
   {
@@ -7188,7 +7188,7 @@
     "enabled": true,
     "source_note": "Daring Greatly (2012)",
     "language": "en",
-    "commentary_ja": "弱さを見せることは弱さではなく、勇気の最大の証である。",
+    "commentary_ja": "弱さを見せられることは弱さではなく、勇気がどれだけあるかを測る最大の物差しだ。",
     "commentary_style": "simple"
   },
   {
@@ -7230,7 +7230,7 @@
     "enabled": true,
     "source_note": "On Becoming a Person (1961)",
     "language": "en",
-    "commentary_ja": "良き人生は到達点ではなく、向かう方向のことである。",
+    "commentary_ja": "良き人生は、到達する状態ではなく進み続ける過程。固定された目的地ではなく、向かう方向そのもの。",
     "commentary_style": "simple"
   },
   {
@@ -7272,7 +7272,7 @@
     "enabled": true,
     "source_note": "Peace Is Every Step (1991)",
     "language": "en",
-    "commentary_ja": "足の裏で大地に挨拶するように、一歩ずつ歩く。",
+    "commentary_ja": "足の裏で大地に口づけするように、一歩ずつ歩く。それだけで世界の見え方が変わる。",
     "commentary_style": "simple"
   },
   {
@@ -7377,7 +7377,7 @@
     "enabled": true,
     "source_note": "Gratitude (2015), posthumous essay collection",
     "language": "en",
-    "commentary_ja": "この惑星で考え、感じて生きられたこと自体が冒険であった。",
+    "commentary_ja": "考え、感じる存在として、この惑星に居られたこと自体が、途方もない特権であり冒険だった。",
     "commentary_style": "simple"
   },
   {
@@ -7419,7 +7419,7 @@
     "enabled": true,
     "source_note": "When Death Comes — New and Selected Poems (1992)",
     "language": "en",
-    "commentary_ja": "人生の終わりに、驚きと連れ添った日々だったと言いたい。",
+    "commentary_ja": "人生の終わりに、こう言いたい――驚きと添い遂げた花嫁だった、と。",
     "commentary_style": "simple"
   },
   {
@@ -7459,7 +7459,7 @@
     "length": "medium",
     "language": "en",
     "enabled": true,
-    "commentary_ja": "病を治す医師より、病を未然に防ぐ医師のほうが優れている。",
+    "commentary_ja": "病を治す医師より、病を未然に防ぎ、健康を保たせる医師こそ上工である。",
     "commentary_style": "simple"
   },
   {
@@ -7499,7 +7499,7 @@
     "length": "medium",
     "language": "en",
     "enabled": true,
-    "commentary_ja": "医術とは、自然が癒している間、患者の不安を和らげる技である。",
+    "commentary_ja": "医術とは、自然が病を癒している間、患者の心を和らげておく技だ。",
     "commentary_style": "simple"
   },
   {
@@ -7519,7 +7519,7 @@
     "length": "short",
     "language": "en",
     "enabled": true,
-    "commentary_ja": "自ら病んだ経験を持つ者だけが、良き医師になれる。",
+    "commentary_ja": "自ら病んだ経験のない者には、良き医師は務まらない。",
     "commentary_style": "simple"
   },
   {
@@ -7539,7 +7539,7 @@
     "length": "medium",
     "language": "en",
     "enabled": true,
-    "commentary_ja": "荷物を持たず、独り沈黙の中を行くとき、自然の核心に届く。",
+    "commentary_ja": "荷物を持たず、沈黙の中を独りで歩くときにだけ、自然の核心に触れられる。",
     "commentary_style": "simple"
   },
   {
@@ -7579,7 +7579,7 @@
     "length": "short",
     "language": "en",
     "enabled": true,
-    "commentary_ja": "自分を高めてくれる人と、時間を共にする。",
+    "commentary_ja": "自分を高めてくれる人と、時間を分かち合う。誰と過ごすかが、自分を作る。",
     "commentary_style": "simple"
   },
   {
@@ -7803,7 +7803,7 @@
     "length": "short",
     "language": "en",
     "enabled": true,
-    "commentary_ja": "傷を抱えたままにせず、知恵へと変えていく。",
+    "commentary_ja": "傷をそのままにせず、知恵へ変えていく。痛みは無駄にしなければ財産になる。",
     "commentary_style": "simple"
   }
 ]
