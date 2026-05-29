@@ -274,3 +274,7 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+    # heartbeat: record last run (fail-safe, never raises)
+    import subprocess as _subprocess
+    from pathlib import Path as _Path
+    _subprocess.run([sys.executable, str(_Path.home() / "central-registry" / "scripts" / "heartbeat.py"), "WALL-GEN-01"], capture_output=True)
