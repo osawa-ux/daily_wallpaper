@@ -215,3 +215,15 @@ repo 作業時に意識すること:
 - **MEMORY = 軽量 index + 短い原則**。詳細手順・テンプレ・事例は Obsidian `70_SOP/` へ置く
 - 新規 `feedback_*.md` は 50行以内。超えそうなら SOP 分離
 - skill 実行時に読まれるべき挙動ルールは auto-memory でなく vault の `30_Areas/<skill>-patterns/`（委任型 skill レジストリ・正本 `70_SOP/obsidian-save-policy.md`）に書く
+
+---
+
+## 開発コマンド（build / test / lint）
+
+Claude がコードから推測できない実在コマンドと既知の癖の正本。完了判定は証拠（テスト exit code / CI run conclusion）で行う（証拠原則の repo 側受け皿）。**コマンドは実測（実際に実行して exit code を確認）してから記載する**。
+
+- build: なし（Python スクリプト直接実行型・パッケージビルドなし）
+- test: 自動テストスイートなし（`tests/` ディレクトリ・pytest 設定とも非存在。`.github/workflows/` も未設置）。データ整合性検証コマンドとして `python main.py --validate-quotes` / `python main.py --validate-calendar` が用意されている（既存見出し「quotes.json 変更後の必須手順」参照）（2026-08-20 実測: 両方 exit 0。`--validate-quotes`: 0 issue・374/394 件 enabled。`--validate-calendar`: 366/366 日割当・制約すべて満たす）
+- lint / typecheck: 未設定（lint 設定ファイル・CI ワークフローなし）
+- 実行してはいけない / 長時間コマンド: `python main.py`（`--preview` / `--no-set-wallpaper` を付けずに実行すると実際に Windows デスクトップ壁紙が変更される。`main.py` の `should_set = not args.preview and not args.no_set_wallpaper` → `set_wallpaper()` で確認・2026-08-20 コード実測）
+- 既知の癖（偽赤・環境依存等）: 自動テストスイートが存在しないため、変更の検証は上記2つの validate コマンドと `--preview` での目視確認に依存する
